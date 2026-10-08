@@ -1,0 +1,11 @@
+# Secrets: keys are read from the environment, never from files in the repo
+.env
+.env.*
+!.env.example
+
+# OS and tooling
+.DS_Store
+.bundle/
+vendor/bundle/
+__pycache__/
+.venv/
