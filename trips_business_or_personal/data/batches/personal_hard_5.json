@@ -1,0 +1,29 @@
+{
+  "business": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "fr", "note_style": "short"},
+    {"business": false, "purpose": "leisure_trip", "situation": "a weekend away, a summerhouse, a museum, a concert, a beach", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "da", "note_style": "short"},
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "da", "note_style": "none"},
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "fr", "note_style": "words"},
+    {"business": false, "purpose": "leisure_trip", "situation": "a weekend away, a summerhouse, a museum, a concert, a beach", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "en", "note_style": "none"}
+  ],
+  "trips": [
+    {"date": "2026-10-14", "start_time": "12:15", "duration_min": 6, "distance_km": 1.6, "start_address": "Rask Fødevarer, Teglholm Allé 14, 2450 København SV", "end_address": "CrossFit Sydhavn, Sydhavns Plads 12, 2450 København SV", "note": "muscu midi", "justification": "The note ('muscu midi', a lunchtime workout) and the CrossFit gym destination show a sport trip, even though it starts at the office on a weekday."},
+    {"date": "2026-09-05", "start_time": "08:50", "duration_min": 70, "distance_km": 72.0, "start_address": "Amagerbrogade 98, 2300 København S", "end_address": "Tisvilde Strand, Strandvejen 100, 3220 Tisvildeleje", "note": "Weekend at my parents' summerhouse near Tisvildeleje, back on Sunday.", "justification": "The note says the driver is spending a weekend at his parents' summerhouse, so the trip is a private getaway."},
+    {"date": "2026-09-20", "start_time": "22:30", "duration_min": 17, "distance_km": 9.7, "start_address": "Københavns Lufthavn, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "end_address": "Amagerbrogade 98, 2300 København S", "note": "hentet Lise efter ferie i Rom", "justification": "The note says the driver picked up Lise after her holiday in Rome and drove her to his home, a private airport trip and not a client pick-up."},
+    {"date": "2026-09-19", "start_time": "13:30", "duration_min": 20, "distance_km": 6.8, "start_address": "Amagerbrogade 98, 2300 København S", "end_address": "Café Atelier September, Gothersgade 30, 1123 København K", "note": "brunch w/ friends", "justification": "The note says brunch with friends at a café on a Saturday, with no client or work purpose."},
+    {"date": "2026-10-06", "start_time": "08:40", "duration_min": 20, "distance_km": 7.4, "start_address": "Amagerbrogade 98, 2300 København S", "end_address": "Østerport Station, Oslo Plads 1, 2100 København Ø", "note": "Dropped Sam", "justification": "Despite the weekday-morning working hours and a station destination, the note says the driver only dropped Sam off, a personal favour."},
+    {"date": "2026-09-23", "start_time": "12:25", "duration_min": 4, "distance_km": 0.8, "start_address": "Rask Fødevarer, Teglholm Allé 14, 2450 København SV", "end_address": "Café Havnen, Sluseholmen 8, 2450 København SV", "note": "Lunch by myself on the harbour bench, no meeting, just taking my break.", "justification": "The note explicitly says the driver had lunch by himself with no meeting, so the short midday trip from the office is private."},
+    {"date": "2026-10-01", "start_time": "07:35", "duration_min": 24, "distance_km": 6.4, "start_address": "Amagerbrogade 98, 2300 København S", "end_address": "Rask Fødevarer, Teglholm Allé 14, 2450 København SV", "note": "", "justification": "The trip is the weekday-morning rush-hour drive from home to the usual office, which is a commute and therefore personal."},
+    {"date": "2026-10-03", "start_time": "09:00", "duration_min": 10, "distance_km": 3.1, "start_address": "Amagerbrogade 98, 2300 København S", "end_address": "Løbeklub Amager, Amager Strandvej 20, 2300 København S", "note": "Course", "justification": "The destination is a running club and the note says 'Course' (running), on a Saturday morning, so the trip is sport."},
+    {"date": "2026-09-27", "start_time": "14:30", "duration_min": 28, "distance_km": 19.0, "start_address": "Amagerbrogade 98, 2300 København S", "end_address": "Bakken, Dyrehavevej 62, 2930 Klampenborg", "note": "", "justification": "A Sunday-afternoon drive from home to the Bakken amusement park has no work reference and is a leisure outing."},
+    {"date": "2026-10-10", "start_time": "05:25", "duration_min": 14, "distance_km": 6.1, "start_address": "Amagerbrogade 98, 2300 København S", "end_address": "Københavns Lufthavn, Afgange Charter og Ferie, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "note": "", "justification": "A Saturday dawn trip from home to the charter and holiday departures hall shows a holiday flight, with no work site or client in the record."}
+  ]
+}

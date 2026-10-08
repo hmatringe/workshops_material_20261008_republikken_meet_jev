@@ -1,0 +1,27 @@
+From: Nordic Business Compliance Authority <compliance@nbca-registry.example>
+Subject: Notice of non-compliance: annual filing fee outstanding
+Date: 2026-09-21 08:30
+
+Dear Sir or Madam,
+
+Our records indicate that the annual business filing fee for your organisation has not been received. In accordance with Regulation 14(b) of the Nordic Business Registry Framework, an outstanding fee of 1,450.00 DKK is now payable.
+
+Please note the following details regarding your file:
+
+Reference: NBC-2026-558302
+Payment deadline: 2026-09-28
+Late charge after deadline: 15 percent per week
+
+To settle the amount and avoid enforcement proceedings, please access the secure payment portal below and enter the reference number together with your card details.
+
+https://pay.nbca-registry.example/file/NBC-2026-558302
+
+A receipt will be issued by email once the payment has been processed. If you believe this notice was sent in error, you may submit a statement via the portal within five working days; however, the payment obligation will remain in force until your submission has been reviewed.
+
+Please be aware that continued non-payment may result in a notation on your business record, restricted access to registry services and referral to a debt collection agency.
+
+This notice has been generated automatically. Replies to this address are not read.
+
+Yours faithfully,
+Department of Registry Compliance
+Nordic Business Compliance Authority

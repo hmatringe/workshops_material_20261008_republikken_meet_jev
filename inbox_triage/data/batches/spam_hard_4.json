@@ -1,0 +1,189 @@
+{
+ "spam": true,
+ "difficulty": "hard",
+ "generator_model": "claude-sonnet-5-5",
+ "scenarios": [
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "fake partnership or \"we met at your event\" with no substance",
+   "language": "da",
+   "length": "medium",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+   "language": "en",
+   "length": "medium",
+   "style": "with an amount in DKK or EUR",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "SEO, backlink or guest-post offer",
+   "language": "en",
+   "length": "long",
+   "style": "institutional sender, formal tone",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+   "language": "en",
+   "length": "medium",
+   "style": "written from a phone, signature and a couple of typos",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "scam: investment, prize, inheritance, crypto",
+   "language": "en",
+   "length": "long",
+   "style": "casual tone, first names, emojis allowed",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+   "language": "da",
+   "length": "short",
+   "style": "sent on a weekend or late at night",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "recruitment or staffing blast",
+   "language": "en",
+   "length": "short",
+   "style": "a reply in a thread (Re:), quoting one earlier line",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "fake partnership or \"we met at your event\" with no substance",
+   "language": "fr",
+   "length": "short",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+   "language": "en",
+   "length": "medium",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "SEO, backlink or guest-post offer",
+   "language": "fr",
+   "length": "long",
+   "style": "with an amount in DKK or EUR",
+   "also": null
+  }
+ ],
+ "mails": [
+  {
+   "from": "Sara Winther <sara@kystlinjen-netvaerk.example>",
+   "subject": "Samarbejde med Kanalhuset",
+   "date": "2026-09-08 11:15",
+   "body": "Hej,\n\nVi mødtes kort ved et af jeres arrangementer i sommer, og jeg har tænkt på jer siden. Kystlinjen Netværk arbejder med at forbinde lokale iværksættermiljøer, og vi vil gerne have Kanalhuset med som samarbejdspartner.\n\nVi kan lave en fælles omtale på vores kanaler, hvis I til gengæld linker til vores medlemsside. Medlemskab af netværket koster 950 kr. pr. måned for jeres medlemmer.\n\nSkriv gerne, hvis I vil have flere oplysninger.\n\nMvh\nSara Winther\nKystlinjen Netværk",
+   "justification": "The 'we met at one of your events' claim has no date or detail and the 'collaboration' is a paid membership scheme from an unknown network."
+  },
+  {
+   "from": "Owen Faulkner <owen@stackbridge-dev.example>",
+   "subject": "Cutting your software costs by 40 percent",
+   "date": "2026-10-01 10:22",
+   "body": "Hello Kanalhuset team,\n\nI noticed your space lists a members' portal and a booking page on the website. Running these usually costs a small space somewhere between 800 and 1,500 EUR a month in licences and upkeep.\n\nStackbridge builds custom internal tools for coworking operators with our Lisbon-based team. Our standard rate is 35 EUR per hour, and most booking portals are done within six weeks. We can start with a free two-hour audit of what you have today.\n\nWould it be useful to book a 20-minute call next week?\n\nBest,\nOwen Faulkner\nBusiness Development, Stackbridge",
+   "justification": "Cold sales outreach for outsourced software development, personalised with a detail from the public website, from a vendor the space never contacted."
+  },
+  {
+   "from": "Editorial Relations, Baltic Commerce Review <relations@baltic-commerce-review.example>",
+   "subject": "Sponsored content opportunity for Kanalhuset",
+   "date": "2026-09-23 09:12",
+   "body": "Dear Colleagues,\n\nThe Baltic Commerce Review is a respected digital journal covering regional entrepreneurship and shared workspace trends. In preparing our autumn directory of Copenhagen workspaces, our editorial team came across your website and wished to offer you the opportunity to participate.\n\nWe would like to bring the following options to your attention:\n\n1. Standard listing in the directory, including a dofollow link to your site: 120 EUR.\n2. Featured profile with a 600-word article, photographs and two backlinks: 340 EUR.\n3. Annual sponsorship of the Copenhagen section: 900 EUR.\n\nAll articles are prepared by our editorial staff on the basis of information you supply. Our publication is indexed by the major search engines, and listed organisations typically report an improvement in their search visibility within two to three months.\n\nShould you wish to be included, we kindly ask you to confirm your selected package before 10 October so that your entry can be prepared for the edition. Payment details will be supplied on confirmation.\n\nWe remain at your disposal for any further information.\n\nYours sincerely,\n\nHelena Strand\nEditorial Relations\nBaltic Commerce Review\nhttps://baltic-commerce-review.example/directory",
+   "justification": "A formal paid-listing and backlink offer presented as an editorial invitation, from a publication the space has no relationship with."
+  },
+  {
+   "from": "Daniel Osei <d.osei@kanalhuset-eventhub.example>",
+   "subject": "Event Hub: your account will be closed",
+   "date": "2026-10-10 18:50",
+   "body": "hi,\n\nSent from my phone sorry for typos. Your Kanalhuset Event Hub listing has been flagged because the payment for the last 3 events listings did not go thru. Your account will be deactivated in 24 hrs and all upcoming bookings will be cancelled.\n\nPlease login and update billing here: https://kanalhuset-eventhub.example/login\n\nOutstanding amount 189 EUR.\n\nThanks\nDaniel Osei\nEvent Hub Support\nSent from my iPhone",
+   "justification": "A phishing message imitating an event platform, using the space's name in a lookalike domain and pushing a login on an external link for a payment the space never made."
+  },
+  {
+   "from": "Mads & Lena <mads@silverkey-circle.example>",
+   "subject": "quick one from Mads 🙂",
+   "date": "2026-10-21 14:09",
+   "body": "Hey Kanalhuset crew! 🙌\n\nMads here, we haven't spoken before but I'm in a members' circle that a few people from Copenhagen coworking spaces are part of, so I thought I'd share this with you directly.\n\nLong story short: a few of us pooled money into a trading group run by a guy called Viktor, who used to work in asset management. It's honestly been wild. Last quarter I put in 2,000 EUR and got back 3,100 EUR in six weeks, no stress, he does all the trading for you. 😎\n\nHe's taking a few more people on before the end of October, and spots go fast. Lena (she's in the group too) said your space would be a perfect fit because founders always have spare cash lying around.\n\nThe minimum is 500 EUR and you can withdraw anytime, apparently. Here's the sign-up page: https://silverkey-circle.example/join\n\nNo pressure at all! But if you do it, mention my name so I get the referral bonus 😅\n\nAnyway, hope the autumn is treating you well!! ☀️\n\nMads",
+   "justification": "A casual investment scam with unrealistic returns and a referral bonus, sent by a stranger who vaguely claims to share a circle with coworking spaces."
+  },
+  {
+   "from": "Nordisk Webinar Hus <info@nordiskwebinarhus.example>",
+   "subject": "Gratis webinar tirsdag",
+   "date": "2026-09-13 20:41",
+   "body": "Hej! Tirsdag kl. 12 holder vi et gratis webinar om bedre møder for små teams. Se programmet og tilmeld her: https://nordiskwebinarhus.example/moeder\nMvh Nordisk Webinar Hus",
+   "justification": "A mass webinar invitation from a company the space never signed up with, sent late on a weekend."
+  },
+  {
+   "from": "Tessa Moreno <tessa@fieldcrew-hire.example>",
+   "subject": "Re: your upcoming hiring needs",
+   "date": "2026-10-07 13:58",
+   "body": "> Hi, hope you're well, we place seasonal staff in Copenhagen.\n\nFollowing up on my last note: we have 60 warehouse and event staff ready to start next week. Happy to send CVs to your members. Tessa",
+   "justification": "The 'Re:' makes it look like a conversation, but the quoted line is the sender's own earlier staffing blast and the space never replied."
+  },
+  {
+   "from": "Camille Roche <camille@riveraine-reseau.example>",
+   "subject": "Suite à notre rencontre",
+   "date": "2026-09-26 15:33",
+   "body": "Bonjour,\n\nSuite à notre rencontre lors de votre événement, je souhaiterais vous proposer un partenariat entre Riveraine Réseau et Kanalhuset. Nous pourrions mutualiser nos communautés. Seriez-vous disponibles pour un appel cette semaine ?\n\nCordialement,\nCamille Roche",
+   "justification": "No event, date or detail of the supposed meeting is given, and the sender is an unknown network with no existing relationship."
+  },
+  {
+   "from": "Gabriel Stone <gabriel@leadforge-b2b.example>",
+   "subject": "Introduction",
+   "date": "2026-10-13 08:36",
+   "body": "Hello,\n\nI am the account executive at Leadforge. We work with coworking operators in Northern Europe to fill their memberships through targeted outbound campaigns.\n\nWe build a list of freelancers and small companies in your area, write the messages, and send them for you. Clients usually get between 8 and 15 qualified tour requests a month.\n\nIf this is interesting, I can send a case study from a space of about your size. Otherwise, no worries and thanks for reading.\n\nGabriel Stone\nLeadforge",
+   "justification": "Plain cold outreach for a lead-generation service, from a vendor with no relationship to the space."
+  },
+  {
+   "from": "Léa Fournier <lea.fournier@visibilis-agence.example>",
+   "subject": "Votre site Kanalhuset : améliorations SEO et backlinks",
+   "date": "2026-09-17 10:49",
+   "body": "Bonjour,\n\nJe me permets de vous écrire car j'ai consulté le site de Kanalhuset avec attention, et je pense que votre espace mérite une meilleure visibilité sur Google. Vos pages sur les abonnements et les salles de réunion sont bien présentées, mais elles ne sont pas positionnées sur les requêtes que tapent vos futurs membres.\n\nChez Visibilis, nous accompagnons des lieux comme le vôtre depuis plus de huit ans. Concrètement, voici ce que nous pouvons faire pour vous :\n\n- un audit technique complet de votre site, offert (valeur 450 €)\n- la création de 15 backlinks de qualité chaque mois sur des sites partenaires\n- la rédaction de deux articles optimisés par mois, publiés sur nos blogs\n\nNotre forfait « Présence locale » est à 620 € par mois, sans engagement de durée, et nous garantissons une hausse du trafic dans les 90 jours. Pour les structures qui répondent avant le 30 septembre, nous offrons le premier mois à 310 €.\n\nSi vous le souhaitez, nous pouvons organiser un appel de 20 minutes pour vous présenter notre méthode et quelques résultats obtenus pour d'autres espaces de coworking en Europe.\n\nDans l'attente de votre retour, je vous souhaite une excellente journée.\n\nBien cordialement,\nLéa Fournier\nResponsable des partenariats, Visibilis\nhttps://visibilis-agence.example",
+   "justification": "A paid SEO and backlink package, personalised with remarks about the space's website but sent by an agency the space never contacted."
+  }
+ ]
+}

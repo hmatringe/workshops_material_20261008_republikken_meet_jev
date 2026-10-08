@@ -1,0 +1,17 @@
+From: Sophie Marchand <sophie.marchand@aurelia-formation.example>
+Subject: Atelier gratuit pour vos membres
+Date: 2026-10-08 09:15
+
+Bonjour,
+
+Nous organisons le 15 octobre un webinaire intitulé « Piloter son activité avec l'IA », destiné aux indépendants et aux petites équipes.
+
+Comme votre espace de coworking accueille de nombreux entrepreneurs, nous avons pensé que le sujet pourrait intéresser vos membres. La session dure une heure et sera suivie de la présentation de notre nouvelle offre d'accompagnement.
+
+Inscription : https://aurelia-formation.example/webinaire
+
+Vous pouvez diffuser cette invitation à votre communauté.
+
+Bien cordialement,
+Sophie Marchand
+Aurelia Formation

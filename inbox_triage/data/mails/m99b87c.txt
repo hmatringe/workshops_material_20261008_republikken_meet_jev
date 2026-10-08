@@ -1,0 +1,22 @@
+From: Danish Business Compliance Office <noreply@dbco-notifications.example>
+Subject: Final notice: unpaid annual compliance fee
+Date: 2026-10-08 07:30
+
+Dear Sir or Madam,
+
+This is the final notice issued by the Danish Business Compliance Office regarding your outstanding annual compliance fee.
+
+Our records show that no payment has been received for the registration period ending 31 October 2026. According to our general terms, an unpaid fee will result in an administrative penalty and the suspension of your business listing.
+
+Reference number: DBCO-554-20261
+Amount due: 245,00 EUR
+Payment deadline: 14 October 2026
+
+To settle the amount, please access the secure portal using the link below and enter your company credentials and the card used for registration:
+http://secure.dbco-notifications.example/pay
+
+Please do not reply to this message, as the mailbox is not monitored. Payments made after the deadline may be subject to a late fee of 60,00 EUR.
+
+Yours faithfully,
+Administration Department
+Danish Business Compliance Office

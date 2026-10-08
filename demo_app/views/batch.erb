@@ -1,0 +1,29 @@
+<h2>20 <%= @kind == 'inbox' ? 'emails' : 'trips' %>, every question, one call</h2>
+<p class="hint">What it gives in practice: the whole batch decided at once, and the rows where Jev hesitates flagged for a person.
+  <a href="/<%= @kind %>/batch?run=1"><button type="button">Run the batch</button></a></p>
+<% if @error %><p class="error"><%= @error %></p><% end %>
+<% if @result %>
+  <p class="meta"><%= @result[:ms] %> ms, <%= @result[:input_tokens] %> input tokens, $<%= format('%.5f', @result[:cost_usd]) %> for <%= @samples.size * @questions.size %> questions.</p>
+  <table>
+    <tr><th>record</th><% @questions.each do |name, q| %><th><%= name %></th><% end %></tr>
+    <% @samples.each_with_index do |s, i| %>
+      <% r = @result[:results][i] %>
+      <tr>
+        <td><%= s[:text].lines.find { |l| l =~ /^Subject:|^to:|^From:/ }.to_s.strip[0, 60] %><br><span class="hint"><%= s[:text].lines.find { |l| l =~ /^note:|^$/ && l !~ /^$/ }.to_s.strip[0, 60] %></span></td>
+        <% @questions.each do |name, q| %>
+          <% a = r[name] || {} %>
+          <td class="p">
+            <% if q['type'] == 'noul' %>
+              <% p = a[:noul].to_f %>
+              <span class="verdict <%= p >= @band[:high] ? 'yes' : p <= @band[:low] ? 'no' : 'check' %>"><%= p >= @band[:high] ? 'yes' : p <= @band[:low] ? 'no' : 'check' %></span> <%= (p * 100).round %>%
+            <% elsif q['type'] == 'choice' %>
+              <%= a[:choice] %> <span class="hint"><%= (a[:confidence].to_f * 100).round %>%</span>
+            <% else %>
+              <%= (a[:score].to_f + 1).round(1) %> <span class="hint"><%= (a[:confidence].to_f * 100).round %>%</span>
+            <% end %>
+          </td>
+        <% end %>
+      </tr>
+    <% end %>
+  </table>
+<% end %>

@@ -1,0 +1,16 @@
+From: Service Comptabilité <compta@maison-delmas.example>
+Subject: Demande de rectification de la facture n° 2026-0731
+Date: 2026-09-30 10:05
+
+Madame, Monsieur,
+
+Nous avons bien reçu votre facture n° 2026-0731 d'un montant de 1 250 EUR, relative à nos postes de travail du mois de septembre.
+
+Cette facture ne mentionne pas notre numéro de TVA intracommunautaire (FR 12 345 678 901), qui est obligatoire pour sa comptabilisation. Nous vous prions de bien vouloir émettre une facture rectifiée comportant cette mention.
+
+Merci de nous la faire parvenir dans les meilleurs délais, notre clôture mensuelle approchant.
+
+Veuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.
+
+Claire Delmas
+Responsable comptabilité, Maison Delmas SAS

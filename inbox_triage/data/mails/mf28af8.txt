@@ -1,0 +1,14 @@
+From: Mikkel Brandt <mikkel@pixelforge.example>
+Subject: Wifi is driving us nuts 😅
+Date: 2026-09-25 09:12
+
+Hey team,
+
+Quick one from the 2nd floor. The wifi has been dropping every 10 to 15 minutes since Monday, and it's really bad around lunch time. Three of us on the Pixel Forge desk have had calls cut off this week, one with a client 🙈
+
+We've tried rebooting, switching between the two networks, and moving closer to the router, nothing helps. It was totally fine until last week, so maybe something changed?
+
+Could someone take a look before the weekend? We have a big demo on Monday morning and I'd love not to do it from my phone hotspot 😂
+
+Thanks a lot, you're the best!
+Mikkel

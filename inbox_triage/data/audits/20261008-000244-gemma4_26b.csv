@@ -1,0 +1,341 @@
+id,spam,audit_label,confidence,reason,seconds
+mf9a3be,false,false,1.0,The sender is following up on an existing conversation regarding desk availability and is asking about pricing and a trial day.,39
+mbd2760,false,false,1.0,The sender is an existing member asking about pausing their fixed office subscription due to an upcoming leave.,5
+m920830,false,false,1.0,The sender is proposing an event and asking a specific question about availability that requires a response.,6
+me25235,false,false,1.0,The email comes from an existing contact requesting specific equipment and room changes for an upcoming event.,5
+m67c4c5,false,false,1.0,The email is from an existing member (Quietpine Labs) requesting a change to an existing room booking and proposing a new event setup.,7
+m135150,false,false,1.0,The email is a legitimate inquiry from an external organization interested in renting a meeting room for a full day.,7
+mcb65c8,false,false,1.0,The email is a forwarded proposal from a potential partner regarding a sponsorship opportunity for an event.,5
+m353e9f,false,false,1.0,The email comes from a member reporting facility issues (heating and wifi) that require attention.,6
+mb2ea06,false,false,1.0,The sender is an existing member reporting an urgent access issue and a security concern regarding a door latch.,6
+ma249ec,false,false,1.0,The sender is an existing member requesting a corrected invoice and inquiring about a failed payment.,6
+ma1d848,false,false,1.0,The sender is an existing contact (following a recent tour) proposing a specific event date and requesting equipment and pricing information.,6
+ma00f1a,false,false,1.0,The sender is an existing partner (Kodeklubben København) requesting specific AV and setup changes for an upcoming booked event.,7
+mde9fde,false,false,1.0,The email comes from an existing member requesting a change to an existing room booking for this week.,5
+mad44c7,false,false,1.0,The email is a direct inquiry from a potential customer regarding renting a room for a specific purpose.,6
+mefde67,false,false,1.0,"The sender is proposing a sponsorship and collaboration opportunity, which constitutes a partnership proposal from an external organization.",5
+mf28af8,false,false,1.0,The email comes from an existing member reporting a technical issue with the wifi.,5
+m669ffd,false,false,1.0,The sender is an existing member reporting a critical access issue that requires immediate assistance today.,6
+m3a2699,false,false,1.0,The email comes from a business relationship regarding a specific invoice and requests a correction to a billing document.,5
+mc040cb,false,false,1.0,"The email is a monthly newsletter that the recipient has subscribed to, as explicitly stated in the footer.",6
+m2a9d57,false,false,1.0,"This is an automatic notification from an event platform service in use, which is explicitly defined as not spam.",5
+m8ec025,false,false,1.0,The email comes from an existing client (Théo from Lumen Studio) requesting a change to an existing room booking.,5
+m879667,false,false,1.0,"The sender is a potential visitor inquiring about room availability and pricing, which constitutes an existing interest/relationship-building inquiry.",5
+med7f9f,false,false,1.0,The sender mentions a previous interaction (attending an open evening) and is proposing a specific co-branding and sponsorship collaboration.,6
+mca164e,false,false,1.0,The email is from an existing member reporting noise issues and requesting a refund/booking change.,5
+m9e44f5,false,false,1.0,The email is from an existing member reporting a broken access card and a security issue (propped open door) that requires immediate action before 9:00 AM.,7
+m1b49d8,false,false,1.0,The email comes from an existing client requesting a corrected invoice and clarification on a failed payment.,6
+ma217cd,false,false,1.0,"The email is a newsletter that the recipient subscribed to, as explicitly stated in the footer.",5
+m9348b6,false,false,1.0,This is an automatic notification from a service in use (Tickety) regarding an event page.,5
+mab3f03,false,false,1.0,The email is from an existing client (Kernhuset crew) providing a thank-you note and FYI updates regarding keys and moving.,6
+ma126e0,false,false,1.0,The sender is a visitor who attended an event at the space and is inquiring about membership options.,5
+mcfadb3,true,false,1.0,"The sender references a previous meeting at a community event, establishing an existing relationship.",5
+m21bac0,true,true,1.0,"This is a cold sales outreach offering lead generation services, which fits the definition of unsolicited commercial messaging.",5
+mda5ff7,true,true,1.0,"This is a cold sales outreach email offering SEO and link-building services, which fits the definition of unsolicited spam.",6
+mfb3d42,true,true,1.0,The email is a classic phishing attempt using a sense of urgency and a suspicious link to solicit sensitive information.,5
+m3d6f6a,true,true,1.0,This is a classic phishing/inheritance scam sent without any prior relationship or request.,5
+m0f26f1,true,true,1.0,"This is a cold marketing outreach for a new app launch and webinar, sent without a prior relationship.",5
+m532e5a,true,true,1.0,This is a cold sales outreach email from a recruitment agency with no prior relationship to the recipient.,5
+mad317e,true,false,1.0,"The sender mentions a previous meeting at an event, indicating an existing relationship/interaction, and is proposing a collaboration.",5
+m2e56e8,true,true,1.0,"This is a cold sales outreach email from a sender with no existing relationship, offering automation services.",6
+m9a8493,true,true,1.0,"This is a cold sales outreach for SEO and link-building services, which fits the definition of unsolicited spam.",6
+m8b1675,true,true,1.0,This is a cold sales outreach from a content placement agency offering a link-building/guest post service.,6
+m8fed09,true,true,1.0,The sender address is a generic 'noreply' from an external domain and the email uses classic phishing tactics like a sense of urgency and a suspicious link to capture billing details.,6
+m842102,true,true,1.0,This is a classic inheritance scam (phishing) involving a large sum of money and a request for sensitive personal information.,6
+maa90ca,true,true,1.0,"This is a follow-up to a cold sales outreach regarding a webinar, which is unsolicited commercial content.",5
+mb5a29f,true,true,1.0,This is a cold sales outreach email from a recruitment agency offering staffing services with no prior relationship indicated.,5
+m77b054,true,false,1.0,"The sender met the recipient at a recent community event, establishing an existing relationship, and is proposing a collaboration.",6
+m97a18e,true,true,1.0,This is a cold sales outreach email from an agency offering digital marketing services with no prior relationship to the recipient.,6
+m1aa93f,true,true,1.0,"This is a cold sales outreach offering directory listings and backlinks, which fits the definition of unsolicited commercial email.",6
+m1380fc,true,true,1.0,This is a classic phishing/scam email using a fake delivery alert to solicit payment via a suspicious link.,5
+m7ae1f7,true,true,1.0,"The email is a classic unsolicited cold outreach regarding a cryptocurrency investment scheme, which fits the definition of spam.",7
+mac03ff,true,true,1.0,This is a classic inheritance scam (advance-fee fraud) involving a large sum of money and a request for upfront payment for 'fees'.,8
+mbc1a40,true,true,1.0,"This is a cold sales outreach for a webinar and an invoicing tool, sent without a prior relationship.",6
+mdcc837,true,true,1.0,This is a cold sales outreach email from a recruitment service offering freelancers without any prior relationship.,5
+mcb0f7b,true,false,1.0,"The sender mentions a previous connection at a community event, establishing an existing relationship rather than a cold outreach.",5
+m324842,true,true,1.0,This is a cold sales outreach email from a company (Prospectio) offering lead generation services with no prior relationship indicated.,6
+mc29abf,true,true,1.0,"This is a cold sales outreach email offering guest posts and link-building services, which fits the definition of unsolicited commercial outreach.",6
+mea1b0f,true,false,1.0,"The email concerns an unpaid invoice for a meeting room, implying an existing business relationship/service usage.",10
+m1bf17e,true,true,1.0,This is a classic phishing/scam email requesting a cryptocurrency deposit to claim a fake grant.,5
+m60eb3f,true,true,1.0,This is a cold invitation to a conference from an external organization with no prior relationship indicated.,5
+m5fc12e,true,true,1.0,This is a cold sales outreach offering recruitment services to the community manager.,5
+mc9188b,false,false,1.0,The sender is an existing member inquiring about pausing their membership and reporting a lost item.,6
+m5420f4,false,false,1.0,The email is a forwarded proposal from a contact regarding hosting a workshop in the space.,5
+mcb8a3b,false,false,1.0,The sender is an existing partner/organizer requesting specific equipment and a room change for an upcoming event this Thursday.,6
+m70e8a4,false,false,1.0,The email comes from an existing member requesting a change to an existing booking.,5
+m9e6f43,false,false,1.0,The sender is a potential customer inquiring about meeting room availability and services for a future date.,5
+me3ddaa,false,true,1.0,This is a cold outreach from a non-profit proposing a sponsorship and collaboration arrangement.,5
+maace7a,false,false,1.0,The email is from an existing member reporting a heating issue that was supposed to be resolved.,5
+m83140e,false,false,1.0,The sender is an existing member reporting a technical issue with their access card that requires immediate assistance.,5
+m1d6c3b,false,false,1.0,The email comes from an existing client requesting a correction to an invoice regarding their VAT number.,6
+m03595b,false,false,1.0,The email is a monthly newsletter that the recipient explicitly signed up for.,5
+m45c7f6,false,false,1.0,The email is a forward from an existing contact (Pernille) regarding a specific event hosting proposal.,5
+mf9ad0c,false,false,1.0,The sender is an organizer of an upcoming event at the space requesting a room change and equipment setup.,5
+m49d0f6,false,false,1.0,The email comes from an existing client requesting a change to an existing booking.,5
+me9b10d,false,false,1.0,"The email is a reply to an existing enquiry regarding meeting rooms and desk trials, indicating an existing relationship/interaction.",5
+m2e0f01,false,false,1.0,The email is a collaboration proposal from a local business (Kaffekollektivet) proposing a sponsorship/partnership involving coffee delivery.,6
+m390bd5,false,false,1.0,The email is from an existing member reporting a noise issue and proposing solutions.,5
+m55708d,false,false,1.0,The sender is an existing member/user reporting a technical issue with their access card and requesting immediate assistance.,5
+mbbf3be,false,false,1.0,The email comes from an existing member (Borup Consult) regarding a discrepancy in an invoice and a request for a receipt.,6
+md2e41b,false,false,1.0,The email is a newsletter that the recipient is explicitly stated to be subscribed to.,5
+mbd0f56,false,false,1.0,This is an automatic notification from a booking service the recipient is using regarding a confirmed reservation.,5
+m65a139,false,false,1.0,The sender is an existing client/organizer coordinating specific AV and setup details for an upcoming event.,5
+md7fb02,false,false,1.0,The email is from an existing member (Aggerholm Law) requesting a change to an existing room booking.,6
+m52733e,false,false,1.0,The email is a legitimate inquiry from a potential client regarding room availability and pricing.,6
+me497b1,false,false,1.0,"The sender is proposing a sponsorship/collaboration, which constitutes an existing or potential business relationship rather than unsolicited mass marketing.",5
+mfa6c05,false,false,1.0,The email comes from an existing member reporting an ongoing issue with the office temperature and requesting a technical intervention or desk move.,6
+med1ba6,false,false,1.0,The sender is an existing member reporting a technical issue with their access card and requesting immediate assistance.,5
+m71d2d2,false,false,1.0,The email comes from an existing member regarding a failed payment and a request for a receipt.,5
+mbf5bc2,false,false,1.0,"The email is a newsletter that the recipient subscribed to, as explicitly stated in the body.",5
+m655778,false,false,1.0,The message is an automatic notification from a service in use (ParcelTrack) that the recipient subscribed to.,6
+mceca6a,false,false,1.0,"The email is a forwarded thank-you note from a previous event organizer, representing an existing relationship.",5
+mc3ea4d,false,false,1.0,The email is from an existing client requesting a change to an existing booking.,5
+m15d34c,false,false,1.0,The sender is a potential customer inquiring about renting a room for a photo shoot.,5
+m7fdc11,false,false,1.0,The email is a collaboration proposal from an organization (Tinyhands) proposing a co-branded event and press opportunity.,6
+mf5c0c3,false,false,1.0,The email comes from an existing member reporting a noise issue that requires intervention.,5
+m6a7a1d,false,false,1.0,The email comes from an existing member reporting an access issue and a billing error.,5
+mbfac28,false,false,1.0,"The email comes from a client requesting a correction to an invoice, indicating an existing business relationship.",5
+m7f2be7,false,false,1.0,"The email is a newsletter that the recipient has subscribed to, as indicated by the text 'we are glad you subscribed'.",5
+m7b0d46,false,false,1.0,This is an automatic notification from a service in use (Doorlock Cloud) providing a weekly report.,6
+m52876e,false,false,1.0,"The email is a follow-up from a client who recently hosted an event, providing feedback and photos.",5
+m9e90a1,false,false,1.0,The sender is a visitor/member reporting a lost item and asking a question about a newsletter subscription.,5
+m596a9d,false,false,1.0,"The sender is a potential client inquiring about booking a meeting room for an event and desk availability, based on a referral.",6
+m5180ba,false,false,1.0,The message is a partnership proposal from a sender who has an existing relationship with the space (following them since the open day).,6
+m06e973,false,false,1.0,The email comes from a building tenant association reporting a technical issue (Wi-Fi interference) that requires action.,5
+mbf6fac,false,false,1.0,The sender is an existing member reporting an urgent access issue and a security concern regarding a door latch.,6
+mbb2bee,false,false,1.0,The email comes from an existing member reporting a failed payment and requesting a manual payment link and a CVR update.,6
+me80cff,false,false,1.0,The email is a monthly community newsletter that the recipient signed up to receive.,6
+m766a95,false,false,1.0,This is an automatic notification from a service in use (Roomly) regarding a booking.,5
+m9281d6,false,false,1.0,The email comes from an existing relationship (a supplier/repair person) regarding a specific invoice payment.,5
+m7c0499,false,false,1.0,The sender is a visitor who attended an event at the space and is inquiring about a lost item (lost and found).,6
+ma434db,false,false,1.0,The email is a forwarded inquiry from a potential member asking about trial days and desk prices.,5
+mb8e15f,false,false,1.0,The email is a press/collaboration proposal from a magazine editor regarding an interview and advertising opportunity.,7
+m2343f2,false,false,1.0,The email comes from an existing member reporting a persistent facility issue (heating) and requesting a refund/repair.,6
+m21cb3c,false,false,1.0,The sender is an existing member reporting a lockout and a security concern regarding an open door.,5
+mc5fe24,false,false,1.0,The sender is an existing member (bookkeeper for a member company) requesting a change to invoices and a corrected document.,5
+m504df4,false,false,1.0,The email is a bulletin sent to subscribers who previously registered for the mailing list.,6
+m2579a0,false,false,1.0,The message is an automatic notification from a service in use (parcel delivery) regarding a delivery to the space.,5
+m689c24,false,false,1.0,"The email is a follow-up from an existing member regarding the return of borrowed equipment, which is a 'thank-you' note/FYI.",6
+ma19432,false,false,1.0,The sender is a visitor who previously attended an event and is inquiring about a lost item.,5
+m5c5765,false,false,1.0,The sender is a potential member who has an existing relationship with the space via their newsletter subscription.,6
+ma066dd,false,false,1.0,The email comes from an existing member requesting a change to their membership status.,5
+m4ce402,false,false,1.0,The email comes from an existing relationship (the building owner/landlord) regarding a noise issue.,5
+m959afd,false,false,1.0,The sender is an existing member reporting a critical access issue that requires immediate intervention.,6
+mdf7d84,false,false,1.0,The email comes from an existing relationship (addressing Karl by name) and contains a specific request for an invoice/receipt and event setup.,5
+m62351e,false,false,1.0,"The email is a newsletter that the recipient signed up for, as explicitly stated in the text.",6
+mc6f49e,false,false,1.0,This is an automatic notification from a service in use (TicketBox) regarding a confirmed booking.,5
+mda2b50,false,false,1.0,"The email is a forwarded thank-you note from a client regarding a recent event, representing an existing relationship.",5
+m1024ee,false,false,1.0,The email is from an existing member/contact regarding a lost and found inquiry.,5
+m0b958f,false,false,1.0,"The sender is a potential new member inquiring about desk availability, pricing, and trial days, and was referred by an existing member.",6
+me5e2af,false,false,1.0,The email is from an existing member (Brightline Analytics) regarding the termination of their membership agreement.,6
+me0f7e3,false,false,1.0,The sender is a subscriber to the newsletter and is proposing a workshop event for November.,5
+m761302,false,false,1.0,The email is from an existing member reporting a technical issue with their access badge and a potential security concern.,6
+m3b8d08,false,false,1.0,The email comes from an existing member regarding an error in an invoice and a failed payment.,6
+ma23cf1,false,false,1.0,The email is a monthly newsletter that the recipient signed up for via a previous visit.,6
+me6d906,false,false,1.0,This is an automatic notification from a service in use (bank) regarding a transaction.,5
+md507bd,false,false,1.0,The email is a thank-you note from a person who has an existing relationship with the space (attended a book club).,5
+md8f1d9,false,false,1.0,The email comes from an existing relationship (a member/client) regarding lost property and a storage inquiry.,6
+mbda24b,false,false,1.0,"The sender is a potential visitor asking about pricing, availability, and trial days for a fixed desk.",5
+meecc6a,false,false,1.0,The sender is an existing member notifying the space of a membership cancellation.,5
+m4947a2,false,false,1.0,The sender is proposing to host an event at the space and is asking for a follow-up call.,5
+m9eaf9a,false,false,1.0,The email comes from an existing client requesting a change to an existing booking for this week.,5
+mda9581,false,false,1.0,The sender is an existing user requesting specific equipment and setup changes for an upcoming event.,5
+mbaa48c,false,false,1.0,The email is part of an existing conversation regarding a room booking and requests a change to a specific date.,5
+m9f01f8,false,false,1.0,"The sender is a potential client inquiring about renting a room for a group, and they have a connection to the space via a member.",6
+mb1c4d5,false,false,1.0,"The sender has an existing relationship with the space as they dropped off beans last week, making this a collaboration proposal rather than unsolicited spam.",5
+m63692c,false,false,1.0,"The email is from a member reporting a heating issue in the open space, which constitutes an existing relationship.",5
+mb2a42a,false,false,1.0,The email comes from an existing tenant reporting a critical access issue that requires immediate action today.,6
+mba3093,false,false,1.0,The email comes from an existing member (Holm Design ApS) regarding specific invoices and payment issues.,6
+m602716,false,false,1.0,"The email is a newsletter that the recipient has subscribed to, as explicitly stated in the text.",5
+mdda184,false,false,1.0,The message is an automatic notification from a service in use (parcel delivery) regarding a delivery to the space.,5
+ma0e303,false,false,1.0,The email is from an existing partner/client providing feedback and an update on a recent event they hosted.,6
+meaaf0d,false,false,1.0,The email comes from an existing member/user requesting a change to an existing booking.,5
+m25d359,false,false,1.0,The email is a legitimate inquiry from an organization interested in renting a room for a future date.,5
+m1f3245,false,false,1.0,The email is part of an ongoing conversation regarding a co-branded sustainability week proposal.,5
+meadfe1,false,false,1.0,The email comes from an existing member reporting issues with noise and cleaning.,5
+m53034a,false,false,1.0,The sender is an existing member reporting a functional issue with their access card and a lost item.,5
+m583060,false,false,1.0,The email comes from an existing member reporting a payment issue and requesting an invoice update.,5
+mdedad0,false,false,1.0,"The email is a newsletter that the recipient explicitly signed up for, which according to the definitions is not spam.",5
+mfeb06a,false,false,1.0,This is an automatic notification from a service in use (Billetten) regarding an event registration.,5
+m63a6d6,false,false,1.0,"The email is from an existing member sharing positive feedback and a personal update, which does not constitute unsolicited spam.",6
+mcf37ad,false,false,1.0,"The message comes from the building's property administrator regarding lost and found items, which is an existing professional relationship.",6
+mbe0073,false,false,1.0,"The sender is a potential customer inquiring about hosting a workshop, representing an existing interest/inquiry rather than unsolicited mass marketing.",6
+m1bd6ee,false,false,1.0,"The email proposes a collaboration/partnership and also includes a membership inquiry, but the primary focus is the partnership proposal.",5
+m2b4224,false,false,1.0,The email is from an existing member (Sara/Tomas) reporting a recurring issue with the heating in the office.,5
+m7178d8,false,false,1.0,The sender is an existing member experiencing a physical access issue that requires immediate intervention.,6
+m087030,false,false,1.0,The email comes from an existing relationship (a member) requesting a specific invoice/receipt for a payment made.,5
+maedfee,false,false,1.0,"The email is a weekly newsletter that the recipient subscribed to, as explicitly stated in the text.",6
+m269427,false,false,1.0,"The message is an automatic notification from a booking service the recipient uses, which is explicitly defined as not spam.",5
+mbac185,false,false,1.0,"The email is a thank-you note from a person who previously used the space for an event, and the sender explicitly states no reply is needed.",6
+mf4e784,false,false,1.0,"The email is from a member/visitor inquiring about a lost item (lost and found), which is an existing relationship.",5
+mf81745,false,false,1.0,The email is a legitimate inquiry from a potential client regarding membership prices and availability for a team.,6
+m4030b9,false,false,1.0,The sender is proposing a sponsorship and collaboration between their brewery and the coworking space's community events.,5
+m45007e,false,false,1.0,"The email comes from a member reporting a noise issue in the quiet room, which is an existing relationship.",5
+mbe2e99,false,false,1.0,The sender is a member experiencing an immediate access issue (locked out) and requires urgent assistance.,6
+m6d016f,false,false,1.0,The email comes from a customer regarding a specific payment discrepancy and an invoice correction.,5
+m8977c1,false,false,1.0,The email is a weekly newsletter that the recipient has explicitly subscribed to.,5
+m1270a6,false,false,1.0,This is an automatic notification from a service in use (parcel delivery) regarding scheduled maintenance.,5
+m101204,false,false,1.0,The email is from an existing relationship (an event organizer) providing a follow-up/thank-you regarding a past event.,6
+md03634,false,false,1.0,The email is part of an ongoing conversation regarding a lost and found item (a jacket).,5
+m91f76b,false,false,1.0,"The sender is a potential new member inquiring about pricing, availability, and a trial day, and mentions a referral from an existing member.",6
+meb3f11,false,false,1.0,The email is from an existing member inquiring about pausing or cancelling their membership due to upcoming travel.,5
+mcdb7ae,true,true,1.0,This is a cold sales outreach email offering recruitment services without any prior relationship.,5
+m626b9e,true,true,1.0,This is a cold sales outreach email from an unsolicited sender offering lead generation services.,5
+me9e812,true,true,1.0,"This is a cold sales outreach offering SEO and link-building services, which fits the definition of unsolicited spam.",5
+m848c65,true,true,1.0,This is a classic phishing/scam email using a fake parcel delivery notification to solicit payment via a suspicious link.,5
+mf91825,true,true,1.0,This is a classic advance-fee scam (419 scam) involving unsolicited claims of unclaimed funds.,5
+m15e985,true,true,1.0,This is a cold marketing email/reminder for an event registration that the recipient did not solicit.,5
+mc94680,true,true,1.0,This is a cold sales outreach email offering recruitment services without any prior relationship.,5
+m01f810,true,true,1.0,This is a cold sales outreach email from a company offering software development services with no prior relationship to the recipient.,5
+mdac55d,true,true,1.0,"This is a cold sales outreach email offering SEO and link-building services, which fits the definition of unsolicited spam.",6
+m31b7d1,true,true,1.0,"The email uses classic phishing tactics, such as an urgent threat of account suspension and a suspicious link, to solicit immediate payment.",5
+m14041b,true,true,1.0,This is a cold sales outreach offering commercial outsourcing services with no prior relationship indicated.,5
+m15a0ac,true,true,1.0,"This is a cold sales outreach offering SEO and link-building services, which fits the definition of unsolicited spam.",5
+m43aa09,true,true,1.0,The email is a classic phishing attempt using a fake invoice and a suspicious link to steal banking credentials.,6
+ma3b7b7,true,true,1.0,"This is a classic unsolicited cold email promising guaranteed high returns on crypto investments, which fits the definition of a scam/phishing.",6
+mbe0763,true,true,1.0,This is a cold marketing email announcing a product launch and webinar from an external company with no prior relationship indicated.,6
+md61bde,true,true,1.0,"This is a cold sales outreach offering a commission for recruitment services, which is unsolicited.",5
+mc11ac2,true,true,1.0,This is a cold sales outreach offering web development services with no prior relationship indicated.,5
+md546ef,true,true,1.0,"This is a cold sales outreach offering SEO/link-building services, which fits the definition of unsolicited spam.",5
+m422021,true,true,1.0,This is a classic phishing/scam email using a fake invoice and urgent threats to trick the recipient into entering credentials on a fraudulent portal.,6
+m770b7a,true,true,1.0,This is a classic inheritance scam (phishing) involving an unsolicited offer of money in exchange for personal details and an upfront fee.,6
+mf51a38,true,true,1.0,"The email is a cold sales outreach offering SEO and link-building services, which fits the definition of unsolicited spam.",5
+m692d06,true,true,1.0,This is a classic phishing attempt using a sense of urgency and a suspicious link to steal credentials and card details.,5
+m8470c9,true,true,1.0,This is a classic crypto-currency scam/phishing attempt involving unsolicited promises of high returns and requests for cryptocurrency payments.,5
+m398431,true,true,1.0,"This is a cold outreach email promoting a free webinar, which fits the definition of unsolicited sales/marketing.",5
+m6b27dd,true,true,1.0,"This is a cold sales outreach email from a sender with no prior relationship to the recipient, offering staffing services.",6
+m91b3f3,true,true,1.0,"This is a cold sales follow-up offering an automated invoicing service, which fits the definition of unsolicited outreach.",5
+m7fa7ad,true,true,1.0,"This is a cold sales outreach for SEO and link-building services, which fits the definition of unsolicited spam.",6
+m99b87c,true,true,1.0,This is a classic phishing/scam email using a fake 'final notice' for an unpaid fee to trick the recipient into clicking a malicious link.,6
+m8868d4,true,true,1.0,This is a classic phishing scam/lottery scam involving an unsolicited claim of winnings and a request for personal information and upfront fees.,6
+mf30e1b,true,true,1.0,This is an unsolicited marketing message for an external event with no prior relationship indicated.,5
+m7c83c1,true,true,1.0,"The email uses a suspicious link and a generic 'shared document' subject, which are classic indicators of a phishing scam.",5
+m00d194,true,true,1.0,"The email is a classic unsolicited cold outreach promising unrealistic guaranteed returns, which fits the definition of a scam/phishing.",5
+m1eeba6,true,true,1.0,"This is a cold sales outreach email promoting a new product line with a discount code, sent without any prior relationship indicated.",5
+m299502,true,true,1.0,"This is a cold sales outreach offering a commission in exchange for services, which fits the definition of unsolicited spam.",5
+me839eb,true,true,1.0,This is a cold sales outreach email offering IT services without any prior relationship or request from the recipient.,5
+m2aea5e,true,true,1.0,"This is a cold sales outreach offering SEO/link-building services, which fits the definition of unsolicited spam.",5
+m92f079,true,true,1.0,This is a classic phishing attempt using a fake billing failure and a suspicious URL to steal credit card information.,5
+ma4456a,true,true,1.0,The email is a classic phishing scam claiming the recipient won a prize and requesting an upfront fee.,5
+mee1a8f,true,true,1.0,This is a cold sales outreach/follow-up email regarding event tickets and a partnership proposal.,5
+m50266e,true,true,1.0,This is a cold sales outreach from a recruitment company offering a referral partnership with no prior relationship indicated.,6
+m99ad64,true,true,1.0,This is a classic phishing/scam email requesting a crypto deposit to release a large sum of money.,5
+m0a4967,true,true,1.0,This is a cold outreach email from an external organizer proposing a sponsorship opportunity and promoting an event.,5
+m020048,true,true,1.0,This is a cold recruitment outreach message from a sender with no prior relationship to the recipient.,5
+m9e3179,true,true,1.0,This is a cold sales outreach email offering CRM services to the coworking space without any prior relationship.,5
+m6e1a0a,true,true,1.0,"This is a cold sales outreach email offering SEO and link-building services, which fits the definition of unsolicited mass marketing.",6
+m2768fa,true,true,1.0,This is a classic phishing attempt using a fake security alert and a suspicious link to steal credentials.,5
+mb05d82,true,true,1.0,"This is a classic unsolicited cold email promising unrealistic financial returns, which fits the definition of a scam/phishing.",5
+m6b0492,true,true,1.0,This is a cold outreach invitation to an event for which the recipient did not request contact.,5
+ma2ce97,true,true,1.0,This is a cold recruitment outreach/sales pitch from a sender with no prior relationship to the recipient.,5
+me3b54f,true,true,1.0,This is a cold sales outreach offering web design services without any prior relationship.,5
+maf9c7b,true,true,1.0,This is a cold outreach email from an external organization proposing a collaboration/event for the community members.,5
+m582aaa,true,true,1.0,This is a cold outreach email from a recruitment agency proposing a collaboration to share job offers with the community.,5
+mf21727,true,false,1.0,"The sender references a previous conversation at an event, establishing an existing relationship, and proposes a collaboration/partnership.",6
+m925287,true,true,1.0,This is a cold sales outreach/follow-up email offering a service with no prior relationship indicated.,5
+m5483fe,true,true,1.0,"This is a cold outreach email proposing a link-building/SEO arrangement, which fits the definition of unsolicited commercial outreach.",6
+mde34c3,true,false,1.0,The email is an automated notification from the space's own billing system regarding a failed payment and upcoming access suspension.,6
+m7012fe,true,true,1.0,This is a classic unsolicited cold outreach containing a suspicious crypto investment scam.,5
+m4d011d,true,true,1.0,This is a cold outreach email proposing a collaboration/event promotion to the coworking community.,5
+m8f25e9,true,false,1.0,The sender is proposing a collaboration/benefit for the members of the coworking space.,5
+m5d77ba,true,false,1.0,"The sender met the team at a previous event, establishing an existing relationship, and is proposing a collaboration.",5
+m9f60a1,true,true,1.0,This is a cold recruitment outreach from a recruiter who has no prior relationship with the coworking space.,5
+ma0b100,true,false,1.0,"The sender references a mutual participation in a recent event, establishing an existing relationship/context rather than a cold outreach.",5
+m694f24,true,true,1.0,This is a cold sales outreach email from a company offering services to increase inquiries.,6
+ma59767,true,true,1.0,"This is a cold outreach email proposing a link-building/SEO exchange, which fits the definition of unsolicited commercial outreach.",5
+mf18f6e,true,true,1.0,The email is a classic phishing/scam attempt using a fake delivery notification and a suspicious link to solicit payment.,5
+mc124b3,true,true,1.0,This is a classic phishing/scam email promising an unsolicited financial bonus in exchange for an upfront fee.,5
+me6de18,true,true,1.0,This is a cold sales outreach/invitation for a product launch from an external sender with no prior relationship.,5
+mbdf0a9,true,true,1.0,This is a cold sales outreach from a recruitment agency proposing a partnership with no prior relationship established.,6
+md6fb68,true,false,1.0,"The sender references a previous in-person meeting at a recent event, establishing an existing relationship.",5
+mfe8386,true,true,1.0,This is a cold sales outreach offering administrative outsourcing services to coworking spaces.,5
+mdb38df,true,false,1.0,"The sender mentions a previous meeting at an event, establishing an existing relationship, and proposes a collaboration/partnership.",5
+m9fd77e,true,true,1.0,This is a cold sales outreach email offering software development services to the recipient.,5
+m271e97,true,true,1.0,"This is a cold sales outreach offering sponsored content and backlinks, which fits the definition of unsolicited marketing.",6
+mea1fe3,true,false,1.0,The message is a notification from a service in use (Event Hub) regarding a failed payment and account deactivation.,6
+m25aa7b,true,true,1.0,This is a cold sales outreach regarding an unsolicited investment/trading scheme with no prior relationship between the sender and the recipient.,6
+m23cbd0,true,true,1.0,This is a cold sales outreach/marketing email for a webinar that the recipient did not request.,5
+mc66ca7,true,true,1.0,This is a cold sales outreach/follow-up regarding recruitment services with no prior relationship indicated.,5
+m629d35,true,false,1.0,"The sender references a previous meeting at an event, indicating an existing relationship/interaction.",5
+ma32908,true,true,1.0,This is a cold sales outreach email from an unknown sender offering outbound marketing services.,5
+mbbc284,true,true,1.0,"This is a cold sales outreach email offering SEO and backlink services, which fits the definition of unsolicited commercial message.",7
+ma9017d,true,true,1.0,This is a cold sales outreach from a designer offering services and a referral commission to the coworking space.,6
+m0e069e,true,true,1.0,This is a cold outreach email from a company offering SEO/link-building services (guest posting) which the recipient did not request.,6
+mcb8a39,true,false,1.0,The email is a notification from a service in use (payment system) regarding a failed membership payment.,5
+mae7d54,true,true,1.0,This is a classic inheritance scam (419 scam) involving a large sum of money and a request for an upfront processing fee.,6
+m112d78,true,true,1.0,This is a cold outreach invitation to an annual convention from an organization with no prior relationship to the recipient.,6
+m645f40,true,true,1.0,This is a cold sales outreach/recruitment blast sent to the inbox without a prior relationship.,5
+mcbf276,true,false,1.0,"The sender mentions a previous meeting at an event, establishing an existing relationship.",5
+m1e9ada,true,true,1.0,This is a cold sales outreach email from a service provider proposing a partnership/service with no prior relationship.,6
+m62a492,true,true,1.0,"This is a cold sales outreach offering link-building services for payment, which fits the definition of unsolicited spam.",5
+mcca9f4,true,false,1.0,"The email is a follow-up regarding an unpaid invoice for a room rental, indicating an existing business relationship.",6
+m412cb3,true,false,1.0,The message is a notification from a service in use regarding a failed payment for workspace services.,6
+m2a201c,true,true,1.0,This is a classic unsolicited cold outreach message (crypto scam/marketing) with no prior relationship to the recipient.,5
+m0f4a84,true,true,1.0,This is a cold sales outreach/marketing message for an external event with no prior relationship indicated.,5
+m2dce14,true,true,1.0,This is a cold sales outreach from a recruitment agency offering services with no prior relationship indicated.,5
+m43e2d6,true,false,1.0,"The sender met the recipient at a community event last week, establishing an existing relationship, and is proposing a collaboration.",6
+m61a989,true,true,1.0,This is a cold sales outreach email offering lead generation services with no prior relationship indicated.,5
+ma79be3,true,true,1.0,"This is a cold sales outreach offering SEO and link-building services, which fits the definition of unsolicited spam.",6
+maca080,true,true,1.0,This is a classic phishing/scam email using a fake delivery notice and a sense of urgency to solicit payment.,6
+md2611b,true,true,1.0,This is a classic advance-fee scam (419 scam) involving an unsolicited proposal regarding an unclaimed estate.,6
+m7f157d,true,true,1.0,The email is a cold outreach promoting a webinar from an external sender with no prior relationship indicated.,5
+mfc3d1f,true,true,1.0,The email is a classic unsolicited scam/phishing attempt regarding fake trading profits.,5
+mf79ae3,true,true,1.0,This is a cold sales outreach/marketing email for a webinar from a sender with no prior relationship to the recipient.,6
+me2e314,true,true,1.0,This is a cold recruitment blast/outreach sent to the inbox without any prior relationship or subscription.,6
+m047d80,true,false,1.0,"The sender mentions meeting the recipient at a previous meetup, indicating an existing relationship, and is proposing a collaboration.",5
+m754968,true,true,1.0,This is a cold sales outreach email offering a service without any prior relationship.,5
+me77cf8,true,true,1.0,"This is a cold sales outreach offering link-building services, which fits the definition of unsolicited spam.",5
+mccf317,true,true,1.0,This is a classic phishing attempt using a fake security alert and a suspicious link to steal credentials.,6
+m3c97ed,true,true,1.0,This is a classic cold sales outreach/scam email regarding a high-return investment opportunity that the recipient did not solicit.,6
+md00c74,true,true,1.0,This is a cold marketing email promoting an external event in Valby with no prior relationship indicated.,6
+mbcfb20,true,true,1.0,This is a cold sales outreach offering staffing services with no prior relationship indicated.,5
+m9825b6,true,true,1.0,This is a cold sales outreach promoting a seminar in Odense with no prior relationship indicated.,5
+m1a1a27,true,true,1.0,This is a cold recruitment outreach offering staffing services to the coworking space without any prior relationship.,5
+md5c372,true,false,1.0,"The sender mentions a previous meeting at a workshop week, establishing an existing relationship/context, and is proposing a collaboration.",6
+m0bebd6,true,true,1.0,This is a cold sales outreach email introducing a new tool without any prior relationship with the recipient.,5
+m76bb2c,true,true,1.0,"This is a cold sales outreach offering SEO and link-building services, which fits the definition of unsolicited mass marketing.",6
+mb18ab0,true,true,1.0,"This is a classic phishing/scam email regarding domain renewal, which is unsolicited and unrelated to the coworking space's operations.",5
+m2295a9,true,true,1.0,"This is a cold outreach regarding crypto returns, which fits the criteria for unsolicited commercial/scam messages.",5
+m616f2c,true,true,1.0,"The email explicitly states that the recipient is part of a prospecting list, making it unsolicited cold outreach.",6
+m2e48f3,true,true,1.0,"This is a cold sales outreach offering staffing services, which fits the definition of unsolicited commercial messages.",5
+m71c50d,true,false,1.0,"The sender references a previous meeting at a networking dinner, establishing an existing relationship.",6
+me70cb1,true,true,1.0,This is a cold sales outreach from a recruiter with no prior relationship to the recipient.,6
+mb9c181,true,false,1.0,"The sender references a previous meeting at a trade fair, indicating an existing relationship/interaction, and proposes a collaboration/partnership.",6
+mb3e80c,true,true,1.0,This is a cold sales outreach email from an unsolicited sender offering software development services.,6
+m37c6f2,true,true,1.0,This is a cold sales outreach offering SEO/link-building services which is unsolicited.,5
+me5c580,true,true,1.0,This is a classic phishing/scam email using a fake delivery notification to solicit a small payment and personal information.,5
+md72158,true,true,1.0,The email is a classic phishing scam claiming a prize win to solicit sensitive bank information.,5
+med280c,true,true,1.0,This is a cold sales outreach regarding a new product launch with no prior relationship indicated.,5
+mb44edf,true,true,1.0,This is a cold sales outreach email offering recruitment services to the recipient without any prior relationship.,5
+mdae458,true,false,1.0,"The email is a follow-up from a person the recipient met at a previous event, indicating an existing relationship.",5
+m48e446,true,true,1.0,This is a cold sales outreach email (bumped follow-up) from a sender with no prior relationship to the recipient.,5
+ma195d4,true,false,1.0,"The sender mentions meeting the team at a networking evening earlier this month, establishing an existing relationship.",5
+maa3c08,true,true,1.0,This is a cold sales outreach email offering LinkedIn lead generation services with no prior relationship established.,5
+m5fcad8,true,true,1.0,"This is a cold sales outreach offering SEO and link-building services, which fits the definition of unsolicited spam.",5
+m2ab6e8,true,true,1.0,This is a classic phishing/scam email using a fake authority and a sense of urgency to solicit payment via a suspicious link.,6
+m36e9c4,true,true,1.0,The email is a classic unsolicited crypto-scam/phishing attempt promising unrealistic financial gains.,5
+ma8ce67,true,true,1.0,The email is a cold sales outreach/marketing message sent to a professional contact list without a prior relationship.,6
+mbfd3da,true,true,1.0,"This is a cold recruitment outreach/follow-up regarding candidate profiles, which fits the definition of unsolicited sales outreach.",5
+m9a2a83,true,false,1.0,"The sender met the community at a previous event, establishing an existing relationship, and is proposing a collaboration/introduction-based partnership.",6
+mfcb6a4,true,true,1.0,"This is a cold sales outreach offering web design services, which fits the definition of unsolicited commercial email.",5
+m90ca53,true,true,1.0,"This is a cold sales outreach offering a guest post and link-building services, which fits the definition of unsolicited mass marketing.",6
+maecdf9,false,false,1.0,The sender is a potential visitor inquiring about room rental availability and pricing.,5
+m04ca16,false,false,1.0,"The sender is proposing a collaboration/sponsorship and an event, which constitutes a partnership proposal from a local organization.",6
+mb8e602,false,false,1.0,The email is from an existing member reporting a facility issue (heating) that requires attention.,5
+md63f7b,false,false,1.0,The sender is an existing member reporting an urgent access issue and a security concern regarding the front door.,5
+mecdad6,false,false,1.0,The email comes from an existing client requesting a correction to an invoice and addressing a payment issue.,6
+m0a0279,false,false,1.0,"The email is a weekly digest that the recipient subscribed to, which according to the definitions is not spam.",5
+m1fa91a,false,false,1.0,This is an automatic notification from a service in use (Tilla Events) regarding event registrations.,5
+mfb36b3,false,false,1.0,"The email is a thank-you note from a client who previously used the space for an event, and it explicitly states no action is needed.",6
+m83d026,false,false,1.0,The sender is an existing partner/organizer of a recent event reporting a lost and found item.,6
+mde304f,false,false,1.0,The sender is a potential member inquiring about desk availability and pricing for a trial day.,5
+m768051,false,false,1.0,The email comes from a member reporting a heating issue in the workspace.,5
+m1e377d,false,false,1.0,The email comes from an existing tenant reporting a security issue and hardware failure that requires immediate attention.,6
+m060aa1,false,false,1.0,"The email comes from an existing member requesting a correction to an invoice, which constitutes an existing relationship.",5
+m26931b,false,false,1.0,The email is a monthly newsletter that the recipient has explicitly subscribed to.,5
+me33630,false,false,1.0,This is an automatic notification from a service in use (Evenia) regarding an existing event.,6
+m39ca40,false,false,1.0,"The email is a thank-you note from a member regarding their use of the space, which does not require a reply.",6
+m6ef043,false,false,1.0,The email is from an existing member reporting lost and found items and asking a general question about building amenities.,7
+m818c17,false,false,1.0,"The sender is a potential new member asking specific questions about pricing, desk availability, and trial days.",6
+m455773,false,false,1.0,The email comes from an existing member asking about membership modification and locker availability.,5
+mdddab0,false,false,1.0,"The sender is proposing a workshop event and inquiring about room rental terms, representing a professional outreach regarding space usage.",6

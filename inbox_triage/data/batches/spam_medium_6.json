@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "da",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "fr",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "fr",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "da",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Marta Quinn <marta@oakline-collective.example>",
+      "subject": "Great to connect, and a 2,500 EUR idea",
+      "date": "2026-09-12 10:40",
+      "body": "Hello,\n\nIt was a pleasure meeting some of your team at the networking evening earlier this month. Oakline Collective works with creative spaces across Europe, and we are putting together a shared programme of talks and pop-up days for the autumn.\n\nWe are looking for a limited number of venue partners. The participation fee is 2,500 EUR, which covers promotion in our network and a place in the joint calendar. We think your space would be a great fit.\n\nIf you would like to know more, let me know and I will share the outline.\n\nBest regards,\nMarta Quinn\nOakline Collective",
+      "justification": "Vague partnership proposal that refers to a meeting that never happened and asks for a fee. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Jake <jake@cadenceleads.example>",
+      "subject": "hey, can I steal 10 mins? 😄",
+      "date": "2026-09-30 09:25",
+      "body": "Hey team! 👋\n\nJake here from Cadence. We help small spaces and agencies get more inbound leads using automated LinkedIn outreach (no spam, I promise 😉).\n\nA couple of customers went from 5 to 30 enquiries a month in about 60 days. Pretty cool, right?\n\nIf you're curious, I can put together a free mini audit of your current setup. Zero strings attached! Just reply with 'yes' and I'll send it over.\n\nCheers,\nJake",
+      "justification": "Cold sales outreach for lead generation with a casual tone. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Patrick <patrick@linkforge-seo.example>",
+      "subject": "guest post / link swap?",
+      "date": "2026-10-05 17:11",
+      "body": "hi, sorry i am writing from my phone. we sell sponsored posts on a few blogs about startups and work culture, and can add a link to your website inside a post. price is 150 EUR for a normal link and 220 EUR for a premium one. we can also do link swap if you have a blog. let me know if you want the list of sites. thanks, Patrick (LinkForge)\n\nSent from my Android",
+      "justification": "SEO sponsored post and backlink offer from an unknown sender. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Nordic Business Compliance Authority <compliance@nbca-registry.example>",
+      "subject": "Notice of non-compliance: annual filing fee outstanding",
+      "date": "2026-09-21 08:30",
+      "body": "Dear Sir or Madam,\n\nOur records indicate that the annual business filing fee for your organisation has not been received. In accordance with Regulation 14(b) of the Nordic Business Registry Framework, an outstanding fee of 1,450.00 DKK is now payable.\n\nPlease note the following details regarding your file:\n\nReference: NBC-2026-558302\nPayment deadline: 2026-09-28\nLate charge after deadline: 15 percent per week\n\nTo settle the amount and avoid enforcement proceedings, please access the secure payment portal below and enter the reference number together with your card details.\n\nhttps://pay.nbca-registry.example/file/NBC-2026-558302\n\nA receipt will be issued by email once the payment has been processed. If you believe this notice was sent in error, you may submit a statement via the portal within five working days; however, the payment obligation will remain in force until your submission has been reviewed.\n\nPlease be aware that continued non-payment may result in a notation on your business record, restricted access to registry services and referral to a debt collection agency.\n\nThis notice has been generated automatically. Replies to this address are not read.\n\nYours faithfully,\nDepartment of Registry Compliance\nNordic Business Compliance Authority",
+      "justification": "Phishing using an official-sounding authority and a fake fee, with a payment link. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Rasmus <rasmus@kryptoboost.example>",
+      "subject": "Sidste chance 🚨",
+      "date": "2026-09-27 01:47",
+      "body": "Hej, 3.000 kr. bliver til 15.000 kr. på 7 dage med vores nye bot. Skriv til mig på Telegram: @kryptoboost_rasmus",
+      "justification": "Crypto investment scam sent in the middle of the night. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Atelier Pomme d'Or <nouveautes@atelier-pommedor.example>",
+      "subject": "Lancement de la saison : offre exclusive pour les professionnels",
+      "date": "2026-10-13 10:00",
+      "body": "Madame, Monsieur,\n\nNous avons le plaisir de vous convier à l'ouverture de notre nouvelle boutique en ligne, dédiée aux fournitures et aux cadeaux pour entreprises, qui ouvrira ses portes le 22 octobre.\n\nÀ cette occasion, nous organisons une présentation en ligne ouverte à tous, le 20 octobre à 17 h. Vous y découvrirez la nouvelle gamme de papeterie, de plantes d'intérieur et de cadeaux personnalisés pour les équipes et les clients.\n\nLes premiers inscrits recevront un bon d'achat de 20 euros, valable sur une première commande.\n\nNous avons également préparé des tarifs dégressifs pour les commandes de groupe, ainsi qu'un service de livraison express dans toute l'Europe du Nord.\n\nPour réserver votre place et recevoir le lien de connexion, rendez-vous sur atelier-pommedor.example/lancement.\n\nNous espérons avoir le plaisir de vous compter parmi nous.\n\nCordialement,\nL'équipe de l'Atelier Pomme d'Or\n\nVous recevez ce message car votre entreprise figure dans notre base de contacts professionnels.",
+      "justification": "Mass marketing for a shop launch sent to a business contact list with no subscription. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Amandine Roux <amandine@emploi-horizon.example>",
+      "subject": "Re : profils disponibles",
+      "date": "2026-10-22 14:18",
+      "body": "Bonjour, je me permets de relancer.\n\n> Nous avons des candidats pour vos besoins en accueil.\n\nAvez-vous eu le temps d'y réfléchir ? Amandine",
+      "justification": "Recruitment blast follow-up to an offer nobody received or requested. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Grace Holloway <grace@wildmeadow-network.example>",
+      "subject": "Following up from the founders breakfast",
+      "date": "2026-10-14 13:05",
+      "body": "Hi,\n\nI wanted to follow up after the founders breakfast last month. It was lovely to get to know the community around your space.\n\nAt Wild Meadow Network we are building relationships with spaces we admire, and yours came up more than once. We have no fixed agenda, we just believe good things happen when the right people are introduced to each other.\n\nPlease let me know if there is a good time to talk. We can keep it informal.\n\nWarmly,\nGrace Holloway\nWild Meadow Network",
+      "justification": "Fake 'we met at your event' note with no substance and no real prior contact. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Emil Thomsen <emil@webpilot-design.example>",
+      "subject": "Nyt design til jeres hjemmeside fra 4.900 kr.",
+      "date": "2026-10-02 10:22",
+      "body": "Hej, vi laver nye hjemmesider til små virksomheder fra 4.900 kr. Vil I have et uforpligtende tilbud? Mvh Emil, Webpilot Design",
+      "justification": "Cold sales outreach from a web design agency in Danish. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Ola from Greenroom Digital <ola@greenroom-digital.example>",
+      "subject": "🌱 Free guest post for your blog (no catch!)",
+      "date": "2026-10-27 15:50",
+      "body": "Hey friends! 👋\n\nOla here from Greenroom Digital. I've been reading your blog (the one about hybrid work, so good!) and I'd love to contribute a free article to it. I write for a bunch of workplace and wellbeing sites and I think your readers would enjoy it.\n\nThe only thing I ask: one natural link back to a resource page on our site. That's it! 🙌\n\nA few ideas I have so far:\n- 7 ways to make a small workspace feel calm\n- What remote teams get wrong about community\n- A simple guide to focus in open offices\n\nIf you prefer, I can also send a different topic. We also run a small paid package for permanent links on partner blogs, starting at 120 EUR per month, if that is ever of interest. 😉\n\nTell me which one you like and I'll send a draft this week!\n\nThanks so much,\nOla ✨\nGreenroom Digital",
+      "justification": "Guest post and backlink pitch to a blog the sender claims to have read. The sender has no relationship with the space and the message was never requested."
+    }
+  ]
+}

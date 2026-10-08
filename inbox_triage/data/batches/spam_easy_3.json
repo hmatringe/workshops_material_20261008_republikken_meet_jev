@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "fr",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "fr",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "short",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "da",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "da",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Laurent Berthier <l.berthier@optimia-conseil.example>",
+      "subject": "Proposition de partenariat : externalisation de votre gestion commerciale",
+      "date": "2026-09-02 10:30",
+      "body": "Madame, Monsieur,\n\nOptimia Conseil, cabinet spécialisé dans l'externalisation commerciale, a l'honneur de vous soumettre une proposition de collaboration.\nNous mettons à la disposition des structures telles que la vôtre une équipe dédiée à la prospection et à la qualification de contacts.\nNotre offre forfaitaire débute à 1 450 EUR par mois, sans engagement de durée.\nNous serions heureux de vous présenter nos références lors d'un entretien téléphonique de vingt minutes.\nDans l'attente de votre retour, nous vous prions d'agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLaurent Berthier\nDirecteur du développement, Optimia Conseil",
+      "justification": "Cold outsourcing sales proposal from an unknown consultancy, formal but with no prior relationship."
+    },
+    {
+      "from": "Tom Wexley <tom@serpbooster-agency.example>",
+      "subject": "Rank higher in Copenhagen: 600 EUR deal",
+      "date": "2026-09-08 11:15",
+      "body": "Hi,\n\nI am Tom from SerpBooster. I checked your website and it is not on the first page of Google for coworking in Copenhagen.\nWe can fix that. For a one time fee of 600 EUR we optimise your pages and publish 15 backlinks from partner blogs.\nThe offer is valid until the end of the month and we only take 5 new clients per quarter.\nReply to this email with the word YES and I will send the invoice and start work right away.\n\nTom Wexley\nSerpBooster Agency",
+      "justification": "Unsolicited SEO and backlink package with a price, from a stranger."
+    },
+    {
+      "from": "Service Comptabilité <paiements@gestion-factures-securite.example>",
+      "subject": "Re: Votre facture FA-2026-0932 en attente",
+      "date": "2026-09-15 08:42",
+      "body": "Bonjour,\n\nSuite à notre dernier message, nous constatons que votre facture reste impayée.\n\n> Votre facture FA-2026-0932 d'un montant de 1 284,00 EUR est disponible en pièce jointe.\n\nPour éviter des pénalités de retard et la suspension de vos services, merci de vous connecter à votre espace client afin de valider le paiement :\nhttp://espace-client.gestion-factures-securite.example/connexion\n\nPour des raisons de sécurité, vous devrez saisir votre identifiant et votre mot de passe bancaire ainsi que le code reçu par SMS.\n\nLe règlement doit intervenir avant 17 h aujourd'hui.\n\nSi vous avez déjà effectué ce paiement, merci de ne pas tenir compte de ce message.\n\nCordialement,\nService Comptabilité\nGestion Factures Sécurité\nPièce jointe : FA-2026-0932.zip",
+      "justification": "Phishing disguised as a reply in an invoice thread, with a fake login link asking for banking credentials."
+    },
+    {
+      "from": "Richard Hale <richard.hale@meridian-wealth-desk.example>",
+      "subject": "Private opportunity, very limited",
+      "date": "2026-09-19 23:12",
+      "body": "Dear Sir,\n\nI hope this finds you well. I work with a private investment group that has opened access to a crypto trading program with guaranteed returns of 8 percent weekly.\nOur members double their money in about 10 weeks. No experience is required, our traders do everything.\nThe minimum deposit is 500 EUR and it can be withdrawn at any time, we promise.\nBecause places are limited I need your answer before Monday. Reply with your phone number and I will call you.\n\nSincerely,\nRichard Hale\nSenior Partner, Meridian Wealth Desk",
+      "justification": "Investment scam promising guaranteed returns, sent by a stranger to a generic inbox."
+    },
+    {
+      "from": "Mia & the Pixelwave crew <hello@pixelwave-launch.example>",
+      "subject": "We just launched Pixelwave 2.0 🚀🎉",
+      "date": "2026-09-25 12:00",
+      "body": "Hey there! 👋\n\nIt's Mia from the Pixelwave team! We have been working on something BIG and we can't keep it secret any longer... Pixelwave 2.0 is LIVE! 🎉\n\nHere is what's new:\n✨ A brand new drag and drop editor\n⚡ Pages that load 3x faster\n🎨 100+ fresh templates for your projects\n🤝 Real time team collaboration\n\nTo celebrate we are hosting a free launch webinar on October 2nd at 14:00 CET where our founder Jake will show you everything live. Plus, everyone who joins gets 30 percent off their first year! 💸\n\nSave your seat here: pixelwave-launch.example/webinar\n\nCan't wait to see you there!! 🙌\n\nMia, Jake and the whole Pixelwave crew 💜\n\nP.S. Bring your questions, we love them! 😄",
+      "justification": "Mass product-launch marketing from a company the recipient never signed up with."
+    },
+    {
+      "from": "mikkel <mikkel@hirefast-staffing.example>",
+      "subject": "dev jobs",
+      "date": "2026-09-29 16:03",
+      "body": "hi, we have 20 open dev roles in cph, can u forward to ur membrs? good comision for u. call me asap. sent from my phone",
+      "justification": "Recruitment blast from an unknown staffer asking for mass forwarding, no prior relationship."
+    },
+    {
+      "from": "Anders Holm <anders.holm@kodefabrik-it.example>",
+      "subject": "Tilbud på hjemmesideudvikling",
+      "date": "2026-10-02 09:40",
+      "body": "Hej. Kodefabrik IT tilbyder hjemmesider og webshops til små virksomheder. Vi kan sende et uforpligtende tilbud. Ring eller svar på denne mail.\nAnders Holm",
+      "justification": "Cold software development sales pitch from an unknown company."
+    },
+    {
+      "from": "Paul <paul@topranklinks.example>",
+      "subject": "backlinks for sale",
+      "date": "2026-10-06 13:51",
+      "body": "Hello. We sell backlinks to coworking websites. Cheap and fast. Tell me if you want a price list.\nPaul",
+      "justification": "Unsolicited backlink sales message from a stranger."
+    },
+    {
+      "from": "Nordic Digital Registry <accounts@nordic-digital-registry.example>",
+      "subject": "NOTICE: Domain registration renewal invoice 2026/10",
+      "date": "2026-10-12 08:00",
+      "body": "Dear Domain Holder,\n\nThis is a formal notice regarding the registration of your domain name, issued by the Nordic Digital Registry Administration.\n\nOur records indicate that the annual renewal fee for your domain is due. Failure to complete the renewal within seven (7) days will result in the domain being released to the public registry and your website and email services will be interrupted.\n\nInvoice reference: NDR-2026-884201\nAmount due: 189,00 EUR (including administration fee)\nPayment deadline: 19 October 2026\n\nTo avoid interruption, you are required to verify your account and settle the invoice via our secure portal:\nhttp://portal.nordic-digital-registry.example/renew\n\nYou will be asked to enter your domain control password and your payment card details to confirm the renewal.\n\nPlease note that this notice is not issued by your current hosting provider. Late renewals are subject to a reactivation surcharge of 95,00 EUR.\n\nYours faithfully,\n\nDepartment of Domain Renewals\nNordic Digital Registry Administration\nThis message is intended for the domain holder only.",
+      "justification": "Phishing posing as a formal domain renewal invoice, asking for passwords and card details through a suspicious link."
+    },
+    {
+      "from": "Henrik Dalgaard <h.dalgaard@nordisk-arvesag.example>",
+      "subject": "Arv efter afdød: 2.450.000 DKK venter på dig",
+      "date": "2026-10-17 21:34",
+      "body": "Kære modtager\n\nJeg er advokat og repræsenterer en afdød kunde med samme efternavn som din virksomhed. Han efterlod 2.450.000 DKK uden kendte arvinger.\n\nDu kan stå som arving, og du får 35 procent af beløbet. Resten dækker mine omkostninger.\nFor at starte skal du blot sende dit fulde navn, adresse og kontonummer, samt betale et sagsgebyr på 1.200 DKK.\nSagen er fortrolig, så tal ikke med andre om den.\n\nVenlig hilsen\nHenrik Dalgaard\nAdvokat",
+      "justification": "Inheritance scam asking for personal data and an upfront fee, from a stranger."
+    }
+  ]
+}

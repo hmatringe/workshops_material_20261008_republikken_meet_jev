@@ -1,0 +1,15 @@
+From: Owen Faulkner <owen@stackbridge-dev.example>
+Subject: Cutting your software costs by 40 percent
+Date: 2026-10-01 10:22
+
+Hello Kanalhuset team,
+
+I noticed your space lists a members' portal and a booking page on the website. Running these usually costs a small space somewhere between 800 and 1,500 EUR a month in licences and upkeep.
+
+Stackbridge builds custom internal tools for coworking operators with our Lisbon-based team. Our standard rate is 35 EUR per hour, and most booking portals are done within six weeks. We can start with a free two-hour audit of what you have today.
+
+Would it be useful to book a 20-minute call next week?
+
+Best,
+Owen Faulkner
+Business Development, Stackbridge

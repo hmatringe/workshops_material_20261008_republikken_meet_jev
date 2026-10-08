@@ -1,0 +1,72 @@
+[
+  {
+    "business": false,
+    "purpose": "restaurant_private",
+    "situation": "a restaurant or café without any work purpose",
+    "language": "en",
+    "note_style": "short"
+  },
+  {
+    "business": false,
+    "purpose": "partner_dropoff",
+    "situation": "dropping a partner or a friend at their workplace or station",
+    "language": "da",
+    "note_style": "none"
+  },
+  {
+    "business": false,
+    "purpose": "lunch_alone",
+    "situation": "lunch alone during work hours",
+    "language": "da",
+    "note_style": "short"
+  },
+  {
+    "business": false,
+    "purpose": "shopping",
+    "situation": "furniture, clothes, electronics, a gift",
+    "language": "en",
+    "note_style": "words"
+  },
+  {
+    "business": false,
+    "purpose": "commute",
+    "situation": "home to the usual workplace or back, weekday, rush hour",
+    "language": "fr",
+    "note_style": "none"
+  },
+  {
+    "business": false,
+    "purpose": "school_run",
+    "situation": "dropping or picking up children",
+    "language": "en",
+    "note_style": "sentence"
+  },
+  {
+    "business": false,
+    "purpose": "groceries",
+    "situation": "supermarket, mall, hardware store for home",
+    "language": "en",
+    "note_style": "sentence"
+  },
+  {
+    "business": false,
+    "purpose": "doctor",
+    "situation": "doctor, dentist, physiotherapist, hospital visit",
+    "language": "fr",
+    "note_style": "none"
+  },
+  {
+    "business": false,
+    "purpose": "sport",
+    "situation": "gym, swimming, football, running club",
+    "language": "en",
+    "note_style": "words"
+  },
+  {
+    "business": false,
+    "purpose": "family_friends",
+    "situation": "visiting family or friends, a birthday, a dinner at someone's home",
+    "language": "en",
+    "note_style": "short"
+  }
+]

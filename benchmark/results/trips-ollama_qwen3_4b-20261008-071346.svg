@@ -1,0 +1,71 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 414' width='440' height='414' font-family='sans-serif' font-size='11'>
+<rect width='440' height='414' fill='white'/>
+<text x='52' y='16' font-size='13' font-weight='600'>trips / Qwen3-4B, asked for its confidence</text>
+<text x='52' y='31' font-size='10' fill='#555'>ECE 0.296, accuracy 65.9%, 323 items. Dashed line: perfect calibration.</text>
+<rect x='200.8' y='48' width='74.4' height='200' fill='#f3e8c8' opacity='0.6'/>
+<text x='238.0' y='60' text-anchor='middle' font-size='9' fill='#8a6d1f'>human review band</text>
+<line x1='52' y1='198.0' x2='424' y2='198.0' stroke='#e5e7eb'/>
+<text x='46' y='202.0' text-anchor='end' fill='#555'>25%</text>
+<line x1='52' y1='148.0' x2='424' y2='148.0' stroke='#e5e7eb'/>
+<text x='46' y='152.0' text-anchor='end' fill='#555'>50%</text>
+<line x1='52' y1='98.0' x2='424' y2='98.0' stroke='#e5e7eb'/>
+<text x='46' y='102.0' text-anchor='end' fill='#555'>75%</text>
+<line x1='52' y1='48.0' x2='424' y2='48.0' stroke='#e5e7eb'/>
+<text x='46' y='52.0' text-anchor='end' fill='#555'>100%</text>
+<text x='46' y='252' text-anchor='end' fill='#555'>0%</text>
+<line x1='52' y1='248' x2='424' y2='48' stroke='#999' stroke-dasharray='5 4'/>
+<rect x='54.0' y='248.0' width='33.2' height='0.0' fill='#4a7fb5' opacity='0.85'><title>says 5% on average, business in 0% of cases, 51 items</title></rect>
+<text x='70.6' y='244.0' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>0%</text>
+<rect x='91.2' y='248.0' width='33.2' height='0.0' fill='#4a7fb5' opacity='0.85'><title>says 15% on average, business in 0% of cases, 4 items</title></rect>
+<text x='107.80000000000001' y='244.0' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>0%</text>
+<text x='145.0' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<text x='182.20000000000002' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<text x='219.4' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<text x='256.6' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<text x='293.80000000000007' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<text x='331.00000000000006' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<rect x='351.6' y='238.2439024390244' width='33.2' height='9.756097560975604' fill='#4a7fb5' opacity='0.85'><title>says 85% on average, business in 5% of cases, 41 items</title></rect>
+<text x='368.20000000000005' y='234.2439024390244' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>5%</text>
+<rect x='388.8' y='110.55506607929516' width='33.2' height='137.44493392070484' fill='#4a7fb5' opacity='0.85'><title>says 95% on average, business in 69% of cases, 227 items</title></rect>
+<text x='405.40000000000003' y='106.55506607929516' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>69%</text>
+<line x1='52' y1='248' x2='424' y2='248' stroke='#333'/>
+<line x1='52' y1='48' x2='52' y2='248' stroke='#333'/>
+<text x='12' y='148' text-anchor='middle' font-size='10' fill='#333' transform='rotate(-90 12 148)'>how often it really was business</text>
+<text x='52.0' y='261' text-anchor='middle' font-size='9' fill='#555'>0%</text>
+<text x='89.2' y='261' text-anchor='middle' font-size='9' fill='#555'>10%</text>
+<text x='126.4' y='261' text-anchor='middle' font-size='9' fill='#555'>20%</text>
+<text x='163.60000000000002' y='261' text-anchor='middle' font-size='9' fill='#555'>30%</text>
+<text x='200.8' y='261' text-anchor='middle' font-size='9' fill='#555'>40%</text>
+<text x='238.0' y='261' text-anchor='middle' font-size='9' fill='#555'>50%</text>
+<text x='275.20000000000005' y='261' text-anchor='middle' font-size='9' fill='#555'>60%</text>
+<text x='312.40000000000003' y='261' text-anchor='middle' font-size='9' fill='#555'>70%</text>
+<text x='349.6' y='261' text-anchor='middle' font-size='9' fill='#555'>80%</text>
+<text x='386.8' y='261' text-anchor='middle' font-size='9' fill='#555'>90%</text>
+<text x='424.0' y='261' text-anchor='middle' font-size='9' fill='#555'>100%</text>
+<text x='238' y='274' text-anchor='middle' font-size='10' fill='#333'>what the scorer said: probability of business, by bracket of 10 points</text>
+<text x='12' y='329' text-anchor='middle' font-size='10' fill='#333' transform='rotate(-90 12 329)'>items</text>
+<rect x='54.0' y='353.77973568281936' width='33.2' height='20.220264317180618' fill='#9aa5b1'><title>51 items, 51 right</title></rect>
+<text x='70.6' y='350.77973568281936' text-anchor='middle' font-size='10' fill='#1f2430'>51</text>
+<rect x='91.2' y='372.41409691629957' width='33.2' height='1.5859030837004406' fill='#9aa5b1'><title>4 items, 4 right</title></rect>
+<text x='107.80000000000001' y='369.41409691629957' text-anchor='middle' font-size='10' fill='#1f2430'>4</text>
+<rect x='128.4' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='145.0' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='165.60000000000002' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='182.20000000000002' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='202.8' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='219.4' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='240.0' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='256.6' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='277.20000000000005' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='293.80000000000007' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='314.40000000000003' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='331.00000000000006' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='351.6' y='357.74449339207047' width='33.2' height='0.7929515418502202' fill='#9aa5b1'><title>41 items, 2 right</title></rect>
+<rect x='351.6' y='358.5374449339207' width='33.2' height='15.462555066079295' fill='#d9534f'><title>39 wrong</title></rect>
+<text x='368.20000000000005' y='354.74449339207047' text-anchor='middle' font-size='10' fill='#1f2430'>41 <tspan fill='#c53030'>(39)</tspan></text>
+<rect x='388.8' y='284.0' width='33.2' height='61.85022026431718' fill='#9aa5b1'><title>227 items, 156 right</title></rect>
+<rect x='388.8' y='345.85022026431716' width='33.2' height='28.14977973568282' fill='#d9534f'><title>71 wrong</title></rect>
+<text x='405.40000000000003' y='281.0' text-anchor='middle' font-size='10' fill='#1f2430'>227 <tspan fill='#c53030'>(71)</tspan></text>
+<line x1='52' y1='374' x2='424' y2='374' stroke='#333'/>
+<text x='238' y='388' text-anchor='middle' font-size='10' fill='#333'>how many items the scorer placed in each bracket, <tspan fill='#c53030'>in red the wrong decisions</tspan> (110 in all)</text>
+</svg>

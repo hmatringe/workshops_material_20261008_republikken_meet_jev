@@ -1,0 +1,12 @@
+From: Isabelle Moreau <isabelle@moreau-translations.example>
+Subject: Duplicate charge on my invoice, EUR 180
+Date: 2026-10-19 11:32
+
+Hello,
+
+I believe I was charged twice for the meeting room I used on 8 October. My bank statement shows two payments of EUR 180 on 9 October, but your invoice 2026-0412 only lists one.
+
+Could you check this and refund the second payment, or tell me if I am missing something? I would also like my company VAT number (DK 23456789) on a corrected invoice.
+
+Thank you,
+Isabelle Moreau

@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "fr",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "fr",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "da",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "da",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Léa <lea@fortune-douce.example>",
+      "subject": "Un petit cadeau pour toi 🎁",
+      "date": "2026-09-08 20:11",
+      "body": "Salut ! Léa ici 😉 J'ai gagné 12 000 € grâce à une appli de trading, et ils offrent un bonus de 500 € aux nouveaux inscrits cette semaine. Clique vite : fortune-douce.example/bonus 💸",
+      "justification": "Investment scam with a fake bonus lure from a stranger. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Vestmark Growth Forum <info@vestmark-forum.example>",
+      "subject": "Product launch webinar: scale your SaaS to 1M EUR",
+      "date": "2026-09-24 09:20",
+      "body": "Dear team,\n\nVestmark Growth Forum invites you to a live product launch webinar on 7 October at 14:00 CET. Our founders will present the new Vestmark Revenue Suite and share how mid-sized software companies reach 1M EUR in annual recurring revenue.\n\nSeats are limited. Registration is free until 30 September, after which a fee of 49 EUR applies. Premium access with the recording and slides costs 129 EUR.\n\nRegister here: vestmark-forum.example/launch\n\nBest regards,\nThe Vestmark Team",
+      "justification": "Mass marketing webinar invitation to a business that never signed up. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Direction du recrutement <recrutement@groupe-alterys.example>",
+      "subject": "Campagne de recrutement : 120 postes à pourvoir",
+      "date": "2026-10-05 10:00",
+      "body": "Madame, Monsieur,\n\nLe Groupe Alterys lance une campagne de recrutement internationale et recherche des candidats pour 120 postes dans les domaines de la logistique, de la vente et du support client, basés en Europe du Nord.\n\nNous vous remercions de bien vouloir relayer cette offre auprès des membres de votre structure. Les candidatures s'effectuent exclusivement en ligne : groupe-alterys.example/carrieres.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nDirection du recrutement\nGroupe Alterys",
+      "justification": "Recruitment blast asking the space to relay job offers, with no relationship. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Tobias Rindal <tobias@sunnyharbor-media.example>",
+      "subject": "Re: Loved your last meetup",
+      "date": "2026-09-18 16:45",
+      "body": "> Great to meet you at the meetup!\n\nHi, just circling back. Let's find a time to chat about working together.\nTobias",
+      "justification": "Fake 'we met' reply with no substance, nothing was previously exchanged. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Alex <alex@tidyfunnel.example>",
+      "subject": "Quick question about your website",
+      "date": "2026-10-13 08:40",
+      "body": "Hi, do you currently use a CRM for your members? We build custom ones for coworking spaces in under two weeks. Open to a quick call?",
+      "justification": "Cold sales outreach for software from an unknown vendor. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Henrik <henrik@linkbro.example>",
+      "subject": "Link til jeres side?",
+      "date": "2026-09-27 21:58",
+      "body": "Hej, jeg skriver fra min telefon så undskyld stavefejl. Vi har et netværk af blogs, hvor vi kan sætte et link til jeres side ind i en artikel om kontorfaellesskaber. Prisen er 600 kr. pr link, og de bliver liggende i mindst et år. Hvis I er intreseret så svar bare her og jeg sender eksempler.\n\nMvh Henrik\nSendt fra min iPhone",
+      "justification": "SEO link-selling offer from an unknown sender. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Customer Security <security@nordhavn-mail-support.example>",
+      "subject": "Your mailbox storage is full - action required",
+      "date": "2026-10-01 07:30",
+      "body": "Dear user,\n\nOur system has detected that the mailbox associated with your domain has reached 98% of its storage allowance. Incoming messages will be rejected from 2026-10-03 unless the account is verified.\n\nTo keep your mailbox active, please confirm your credentials using the verification page:\n\nhttps://verify.nordhavn-mail-support.example/mailbox\n\nYou will be asked to sign in with your current email address and password. This process takes less than one minute and prevents loss of messages.\n\nAdditional details:\n- Ticket reference: SEC-220981\n- Account status: pending verification\n- Deadline: 2026-10-03 23:59\n\nFailure to verify will result in suspension of the account and deletion of stored messages after 30 days. Our team will never ask for your password by phone.\n\nThank you for your cooperation.\n\nCustomer Security Team\nNordhavn Mail Support\nThis is an automated message, please do not reply.",
+      "justification": "Credential phishing posing as a mailbox provider the space does not use. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Oliver Brandt <oliver.brandt@tidewater-capital.example>",
+      "subject": "Private opportunity, strictly time sensitive",
+      "date": "2026-09-26 02:14",
+      "body": "Hello,\n\nI will be direct. I manage a small private fund and we have a place open in a closed round for a digital asset product that returns a fixed 4.2 percent per month. I selected your organisation from a list of growing businesses in Copenhagen.\n\nThe minimum is 5,000 EUR, and funds are held by an independent custodian. Past participants have been paid every month since January. We only take eight more participants, and the round closes on Sunday night.\n\nI can send the documents on request, but to reserve your place I need a first transfer before the close. Details of the account will follow in my next message.\n\nPlease do not forward this email. It is intended for the recipient only.\n\nBest regards,\nOliver Brandt\nTidewater Capital Partners",
+      "justification": "Investment scam promising fixed monthly returns, sent late at night to a stranger. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Nanna og Jesper <hej@sundt-liv-festival.example>",
+      "subject": "Kom til Wellness Festival i Valby! 🌿✨",
+      "date": "2026-10-09 12:00",
+      "body": "Hej søde mennesker! 🌸\n\nVi åbner dørene til Wellness Festival i Valby den 24. oktober, og vi vil så gerne have jer med! Der er yoga, kaffe, workshops og et stort marked med lokale små mærker. 🧘\n\nMed sjove foredrag fra morgen til aften og en gratis smagsprøve til alle de første 100. 🎁\n\nKøb billetter her: sundt-liv-festival.example/billetter 🎟️\n\nVi glæder os helt vildt! 💚\n\nKram,\nNanna og Jesper",
+      "justification": "Mass marketing for a festival sent to an inbox that never subscribed. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Kasper Mathiesen <kasper@staffwell-nordic.example>",
+      "subject": "Temp staff from 285 DKK per hour",
+      "date": "2026-10-14 09:35",
+      "body": "Hello,\n\nStaffwell Nordic supplies reception, cleaning and event staff to companies across Zealand. Our rates start at 285 DKK per hour, with no setup fee and a minimum booking of four hours.\n\nWe can usually place someone within 48 hours. If you ever need extra hands for an event or a busy period, we are happy to send a quote.\n\nReply to this email or call me directly.\n\nKasper Mathiesen\nStaffwell Nordic",
+      "justification": "Staffing offer blast to a business that never requested it. The sender has no relationship with the space and the message was never requested."
+    }
+  ]
+}

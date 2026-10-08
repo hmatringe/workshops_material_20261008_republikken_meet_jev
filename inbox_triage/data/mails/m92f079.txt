@@ -1,0 +1,27 @@
+From: Accounts Dept <billing@sendmailpro-account.example>
+Subject: Payment failed: update your billing details to avoid suspension
+Date: 2026-10-08 09:20
+
+Hello,
+
+We could not process your latest payment of 79,00 EUR for your SendMail Pro subscription.
+
+Details of the failed transaction:
+- Plan: Business Annual
+- Amount: 79,00 EUR
+- Card ending: 4417
+- Date: 8 October 2026
+- Reason: Card declined
+
+Your account will be suspended in 24 hours and all stored contacts and campaigns will be deleted permanently.
+
+To avoid this, update your billing details immediately:
+http://billing.sendmailpro-account.example/update
+
+Please enter your full card number, expiry date and security code, as well as your account password, to verify your identity.
+
+If you have already updated your details, please disregard this message.
+
+Thank you for your prompt attention,
+SendMail Pro Billing Team
+Do not reply to this email

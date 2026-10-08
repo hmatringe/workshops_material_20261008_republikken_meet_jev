@@ -1,0 +1,76 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 414' width='440' height='414' font-family='sans-serif' font-size='11'>
+<rect width='440' height='414' fill='white'/>
+<text x='52' y='16' font-size='13' font-weight='600'>inbox / Claude Opus 5.5</text>
+<text x='52' y='31' font-size='10' fill='#555'>ECE 0.073, accuracy 98.5%, 325 items. Dashed line: perfect calibration.</text>
+<rect x='200.8' y='48' width='74.4' height='200' fill='#f3e8c8' opacity='0.6'/>
+<text x='238.0' y='60' text-anchor='middle' font-size='9' fill='#8a6d1f'>human review band</text>
+<line x1='52' y1='198.0' x2='424' y2='198.0' stroke='#e5e7eb'/>
+<text x='46' y='202.0' text-anchor='end' fill='#555'>25%</text>
+<line x1='52' y1='148.0' x2='424' y2='148.0' stroke='#e5e7eb'/>
+<text x='46' y='152.0' text-anchor='end' fill='#555'>50%</text>
+<line x1='52' y1='98.0' x2='424' y2='98.0' stroke='#e5e7eb'/>
+<text x='46' y='102.0' text-anchor='end' fill='#555'>75%</text>
+<line x1='52' y1='48.0' x2='424' y2='48.0' stroke='#e5e7eb'/>
+<text x='46' y='52.0' text-anchor='end' fill='#555'>100%</text>
+<text x='46' y='252' text-anchor='end' fill='#555'>0%</text>
+<line x1='52' y1='248' x2='424' y2='48' stroke='#999' stroke-dasharray='5 4'/>
+<rect x='54.0' y='248.0' width='33.2' height='0.0' fill='#4a7fb5' opacity='0.85'><title>says 4% on average, spam in 0% of cases, 116 items</title></rect>
+<text x='70.6' y='244.0' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>0%</text>
+<rect x='91.2' y='248.0' width='33.2' height='0.0' fill='#4a7fb5' opacity='0.85'><title>says 14% on average, spam in 0% of cases, 33 items</title></rect>
+<text x='107.80000000000001' y='244.0' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>0%</text>
+<rect x='128.4' y='248.0' width='33.2' height='0.0' fill='#4a7fb5' opacity='0.85'><title>says 22% on average, spam in 0% of cases, 10 items</title></rect>
+<text x='145.0' y='244.0' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>0%</text>
+<rect x='165.60000000000002' y='181.33333333333334' width='33.2' height='66.66666666666666' fill='#4a7fb5' opacity='0.85'><title>says 33% on average, spam in 33% of cases, 9 items</title></rect>
+<text x='182.20000000000002' y='177.33333333333334' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>33%</text>
+<text x='219.4' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<text x='256.6' y='244' text-anchor='middle' font-size='9' fill='#bbb'>no item</text>
+<rect x='277.20000000000005' y='70.22222222222223' width='33.2' height='177.77777777777777' fill='#4a7fb5' opacity='0.85'><title>says 63% on average, spam in 89% of cases, 9 items</title></rect>
+<text x='293.80000000000007' y='66.22222222222223' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>89%</text>
+<rect x='314.40000000000003' y='64.66666666666669' width='33.2' height='183.33333333333331' fill='#4a7fb5' opacity='0.85'><title>says 73% on average, spam in 92% of cases, 12 items</title></rect>
+<text x='331.00000000000006' y='60.666666666666686' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>92%</text>
+<rect x='351.6' y='48.0' width='33.2' height='200.0' fill='#4a7fb5' opacity='0.85'><title>says 85% on average, spam in 100% of cases, 20 items</title></rect>
+<text x='368.20000000000005' y='58' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>100%</text>
+<rect x='388.8' y='48.0' width='33.2' height='200.0' fill='#4a7fb5' opacity='0.85'><title>says 96% on average, spam in 100% of cases, 116 items</title></rect>
+<text x='405.40000000000003' y='58' text-anchor='middle' font-size='10' font-weight='600' fill='#1f2430'>100%</text>
+<line x1='52' y1='248' x2='424' y2='248' stroke='#333'/>
+<line x1='52' y1='48' x2='52' y2='248' stroke='#333'/>
+<text x='12' y='148' text-anchor='middle' font-size='10' fill='#333' transform='rotate(-90 12 148)'>how often it really was spam</text>
+<text x='52.0' y='261' text-anchor='middle' font-size='9' fill='#555'>0%</text>
+<text x='89.2' y='261' text-anchor='middle' font-size='9' fill='#555'>10%</text>
+<text x='126.4' y='261' text-anchor='middle' font-size='9' fill='#555'>20%</text>
+<text x='163.60000000000002' y='261' text-anchor='middle' font-size='9' fill='#555'>30%</text>
+<text x='200.8' y='261' text-anchor='middle' font-size='9' fill='#555'>40%</text>
+<text x='238.0' y='261' text-anchor='middle' font-size='9' fill='#555'>50%</text>
+<text x='275.20000000000005' y='261' text-anchor='middle' font-size='9' fill='#555'>60%</text>
+<text x='312.40000000000003' y='261' text-anchor='middle' font-size='9' fill='#555'>70%</text>
+<text x='349.6' y='261' text-anchor='middle' font-size='9' fill='#555'>80%</text>
+<text x='386.8' y='261' text-anchor='middle' font-size='9' fill='#555'>90%</text>
+<text x='424.0' y='261' text-anchor='middle' font-size='9' fill='#555'>100%</text>
+<text x='238' y='274' text-anchor='middle' font-size='10' fill='#333'>what the scorer said: probability of spam, by bracket of 10 points</text>
+<text x='12' y='329' text-anchor='middle' font-size='10' fill='#333' transform='rotate(-90 12 329)'>items</text>
+<rect x='54.0' y='284.0' width='33.2' height='90.0' fill='#9aa5b1'><title>116 items, 116 right</title></rect>
+<text x='70.6' y='281.0' text-anchor='middle' font-size='10' fill='#1f2430'>116</text>
+<rect x='91.2' y='348.3965517241379' width='33.2' height='25.60344827586207' fill='#9aa5b1'><title>33 items, 33 right</title></rect>
+<text x='107.80000000000001' y='345.3965517241379' text-anchor='middle' font-size='10' fill='#1f2430'>33</text>
+<rect x='128.4' y='366.2413793103448' width='33.2' height='7.758620689655173' fill='#9aa5b1'><title>10 items, 10 right</title></rect>
+<text x='145.0' y='363.2413793103448' text-anchor='middle' font-size='10' fill='#1f2430'>10</text>
+<rect x='165.60000000000002' y='367.01724137931035' width='33.2' height='4.655172413793104' fill='#9aa5b1'><title>9 items, 6 right</title></rect>
+<rect x='165.60000000000002' y='371.67241379310343' width='33.2' height='2.3275862068965516' fill='#d9534f'><title>3 wrong</title></rect>
+<text x='182.20000000000002' y='364.01724137931035' text-anchor='middle' font-size='10' fill='#1f2430'>9 <tspan fill='#c53030'>(3)</tspan></text>
+<rect x='202.8' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='219.4' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='240.0' y='374.0' width='33.2' height='0.0' fill='#9aa5b1'><title>0 items, 0 right</title></rect>
+<text x='256.6' y='371.0' text-anchor='middle' font-size='10' fill='#1f2430'>0</text>
+<rect x='277.20000000000005' y='367.01724137931035' width='33.2' height='6.206896551724139' fill='#9aa5b1'><title>9 items, 8 right</title></rect>
+<rect x='277.20000000000005' y='373.2241379310345' width='33.2' height='0.7758620689655172' fill='#d9534f'><title>1 wrong</title></rect>
+<text x='293.80000000000007' y='364.01724137931035' text-anchor='middle' font-size='10' fill='#1f2430'>9 <tspan fill='#c53030'>(1)</tspan></text>
+<rect x='314.40000000000003' y='364.6896551724138' width='33.2' height='8.534482758620689' fill='#9aa5b1'><title>12 items, 11 right</title></rect>
+<rect x='314.40000000000003' y='373.2241379310345' width='33.2' height='0.7758620689655172' fill='#d9534f'><title>1 wrong</title></rect>
+<text x='331.00000000000006' y='361.6896551724138' text-anchor='middle' font-size='10' fill='#1f2430'>12 <tspan fill='#c53030'>(1)</tspan></text>
+<rect x='351.6' y='358.48275862068965' width='33.2' height='15.517241379310345' fill='#9aa5b1'><title>20 items, 20 right</title></rect>
+<text x='368.20000000000005' y='355.48275862068965' text-anchor='middle' font-size='10' fill='#1f2430'>20</text>
+<rect x='388.8' y='284.0' width='33.2' height='90.0' fill='#9aa5b1'><title>116 items, 116 right</title></rect>
+<text x='405.40000000000003' y='281.0' text-anchor='middle' font-size='10' fill='#1f2430'>116</text>
+<line x1='52' y1='374' x2='424' y2='374' stroke='#333'/>
+<text x='238' y='388' text-anchor='middle' font-size='10' fill='#333'>how many items the scorer placed in each bracket, <tspan fill='#c53030'>in red the wrong decisions</tspan> (5 in all)</text>
+</svg>

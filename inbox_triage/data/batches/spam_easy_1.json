@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "da",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "fr",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "fr",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "da",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Kasper Wynn <kasper@brightlane-collective.example>",
+      "subject": "Re: Great to meet you at your community evening",
+      "date": "2026-09-18 10:12",
+      "body": "Hi there,\nGreat meeting you at your community evening last month. As you said back then:\n> \"Let's find ways to work together.\"\nWe at Brightlane Collective see huge potential for a strategic partnership between our two brands.\nWe would love to explore synergies and co-create value across our ecosystems.\nCould you tell me who the right person is to discuss this?\nWarm regards,\nKasper Wynn, Partnership Lead, Brightlane Collective\nwww.brightlane-collective.example",
+      "justification": "A vague 'we met at your event' partnership message with no substance and a fake reply-thread subject from a sender the space has no relationship with."
+    },
+    {
+      "from": "Mikkel Rask <mikkel@leadnord.example>",
+      "subject": "30 nye leads om måneden for 4.900 DKK",
+      "date": "2026-09-23 08:41",
+      "body": "Hej, vi hjælper coworking-steder med at få 30 nye kvalificerede leads om måneden for kun 4.900 DKK. Ingen binding, og den første uge er gratis.\nBook et kort møde her: https://leadnord.example/book\nMvh Mikkel, LeadNord ApS",
+      "justification": "Cold sales outreach for a lead generation service from a company the space never contacted."
+    },
+    {
+      "from": "Daniel Okafor <daniel@rankwell-media.example>",
+      "subject": "Guest post and backlink opportunity for your website",
+      "date": "2026-10-06 14:05",
+      "body": "Hello,\n\nMy name is Daniel and I work with the outreach team at Rankwell Media.\nI recently came across your website and noticed that it has good content about coworking and community spaces.\nWe manage a network of more than 200 blogs in the business, startup and lifestyle categories.\nWe can offer you a permanent guest post on one of these sites, with a dofollow backlink to your website.\nThis would help improve your domain authority and your position in search results.\nAll articles are written by our own editors and are 100 percent original.\nWe can also publish a sponsored article that you write yourself, if you prefer.\nDelivery is usually within five working days after we agree on the topic.\nOur price list and a sample of live links are available at https://rankwell-media.example/partners\nIf you are interested, simply reply to this email with the topic you have in mind.\nIf this is not relevant for you, please ignore this message.\n\nBest regards,\nDaniel Okafor\nOutreach Manager, Rankwell Media",
+      "justification": "An SEO and backlink sales offer sent to the space by a stranger who has no relationship with it."
+    },
+    {
+      "from": "Nordvale Payment Services <no-reply@nordvale-secure.example>",
+      "subject": "Payment failure: action required on your account",
+      "date": "2026-09-29 07:30",
+      "body": "Dear customer, your latest payment could not be processed and your account has been placed on hold.\nTo avoid permanent suspension, please verify your details within 24 hours: https://nordvale-secure.example/verify\nNordvale Payment Services, Customer Compliance Department",
+      "justification": "A phishing message posing as a payment service with a fake payment failure and a suspicious verification link."
+    },
+    {
+      "from": "Mrs Amara Delacroix <a.delacroix@fidelis-trustlegal.example>",
+      "subject": "Confidential: unclaimed funds in your name",
+      "date": "2026-09-13 02:14",
+      "body": "Dear Beneficiary,\nI am writing from the Fidelis Trust Legal Chambers regarding an unclaimed inheritance of EUR 4,800,000 left by a late client who shared your family name.\nNo relative has come forward, and the funds will be returned to the state unless a beneficiary is named.\nI propose that you act as the beneficiary and we share the amount 60/40.\nThis matter is strictly confidential and must be handled urgently.\nTo start, please send your full name, address and a copy of your passport.\nYours faithfully,\nAmara Delacroix",
+      "justification": "A classic advance-fee inheritance scam from an unknown sender, sent at night on a weekend."
+    },
+    {
+      "from": "Léa et Tom <hello@pulsecamp.example>",
+      "subject": "🚀 On lance PulseCamp, et vous êtes invités !",
+      "date": "2026-10-14 11:20",
+      "body": "Salut !\n\nLéa et Tom ici, de l'équipe PulseCamp 👋\nOn lance enfin notre nouvelle appli de gestion de projets, et on organise un webinaire gratuit le 22 octobre à 18h 🎉\nAu programme : démo en direct, astuces, et un tirage au sort avec 10 licences à gagner 🎁\nInscrivez-vous ici : https://pulsecamp.example/webinaire\nPas besoin de réfléchir longtemps, les places partent vite ! 😉\nÀ très vite,\nLéa et Tom 💚",
+      "justification": "Mass marketing for a webinar and product launch sent to a list the space never subscribed to."
+    },
+    {
+      "from": "Jason Pruitt <jason.pruitt@talentbridge-staffing.example>",
+      "subject": "Hiring? 50+ vetted devs ready this week",
+      "date": "2026-10-02 16:48",
+      "body": "Hi,\nJason here from TalentBridge Staffing. Hope your doing well!\nWe have 50+ vetted develepers, designers and PMs available immediatly for contract or full time roles.\nWe can place the right person in your team in under 2 weeks, no upfront fee.\nWanna see profiles? Just reply and I will send you a shortlist.\nThanks,\nJason Pruitt\nSent from my iPhone",
+      "justification": "An unsolicited staffing blast from an agency the space has never dealt with, written with typos from a phone."
+    },
+    {
+      "from": "Camille Vidal <camille@orbite-conseil.example>",
+      "subject": "Suite à notre rencontre lors de votre événement",
+      "date": "2026-09-09 09:03",
+      "body": "Bonjour, nous nous sommes croisés lors de votre dernier événement et j'aimerais développer un partenariat gagnant-gagnant entre nos structures.\nPouvez-vous me dire quand nous pourrions en parler ? Cordialement, Camille Vidal, Orbite Conseil.",
+      "justification": "A vague 'we met at your event' partnership message with no substance from an unknown sender."
+    },
+    {
+      "from": "Rasmus Holm <rasmus@kodeflow.example>",
+      "subject": "Re: Hurtigere onboarding af jeres medlemmer",
+      "date": "2026-09-25 13:37",
+      "body": "Hej igen,\n\nJeg skriver igen, da jeg ikke har hørt fra jer. Som jeg skrev sidst:\n> \"Kodeflow kan spare jer 10 timer om ugen på administration.\"\nVi har hjulpet over 40 virksomheder i Norden med at automatisere onboarding, fakturering og booking.\nVores løsning kan integreres med de fleste systemer, og opsætningen tager under en uge.\nMange af vores kunder oplever, at de sparer en halv stilling i administration.\nVi tilbyder også en gratis analyse af jeres nuværende arbejdsgange.\nVi kan tage en demo på 20 minutter via video, når det passer jer.\nDu kan se en kort præsentation her: https://kodeflow.example/demo\nHvis I ikke er interesserede, skal I blot ignorere denne mail.\nMen det vil være en skam at gå glip af muligheden.\nJeg ser frem til at høre fra jer.\n\nVenlig hilsen\nRasmus Holm\nSalgskonsulent, Kodeflow ApS",
+      "justification": "A cold sales follow-up dressed as a reply thread, pushing automation software to a space that never contacted the sender."
+    },
+    {
+      "from": "Elena Marquez <elena@linkharbor-seo.example>",
+      "subject": "Sponsored post offer: EUR 150 for a permanent link",
+      "date": "2026-10-20 09:55",
+      "body": "Hello,\n\nI am Elena from LinkHarbor SEO. We help websites climb the rankings through quality link building.\nYour website looks like a good fit for our new campaign about workspaces and local communities.\nHere is what we can offer you right now:\n- One sponsored article on your site with our client's link, paid EUR 150 per post.\n- Or a guest post on our partner sites for EUR 90 including a dofollow link.\n- Monthly packages starting at EUR 400 for five links.\nPayment is made by bank transfer once the article is live.\nWe have worked with more than 300 small websites, and our case studies are here: https://linkharbor-seo.example/cases\nOur slots for October are limited, so please let me know quickly.\nYou only need to reply with the package that suits you.\n\nKind regards,\nElena Marquez\nLink Acquisition, LinkHarbor SEO\nhttps://linkharbor-seo.example",
+      "justification": "An SEO and link-building offer with prices sent by a stranger to a space that never asked for it."
+    }
+  ]
+}

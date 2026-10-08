@@ -1,0 +1,10 @@
+From: Kanalhuset Betaling <betaling@kanalhuset-mitkort.example>
+Subject: Din faktura er forfalden
+Date: 2026-10-05 08:14
+
+Hej,
+
+Vi kan ikke trække betalingen for dit Kanalhuset-medlemskab. Opdater dit kort inden i morgen for at undgå lukning af adgangskort: https://kanalhuset-mitkort.example/opdater
+
+Mvh
+Kanalhuset Betaling

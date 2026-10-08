@@ -1,0 +1,33 @@
+From: Parcel Tracker <notifications@parceltrack.example>
+Subject: Your parcel has been delivered to the reception
+Date: 2026-09-24 13:11
+
+Hello,
+
+This is an automatic message from ParcelTrack, the delivery tracking service your organisation uses.
+
+Your parcel has been delivered.
+
+Tracking number: PT-20480-7731
+Sender: Hartmann Office Supplies
+Delivered: 24 September 2026 at 13:05
+Delivered to: Reception desk, front office
+Signed by: reception staff
+
+Parcel details
+- Number of packages: 2
+- Weight: 7.4 kg
+- Service: standard delivery
+
+If a package arrives damaged, please photograph it before opening and report the issue through the tracking page within 48 hours.
+
+Delivery history
+24 Sep, 07:12  Out for delivery
+23 Sep, 18:40  Arrived at local depot
+22 Sep, 09:03  Dispatched from warehouse
+
+You are receiving this notification because you registered this address for delivery updates.
+
+Please do not reply to this email. This mailbox is not monitored.
+
+ParcelTrack

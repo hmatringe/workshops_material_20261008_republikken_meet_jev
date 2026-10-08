@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "fr",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "en",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "da",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "en",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "en",
+      "length": "long",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "someone asks about joining, prices, a trial day, desk availability",
+      "language": "da",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a member gives notice or asks how to pause their membership",
+      "language": "fr",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": "a person or company proposes to host a meetup or workshop next month"
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a person or company proposes to host a meetup or workshop next month",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+      "language": "en",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Delphine Aubrac <delphine.aubrac@aubrac-traduction.example>",
+      "subject": "Badge désactivé, impossible d'entrer ce matin",
+      "date": "2026-09-24 08:25",
+      "body": "Bonjour,\n\nJe suis membre à Kornmarken Studio depuis mars (bureau 22, Aubrac Traduction) et ce matin mon badge ne fonctionne plus. Le lecteur de la porte principale clignote en rouge et la porte reste fermée. J'ai essayé trois fois, puis j'ai attendu qu'un autre membre entre pour le suivre, mais personne n'est arrivé. Je suis donc toujours dehors.\n\nJe dois rendre une traduction juridique de quarante pages à 14 h et tout mon matériel, ainsi que mes dictionnaires, se trouve à l'intérieur. Je n'ai aucun moyen de travailler ailleurs sans mon poste fixe.\n\nIl y a deux jours, j'ai reçu un message qui me demandait de « confirmer mon badge » en cliquant sur un lien. Je ne l'ai pas fait, car l'adresse m'a paru douteuse, mais je me demande si ce message a un rapport avec ce qui se passe. Si quelqu'un a pu récupérer mes identifiants, il vaudrait mieux désactiver mon badge et m'en donner un autre.\n\nPouvez-vous m'ouvrir la porte ou envoyer quelqu'un ? Mon numéro est le +45 5550 0166, je reste devant l'entrée.\n\nJe précise que ma cotisation est à jour, j'ai réglé la facture d'août le 2 septembre. Je comprends que vous receviez beaucoup de mails, mais c'est vraiment urgent pour aujourd'hui.\n\nMerci d'avance de votre aide rapide,\nDelphine Aubrac",
+      "justification": "A member locked out with a deadline today and a possible credential-phishing incident needs an immediate human response; the suspicious link she mentions is a risk she reports, not a solicitation."
+    },
+    {
+      "from": "Gustav Mørk <gustav.mork@morkogsonner.example>",
+      "subject": "Invoice 2026-0412, wrong amount and VAT",
+      "date": "2026-10-24 23:02",
+      "body": "Hi,\n\nApologies for the late hour, I am catching up on admin on a Saturday night. I have two questions about invoice 2026-0412 for my October desk.\n\nFirst, the amount. My plan is DKK 1,800 per month excluding VAT, so the total should be DKK 2,250 with 25% VAT, but the invoice says DKK 2,625. I think the day passes I used on 6 and 7 October (2 x DKK 195) were added, although they were included in a bundle I bought in September. Could you check this and send a corrected invoice?\n\nSecond, the VAT number. Our company's number is DK 18 62 90 34, and it is missing from the invoice header. Our accountant will not accept it without it. Please add it to this invoice and to all future ones.\n\nThird, and this one is more urgent: my card payment failed this afternoon with an error, and I now see an email from the payment provider saying I have 48 hours to update the details or my access will be paused. I did not click anything in that email since I want to be sure it is real. Can you confirm it is from you, and tell me how to pay safely, perhaps by bank transfer?\n\nI would like to have this resolved before Monday evening, because I have a client coming to the space on Tuesday.\n\nIf it is easier to phone, I am at +45 5550 0123 after 09:00.\n\nThanks,\nGustav Mørk\nMørk & Sønner",
+      "justification": "A member asks about a wrong invoice amount, a missing VAT number and a failed card, with a payment-warning email he wants verified; it needs a reply within about a day and he is an existing customer."
+    },
+    {
+      "from": "Kornmarken Kalender <kalender@kornmarken-studio.example>",
+      "subject": "Kornmarken Kalender: efterårets program og nyt fra køkkenet",
+      "date": "2026-09-30 07:45",
+      "body": "Hej,\n\nHer er månedens nyhedsbrev fra Kornmarken Studio. Du modtager det, fordi du tilmeldte dig vores liste, da du besøgte huset.\n\nI oktober sker der en hel masse. Den 8. holder vi Tirsdagsfrokost med temaet \"Fra idé til faktura\", og den 22. kommer der en gæst fra et lille forlag, som fortæller om at udgive sin egen bog. Tilmelding sker på hjemmesiden, og pladserne er begrænsede, så vent ikke for længe.\n\nVi har også nye åbningstider i weekenden: lørdag er der åbent kl. 9 til 15 for alle medlemmer med weekendkort. Prisen for weekendkort er fortsat 250 kr. om måneden.\n\nKøkkenet har fået nyt opvaskemaskineprogram, og vi beder alle om at skylle tallerkener af og stille dem i maskinen. Det lyder småt, men det gør en stor forskel for dem, der rydder op sidst.\n\nTak, fordi du er en del af huset.\n\nKornmarken Studio\nAfmeld nyhedsbrevet via linket på vores hjemmeside.",
+      "justification": "A monthly newsletter the recipient subscribed to, with prices and calls to register that sound promotional, but it is a subscription and needs no reply."
+    },
+    {
+      "from": "Danfjord Bank Notifications <alerts@danfjord-bank.example>",
+      "subject": "Payment received: DKK 4,500",
+      "date": "2026-10-05 12:36",
+      "body": "Hello,\n\nThis is an automatic notification from Danfjord Bank.\n\nA payment has been credited to the business account ending 5532 of Kornmarken Studio.\n\nAmount: DKK 4,500.00\nFrom: Fieldgate Labs ApS\nReference: Inv 2026-0311\nBooked: 5 October 2026\n\nYou can see the full details by signing in to online banking:\nhttps://online.danfjord-bank.example/login\n\nWe will never ask for your password or card number by email. Please do not reply to this message.\n\nDanfjord Bank",
+      "justification": "An automatic bank notification about an incoming payment, with a login link and a security notice that resemble phishing, but it comes from the space's own bank and requires no reply."
+    },
+    {
+      "from": "Tuva Brandt <tuvabrandt@mailbox.example>",
+      "subject": "thanks!!",
+      "date": "2026-10-15 19:03",
+      "body": "Hi all, just wanted to say thx for hosting the book club on thursday, evryone had a great time and the room was perfect. Alos we all read your newsleter last week and some of us are coming to the market day in novmber. No need to answer this, just a thank you. Best, Tuva\nSent from my phone",
+      "justification": "A thank-you note from an event organiser written on a phone that mentions the newsletter and says no answer is needed, so it is a pure FYI."
+    },
+    {
+      "from": "Anette Rosenkvist <anette.rosenkvist@kornmarken-studio.example>",
+      "subject": "Fwd: Found a ring? Also a weird question",
+      "date": "2026-10-19 09:40",
+      "body": "This isn't a billing or booking thing so I don't know who should answer. Can you take it?\n\n---------- Forwarded message ----------\nFrom: Lars Thorvald <lars.thorvald@thorvald-law.example>\nDate: 18 Oct 2026\n\nDear Kornmarken Studio,\n\nI am writing about two unrelated matters, so I apologise for the length.\n\nFirst, my wife attended a ceramics evening in your large room on 8 October and believes she lost her wedding ring there. It is a thin gold band with a small engraving on the inside, \"E & L 2014\". She remembers taking it off at the sink in the kitchen while washing clay from her hands. We have looked everywhere at home. Would it be possible for someone to check the kitchen drain trap, the lost property box and any place where the cleaners might have put it? We would of course be glad to pay for any plumbing work if the ring is found.\n\nSecond, and this is quite different: I am a lawyer, and one of my clients, a small association, is looking for a place to store a few archive boxes for about a year. They would pay a reasonable fee. I know you are a coworking space and not a storage company, but I wonder whether you have any cupboard or basement room that you rent out, or whether you could point us towards someone who does.\n\nTo be clear, neither of these is urgent, but the ring matters a great deal to us. I can be reached at this address or on +45 5550 0112 during the day.\n\nMany thanks for your help and kind regards,\nLars Thorvald\nThorvald Law",
+      "justification": "A forwarded visitor message about a lost ring and a storage question fits no standard category, includes an unrelated offer to pay, and needs a personal reply within the week."
+    },
+    {
+      "from": "Freja <freja@bytteritet.example>",
+      "subject": "Pris for et fast skrivebord?",
+      "date": "2026-09-18 16:20",
+      "body": "Hej! Hvad koster et fast skrivebord om måneden, og er der ledige pladser? Jeg har set 2.200 kr. på jeres side, men er det med moms? Kan jeg prøve en dag først? Mvh Freja",
+      "justification": "A visitor asks about desk prices, availability and a trial day, mentioning an amount from the website; it is a normal membership enquiry needing a reply within the week."
+    },
+    {
+      "from": "Service Vie Associative, Fédération des Coworkings du Nord <secretariat@fcn-reseau.example>",
+      "subject": "Résiliation de l'adhésion au nom de l'Association Marée Haute",
+      "date": "2026-10-14 10:10",
+      "body": "Madame, Monsieur,\n\nPar la présente, l'Association Marée Haute, membre de votre espace depuis janvier 2025, vous notifie sa décision de résilier son abonnement à compter du 30 novembre 2026, conformément à l'article 7 de votre règlement intérieur. Nous vous remercions de bien vouloir nous confirmer cette date par écrit et de nous indiquer les modalités de restitution des clés.\n\nPar ailleurs, notre association souhaiterait organiser un meeting-débat en novembre dans une de vos salles, pour une trentaine de personnes. Si cette proposition vous intéresse, merci de nous faire connaître vos conditions tarifaires.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe secrétariat",
+      "justification": "A member association formally gives notice and also floats hosting a debate in November; the formal federation letterhead looks like a mass mailing but it concerns a real membership and asks for confirmation."
+    },
+    {
+      "from": "Noor Haldane <noor@haldane-games.example>",
+      "subject": "Playtest night proposal",
+      "date": "2026-10-08 13:14",
+      "body": "Hi, I organise a monthly board game playtest night for indie designers and would like to host the November one at your space (about 20 people, a Thursday evening). We can pay for the room. Would you be open to a call next week?",
+      "justification": "An outside organiser proposes hosting a meetup next month and offers to pay, which is a relevant proposal for a coworking space needing a reply within the week."
+    },
+    {
+      "from": "Viggo Lauritzen <viggo@lauritzen-media.example>",
+      "subject": "Room change for Thursday",
+      "date": "2026-10-11 21:37",
+      "body": "Hi, we have the large room booked on Thursday at 18:00 for our film screening (40 people). Could we swap to the room with the built-in projector, and can you set up 10 extra chairs and a speaker? Please confirm before Wednesday. Thanks, Viggo",
+      "justification": "A member organiser writing on a Sunday night asks for a room change and AV and chairs for an event this week, which needs a reply within 24 hours but is not happening today."
+    }
+  ]
+}

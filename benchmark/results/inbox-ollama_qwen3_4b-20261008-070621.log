@@ -1,0 +1,328 @@
+inbox: 325 items, scorer ollama_qwen3_4b, model qwen3:4b, started 2026-10-08 07:06:21
+  1 / 325  mf9a3be  label=false p=0.05 ok    4660ms  elapsed 0m05s
+  2 / 325  mbd2760  label=false p=0.05 ok    1199ms  elapsed 0m06s
+  3 / 325  m920830  label=false p=0.85 MISS  1085ms  elapsed 0m07s
+  4 / 325  me25235  label=false p=0.05 ok    1184ms  elapsed 0m08s
+  5 / 325  m67c4c5  label=false p=0.05 ok    1635ms  elapsed 0m10s
+  6 / 325  m135150  label=false p=0.05 ok    1884ms  elapsed 0m12s
+  7 / 325  mcb65c8  label=false p=0.05 ok    1158ms  elapsed 0m13s
+  8 / 325  m353e9f  label=false p=0.05 ok    1166ms  elapsed 0m14s
+  9 / 325  mb2ea06  label=false p=0.05 ok    1538ms  elapsed 0m16s
+ 10 / 325  ma249ec  label=false p=0.05 ok    1301ms  elapsed 0m17s
+ 11 / 325  ma1d848  label=false p=0.05 ok    1834ms  elapsed 0m19s
+ 12 / 325  ma00f1a  label=false p=0.05 ok    2000ms  elapsed 0m21s
+ 13 / 325  mde9fde  label=false p=0.05 ok    1235ms  elapsed 0m22s
+ 14 / 325  mad44c7  label=false p=0.05 ok    1458ms  elapsed 0m23s
+ 15 / 325  mefde67  label=false p=0.05 ok    1329ms  elapsed 0m25s
+ 16 / 325  mf28af8  label=false p=0.05 ok    1326ms  elapsed 0m26s
+ 17 / 325  m669ffd  label=false p=0.05 ok    1118ms  elapsed 0m27s
+ 18 / 325  m3a2699  label=false p=0.85 MISS  1228ms  elapsed 0m28s
+ 19 / 325  mc040cb  label=false p=0.05 ok    1886ms  elapsed 0m30s
+ 20 / 325  m2a9d57  label=false p=0.05 ok    1168ms  elapsed 0m31s
+ 21 / 325  m8ec025  label=false p=0.05 ok    1180ms  elapsed 0m33s
+ 22 / 325  m879667  label=false p=0.95 MISS  1083ms  elapsed 0m34s
+ 23 / 325  med7f9f  label=false p=0.05 ok    1318ms  elapsed 0m35s
+ 24 / 325  mca164e  label=false p=0.05 ok    1450ms  elapsed 0m36s
+ 25 / 325  m9e44f5  label=false p=0.05 ok    1695ms  elapsed 0m38s
+ 26 / 325  m1b49d8  label=false p=0.05 ok    1881ms  elapsed 0m40s
+ 27 / 325  ma217cd  label=false p=0.05 ok    1460ms  elapsed 0m41s
+ 28 / 325  m9348b6  label=false p=0.05 ok    1114ms  elapsed 0m43s
+ 29 / 325  mab3f03  label=false p=0.05 ok    1664ms  elapsed 0m44s
+ 30 / 325  ma126e0  label=false p=0.05 ok    1230ms  elapsed 0m45s
+ 31 / 325  m21bac0  label=true  p=0.95 ok    1161ms  elapsed 0m47s
+ 32 / 325  mda5ff7  label=true  p=0.95 ok    1493ms  elapsed 0m48s
+ 33 / 325  mfb3d42  label=true  p=0.95 ok    1084ms  elapsed 0m49s
+ 34 / 325  m3d6f6a  label=true  p=0.95 ok    1246ms  elapsed 0m50s
+ 35 / 325  m0f26f1  label=true  p=0.85 ok    1306ms  elapsed 0m52s
+ 36 / 325  m532e5a  label=true  p=0.95 ok    1149ms  elapsed 0m53s
+ 37 / 325  m2e56e8  label=true  p=0.95 ok    1613ms  elapsed 0m55s
+ 38 / 325  m9a8493  label=true  p=0.95 ok    1503ms  elapsed 0m56s
+ 39 / 325  m8b1675  label=true  p=0.95 ok    1611ms  elapsed 0m58s
+ 40 / 325  m8fed09  label=true  p=0.95 ok    983ms  elapsed 0m59s
+ 41 / 325  m842102  label=true  p=0.95 ok    1462ms  elapsed 1m00s
+ 42 / 325  maa90ca  label=true  p=0.05 MISS  1420ms  elapsed 1m02s
+ 43 / 325  mb5a29f  label=true  p=0.85 ok    1256ms  elapsed 1m03s
+ 44 / 325  m97a18e  label=true  p=0.95 ok    1650ms  elapsed 1m04s
+ 45 / 325  m1aa93f  label=true  p=0.95 ok    1064ms  elapsed 1m05s
+ 46 / 325  m1380fc  label=true  p=0.95 ok    999ms  elapsed 1m06s
+ 47 / 325  m7ae1f7  label=true  p=0.95 ok    1428ms  elapsed 1m08s
+ 48 / 325  mac03ff  label=true  p=0.95 ok    2029ms  elapsed 1m10s
+ 49 / 325  mbc1a40  label=true  p=0.95 ok    1152ms  elapsed 1m11s
+ 50 / 325  mdcc837  label=true  p=0.95 ok    1160ms  elapsed 1m12s
+ 51 / 325  mcb0f7b  label=true  p=0.05 MISS  1268ms  elapsed 1m14s
+ 52 / 325  m324842  label=true  p=0.95 ok    1848ms  elapsed 1m15s
+ 53 / 325  mc29abf  label=true  p=0.95 ok    1583ms  elapsed 1m17s
+ 54 / 325  mea1b0f  label=true  p=0.95 ok    1151ms  elapsed 1m18s
+ 55 / 325  m1bf17e  label=true  p=0.95 ok    1290ms  elapsed 1m19s
+ 56 / 325  m60eb3f  label=true  p=0.95 ok    1589ms  elapsed 1m21s
+ 57 / 325  m5fc12e  label=true  p=0.85 ok    1319ms  elapsed 1m22s
+ 58 / 325  mc9188b  label=false p=0.05 ok    1784ms  elapsed 1m24s
+ 59 / 325  m5420f4  label=false p=0.05 ok    1428ms  elapsed 1m26s
+ 60 / 325  mcb8a3b  label=false p=0.05 ok    1460ms  elapsed 1m27s
+ 61 / 325  m70e8a4  label=false p=0.05 ok    1181ms  elapsed 1m28s
+ 62 / 325  m9e6f43  label=false p=0.95 MISS  1392ms  elapsed 1m30s
+ 63 / 325  maace7a  label=false p=0.05 ok    1102ms  elapsed 1m31s
+ 64 / 325  m83140e  label=false p=0.05 ok    1253ms  elapsed 1m32s
+ 65 / 325  m1d6c3b  label=false p=0.85 MISS  1447ms  elapsed 1m33s
+ 66 / 325  m03595b  label=false p=0.05 ok    1617ms  elapsed 1m35s
+ 67 / 325  m45c7f6  label=false p=0.05 ok    1116ms  elapsed 1m36s
+ 68 / 325  mf9ad0c  label=false p=0.05 ok    1317ms  elapsed 1m37s
+ 69 / 325  m49d0f6  label=false p=0.05 ok    1268ms  elapsed 1m39s
+ 70 / 325  me9b10d  label=false p=0.05 ok    1087ms  elapsed 1m40s
+ 71 / 325  m390bd5  label=false p=0.05 ok    1525ms  elapsed 1m41s
+ 72 / 325  m55708d  label=false p=0.95 MISS  1243ms  elapsed 1m43s
+ 73 / 325  mbbf3be  label=false p=0.05 ok    1648ms  elapsed 1m44s
+ 74 / 325  md2e41b  label=false p=0.05 ok    1329ms  elapsed 1m46s
+ 75 / 325  mbd0f56  label=false p=0.05 ok    1339ms  elapsed 1m47s
+ 76 / 325  m65a139  label=false p=0.05 ok    1435ms  elapsed 1m48s
+ 77 / 325  md7fb02  label=false p=0.05 ok    1603ms  elapsed 1m50s
+ 78 / 325  m52733e  label=false p=0.95 MISS  1091ms  elapsed 1m51s
+ 79 / 325  me497b1  label=false p=0.85 MISS  1078ms  elapsed 1m52s
+ 80 / 325  mfa6c05  label=false p=0.05 ok    1690ms  elapsed 1m54s
+ 81 / 325  med1ba6  label=false p=0.95 MISS  1141ms  elapsed 1m55s
+ 82 / 325  m71d2d2  label=false p=0.05 ok    1183ms  elapsed 1m56s
+ 83 / 325  mbf5bc2  label=false p=0.05 ok    1343ms  elapsed 1m57s
+ 84 / 325  m655778  label=false p=0.05 ok    1517ms  elapsed 1m59s
+ 85 / 325  mceca6a  label=false p=0.05 ok    1321ms  elapsed 2m00s
+ 86 / 325  mc3ea4d  label=false p=0.05 ok    1277ms  elapsed 2m02s
+ 87 / 325  m15d34c  label=false p=0.95 MISS  1420ms  elapsed 2m03s
+ 88 / 325  mf5c0c3  label=false p=0.05 ok    1190ms  elapsed 2m04s
+ 89 / 325  m6a7a1d  label=false p=0.05 ok    1250ms  elapsed 2m05s
+ 90 / 325  mbfac28  label=false p=0.05 ok    1114ms  elapsed 2m07s
+ 91 / 325  m7f2be7  label=false p=0.05 ok    1103ms  elapsed 2m08s
+ 92 / 325  m7b0d46  label=false p=0.05 ok    1774ms  elapsed 2m09s
+ 93 / 325  m52876e  label=false p=0.05 ok    1541ms  elapsed 2m11s
+ 94 / 325  m9e90a1  label=false p=0.05 ok    1460ms  elapsed 2m12s
+ 95 / 325  m596a9d  label=false p=0.05 ok    2042ms  elapsed 2m14s
+ 96 / 325  m5180ba  label=false p=0.05 ok    1610ms  elapsed 2m16s
+ 97 / 325  m06e973  label=false p=0.95 MISS  1310ms  elapsed 2m17s
+ 98 / 325  mbf6fac  label=false p=0.05 ok    1514ms  elapsed 2m19s
+ 99 / 325  mbb2bee  label=false p=0.05 ok    1178ms  elapsed 2m20s
+100 / 325  me80cff  label=false p=0.05 ok    1994ms  elapsed 2m22s
+101 / 325  m766a95  label=false p=0.05 ok    1329ms  elapsed 2m23s
+102 / 325  m9281d6  label=false p=0.05 ok    1195ms  elapsed 2m25s
+103 / 325  m7c0499  label=false p=0.05 ok    1861ms  elapsed 2m26s
+104 / 325  ma434db  label=false p=0.05 ok    1464ms  elapsed 2m28s
+105 / 325  mb8e15f  label=false p=0.85 MISS  1590ms  elapsed 2m29s
+106 / 325  m2343f2  label=false p=0.05 ok    1348ms  elapsed 2m31s
+107 / 325  m21cb3c  label=false p=0.05 ok    1717ms  elapsed 2m33s
+108 / 325  mc5fe24  label=false p=0.05 ok    1178ms  elapsed 2m34s
+109 / 325  m504df4  label=false p=0.05 ok    1778ms  elapsed 2m36s
+110 / 325  m2579a0  label=false p=0.05 ok    1299ms  elapsed 2m37s
+111 / 325  m689c24  label=false p=0.05 ok    1330ms  elapsed 2m38s
+112 / 325  ma19432  label=false p=0.05 ok    1096ms  elapsed 2m39s
+113 / 325  m5c5765  label=false p=0.05 ok    2038ms  elapsed 2m41s
+114 / 325  ma066dd  label=false p=0.05 ok    1113ms  elapsed 2m42s
+115 / 325  m4ce402  label=false p=0.05 ok    1202ms  elapsed 2m44s
+116 / 325  m959afd  label=false p=0.05 ok    1495ms  elapsed 2m45s
+117 / 325  mdf7d84  label=false p=0.05 ok    1155ms  elapsed 2m46s
+118 / 325  m62351e  label=false p=0.05 ok    2288ms  elapsed 2m49s
+119 / 325  mc6f49e  label=false p=0.05 ok    1727ms  elapsed 2m50s
+120 / 325  mda2b50  label=false p=0.05 ok    1474ms  elapsed 2m52s
+121 / 325  m1024ee  label=false p=0.05 ok    2071ms  elapsed 2m54s
+122 / 325  m0b958f  label=false p=0.05 ok    2256ms  elapsed 2m56s
+123 / 325  me5e2af  label=false p=0.05 ok    2510ms  elapsed 2m59s
+124 / 325  me0f7e3  label=false p=0.05 ok    1111ms  elapsed 3m01s
+125 / 325  m761302  label=false p=0.05 ok    1998ms  elapsed 3m03s
+126 / 325  m3b8d08  label=false p=0.05 ok    1976ms  elapsed 3m04s
+127 / 325  ma23cf1  label=false p=0.05 ok    1818ms  elapsed 3m06s
+128 / 325  me6d906  label=false p=0.05 ok    1325ms  elapsed 3m08s
+129 / 325  md507bd  label=false p=0.05 ok    1152ms  elapsed 3m09s
+130 / 325  md8f1d9  label=false p=0.05 ok    1966ms  elapsed 3m11s
+131 / 325  mbda24b  label=false p=0.95 MISS  1081ms  elapsed 3m12s
+132 / 325  meecc6a  label=false p=0.05 ok    1522ms  elapsed 3m13s
+133 / 325  m4947a2  label=false p=0.05 ok    1135ms  elapsed 3m14s
+134 / 325  m9eaf9a  label=false p=0.05 ok    1134ms  elapsed 3m16s
+135 / 325  mda9581  label=false p=0.05 ok    1147ms  elapsed 3m17s
+136 / 325  mbaa48c  label=false p=0.05 ok    1279ms  elapsed 3m18s
+137 / 325  m9f01f8  label=false p=0.05 ok    1804ms  elapsed 3m20s
+138 / 325  mb1c4d5  label=false p=0.05 ok    1175ms  elapsed 3m21s
+139 / 325  m63692c  label=false p=0.05 ok    1197ms  elapsed 3m22s
+140 / 325  mb2a42a  label=false p=0.05 ok    1105ms  elapsed 3m23s
+141 / 325  mba3093  label=false p=0.05 ok    1531ms  elapsed 3m25s
+142 / 325  m602716  label=false p=0.05 ok    1462ms  elapsed 3m26s
+143 / 325  mdda184  label=false p=0.05 ok    1280ms  elapsed 3m28s
+144 / 325  ma0e303  label=false p=0.05 ok    1508ms  elapsed 3m29s
+145 / 325  meaaf0d  label=false p=0.05 ok    1074ms  elapsed 3m30s
+146 / 325  m25d359  label=false p=0.95 MISS  1304ms  elapsed 3m31s
+147 / 325  m1f3245  label=false p=0.05 ok    1719ms  elapsed 3m33s
+148 / 325  meadfe1  label=false p=0.05 ok    1343ms  elapsed 3m35s
+149 / 325  m53034a  label=false p=0.05 ok    1194ms  elapsed 3m36s
+150 / 325  m583060  label=false p=0.85 MISS  1134ms  elapsed 3m37s
+151 / 325  mdedad0  label=false p=0.05 ok    1109ms  elapsed 3m38s
+152 / 325  mfeb06a  label=false p=0.05 ok    1289ms  elapsed 3m39s
+153 / 325  m63a6d6  label=false p=0.05 ok    1428ms  elapsed 3m41s
+154 / 325  mcf37ad  label=false p=0.05 ok    1423ms  elapsed 3m42s
+155 / 325  mbe0073  label=false p=0.05 ok    1350ms  elapsed 3m43s
+156 / 325  m1bd6ee  label=false p=0.85 MISS  1505ms  elapsed 3m45s
+157 / 325  m2b4224  label=false p=0.05 ok    1119ms  elapsed 3m46s
+158 / 325  m7178d8  label=false p=0.05 ok    1173ms  elapsed 3m47s
+159 / 325  m087030  label=false p=0.05 ok    1017ms  elapsed 3m48s
+160 / 325  maedfee  label=false p=0.05 ok    1993ms  elapsed 3m50s
+161 / 325  m269427  label=false p=0.05 ok    1099ms  elapsed 3m51s
+162 / 325  mbac185  label=false p=0.05 ok    1269ms  elapsed 3m53s
+163 / 325  mf4e784  label=false p=0.05 ok    1078ms  elapsed 3m54s
+164 / 325  mf81745  label=false p=0.05 ok    1786ms  elapsed 3m56s
+165 / 325  m4030b9  label=false p=0.05 ok    1377ms  elapsed 3m57s
+166 / 325  m45007e  label=false p=0.05 ok    1112ms  elapsed 3m58s
+167 / 325  mbe2e99  label=false p=0.05 ok    1282ms  elapsed 3m59s
+168 / 325  m6d016f  label=false p=0.05 ok    1256ms  elapsed 4m01s
+169 / 325  m8977c1  label=false p=0.05 ok    1124ms  elapsed 4m02s
+170 / 325  m1270a6  label=false p=0.05 ok    1516ms  elapsed 4m03s
+171 / 325  m101204  label=false p=0.05 ok    1487ms  elapsed 4m05s
+172 / 325  md03634  label=false p=0.05 ok    1090ms  elapsed 4m06s
+173 / 325  m91f76b  label=false p=0.05 ok    1270ms  elapsed 4m07s
+174 / 325  meb3f11  label=false p=0.05 ok    1533ms  elapsed 4m09s
+175 / 325  mcdb7ae  label=true  p=0.95 ok    1159ms  elapsed 4m10s
+176 / 325  m626b9e  label=true  p=0.95 ok    1396ms  elapsed 4m11s
+177 / 325  me9e812  label=true  p=0.95 ok    1393ms  elapsed 4m13s
+178 / 325  m848c65  label=true  p=0.95 ok    1103ms  elapsed 4m14s
+179 / 325  mf91825  label=true  p=0.95 ok    1228ms  elapsed 4m15s
+180 / 325  m15e985  label=true  p=0.85 ok    1069ms  elapsed 4m16s
+181 / 325  mc94680  label=true  p=0.95 ok    1250ms  elapsed 4m17s
+182 / 325  m01f810  label=true  p=0.95 ok    1416ms  elapsed 4m19s
+183 / 325  mdac55d  label=true  p=0.95 ok    1468ms  elapsed 4m20s
+184 / 325  m31b7d1  label=true  p=0.95 ok    1249ms  elapsed 4m21s
+185 / 325  m14041b  label=true  p=0.95 ok    1422ms  elapsed 4m23s
+186 / 325  m15a0ac  label=true  p=0.95 ok    1280ms  elapsed 4m24s
+187 / 325  m43aa09  label=true  p=0.95 ok    1594ms  elapsed 4m26s
+188 / 325  ma3b7b7  label=true  p=0.95 ok    1230ms  elapsed 4m27s
+189 / 325  mbe0763  label=true  p=0.95 ok    1450ms  elapsed 4m28s
+190 / 325  md61bde  label=true  p=0.95 ok    986ms  elapsed 4m29s
+191 / 325  mc11ac2  label=true  p=0.95 ok    1067ms  elapsed 4m30s
+192 / 325  md546ef  label=true  p=0.95 ok    977ms  elapsed 4m31s
+193 / 325  m422021  label=true  p=0.95 ok    1578ms  elapsed 4m33s
+194 / 325  m770b7a  label=true  p=0.95 ok    1442ms  elapsed 4m34s
+195 / 325  mf51a38  label=true  p=0.95 ok    1076ms  elapsed 4m35s
+196 / 325  m692d06  label=true  p=0.95 ok    1157ms  elapsed 4m37s
+197 / 325  m8470c9  label=true  p=0.95 ok    1293ms  elapsed 4m38s
+198 / 325  m398431  label=true  p=0.95 ok    1104ms  elapsed 4m39s
+199 / 325  m6b27dd  label=true  p=0.95 ok    1673ms  elapsed 4m41s
+200 / 325  m91b3f3  label=true  p=0.95 ok    1133ms  elapsed 4m42s
+201 / 325  m7fa7ad  label=true  p=0.95 ok    1659ms  elapsed 4m43s
+202 / 325  m99b87c  label=true  p=0.95 ok    1498ms  elapsed 4m45s
+203 / 325  m8868d4  label=true  p=0.95 ok    1256ms  elapsed 4m46s
+204 / 325  mf30e1b  label=true  p=0.95 ok    986ms  elapsed 4m47s
+205 / 325  m7c83c1  label=true  p=0.95 ok    984ms  elapsed 4m48s
+206 / 325  m00d194  label=true  p=0.95 ok    1290ms  elapsed 4m49s
+207 / 325  m1eeba6  label=true  p=0.95 ok    1312ms  elapsed 4m51s
+208 / 325  m299502  label=true  p=0.85 ok    1302ms  elapsed 4m52s
+209 / 325  me839eb  label=true  p=0.95 ok    1083ms  elapsed 4m53s
+210 / 325  m2aea5e  label=true  p=0.95 ok    973ms  elapsed 4m54s
+211 / 325  m92f079  label=true  p=0.05 MISS  1423ms  elapsed 4m56s
+212 / 325  ma4456a  label=true  p=0.95 ok    1242ms  elapsed 4m57s
+213 / 325  mee1a8f  label=true  p=0.05 MISS  1613ms  elapsed 4m58s
+214 / 325  m50266e  label=true  p=0.95 ok    1664ms  elapsed 5m00s
+215 / 325  m99ad64  label=true  p=0.95 ok    1254ms  elapsed 5m01s
+216 / 325  m0a4967  label=true  p=0.85 ok    1667ms  elapsed 5m03s
+217 / 325  m020048  label=true  p=0.95 ok    991ms  elapsed 5m04s
+218 / 325  m9e3179  label=true  p=0.85 ok    1303ms  elapsed 5m05s
+219 / 325  m6e1a0a  label=true  p=0.95 ok    1479ms  elapsed 5m07s
+220 / 325  m2768fa  label=true  p=0.95 ok    1299ms  elapsed 5m08s
+221 / 325  mb05d82  label=true  p=0.95 ok    996ms  elapsed 5m09s
+222 / 325  m6b0492  label=true  p=0.05 MISS  1454ms  elapsed 5m11s
+223 / 325  ma2ce97  label=true  p=0.85 ok    1246ms  elapsed 5m12s
+224 / 325  me3b54f  label=true  p=0.90 ok    957ms  elapsed 5m13s
+225 / 325  maf9c7b  label=true  p=0.05 MISS  1270ms  elapsed 5m14s
+226 / 325  m582aaa  label=true  p=0.85 ok    1172ms  elapsed 5m15s
+227 / 325  mf21727  label=true  p=0.05 MISS  1784ms  elapsed 5m17s
+228 / 325  m925287  label=true  p=0.05 MISS  1105ms  elapsed 5m18s
+229 / 325  m5483fe  label=true  p=0.05 MISS  1692ms  elapsed 5m20s
+230 / 325  mde34c3  label=true  p=0.05 MISS  1508ms  elapsed 5m21s
+231 / 325  m7012fe  label=true  p=0.85 ok    1148ms  elapsed 5m22s
+232 / 325  m4d011d  label=true  p=0.05 MISS  1339ms  elapsed 5m24s
+233 / 325  m8f25e9  label=true  p=0.95 ok    1307ms  elapsed 5m25s
+234 / 325  m5d77ba  label=true  p=0.05 MISS  1287ms  elapsed 5m26s
+235 / 325  m9f60a1  label=true  p=0.05 MISS  1606ms  elapsed 5m28s
+236 / 325  ma0b100  label=true  p=0.05 MISS  1188ms  elapsed 5m29s
+237 / 325  m694f24  label=true  p=0.95 ok    1811ms  elapsed 5m31s
+238 / 325  ma59767  label=true  p=0.85 ok    1305ms  elapsed 5m32s
+239 / 325  mf18f6e  label=true  p=0.05 MISS  1262ms  elapsed 5m34s
+240 / 325  mc124b3  label=true  p=0.85 ok    1427ms  elapsed 5m35s
+241 / 325  me6de18  label=true  p=0.05 MISS  1102ms  elapsed 5m36s
+242 / 325  mbdf0a9  label=true  p=0.85 ok    1777ms  elapsed 5m38s
+243 / 325  md6fb68  label=true  p=0.05 MISS  1273ms  elapsed 5m39s
+244 / 325  mfe8386  label=true  p=0.95 ok    1149ms  elapsed 5m40s
+245 / 325  mdb38df  label=true  p=0.05 MISS  1426ms  elapsed 5m42s
+246 / 325  m9fd77e  label=true  p=0.85 ok    1287ms  elapsed 5m43s
+247 / 325  m271e97  label=true  p=0.95 ok    1605ms  elapsed 5m45s
+248 / 325  mea1fe3  label=true  p=0.95 ok    1256ms  elapsed 5m46s
+249 / 325  m25aa7b  label=true  p=0.05 MISS  1604ms  elapsed 5m47s
+250 / 325  m23cbd0  label=true  p=0.95 ok    1077ms  elapsed 5m48s
+251 / 325  mc66ca7  label=true  p=0.85 ok    1077ms  elapsed 5m50s
+252 / 325  m629d35  label=true  p=0.05 MISS  1125ms  elapsed 5m51s
+253 / 325  ma32908  label=true  p=0.95 ok    1141ms  elapsed 5m52s
+254 / 325  mbbc284  label=true  p=0.95 ok    1869ms  elapsed 5m54s
+255 / 325  ma9017d  label=true  p=0.85 ok    1239ms  elapsed 5m55s
+256 / 325  m0e069e  label=true  p=0.95 ok    1315ms  elapsed 5m56s
+257 / 325  mcb8a39  label=true  p=0.05 MISS  1163ms  elapsed 5m57s
+258 / 325  mae7d54  label=true  p=0.95 ok    1671ms  elapsed 5m59s
+259 / 325  m112d78  label=true  p=0.05 MISS  1433ms  elapsed 6m01s
+260 / 325  m645f40  label=true  p=0.95 ok    1089ms  elapsed 6m02s
+261 / 325  mcbf276  label=true  p=0.05 MISS  999ms  elapsed 6m03s
+262 / 325  m1e9ada  label=true  p=0.95 ok    1724ms  elapsed 6m04s
+263 / 325  m62a492  label=true  p=0.95 ok    1150ms  elapsed 6m05s
+264 / 325  mcca9f4  label=true  p=0.05 MISS  1644ms  elapsed 6m07s
+265 / 325  m2a201c  label=true  p=0.95 ok    1064ms  elapsed 6m08s
+266 / 325  m0f4a84  label=true  p=0.95 ok    1071ms  elapsed 6m09s
+267 / 325  m2dce14  label=true  p=0.95 ok    1302ms  elapsed 6m11s
+268 / 325  m61a989  label=true  p=0.85 ok    1214ms  elapsed 6m12s
+269 / 325  ma79be3  label=true  p=0.95 ok    1304ms  elapsed 6m13s
+270 / 325  maca080  label=true  p=0.95 ok    1284ms  elapsed 6m14s
+271 / 325  md2611b  label=true  p=0.95 ok    1586ms  elapsed 6m16s
+272 / 325  m7f157d  label=true  p=0.85 ok    1092ms  elapsed 6m17s
+273 / 325  mfc3d1f  label=true  p=0.95 ok    1093ms  elapsed 6m18s
+274 / 325  mf79ae3  label=true  p=0.85 ok    1226ms  elapsed 6m19s
+275 / 325  me2e314  label=true  p=0.95 ok    1306ms  elapsed 6m21s
+276 / 325  m754968  label=true  p=0.85 ok    984ms  elapsed 6m22s
+277 / 325  me77cf8  label=true  p=0.95 ok    1206ms  elapsed 6m23s
+278 / 325  mccf317  label=true  p=0.05 MISS  1524ms  elapsed 6m24s
+279 / 325  m3c97ed  label=true  p=0.95 ok    1299ms  elapsed 6m26s
+280 / 325  md00c74  label=true  p=0.85 ok    1302ms  elapsed 6m27s
+281 / 325  mbcfb20  label=true  p=0.95 ok    1174ms  elapsed 6m28s
+282 / 325  m9825b6  label=true  p=0.85 ok    1076ms  elapsed 6m29s
+283 / 325  m1a1a27  label=true  p=0.95 ok    1233ms  elapsed 6m30s
+284 / 325  m0bebd6  label=true  p=0.85 ok    1247ms  elapsed 6m32s
+285 / 325  m76bb2c  label=true  p=0.95 ok    1397ms  elapsed 6m33s
+286 / 325  mb18ab0  label=true  p=0.05 MISS  992ms  elapsed 6m34s
+287 / 325  m2295a9  label=true  p=0.95 ok    1225ms  elapsed 6m35s
+288 / 325  m616f2c  label=true  p=0.95 ok    1486ms  elapsed 6m37s
+289 / 325  m2e48f3  label=true  p=0.95 ok    1069ms  elapsed 6m38s
+290 / 325  me70cb1  label=true  p=0.95 ok    1522ms  elapsed 6m39s
+291 / 325  mb3e80c  label=true  p=0.95 ok    1508ms  elapsed 6m41s
+292 / 325  m37c6f2  label=true  p=0.95 ok    1251ms  elapsed 6m42s
+293 / 325  me5c580  label=true  p=0.95 ok    1074ms  elapsed 6m43s
+294 / 325  md72158  label=true  p=0.95 ok    1292ms  elapsed 6m45s
+295 / 325  med280c  label=true  p=0.90 ok    1050ms  elapsed 6m46s
+296 / 325  mb44edf  label=true  p=0.95 ok    1139ms  elapsed 6m47s
+297 / 325  m48e446  label=true  p=0.95 ok    998ms  elapsed 6m48s
+298 / 325  maa3c08  label=true  p=0.85 ok    1228ms  elapsed 6m49s
+299 / 325  m5fcad8  label=true  p=0.95 ok    1174ms  elapsed 6m50s
+300 / 325  m2ab6e8  label=true  p=0.95 ok    1641ms  elapsed 6m52s
+301 / 325  m36e9c4  label=true  p=0.95 ok    1071ms  elapsed 6m53s
+302 / 325  ma8ce67  label=true  p=0.85 ok    1668ms  elapsed 6m55s
+303 / 325  mbfd3da  label=true  p=0.85 ok    1082ms  elapsed 6m56s
+304 / 325  mfcb6a4  label=true  p=0.95 ok    1059ms  elapsed 6m57s
+305 / 325  m90ca53  label=true  p=0.85 ok    1485ms  elapsed 6m58s
+306 / 325  maecdf9  label=false p=0.95 MISS  1145ms  elapsed 6m59s
+307 / 325  m04ca16  label=false p=0.85 MISS  1249ms  elapsed 7m01s
+308 / 325  mb8e602  label=false p=0.05 ok    1280ms  elapsed 7m02s
+309 / 325  md63f7b  label=false p=0.05 ok    1271ms  elapsed 7m03s
+310 / 325  mecdad6  label=false p=0.05 ok    1652ms  elapsed 7m05s
+311 / 325  m0a0279  label=false p=0.05 ok    1099ms  elapsed 7m06s
+312 / 325  m1fa91a  label=false p=0.05 ok    1183ms  elapsed 7m07s
+313 / 325  mfb36b3  label=false p=0.05 ok    1490ms  elapsed 7m09s
+314 / 325  m83d026  label=false p=0.05 ok    1685ms  elapsed 7m10s
+315 / 325  mde304f  label=false p=0.05 ok    1097ms  elapsed 7m11s
+316 / 325  m768051  label=false p=0.05 ok    1174ms  elapsed 7m12s
+317 / 325  m1e377d  label=false p=0.05 ok    1696ms  elapsed 7m14s
+318 / 325  m060aa1  label=false p=0.05 ok    1072ms  elapsed 7m15s
+319 / 325  m26931b  label=false p=0.05 ok    1381ms  elapsed 7m17s
+320 / 325  me33630  label=false p=0.05 ok    1761ms  elapsed 7m18s
+321 / 325  m39ca40  label=false p=0.05 ok    1183ms  elapsed 7m20s
+322 / 325  m6ef043  label=false p=0.05 ok    1530ms  elapsed 7m21s
+323 / 325  m818c17  label=false p=0.95 MISS  1297ms  elapsed 7m22s
+324 / 325  m455773  label=false p=0.05 ok    1013ms  elapsed 7m23s
+325 / 325  mdddab0  label=false p=0.05 ok    1453ms  elapsed 7m25s
+pass 1: accuracy 86.2%, total cost $0.0000, median 1292ms -> inbox-ollama_qwen3_4b-20261008-070621.csv
+total: 325 items in 7m25s (445 s), accuracy 86.2%, cost $0.0000

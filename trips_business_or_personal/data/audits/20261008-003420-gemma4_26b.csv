@@ -1,0 +1,351 @@
+id,business,audit_label,confidence,reason,seconds
+ta76ddb,true,true,1.0,The driver's note explicitly states the trip is for a meeting with a client (Nordlys Energi) regarding a business offer.,5
+te96827,true,false,0.7,"Without a note indicating a specific work purpose, a trip between two addresses in central Copenhagen cannot be confirmed as business and defaults to personal.",4
+t57d7b5,true,true,1.0,"The trip is for an errand done for the company, specifically picking up proofs from a printer.",4
+t243d3b,true,false,0.7,"The trip is between two different addresses without a note indicating a work purpose, and without context, it cannot be confirmed as a business errand or client visit.",4
+t7c2aea,true,true,1.0,"The trip is to the Bella Center for a SaaS expo, which constitutes attending a trade fair for work.",4
+tfbfe13,true,true,0.9,"The note 'Vol Paris' suggests a trip to the airport for a flight to Paris, which implies a business trip purpose.",4
+t576f6a,true,true,1.0,"The driver's note explicitly states the purpose is a 'Site visit', which falls under the criteria for a business trip.",9
+tac5d32,true,false,0.7,"The trip is between two locations in central Copenhagen with no note indicating a business purpose, making it indistinguishable from a private errand or commute.",4
+t011aa9,true,true,1.0,The driver's note explicitly states the trip is for a client meeting (Kundemøde) regarding a new agreement.,4
+t15c02f,true,true,1.0,The trip is for a meeting with a potential partner (Sofie Lund from Havbrise Foods) to discuss a business pilot.,4
+t41ae59,true,true,1.0,"The note 'rdv Nordlys, signature avenant' indicates a meeting with a client (Nordlys) to sign an amendment, which is a clear business purpose.",5
+t6c670c,true,false,0.8,"The trip is to a café with no note indicating a business purpose or client meeting, making it likely a personal break or errand.",4
+tcbfa67,true,false,0.7,"The trip is from a central Copenhagen address to the airport without a note indicating a work-related flight or purpose, making it indistinguishable from a personal trip.",5
+t50dff7,true,true,1.0,"The driver's note explicitly states the trip is for a client dinner, which meets the criteria for a business trip.",4
+t511306,true,true,1.0,"The driver is picking up a client (Mme Girard from Lumière Conseil) from the airport and dropping her at a hotel, which is a business errand.",5
+t922ead,true,true,1.0,"The trip is for a contract review at a warehouse using a rental car, which is a clear work purpose.",4
+t0fcbc1,true,false,0.8,"The trip lacks any note indicating a business purpose, and the movement between two locations in Copenhagen without context is typically classified as personal or commuting.",4
+taef6bd,true,true,1.0,"The note explicitly states the trip is for a business meeting (1st intro, pitch deck) with a contact from a company (Fjord Foods).",5
+tac6c08,true,true,1.0,"The note indicates the trip is for a trade fair (Fagmesse Odense), which is a business purpose.",4
+t02c3b2,true,true,1.0,"The note explicitly states the dinner is for discussing renewal terms with a partner from Kvist Partners, which constitutes a business meal.",4
+t9b7527,true,true,1.0,The driver's note explicitly states the purpose is a work-related presentation to a client (Anna Roed at Nordlys Energi).,5
+tb7a9b8,true,false,0.8,"The trip has no note indicating a work purpose, and the route between Vesterbro and Frederiksberg appears to be a standard local trip without any business context provided.",4
+te05912,true,true,1.0,"The note indicates a trip to a printing company (Imprimerie Holm) for brochure proofs, which is a business errand.",4
+t2a917f,true,true,1.0,"The note 'Lager' (Warehouse) indicates a trip to a work site or company facility, which constitutes a business trip.",4
+t67b5f4,true,true,1.0,"The note indicates the trip is for attending the Nordic Retail Summit, which is a professional conference.",4
+t29ab34,true,true,1.0,The note explicitly states the trip to the airport is for a client workshop in Stockholm.,4
+t7afa9e,true,true,1.0,The note explicitly states the trip is for a site visit to validate sensor installation at a construction site.,4
+te32b9c,true,false,1.0,"The trip is on a Saturday evening between two locations in Copenhagen with no note indicating a work purpose, suggesting a private trip.",4
+te06611,true,false,0.8,"The trip occurs during typical working hours between two locations in central Copenhagen with no note indicating a business purpose, making it indistinguishable from a personal errand or commute.",4
+t2143d2,true,true,1.0,The driver's note 'Kunde' (Client) explicitly indicates a business purpose for the trip.,4
+t59ce30,false,false,1.0,"The driver's note indicates the trip is for school drop-off, which is a private purpose.",4
+t3833f8,false,false,1.0,"The driver's note 'courses du samedi au Fields' indicates the trip is for grocery shopping, which is a private purpose.",4
+td46ef6,false,false,0.8,"The trip occurs during typical working hours between two locations in Copenhagen, but without a note indicating a client meeting or work errand, it cannot be confirmed as business and defaults to personal/commute.",5
+t1c4902,false,false,0.9,The trip occurs in the evening between two residential/local addresses in Frederiksberg with no note indicating a work purpose.,4
+tf072a2,false,false,1.0,The trip is for a private social event (a birthday dinner at a family member's house).,4
+tafb738,false,false,1.0,"The driver's note explicitly states the trip is to Louisiana with family to see a new exhibition, which is a private/leisure purpose.",4
+t0c806f,false,false,0.8,"The trip is from Frederiksberg to the airport early in the morning without a note indicating a work-related flight or purpose, making it likely a personal trip.",4
+t91ce3d,false,false,0.9,The note 'dinner w/ Anna' implies a social/private purpose rather than a documented business meeting with a client or partner.,4
+t194f31,false,false,1.0,The driver's note indicates the trip is for a personal errand (buying a birthday gift for a family member).,4
+tdb0783,false,true,0.9,"The note 'Pickup' implies a work-related task, such as picking up a client, colleague, or item, rather than a personal errand.",4
+tf6c481,false,false,0.9,The trip occurs in the evening between two residential/commercial areas in Copenhagen with no note indicating a work purpose.,4
+tb0f1b2,false,false,0.9,"The trip is from a residential area in Amager to the Central Station, and without any note indicating a work purpose, it is classified as a personal trip/commute.",4
+t653e60,false,false,1.0,"The note explicitly states the trip was for lunch alone, which is classified as personal.",3
+t17c912,false,false,1.0,"The note 'Til kontoret' indicates a commute to the usual office, which is classified as personal.",4
+tcd3449,false,false,1.0,"The driver's note indicates the trip is to the gym after work, which is a private activity.",4
+tc3c8a7,false,false,1.0,"The driver's note explicitly states the trip is to a museum with children, which is a private/family activity.",4
+t81c987,false,false,1.0,The driver's note 'Holiday Crete' indicates the trip is for a personal vacation.,3
+t20a802,false,false,0.9,"The trip occurs in the evening between two locations in central Copenhagen with no note indicating a business purpose, making it likely a personal trip.",4
+te5444a,false,false,1.0,The trip is a personal errand (dropping someone off at a hospital) and does not involve a work-related purpose for the driver.,4
+t9878fa,false,false,1.0,"The driver's note explicitly states 'déj seul' (lunch alone) and 'pas de rdv' (no meeting), indicating a private lunch.",4
+t154b9a,false,false,1.0,The note 'svømning m. Lars' (swimming with Lars) indicates a private social activity.,4
+t18be2c,false,false,1.0,"The driver's note explicitly states the purpose is to attend a sister's birthday dinner, which is a private/family event.",4
+t4047e8,false,false,0.9,The trip to the Louisiana museum with 'Anna' appears to be a private leisure activity on a Sunday.,4
+tb7f517,false,true,0.9,"The note 'Airport, Lisbon hol' indicates a trip to the airport for a flight to Lisbon, which is a business trip purpose.",4
+td9eca6,false,false,0.95,"The trip is for dinner on a Saturday evening, and there is no indication in the note that this is a business meal with a client.",4
+t9b4e0f,false,false,1.0,"The trip's purpose is dropping someone (Mia) at work, which is a private errand rather than a business trip for the driver.",4
+te376bd,false,false,0.8,"The trip occurs during a weekday lunch hour between two locations in central Copenhagen with no note indicating a business purpose, making it likely a personal errand or lunch.",4
+t1d2df5,false,false,0.9,"The trip occurs on a Saturday with no note indicating a work purpose, and the short distance and lack of context suggest a private errand or local travel.",4
+t8c7781,false,false,1.0,"The note explicitly states it is the usual trip from home to the office, which is classified as a personal commute.",4
+t107e4c,false,false,0.8,"The trip is a short distance within the same district with no note indicating a work-related purpose, making it likely a personal errand or local movement.",4
+t51d178,true,false,0.7,"The trip moves from Frederiksberg to Østerbro without a note indicating a work purpose, making it indistinguishable from a private trip.",4
+t1d0528,true,true,1.0,"The trip is for an errand done for the company, specifically picking up printed materials for an upcoming trade event.",4
+t89c83b,true,true,1.0,"The trip is between a business office and a company warehouse (Lager), which constitutes moving between two work sites.",4
+t4a477c,true,false,0.7,"The trip is from a residential area in Amager to the Bella Center, and without a note indicating a specific work event, it is indistinguishable from a personal trip or commute.",4
+te22373,true,true,1.0,"The note explicitly states the flight is for a client workshop on Monday, making the trip's main purpose work-related.",4
+t9f4c46,true,true,0.8,"The destination is a construction site (Byggeplads), which implies a work-related site visit.",4
+tf44c17,true,true,1.0,"The trip is to a bank for an errand, which is explicitly listed as a business purpose.",4
+ta2ce1c,true,true,1.0,"The trip is for a quarterly review with a client (Fjordvind A/S) regarding a new service contract, which is a clear work purpose.",4
+t14ec5e,true,true,1.0,"The note specifies a meeting with a client/partner (Jonas Krogh from Vintra) for an introductory purpose, which qualifies as a business meeting.",4
+te8cae2,true,true,1.0,"The driver's note indicates the purpose is to pick up samples from a supplier (Holm), which is a business errand.",4
+t061483,true,true,1.0,"The note 'Fournisseur café' indicates the trip is to a supplier, which meets the criteria for a business trip.",4
+t5e3dc5,true,true,1.0,"The trip is for a work purpose, specifically moving between two work sites (studio to storage) to pick up demo units.",4
+tbfeef3,true,true,1.0,The trip is to a professional trade fair (Salon professionnel de l'emballage) for work purposes.,4
+t219ed2,true,true,1.0,"The driver's note explicitly mentions a 'Berlin client', indicating the trip to the airport is for a work purpose.",4
+tde9ca5,true,true,1.0,The driver's note explicitly states the purpose is a work-related task (installing sensors) at a client/work site.,4
+t8ca6b3,true,true,0.9,"The trip is from a design studio to a Pakkeposten business center, which implies a company errand or business-related logistics.",4
+t268277,true,false,0.8,"The trip starts from a residential area in Valby and ends at an accounting firm, but without a note indicating a specific work purpose, it is indistinguishable from a standard commute.",4
+t58e86f,true,true,0.9,"The trip is between two different design studios, which indicates moving between work sites or visiting a client/partner.",4
+t3a8099,true,true,1.0,"The trip is explicitly for visiting a packaging supplier to check product samples, which is a business errand.",4
+t491b7f,true,true,1.0,"The driver's note indicates the trip is to the shop with new samples, which is an errand done for the company.",4
+t0fd7ac,true,true,1.0,"The trip is between two different company locations (an office and a warehouse), which constitutes moving between two work sites.",4
+t0935ab,true,true,1.0,"The trip is to a retail summit, which is a professional conference/trade fair attended for work.",4
+t93fa0c,true,true,0.9,The trip to the airport with the note 'Paris' implies a flight for work-related travel.,4
+t259c40,true,true,1.0,"The trip is from an office (Maison Kvist Bureau) to a construction site (Byggeplads Nordhavn), which constitutes moving between two work sites.",4
+t948549,true,true,1.0,"The trip is to a bank for company errands (receipts and deposits), which falls under business errands.",4
+t09450c,true,true,1.0,The driver's note explicitly states the purpose is a meeting with Rosendahl regarding a contract.,4
+t0c9a6c,true,true,1.0,"The trip is a meeting with a client (Sofie Lund from Tidewave Robotics) to present a service, which meets the criteria for a business trip.",5
+t831e86,true,true,1.0,"The trip involves delivering drawings and inspecting prototypes at a client or supplier site, which is a clear work purpose.",4
+ta2474f,true,true,1.0,"The trip is between a warehouse and the office for the same company, representing movement between two work sites.",4
+td90144,true,true,0.8,"The destination is a congress centre, which implies a professional event like a conference or trade fair.",4
+tb2de18,true,false,0.8,"The trip is from a location in Havneholmen to Bella Center without a note indicating a work purpose, and without specific context, it cannot be confirmed as business rather than a personal trip or commute.",5
+t2e04f3,true,true,1.0,The driver's note explicitly states the trip is to fly to Stockholm for a client meeting.,4
+t79689d,true,true,1.0,The driver's note explicitly states the purpose is a site inspection for a client.,3
+t0d653b,true,true,1.0,"The trip is to 'Toldstyrelsen' (Customs) for 'Douane' (Customs), which constitutes an errand done for the company.",4
+t9f213f,true,false,0.8,"The trip starts from a residential area in Frederiksberg to a business address, but without a note indicating a client visit, it is indistinguishable from a standard commute to the office.",4
+tdf668e,true,true,0.8,"The trip is from a known office/business area (Havneholmen) to a specific company (Kornmark Foods A/S), which strongly implies a site or client visit.",4
+t4e561f,true,true,1.0,The driver's note 'proofs @ Nordisk Print' indicates the trip is for a work-related purpose (delivering or checking proofs) at a client or partner site.,4
+td6cfee,true,true,1.0,The trip is between a company office and a company store for a work-related purpose ('Butik').,4
+te8747a,true,true,1.0,"The trip is to attend a trade fair for work purposes, which falls under the criteria for a business trip.",4
+taa1fe6,true,true,1.0,The trip is part of a business trip (returning from a supplier visit in Amsterdam) and involves traveling from the airport to home.,4
+t78e25d,true,true,1.0,"The driver's note explicitly mentions 'Prospect Lund', indicating a meeting with a potential client for work purposes.",4
+t48698e,true,true,0.9,"The trip starts from a company office (Fjordline Software ApS) and ends at the airport, which indicates a business trip for travel purposes.",4
+t356a57,true,true,1.0,The note explicitly states the trip is for a dinner with a client (Henrik Skov from Nordlys Energi) to close a business deal.,4
+tf90a1c,true,true,0.8,"The trip is from a hotel to a specific company address (Fjordline Software ApS) on a Sunday, which strongly suggests a business meeting or site visit.",4
+te080ff,true,true,1.0,The trip is for a pre-delivery inspection with a client/partner at a work site using a rental car.,4
+td499cd,true,true,1.0,"The driver's note explicitly states the trip is for a meeting with Nordlys regarding a Q4 offer, which is a clear work purpose.",4
+tea8839,true,false,0.8,"The trip occurs in the evening and lacks any note indicating a business purpose, making it indistinguishable from a personal trip.",4
+t7c6539,true,true,0.9,"The note 'Retour salon Berlin' implies a return from a business-related trip or event (Berlin), and the trip starts at the airport.",4
+t9c4166,true,true,1.0,"The driver's note explicitly states the trip is for lunch with a supplier (leverandør), which meets the criteria for a business trip.",4
+tc40cd1,true,true,1.0,The driver's note 'Candidate pickup' indicates a work-related purpose involving recruitment or meeting a potential employee.,4
+td83011,true,true,1.0,"The note indicates the trip to the airport is for an 'Oslo trip' involving a product demo, which is a work-related purpose.",4
+t12abd7,true,false,0.8,The trip is from a workplace to a restaurant without any note indicating a business purpose or client meeting.,4
+t9bd7d1,true,true,1.0,The driver's note explicitly states the purpose was to pick up a Norwegian client at the station and drive her to a hotel.,4
+t6b13e5,true,true,1.0,"The trip is to a trade fair (Salon Equip Auto) using a rental car, which meets the criteria for a business trip.",4
+teeb85c,true,true,1.0,The driver's note explicitly states the trip is to a client.,3
+t9e688b,true,true,1.0,"The driver's note explicitly mentions 'Prospekt' (prospect), indicating a work-related meeting.",4
+t3d2034,true,true,0.8,"The trip starts from a business address (Tidewater Software ApS) and ends at the airport, which strongly implies travel for a work-related flight.",4
+tf56327,true,true,1.0,The note explicitly states the trip is for a business dinner with a client to close a licensing deal.,4
+tf9a143,true,true,1.0,The driver's note explicitly states the purpose is to pick up a client at the hotel.,4
+t35c9ae,true,true,0.9,"The trip is from a hotel to a major convention center, which strongly implies attending a professional event or conference.",4
+t218ab1,true,true,1.0,"The note explicitly mentions a dinner with 'Jysk Vind' regarding a 'kontrakt' (contract), which indicates a business meeting with a partner/client.",4
+tbaa3c5,true,true,1.0,"The note indicates the trip is for a work-related purpose, specifically picking up a person for an 'Orbit demo'.",4
+tb5a8c2,true,true,1.0,"The trip is for attending a trade fair with a company team using a rental car, which meets the criteria for a business trip.",4
+tf75d27,true,true,1.0,"The driver's note explicitly states 'Client', which meets the criteria for a business trip.",4
+te8c85a,true,true,1.0,The trip is for a business meeting to pitch a product to a potential client (founder of Kornmark Foods).,4
+t34f374,true,true,0.8,"The trip starts from a business address (Lumo Systems ApS) and goes to the airport, which typically indicates travel for a work-related flight.",4
+tc9cab3,true,false,0.8,The trip is from a workplace to a restaurant without any note indicating a business purpose or client meeting.,4
+tbd10ae,true,true,0.8,"The trip starts from a hotel and ends at a company address (Lumo Systems ApS), which strongly suggests a business visit or meeting.",4
+t8ad80a,true,true,1.0,The driver's note explicitly states the purpose of the trip is a 'Client visit'.,4
+t511dcf,true,true,1.0,"The driver's note explicitly states the trip is a meeting (RDV) with a client, Nexus.",4
+te0f00f,true,true,1.0,"The note explicitly states the trip is to pick up a candidate for an interview, which is a work-related errand.",4
+tcfd814,true,true,1.0,The driver's note explicitly mentions a client meeting (kundemøde) at the destination.,4
+t5dfc09,true,false,0.8,"The trip occurs during morning hours between two locations in Copenhagen without any note indicating a business purpose, making it indistinguishable from a standard commute.",4
+td5d225,true,true,1.0,"The driver's note explicitly states the purpose is a meeting with a prospect, which meets the criteria for a business trip.",4
+t8e0311,true,true,1.0,"The driver's note explicitly mentions a client ('Vol Londres client'), indicating the trip to the airport is for a work purpose.",4
+t733ad8,true,false,0.8,The trip is from a workplace to a restaurant in the evening without any note indicating a business purpose like a client meeting.,4
+t966549,true,true,0.8,"The trip is from a hotel to a specific company (Fjordbyte ApS) on a Saturday, which strongly implies a business-related visit or meeting.",4
+tcbdaa2,true,true,1.0,The note explicitly states the trip is for a site visit at Pennine Data Ltd.,4
+tb218f7,true,true,1.0,"The driver's note explicitly states 'Client', and the trip is from one location to a professional service (Revision/Accounting) rather than a commute from home.",4
+ta7cab7,true,true,1.0,The note explicitly states the trip is a business meeting with a client (director of Havbrise Foods) to present a company offer.,4
+t5f9fbd,true,true,1.0,The driver's note explicitly states the trip is for a first meeting with a client regarding a fleet application.,4
+t96c114,true,false,0.8,The trip occurs during morning commuting hours from Nørrebro to Hvidovre without any note indicating a work-related purpose.,4
+tbd8ed8,true,true,0.9,"The trip is between two different locations belonging to the same entity (Studio Lys Kontor to Studio Lys Butik), which indicates moving between work sites.",4
+te5b65c,true,true,1.0,"The note 'salon Nordic Logistics, jour 1' indicates the trip is for a professional event or site visit related to a company.",4
+te0a335,true,true,1.0,"The trip is to the airport for a work-related workshop in Stockholm, which meets the criteria for a business trip.",4
+t88585f,true,true,1.0,The driver's note 'Site walk' indicates the trip is for a work-related site visit.,4
+t01f5e7,true,true,0.9,"The note 'Middag Hansen' implies a dinner with a person (likely a client or business contact), which qualifies as a business meal.",4
+t5d71ac,true,true,1.0,"The note explicitly states the purpose is to pick up a visiting client (Dr. Meyer), which qualifies as a business trip.",4
+t955239,true,true,1.0,"The trip is for a kickoff meeting at a client/partner site using a rental car, which meets the criteria for a business trip.",4
+t3a38e3,true,false,0.7,"The trip is from a residential/mixed area in Nørrebro to a bank, but without a note indicating a work purpose, it cannot be confirmed as business and could be a personal errand.",5
+t9c1eb1,true,true,0.9,"The trip is from a company headquarters (Kapsel Kaffe HQ) to a warehouse/industrial site (Brøndby Lager Nord) during working hours, which indicates a work-related errand or site visit.",5
+tacd90a,true,true,1.0,"The trip is between a company headquarters and a company warehouse for the purpose of 'Stock', which constitutes moving between two work sites.",4
+t249705,true,false,0.9,"The trip is to a salon, which is a private errand/service and does not indicate a work-related purpose.",4
+tf9cd02,true,false,0.8,"The trip is from Frederiksberg to the airport with no note indicating a work-related flight, making it indistinguishable from a personal travel trip.",4
+t997db4,true,true,1.0,"The trip is from a company headquarters (Kapsel Kaffe HQ) to a construction site (Byggeplads Carlsberg Byen), which indicates moving between work sites.",4
+td77b63,true,true,1.0,"The note indicates a lunch meeting with a client (Nielsen from Sorensen A/S), which qualifies as a business meal.",4
+t36d841,true,true,1.0,The trip is specifically for picking up a visiting client from the station for a business review.,4
+te78298,true,true,1.0,"The trip is explicitly for a contract meeting with a partner using a rental car, which meets the criteria for a business trip.",4
+td1b2bb,true,true,1.0,The driver's note 'pakker til kunder' (packages for customers) indicates an errand done for the company.,4
+t7fd6f6,true,true,1.0,"The driver's note explicitly states the trip is for a meeting with Solbakke regarding a renewal, which is a clear work purpose.",4
+t8b067c,true,true,0.8,"The trip is from a retail store (Hjem & Have Butik) to a warehouse (Hjem & Have Lager), which indicates a logistics or supply-related errand for the company.",5
+t4ee144,true,true,0.95,"The note 'formation sécurité, J1' indicates the trip is for safety training, which is a work-related purpose.",4
+t273554,true,true,1.0,The trip to the airport with the note 'Berlin' indicates travel for a work-related trip abroad.,4
+t630e05,true,true,1.0,The note 'Install check' indicates a work-related task at a different site (Brix Foods Fabrik).,4
+t123755,true,true,1.0,The note explicitly states the trip is for a business dinner to close contract terms with a client.,4
+t8aff24,true,false,0.8,The trip is from a specific address in Copenhagen to the airport without any note indicating a work-related purpose or flight.,4
+t7cc274,true,true,1.0,The driver's note explicitly states the trip is for a meeting (mtg) from a hotel to a client/retail site.,4
+t915313,true,true,1.0,"The trip is for an errand done for the company, specifically sending contract packages to a client via Pakkeposten.",4
+t4678af,true,false,0.8,"The trip starts from a business address in Ørestad and ends at a consultancy office, but without a note indicating a specific work purpose like a client meeting, it cannot be definitively classified as business rather than a simple movement between sites or a personal errand.",5
+t172300,true,true,1.0,The note explicitly states the trip is for a meeting with a client (Sofie Winther from Tidal Health).,4
+t2c48e8,true,true,1.0,"The driver's note explicitly states the trip is for attending a professional conference (Nordic HR Tech expo), which falls under work-related training or events.",4
+t332daa,true,true,1.0,The driver's note explicitly states the trip is returning from a work-related training session (formation) at Lemaire Conseil.,4
+t9d917c,true,true,1.0,The note indicates a work-related site visit ('walkthru w/ site mgr Pedersen') at a construction site.,4
+tf894fb,true,true,1.0,"The driver's note explicitly states the trip is for a client lunch, which meets the criteria for a business trip.",4
+t39e73d,true,true,1.0,"The note 'Pick-up M. Okafor' indicates a work-related task of transporting a person, which falls under picking up a visiting client or partner.",4
+ta2164a,true,true,1.0,The driver's note explicitly states the trip is from a rental car at a hotel to a client (kunde) at Kreuzwerk.,4
+t18a63d,true,true,0.8,"The destination is a business entity (Havnebank Erhverv), suggesting a professional errand or meeting during working hours.",4
+t70cc3d,true,true,1.0,The driver's note 'Aurum Q4 review' indicates a specific work-related meeting at a client or partner location.,4
+tdba37f,true,true,0.8,"The trip is from a residential/mixed area in Østerbro to a logistics company (Beringer Logistik A/S), which strongly suggests a business visit or meeting.",4
+tb1d6b8,true,false,0.7,"The trip starts at a central Copenhagen address and ends at a warehouse, but without a note indicating a work purpose, it cannot be distinguished from a commute or a private errand.",4
+t0106c1,false,false,1.0,"The note indicates the trip was to purchase items for a personal bathroom renovation, making it a private errand.",4
+t22d891,false,false,1.0,"The trip is to a dentist for an annual checkup, which is a private medical appointment.",4
+tac136a,false,false,1.0,"The note 'Styrketræning' (strength training) indicates a trip to a gym for personal exercise, which is a private purpose.",4
+t21ade1,false,false,1.0,"The trip is to a restaurant on a Sunday with no note indicating a business purpose, making it a private trip.",4
+t9baedf,false,false,1.0,The driver's note explicitly states the trip is a personal day out with family to see an exhibition.,4
+t83200c,false,false,1.0,"The driver's note explicitly states the trip is for a holiday flight, which is a private purpose.",4
+tad57e1,false,false,1.0,The trip is to a restaurant on a Saturday evening with no note indicating a business purpose or client meeting.,4
+te212c0,false,false,1.0,"The trip is to a retail electronics store (Elgiganten) on a Saturday with no note indicating a work purpose, suggesting a private shopping trip.",4
+tc8d670,false,false,1.0,"The trip is for dropping a child at school, which is a private/personal purpose.",4
+t7a1e7c,false,false,1.0,"The note 'weekly shop' indicates a private errand for groceries, which falls under the personal trip criteria.",4
+t090500,false,false,0.9,"The trip is from a residential area in Frederiksberg to a physiotherapy clinic, which appears to be a personal medical appointment.",4
+t19fd80,false,false,1.0,The trip is to a swimming hall for a personal activity (swimming with Anna) during the evening.,4
+t610710,false,false,1.0,The trip is on a Saturday evening to a private address ('Hos Mikkel og Sara') with no note indicating a business purpose.,4
+t3bfff6,false,false,1.0,"The trip is to Bakken, a well-known amusement park, on a Sunday morning with no note indicating a work purpose.",4
+tca9add,false,false,1.0,The driver's note 'Ferie Mallorca' indicates the trip to the airport is for a private holiday.,4
+t074553,false,false,1.0,"The note explicitly states the trip is for a birthday dinner with another person, which is a private social activity.",4
+t18566c,false,false,1.0,"The trip is for buying a birthday gift for a family member, which is a private purpose.",4
+t4a6855,false,false,1.0,"The note indicates the trip was to pick up Emil from school, which is a private/personal errand.",4
+td7d1e5,false,false,1.0,"The trip is to a grocery store (Irma) for 'courses' (errands/groceries), which is a private purpose.",4
+tbff368,false,false,1.0,"The driver's note 'rdv cardio, bilan perso' indicates a medical appointment for personal health (cardiology appointment, personal check-up).",4
+te0bc80,false,false,1.0,"The trip is to a CrossFit gym for a personal workout, which is a private activity.",3
+t4fb973,false,false,1.0,The trip is for a private family event (mother's 70th birthday lunch) on a Sunday.,4
+t8dce1b,false,false,0.95,The trip is from Nørrebro to a beach destination on a Saturday with no note indicating a work purpose.,4
+tb6a592,false,false,0.8,The trip is from the airport to a residential/commercial area in Nørrebro on a Sunday evening with no note indicating a work purpose.,4
+tff4459,false,false,1.0,"The driver's note explicitly states the trip is a dinner with his wife to celebrate an anniversary, which is a private purpose.",4
+ta16104,false,false,1.0,"The trip is to a furniture store (Bolia) with the note 'Sofa', which indicates a private shopping errand.",4
+td16878,false,false,0.9,"The trip is a short distance between two locations in Nørrebro with no note indicating a work purpose, suggesting a personal errand or commute.",4
+tcdacff,false,false,1.0,"The trip is to a Netto supermarket for a 'dinner shop', which is a private errand.",4
+t967e25,false,false,1.0,"The trip is for a personal medical appointment (eye check/new glasses), which falls under the private purpose category.",4
+tbb703e,false,false,1.0,"The driver's note indicates the trip is for a son's football tournament, which is a private/family activity.",4
+te66162,false,false,1.0,"The trip is for a birthday dinner, which is a private social event.",3
+t3c92ac,false,false,0.95,"The trip is to a historical landmark (Kronborg Slot) on a Saturday, and the note 'Château Hamlet' suggests a leisure or sightseeing purpose rather than a work-related errand.",4
+t96a3db,false,false,1.0,"The trip is to the train station to travel to a family member's house (Mum's), which is a private purpose.",4
+t9654a7,false,false,1.0,"The trip is to a café on a Saturday with no note indicating a business purpose, which falls under private use.",4
+t91606f,false,false,1.0,"The trip is to an electronics retailer (Elgiganten) with a note about headphones, which indicates a private shopping errand.",4
+td01b4f,false,false,1.0,"The trip is from a residential area in Valby to a school, which indicates a private purpose such as school drop-off.",4
+tf032f2,false,false,1.0,"The trip is to a Lidl supermarket, which is a private errand for groceries.",3
+td686cd,false,false,1.0,"The trip is for a medical follow-up appointment, which is a personal/health-related purpose.",4
+tcab689,false,false,1.0,The trip is for a private sports activity (football training) with a club team.,3
+tcbf76c,false,false,1.0,"The note 'Bedstes fødselsdag' translates to 'Grandma's birthday', which is a private family event.",4
+tfd0c61,false,false,1.0,"The trip's purpose was to drop off a person (Maria) at her workplace, which is a private errand rather than a company-related task.",5
+t07ed13,false,false,1.0,"The note explicitly states 'Lunch alone', which is defined as a personal trip.",3
+tf0764b,false,false,0.7,"The trip occurs during morning hours between two locations in Copenhagen, but without a note indicating a client or work purpose, it cannot be distinguished from a standard commute or private errand.",4
+t9f7e8b,false,false,1.0,"The driver's note explicitly states the purpose is going to the gym for a workout, which is a private activity.",4
+t1eb7fd,false,false,1.0,"The trip is to a museum on a Saturday with no note indicating a work purpose, suggesting a private leisure activity.",4
+t9bfe96,false,false,1.0,"The driver's note explicitly states the flight is for a holiday week, making the trip private.",4
+t8f9f92,false,false,1.0,The trip is for a private dinner to celebrate a sister's birthday.,4
+taad0cb,false,false,0.9,"The trip occurs during morning commute hours and lacks any note indicating a work-related purpose, suggesting a standard personal commute or errand.",4
+tc3014f,false,false,1.0,"The driver's note explicitly states the lunch was alone without any appointments, making it a personal trip.",4
+t7ebf1a,false,false,1.0,"The driver's note explicitly states the purpose of the trip is 'Home', which constitutes a personal commute.",4
+t327d56,false,false,1.0,"The driver's note 'déj seul, pause' indicates a solo lunch break, which is classified as personal.",4
+t76f0ee,false,false,1.0,"The trip is a commute from a location in Frederiksberg to an office, which is classified as personal.",4
+te3708d,false,false,1.0,The driver's note explicitly states the trip was for swimming during a lunch break and had nothing to do with work.,4
+tfafa4f,false,false,0.95,The trip is from Frederiksberg to a beach on a Saturday morning with no note indicating a work purpose.,4
+t7b7fc0,false,false,1.0,"The trip is for picking up a family member (sister) from the airport, which is a private purpose.",4
+tce1248,false,false,1.0,"The note 'Birthday' indicates a private social event, and a trip to a restaurant for a birthday is personal.",4
+t45c1ad,false,false,0.95,"The note 'Dépose Camille' (dropping off Camille) implies a personal errand or transport of a person, which does not indicate a work-related purpose.",4
+tb97757,false,false,0.9,"The trip is from a business address to a bakery, which is a private errand/lunch purpose and does not indicate a client or work-related meeting.",4
+t11153c,false,false,1.0,"The note 'hjem fra job' translates to 'home from work', which indicates a commute from the office to home, classified as personal.",4
+t34a315,false,false,0.95,"The destination is a SATS gym, which indicates a private trip for exercise rather than a work-related purpose.",4
+t6e4a01,false,false,0.8,"The trip occurs during morning commuting hours and lacks any note indicating a business purpose, making it indistinguishable from a standard commute from home to work.",4
+tf3a21b,false,false,1.0,"The trip is to a gym (SATS) for a personal activity, which falls under the private purpose category.",4
+t608de7,false,false,0.9,The trip is from Valby to a beach destination on a Saturday with no note indicating a work-related purpose.,4
+ta6e312,false,false,1.0,The driver's note explicitly states the purpose is dropping family off at the airport for a holiday to Crete.,4
+t71fdf4,false,false,1.0,"The driver's note indicates the trip is for dinner with a mother-in-law, which is a private purpose.",4
+t50e252,false,false,0.95,The note 'Dépose Julie' implies a personal errand (dropping someone off) rather than a work-related purpose.,4
+ta9ce9c,false,false,1.0,"The driver's note explicitly states 'lunch alone', which falls under the definition of a personal trip even during work hours.",4
+tbc1a8c,false,false,1.0,"The driver's note explicitly states the trip is 'home from work', which constitutes a personal commute.",4
+ted8218,false,false,1.0,"The driver's note explicitly states the trip is for playing in a Sunday football league match, which is a private/sport activity.",4
+t3214d9,false,false,0.9,"The trip is on a Sunday to a museum (Ordrupgaard) with no note indicating a work purpose, suggesting a private leisure trip.",4
+t83d952,false,false,1.0,The note 'muscu midi' (muscle/gym at lunch) indicates a private trip for exercise during a lunch break.,4
+tb24d9c,false,false,1.0,"The driver's note explicitly states the trip is for a weekend at their parents' summerhouse, which is a private purpose.",4
+t121a43,false,false,1.0,"The note indicates picking up a person (Lise) after a holiday, which is a private/personal purpose.",4
+te4b4be,false,false,1.0,"The driver's note explicitly states the purpose is brunch with friends, which is a private activity.",4
+t484121,false,false,1.0,"The trip involves dropping someone off, which is a personal errand and does not indicate a work-related purpose like a client meeting or company errand.",4
+tb01731,false,false,1.0,"The driver's note explicitly states the trip was for a personal lunch break alone, not a business meeting.",4
+t2a85b7,false,false,0.8,"The trip occurs during morning commuting hours and lacks any note indicating a business purpose, making it likely a personal commute.",4
+ta08588,false,false,1.0,"The trip is to a running club (Løbeklub Amager) for a 'course', which indicates a private/sporting activity.",4
+t542213,false,false,1.0,"The trip is on a Sunday to Bakken, a well-known amusement park, and there is no note indicating a work-related purpose.",4
+tee1141,false,false,0.7,"The trip is from a residential area to the airport with no note indicating a work-related flight, making it likely a personal holiday trip.",4
+t157379,false,false,1.0,The trip is to a private residence on a Saturday evening with no note indicating a work purpose.,4
+t9cceb6,false,false,1.0,The trip to a museum on a Saturday with the note 'Museum' indicates a private leisure activity.,4
+tfa9b62,false,false,1.0,The driver's note explicitly states the trip is for a family holiday to Lisbon.,4
+tdae657,false,false,1.0,The trip is to a restaurant on a Friday evening with no note indicating a business purpose or client meeting.,4
+t1174dd,false,false,1.0,"The note indicates the purpose of the trip is dropping someone (Léa) at work, which is a private errand/personal trip.",4
+tbfc821,false,false,0.8,"The trip is from a workplace to a café during lunch hours, which is typically a personal errand unless a business meeting is specified.",4
+td072b6,false,false,0.9,"The trip appears to be for a private purchase of furniture (a sofa), which falls under personal use.",4
+tf5699d,false,true,1.0,The driver's note 'Arbejde' (Work) explicitly indicates the trip is for business purposes.,4
+t27b8fa,false,false,1.0,"The note 'Afleverer Oscar og Ida' indicates dropping off children at school, which is a private/personal errand.",4
+t964723,false,false,1.0,"The trip is for a grocery run for dinner, which is a private purpose.",3
+t901b5f,false,false,1.0,"The trip is to an amusement park on a Saturday with no note indicating a work purpose, which implies a private leisure activity.",4
+tcaeaf5,false,false,1.0,"The driver's note explicitly states 'retour de Nice, vacances', which indicates the trip is for a holiday/vacation.",4
+t839bce,false,false,1.0,"The trip is for a private birthday brunch with a family member, which falls under personal use.",4
+t393a93,false,false,1.0,"The note indicates the purpose of the trip is to drop someone (Paul) at the station, which is a private errand.",4
+tef4112,false,false,1.0,"The trip is for lunch, and according to the criteria, lunch alone during work hours is considered personal.",4
+t94384f,false,false,1.0,The trip is to a well-known shopping department store on a Saturday afternoon with no note indicating a work purpose.,4
+tae33de,false,false,1.0,"The trip is from a business address to 'Hjem' (home) at the end of a workday, which constitutes a personal commute.",4
+tf531ac,false,false,0.9,"The trip is to a school (Grøndal Skole) with the note 'Henter' (Picking up), which implies a private errand such as picking up a child.",4
+t5ed969,false,false,1.0,"The trip is for grocery shopping, which is explicitly defined as a private purpose.",3
+te09591,false,false,1.0,"The trip is for a medical appointment (physiotherapy), which is a private purpose.",4
+t206464,false,false,1.0,"The trip is for a private purpose, specifically dropping a family member at the airport.",4
+td29a97,false,false,0.9,The trip is to a restaurant on a Sunday evening and the note 'Dîner' does not indicate a business purpose or a client meeting.,4
+t5bb90c,false,false,0.8,"The trip is from Nørrebro to Central Station on a Saturday with no note indicating a work purpose, suggesting a personal trip.",4
+t713c5f,false,false,1.0,"The driver's note explicitly states 'lunch alone', which falls under the definition of a personal trip during work hours.",4
+t2300e9,false,false,1.0,"The trip is to a retail store (Elgiganten) on a Saturday with no note indicating a work purpose, suggesting a private shopping trip.",4
+t4778a5,false,false,1.0,"The driver's note explicitly states they are driving to work as they do every day, which constitutes a personal commute.",4
+t258bda,false,false,0.95,"The trip is to a primary school (Nørrebro Børneskole) with no work-related note, suggesting a private errand or school-related activity.",4
+t15fae1,false,false,1.0,The note 'courses + lessive' (groceries + laundry) indicates a private errand.,4
+tc424e6,false,false,1.0,A trip to the dentist is a private errand and does not serve a work-related purpose.,3
+t7eae08,false,false,1.0,The note 'svømning m. Tobias' (swimming with Tobias) indicates a private/leisure activity.,4
+t77441a,false,false,1.0,"The note indicates the trip is for an anniversary dinner, which is a private purpose.",4
+ta29335,false,false,0.9,"The trip appears to be a commute from Søborg to a station, and without a note indicating a work purpose, it is classified as personal.",4
+t64fab6,false,false,1.0,The driver's note 'frokost alene' (lunch alone) indicates a personal trip during lunch hours.,4
+t992702,false,false,0.95,"The trip is to a retail store (Illums Bolighus) to buy a gift, which is a private purpose.",4
+t42ef48,false,false,0.8,"The trip starts from a location in Søborg and ends at a business address in Copenhagen, but without a note indicating a specific work purpose, it is classified as a standard commute from a secondary location or home-adjacent area to a workplace.",5
+t1b2cd6,false,false,1.0,"The trip is for picking up children from school, which is a private/personal purpose.",4
+t5bedd1,false,false,1.0,"The driver's note explicitly states the purpose is grocery shopping for the weekend, which is a private activity.",4
+tc8ea10,false,false,0.8,The trip occurs during morning commuting hours between two locations without a note indicating a work-related purpose.,4
+t520284,false,false,1.0,"The trip is to a swimming hall for 'Swim', which is a private/leisure activity.",4
+t2a5683,false,false,1.0,The trip is for a private lunch with a family member on a Sunday.,3
+tee0519,true,true,1.0,The note 'Flight Oslo' indicates the trip to the airport is for a work-related flight.,4
+tb7bdc3,true,true,1.0,"The trip is a site visit to a construction site with a client to check installations, which is a clear work purpose.",4
+t77d720,true,true,1.0,"The trip is from one business entity (Havnetek ApS) to another (Kanalbanken Erhverv), indicating a professional errand or meeting.",4
+t004e7f,true,true,1.0,"The trip is from one company to another with the note 'Kunde Nordlys', indicating a client visit.",4
+t2a7f18,true,true,1.0,The trip is for a meeting with a potential client regarding a business contract.,4
+tcb3636,true,true,1.0,The trip is an errand done for the company to pick up printing proofs from a supplier.,4
+t12f969,true,true,1.0,The trip is moving between two different work sites belonging to the same company (office to warehouse).,4
+tfe2d18,true,true,1.0,"The note 'salon Nordic Logistics, jour 1' indicates the trip is for a professional event or site visit related to a client or business activity.",4
+t206cfb,true,true,1.0,The driver's note explicitly mentions 'rdv client' (client meeting) following a return from Paris.,4
+tf59334,true,true,1.0,"The trip is from a company office (Havnetek ApS) to a construction site (Byggeplads Carlsberg Byen), which constitutes moving between two work sites.",4
+t96879c,true,true,1.0,"The driver's note explicitly mentions a 'Berlin client', indicating the trip to the airport is for a work-related flight.",4
+teb5f69,true,true,1.0,"The note explicitly states the trip is for a site visit and a snagging list, which are work-related activities.",4
+t3b1cb0,true,true,1.0,"The driver's note explicitly states the trip is for a client dinner, which meets the criteria for a business trip.",4
+t9f2b88,true,true,1.0,"The trip is for the purpose of picking up a visitor (Anders Holm) to bring him to the office, which is a work-related errand.",4
+tb46f0c,true,true,0.9,"The trip is between a hotel and a logistics company in Hamburg, which implies a business-related travel purpose such as a client or partner visit.",4
+t31831e,true,true,1.0,"The driver's note explicitly states the trip is for depositing client checks for the company, which is a business errand.",4
+td59e15,true,false,0.7,"The trip is between two different addresses in Copenhagen without a note indicating a work purpose, making it impossible to distinguish from a private errand or a trip to a different location.",4
+t38e0f2,true,true,1.0,"The driver's note explicitly states the trip is for a first meeting with a prospect, which meets the criteria for a business trip.",4
+t65e6a4,true,true,1.0,"The trip is between two different business addresses (a consultancy and a printing company) during working hours, indicating a work-related errand or meeting.",4
+t899145,true,true,1.0,"The trip is moving between two work sites (office to warehouse) to deliver samples, which is a work-related errand.",4
+t54b6cb,false,false,0.8,"The trip is from Frederiksberg to Copenhagen Central Station without any note indicating a work purpose, which is likely a personal commute or travel for private purposes.",4
+t97faeb,false,false,1.0,"The driver's note explicitly states the lunch was by themselves, making it a personal trip during work hours.",4
+t85eec7,false,false,1.0,"The trip is to IKEA, which is a retail store for shopping, and there is no note indicating a work-related purpose.",4
+t6b25e6,false,true,1.0,The note 'Maison-bureau' (House-office) indicates a trip between two work-related locations.,4
+td801bc,false,false,1.0,"The note 'dépose enfants ecole' indicates the trip is for dropping children at school, which is a private/personal purpose.",4
+t9051eb,false,false,1.0,The note 'weekly shop' indicates a private errand for groceries.,3
+t992834,false,false,1.0,"The trip is for a dentist appointment, which is a private medical errand.",3
+t40965f,false,false,1.0,The driver's note 'Styrketræning' (strength training) indicates a trip to the gym for personal exercise.,4
+t8314de,false,false,1.0,"The trip is to a family member's home on a Sunday, which is a private purpose.",4
+t9a5358,false,false,0.95,The trip is to a museum on a Saturday morning and lacks any note indicating a work-related purpose or client meeting.,4
+ta84ee6,true,true,1.0,"The trip is between two different business addresses (Lysbro ApS and a construction site), which constitutes moving between work sites.",4
+t0d3a3c,true,true,1.0,The note explicitly states the purpose of the dinner is to discuss an annual contract with a client (Claire Moreau from Nordlys Energi).,4
+t0f9426,true,true,1.0,"The driver's note explicitly states 'Pickup client', which meets the criteria for a business trip.",4
+tc8a143,true,true,1.0,"The driver's note explicitly states the purpose is a meeting with Brandt Logistik, which qualifies as a business trip.",4
+t8a96d6,true,true,0.9,"The trip is from a business address (Lysbro ApS) to a post office, which constitutes an errand done for the company.",4
+t735d84,true,true,1.0,"The trip is for a quarterly review with a client (Mikkel Sørensen at Nordlys Energi), which is a clear work purpose.",4
+tecf083,true,true,1.0,"The trip is between two different company addresses (Lysbro ApS and Fjordvind Rederi A/S), which indicates moving between work sites or visiting a client/partner.",4
+t504244,true,true,1.0,The driver's note indicates the trip is for a work errand (collecting flyers from a printer).,4
+t258729,true,true,1.0,The trip is between two company sites (office to warehouse) for the purpose of picking up pallet goods.,4
+t4fa80b,true,true,1.0,"The trip is to a congress center for a conference, which is explicitly listed as a business purpose.",4
+t8624f7,false,false,1.0,"The note 'départ vacances Lisbonne' indicates the trip is for a holiday, which is a private purpose.",4
+tf47a0b,false,false,1.0,"The trip is for brunch on a Saturday, which is a private activity and lacks any indication of a work purpose.",4
+t6df4a8,false,false,1.0,The trip is from a residential area to a major shopping department store on a Saturday with no work-related note provided.,4
+tc57893,false,false,0.95,"The trip is from a residential/commercial area to a school with no note indicating a work purpose, suggesting a private errand or school-related trip.",4
+t16988e,false,false,1.0,"The driver's note explicitly states the purpose was to buy paint and screws for a bathroom at home, which is a private errand.",4
+tb8d301,false,false,1.0,"The trip is to a physiotherapy clinic for a personal appointment, which falls under the private/medical category.",4
+t8c01ab,false,false,1.0,"The trip is to a gym for a workout, which is a private purpose.",3
+t294d5e,false,false,1.0,"The driver's note indicates the trip is for a family event (Mum's birthday), which is a private purpose.",4
+t43f305,false,false,1.0,"The driver's note explicitly states the purpose of the trip is a weekend at a summerhouse with friends, which is a private activity.",4
+te263fb,false,false,0.8,The trip is from the airport to a residential/commercial area in Copenhagen at night with no note indicating a work-related purpose.,4

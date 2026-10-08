@@ -1,0 +1,46 @@
+00:02:43 == overnight start ==
+00:02:43 == phase 1a: table rase ==
+inbox_triage: 340 rows reset, audits deleted
+trips_business_or_personal: 350 rows reset, audits deleted
+00:02:44 == phase 1b: audits (Gemma in the background, Sonnet then Opus in front) ==
+00:34:19 gemma done on inbox_triage
+00:57:23 gemma done on trips_business_or_personal
+06:13:22 == overnight start (resume) ==
+06:13:22 == phase 1a skipped: keeping the audits on disk ==
+06:13:22 == phase 1b: audits (Gemma in the background, Sonnet then Opus in front) ==
+06:13:22 gemma done on inbox_triage
+06:13:22 gemma done on trips_business_or_personal
+06:21:51 sonnet done on inbox_triage
+06:37:48 opus done on inbox_triage
+06:49:20 sonnet done on trips_business_or_personal
+07:06:20 opus done on trips_business_or_personal
+status: {"ok" => 311, "reject" => 15, "review" => 14}
+claude_sonnet_5_5 disagrees: {"easy" => "3/120 (2%)", "medium" => "4/120 (3%)", "hard" => "4/100 (4%)"}
+gemma4_26b disagrees: {"easy" => "3/120 (2%)", "medium" => "10/120 (8%)", "hard" => "14/100 (14%)"}
+claude_opus_5_5 disagrees: {"easy" => "1/120 (1%)", "medium" => "8/120 (7%)", "hard" => "6/100 (6%)"}
+29 rows to review in inbox_triage/generation/../data/review.csv. Stopping here: the human decides.
+07:06:20 inbox_triage: statuses recomputed, data/README.md written
+status: {"ok" => 305, "reject" => 27, "review" => 18}
+gemma4_26b disagrees: {"easy" => "9/120 (8%)", "hard" => "8/100 (8%)", "medium" => "14/130 (11%)"}
+claude_sonnet_5_5 disagrees: {"easy" => "2/120 (2%)", "hard" => "8/100 (8%)", "medium" => "7/130 (5%)"}
+claude_opus_5_5 disagrees: {"easy" => "2/120 (2%)", "hard" => "6/100 (6%)", "medium" => "4/130 (3%)"}
+45 rows to review in trips_business_or_personal/generation/../data/review.csv. Stopping here: the human decides.
+07:06:21 trips_business_or_personal: statuses recomputed, data/README.md written
+07:06:21 == phase 2: benchmarks (API chain and local chain in parallel) ==
+07:06:21 run: --dataset=inbox --scorer=ollama --model=qwen3:4b
+07:06:21 run: --dataset=inbox --scorer=jev
+07:06:32 run: --dataset=trips --scorer=jev
+07:06:44 run: --dataset=inbox --scorer=jev --limit=30 --passes=5
+07:06:50 run: --dataset=inbox --scorer=sonnet
+07:13:46 run: --dataset=trips --scorer=ollama --model=qwen3:4b
+07:16:03 run: --dataset=trips --scorer=sonnet
+07:19:40 run: --dataset=inbox --scorer=local --model=Qwen/Qwen3-4B
+07:25:55 run: --dataset=inbox --scorer=sonnet --limit=30 --passes=5
+07:29:49 run: --dataset=trips --scorer=local --model=Qwen/Qwen3-4B
+07:30:46 api chain done
+07:34:31 run: --dataset=inbox --scorer=local
+07:37:55 run: --dataset=trips --scorer=local
+07:38:47 local chain done
+07:38:47 == phase 3: metrics ==
+07:38:47 benchmark/results/report.md written
+07:38:47 == overnight done ==

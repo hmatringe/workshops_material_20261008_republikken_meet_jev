@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "fr",
+      "length": "medium",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "da",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "en",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": "a thank-you note or a pure FYI, nothing to answer"
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "fr",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "en",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "someone asks about joining, prices, a trial day, desk availability",
+      "language": "da",
+      "length": "long",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a member gives notice or asks how to pause their membership",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Noémie Vasseur <noemie.vasseur@sluseholm-works.example>",
+      "subject": "Fwd: Demande d'interview et supplément partenaires",
+      "date": "2026-09-08 11:15",
+      "body": "Je pense qu'on doit répondre, mais attention à la partie publicitaire. Tu t'en occupes ?\n\n---------- Message transféré ----------\nDe : Étienne Marchetti <e.marchetti@revue-tidevand.example>\n\nBonjour,\n\nJe suis rédacteur en chef de la Revue Tidevand, un magazine trimestriel consacré aux nouveaux lieux de travail dans le nord de l'Europe. Nous préparons un dossier sur les espaces de coworking indépendants et aimerions consacrer deux pages à Sluseholm Works, avec une interview de votre responsable et quelques photos.\n\nCette parution est gratuite et sans contrepartie. En parallèle, nous éditons un supplément « Partenaires » avec encarts publicitaires (à partir de 900 EUR la demi-page), que nous vous présentons à titre indicatif uniquement.\n\nSeriez-vous disponible pour un entretien téléphonique de 30 minutes d'ici la mi-octobre ?\n\nBien cordialement,\nÉtienne Marchetti",
+      "justification": "A magazine editor proposes a free press feature, with an optional ad rate that looks like a sales pitch; it is a genuine press request forwarded for a reply within the week."
+    },
+    {
+      "from": "Jakob Frisk <jakob.frisk@frisk-and-fennel.example>",
+      "subject": "Heating on the 2nd floor, still broken",
+      "date": "2026-10-13 08:40",
+      "body": "Hello,\n\nThis is my third message about the heating in the east wing of the second floor. It has been 14 degrees in our corner since last Monday, and three of us have been working in coats.\n\nI am paying DKK 2,400 a month for a private studio, and I think a partial refund of DKK 600 for the cold weeks is fair. I would also like someone to come and look at the radiator, not just bleed it again.\n\nIf this is not solved by the end of the week we will have to look at moving out. I would rather not, we like the place, but we cannot work like this. Please tell me when a technician can come.\n\nJakob, Frisk & Fennel",
+      "justification": "A paying member reports an ongoing heating fault and asks for a fix and a refund; the exit threat and money make it sound hostile, but it is a genuine complaint needing a reply within 24 hours."
+    },
+    {
+      "from": "Elsa Brogaard <elsa@brogaard-ceramics.example>",
+      "subject": "stuck outside!! 😬",
+      "date": "2026-09-26 07:52",
+      "body": "Hi team!! 👋\n\nSo sorry to write on a Saturday morning, but I'm standing in front of the main door and my card isn't opening it. I'm a member (desk 6, Brogaard Ceramics, I've been with you since February) and I have a kiln delivery arriving at 9 that I have to receive inside.\n\nI tried my card on the reader about ten times. The little light goes orange instead of green, which I've never seen before. I also tried the code on the keypad, same story. I wonder if the system had an update overnight? 🤔\n\nThere's one more thing that worried me. When I came around the back to try the delivery door, it was standing open with no one around. I closed it, but I think someone should look at it, in case something got taken or the lock is broken. I didn't go in.\n\nI know you may not read this until Monday, so I'm also going to try calling the number on the door sticker. If you see this first, please let me in or tell me who has the master key!\n\nAlso, small bonus question: the email with the link to reactivate cards that I got last week, is that really from you? I didn't click it because it looked a bit odd. 🙈\n\nThank you so much!!\nElsa ☺️",
+      "justification": "A member is locked out on a Saturday morning with a delivery due and found an open back door, so it needs same-day action; the odd link she mentions is her own caution, not a solicitation."
+    },
+    {
+      "from": "Henrik Ravn <henrik@ravn-regnskab.example>",
+      "subject": "Moms-nr. på faktura",
+      "date": "2026-09-10 14:02",
+      "body": "Hej,\n\nJeg er bogholder for Nordhavn Print, som er medlem hos jer. Kan I tilføje deres momsnummer DK 29 41 77 03 på de kommende fakturaer, og sende en rettet faktura for september?\n\nVenlig hilsen\nHenrik Ravn",
+      "justification": "An accountant writing on behalf of a member asks to add a VAT number and reissue an invoice, which needs a reply within 24 hours; the unfamiliar sender is explained by his role for a current member."
+    },
+    {
+      "from": "Harbour District Forum <letter@harbourdistrict-forum.example>",
+      "subject": "Harbour District Forum: Autumn Bulletin",
+      "date": "2026-10-05 09:00",
+      "body": "Dear subscribers,\n\nThe Harbour District Business Forum is pleased to present its Autumn Bulletin. You are receiving this because your organisation registered for our bulletin in March 2026.\n\n1. Annual Members' Assembly\nThe Assembly will be held on 12 November at 17:00 at Pakhus Hall. The agenda and the proposed budget are attached to the digital edition. Registration is encouraged, though not required, and the fee for non-members is DKK 250.\n\n2. Quayside lighting works\nWorks on the quayside lighting between Bridge 3 and Bridge 5 will start on 19 October and last approximately four weeks. Pedestrian access will be maintained at all times.\n\n3. Call for proposals: the Winter Market\nLocal businesses and shared workspaces may submit stall proposals until 30 October using the form on our site. Selected participants receive a subsidised stall.\n\n4. Sponsorship opportunities\nOur partners programme offers visibility in the bulletin and at the Assembly. A rate card is available on request.\n\n5. A word of thanks\nThe Forum thanks all the organisations that opened their doors during the Harbour Open Week in September. More than 600 visitors attended. No reply to this message is necessary.\n\n6. Next bulletin\nThe December issue will cover the results of the member survey and the calendar for 2027.\n\nYours faithfully,\nThe Secretariat\nHarbour District Business Forum",
+      "justification": "A formal bulletin the space registered for, with sponsorship and fee mentions that sound commercial, but it is a subscribed newsletter with a thank-you and nothing to answer."
+    },
+    {
+      "from": "ParcelPoint <no-reply@parcelpoint-track.example>",
+      "subject": "Your parcel is ready for collection",
+      "date": "2026-10-02 10:17",
+      "body": "Hello,\n\nYour parcel from ShelfSmith A/S has been delivered to the reception of Sluseholm Works and signed for by the front desk.\n\nTracking number: PP-4471-0239-DK\nDelivered: 2 October 2026, 10:12\nWeight: 4.2 kg\n\nTo see the delivery proof or to change your delivery preferences, log in to your ParcelPoint account:\nhttps://parcelpoint-track.example/login?ref=44710239\n\nThis is an automatic message. Replies to this address are not read.\n\nParcelPoint Delivery Services",
+      "justification": "An automatic delivery notification from a courier the space uses, with a login link that looks suspicious but is expected; it needs no reply."
+    },
+    {
+      "from": "Baptiste Orsini <baptiste.orsini@orsini-atelier.example>",
+      "subject": "Re: Votre prêt de la perceuse",
+      "date": "2026-09-29 18:34",
+      "body": "Bonsoir,\n\nJuste pour vous dire que j'ai bien rapporté la perceuse ce matin et que je l'ai remise dans le placard de l'atelier. Tout fonctionne, la batterie est rechargée.\n\n> Pouvez-vous nous la rapporter avant la fin de la semaine ?\n\nC'est fait. Merci encore de me l'avoir prêtée pour installer mes étagères, ça m'a sauvé le week-end. Je vous ferai goûter les brioches de ma grand-mère à la prochaine occasion.\n\nBonne soirée,\nBaptiste",
+      "justification": "A member replies in an existing thread to confirm he returned a borrowed tool and thanks the team; nothing is asked, despite the reference to the earlier request."
+    },
+    {
+      "from": "Marit Solheim <marit.solheim@gmail.example>",
+      "subject": "Forgotten umbrella?",
+      "date": "2026-10-17 23:14",
+      "body": "Hi, I visited on Thursday for the design meetup. I think I left a black umbrella with a wooden handle by the coat rack. Has anyone found it? Thanks, Marit",
+      "justification": "A visitor writing late on a Saturday asks whether a lost umbrella was found, a fitting-no-category question that needs a personal reply within the week."
+    },
+    {
+      "from": "Rasmus Gammelgaard <rasmus@sluseholm-works.example>",
+      "subject": "Fwd: Interesse i skrivebord",
+      "date": "2026-09-23 12:05",
+      "body": "Kan du tage den her? Hun nævner vores nyhedsbrev, så hun er sikkert varm. /Rasmus\n\n---------- Videresendt besked ----------\nFra: Ida Lundqvist <ida.lundqvist@lundqvist-ux.example>\nDato: 22. september 2026\n\nHej Sluseholm Works,\n\nJeg har læst jeres nyhedsbrev i et halvt års tid (jeg tilmeldte mig efter jeres åbent hus i foråret), og nu er jeg endelig klar til at tage skridtet. Jeg er freelance UX-designer og arbejder lige nu fra køkkenbordet i Amager, hvilket ikke er holdbart.\n\nJeg kunne godt tænke mig at høre:\n- Hvad koster et fast skrivebord om måneden, og er moms inkluderet?\n- Er der ledige pladser i øjeblikket, helst i et roligt område?\n- Kan jeg prøve en enkelt dag, før jeg binder mig? I nyhedsbrevet i august stod der noget om en gratis prøvedag.\n- Hvor lang er opsigelsen?\n\nJeg ville helst starte 1. november, men er fleksibel. Hvis I har en uge i oktober, hvor jeg kan komme og kigge, er det også fint. Jeg har ikke travlt i denne uge.\n\nI nyhedsbrevet nævnte I også, at der skulle komme en ny hylde til lokale kunstnere. Er den på plads? Det er mest af nysgerrighed.\n\nTak på forhånd!\n\nMange hilsner\nIda Lundqvist\nwww.lundqvist-ux.example",
+      "justification": "A prospective member who follows the newsletter asks about prices, trial day and desk availability, forwarded for a reply; newsletter references are secondary and the request is for the coming week."
+    },
+    {
+      "from": "Mathilde Skov <mathilde@skov-sound.example>",
+      "subject": "Pause membership - Oct",
+      "date": "2026-10-14 13:20",
+      "body": "Hi, I'd like to pause my membership (DKK 1,900/month) from 1 November to 31 January while I travel. Is that possible, or do I have to give notice and rejoin? Thanks, Mathilde",
+      "justification": "A current member asks how to pause her paid membership, a request needing a human answer within the week; the amount is a fee mention, not a payment demand."
+    }
+  ]
+}

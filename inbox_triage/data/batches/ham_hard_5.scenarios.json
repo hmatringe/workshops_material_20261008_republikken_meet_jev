@@ -1,0 +1,112 @@
+[
+  {
+    "spam": false,
+    "category": "complaint",
+    "urgency": 4,
+    "needs_human": true,
+    "situation": "access card not working, a person locked out, a security issue right now",
+    "language": "fr",
+    "length": "long",
+    "style": "plain and neutral, no particular style",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "billing",
+    "urgency": 3,
+    "needs_human": true,
+    "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+    "language": "en",
+    "length": "long",
+    "style": "sent on a weekend or late at night",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "newsletter",
+    "urgency": 1,
+    "needs_human": false,
+    "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+    "language": "da",
+    "length": "medium",
+    "style": "plain and neutral, no particular style",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "newsletter",
+    "urgency": 1,
+    "needs_human": false,
+    "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+    "language": "en",
+    "length": "medium",
+    "style": "plain and neutral, no particular style",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "other",
+    "urgency": 1,
+    "needs_human": false,
+    "situation": "a thank-you note or a pure FYI, nothing to answer",
+    "language": "en",
+    "length": "medium",
+    "style": "written from a phone, signature and a couple of typos",
+    "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+  },
+  {
+    "spam": false,
+    "category": "other",
+    "urgency": 2,
+    "needs_human": true,
+    "situation": "lost and found, a question that fits no category",
+    "language": "en",
+    "length": "long",
+    "style": "forwarded by a colleague with a one-line comment",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "membership",
+    "urgency": 2,
+    "needs_human": true,
+    "situation": "someone asks about joining, prices, a trial day, desk availability",
+    "language": "da",
+    "length": "short",
+    "style": "with an amount in DKK or EUR",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "membership",
+    "urgency": 2,
+    "needs_human": true,
+    "situation": "a member gives notice or asks how to pause their membership",
+    "language": "fr",
+    "length": "medium",
+    "style": "institutional sender, formal tone",
+    "also": "a person or company proposes to host a meetup or workshop next month"
+  },
+  {
+    "spam": false,
+    "category": "event",
+    "urgency": 2,
+    "needs_human": true,
+    "situation": "a person or company proposes to host a meetup or workshop next month",
+    "language": "en",
+    "length": "short",
+    "style": "plain and neutral, no particular style",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "event",
+    "urgency": 3,
+    "needs_human": true,
+    "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+    "language": "en",
+    "length": "short",
+    "style": "sent on a weekend or late at night",
+    "also": null
+  }
+]

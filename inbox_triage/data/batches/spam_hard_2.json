@@ -1,0 +1,189 @@
+{
+ "spam": true,
+ "difficulty": "hard",
+ "generator_model": "claude-sonnet-5-5",
+ "scenarios": [
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+   "language": "en",
+   "length": "medium",
+   "style": "written from a phone, signature and a couple of typos",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "recruitment or staffing blast",
+   "language": "fr",
+   "length": "short",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "fake partnership or \"we met at your event\" with no substance",
+   "language": "da",
+   "length": "long",
+   "style": "with an amount in DKK or EUR",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+   "language": "en",
+   "length": "short",
+   "style": "a reply in a thread (Re:), quoting one earlier line",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "SEO, backlink or guest-post offer",
+   "language": "en",
+   "length": "long",
+   "style": "institutional sender, formal tone",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+   "language": "en",
+   "length": "long",
+   "style": "sent on a weekend or late at night",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "scam: investment, prize, inheritance, crypto",
+   "language": "en",
+   "length": "short",
+   "style": "casual tone, first names, emojis allowed",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+   "language": "fr",
+   "length": "medium",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "recruitment or staffing blast",
+   "language": "da",
+   "length": "medium",
+   "style": "written from a phone, signature and a couple of typos",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "fake partnership or \"we met at your event\" with no substance",
+   "language": "en",
+   "length": "medium",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  }
+ ],
+ "mails": [
+  {
+   "from": "Priya Nair <priya@loopstage-live.example>",
+   "subject": "Founders Open Studio, Oct 22, free seats",
+   "date": "2026-09-14 08:12",
+   "body": "Hi there,\n\nSending this from my phone between meetings so pls excuse the typos. Im reaching out to the Kanalhuset community because we think your members would get alot out of our Founders Open Studio on Oct 22 (online, 90 min). Its a live product launch of our new scheduling tool, with a demo and Q&A.\n\nSeats are limited, register here: https://loopstage-live.example/open-studio\n\nHope to see some of your coworkers there!\n\nPriya Nair\nCommunity Lead, Loopstage\nSent from my iPhone",
+   "justification": "A mass product-launch webinar invitation sent to the space's shared inbox by a company the space never subscribed to or dealt with, despite the friendly community framing."
+  },
+  {
+   "from": "Claire Dumont <claire.dumont@talentbrise.example>",
+   "subject": "Opportunités pour vos membres",
+   "date": "2026-09-22 10:05",
+   "body": "Bonjour,\n\nTalentBrise recrute actuellement 40 profils développeurs et chefs de projet à Copenhague. Pourriez-vous relayer l'offre auprès des membres de Kanalhuset ? Liste des postes : https://talentbrise.example/postes\n\nCordialement,\nClaire Dumont",
+   "justification": "A mass recruitment blast from an unknown staffing firm asking the space to relay job ads, with no existing relationship and nothing for the space to answer."
+  },
+  {
+   "from": "Anders Vestergaard <anders@nordlys-partners.example>",
+   "subject": "Opfølgning efter vores snak",
+   "date": "2026-10-02 14:30",
+   "body": "Kære Kanalhuset,\n\nTak for en god snak til jeres arrangement i september. Det var inspirerende at se så mange iværksættere samlet under samme tag, og jeg tænkte med det samme, at vores to miljøer burde arbejde tættere sammen.\n\nNordlys Partners er et netværk for vækstvirksomheder i hele Norden, og vi åbner nu en række lokale \"Partner Hubs\". Som medlem af Partner Hub-programmet får Kanalhuset:\n\n- eksponering over for vores 3.200 netværkskontakter\n- et logo på vores partnerside\n- invitationer til vores kvartalsvise investormøder\n\nDeltagelsen koster 14.500 DKK om året, og første år kan betales i to rater. Jeg har vedhæftet en kort oversigt, og jeg kan sende en faktura med det samme, hvis I vil have fordelene allerede i november.\n\nTilbuddet gælder til og med 31. oktober, hvorefter prisen stiger til 18.900 DKK.\n\nGlæder mig til at høre fra jer.\n\nMed venlig hilsen\nAnders Vestergaard\nPartnerships Director, Nordlys Partners\nhttps://nordlys-partners.example",
+   "justification": "The 'we spoke at your event' opening has no concrete detail and leads to a paid partnership pitch from a company the space has no relationship with."
+  },
+  {
+   "from": "Marcus Webb <marcus@pipelinepilot.example>",
+   "subject": "Re: quick question about your desk bookings",
+   "date": "2026-09-30 09:41",
+   "body": "Hi,\n\n> Do you currently track enquiries from visitors in one place?\n\nJust following up on my note below. We help coworking spaces turn website visitors into booked tours, setup takes 15 minutes. Worth a short call this week?\n\nMarcus",
+   "justification": "The 'Re:' subject fakes an ongoing thread, but the quoted line is the sender's own cold pitch and the space never wrote to him."
+  },
+  {
+   "from": "Office of Outreach, Halvorsen Digital Institute <outreach@halvorsen-digital.example>",
+   "subject": "Contributor invitation: Kanalhuset community blog",
+   "date": "2026-09-18 11:20",
+   "body": "Dear Editorial Team,\n\nThe Halvorsen Digital Institute is pleased to extend a formal invitation to contribute to our Nordic Workplace Review, a publication read by managers and operators of shared workspaces.\n\nHaving reviewed the Kanalhuset website, we believe that your community would be well served by a reciprocal arrangement. We propose the following:\n\n1. We publish a guest article authored by your team, with a link to your site.\n2. In return, you publish one article written by our contributors on your blog or news page.\n3. Each article will contain up to two contextual links to client websites designated by us.\n\nOur clients operate in the fields of online finance and travel, and the links will be placed inside the body text so that they appear editorial. For organisations without capacity to write, we offer article placement on your site for a one-time administrative fee of 250 EUR per article.\n\nThe Institute has no commercial affiliation with your space and conducts this programme on behalf of its sponsors. Our domain authority has been independently rated at 68.\n\nWe would be grateful for your confirmation of interest by the end of the month.\n\nYours faithfully,\nDr. Ingrid Halvorsen\nHead of Outreach\nHalvorsen Digital Institute",
+   "justification": "A formal link-building and paid guest-post scheme from an institute the space has never dealt with, dressed as an editorial invitation."
+  },
+  {
+   "from": "Kanalhuset Billing <billing@kanalhuset-accounts.example>",
+   "subject": "Payment issue on your Kanalhuset account",
+   "date": "2026-10-04 23:47",
+   "body": "Dear member,\n\nWe attempted to process the monthly payment for your Kanalhuset membership but the transaction was declined by your bank. As a result your access card is scheduled to be suspended on Monday at 08:00.\n\nPlease note that the invoice below remains unpaid:\n\nInvoice no. 2026-10-8841\nAmount due: 2,450 DKK\nDue: 2026-10-05\n\nTo avoid suspension, confirm your payment details through the secure member portal:\nhttps://kanalhuset-accounts.example/portal/verify\n\nYou will be asked to sign in with your member email and password and to re-enter your card number.\n\nIf you have already made this payment, please ignore this reminder. Late payments may incur a fee of 150 DKK.\n\nThank you for being part of our community.\n\nKanalhuset Accounts Team\nThis message was sent automatically, please do not reply.",
+   "justification": "A phishing message imitating the space's own billing, sent to the space itself from a lookalike domain, asking to enter card details on an external link."
+  },
+  {
+   "from": "Lars & Mie <lars@tidewave-fund.example>",
+   "subject": "saw your space, thought of you",
+   "date": "2026-09-27 16:03",
+   "body": "Hey! 👋 Lars here. A friend who works at Kanalhuset said you guys are always looking for ways to grow 😄 We run a small private crypto pool, members are seeing ~18% a month. Put in 5,000 DKK to start and I'll set you up today. Text me back and I'll send the wallet link 🚀",
+   "justification": "A casual crypto-investment scam claiming a vague friend at the space, with no real relationship and a promise of unrealistic returns."
+  },
+  {
+   "from": "Sophie Marchand <sophie.marchand@aurelia-formation.example>",
+   "subject": "Atelier gratuit pour vos membres",
+   "date": "2026-10-08 09:15",
+   "body": "Bonjour,\n\nNous organisons le 15 octobre un webinaire intitulé « Piloter son activité avec l'IA », destiné aux indépendants et aux petites équipes.\n\nComme votre espace de coworking accueille de nombreux entrepreneurs, nous avons pensé que le sujet pourrait intéresser vos membres. La session dure une heure et sera suivie de la présentation de notre nouvelle offre d'accompagnement.\n\nInscription : https://aurelia-formation.example/webinaire\n\nVous pouvez diffuser cette invitation à votre communauté.\n\nBien cordialement,\nSophie Marchand\nAurelia Formation",
+   "justification": "A bulk webinar invitation ending in a sales presentation, sent by a training company the space never subscribed to."
+  },
+  {
+   "from": "Rasmus fra Kontorfolk <rasmus@kontorfolk.example>",
+   "subject": "Hjælp til jeres medlemmer? Jobs i Ørestad",
+   "date": "2026-09-09 07:52",
+   "body": "Hej Kanalhuset,\n\nSkriver fra telefonen så undskyld stavefejl. Vi har lige nu 25 ledige stillinger indenfor kundeservice og lager i Ørestad, og vi tænker at nogle af jeres medlemmer eller deres netværk kunne være interesseret. Løn fra 195 kr i timen.\n\nKan I hænge opslaget op i fælleskøkkenet? Det findes her: https://kontorfolk.example/jobs\n\nMvh\nRasmus\nKontorfolk Vikarbureau\nSendt fra min iPhone",
+   "justification": "A staffing-agency blast asking the space to promote mass job ads, from a sender with no prior contact."
+  },
+  {
+   "from": "Tom Alderidge <tom@brightmoor-collective.example>",
+   "subject": "Great meeting you at the autumn meetup",
+   "date": "2026-10-15 13:44",
+   "body": "Hello,\n\nIt was great to meet some of your team at the autumn meetup. I run Brightmoor Collective, a network of independent consultants, and I believe there is a natural fit between our communities.\n\nI would love to explore ways of working together, perhaps through a joint listing or a shared referral programme. Our associates typically pay a small onboarding fee, and we share it with partners who send us leads.\n\nLet me know when you would be free for a short call. I can also send our partner deck.\n\nKind regards,\nTom Alderidge\nFounder, Brightmoor Collective",
+   "justification": "No specific meetup, person or detail is named, and the 'collaboration' is a pay-to-join referral scheme from someone the space does not know."
+  }
+ ]
+}

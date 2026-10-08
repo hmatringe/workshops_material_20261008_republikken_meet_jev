@@ -1,0 +1,7 @@
+From: Account Services <noreply@paymentnotice-secure.example>
+Subject: Payment declined - action required
+Date: 2026-09-13 23:51
+
+Your last payment for workspace services could not be processed.
+Confirm your billing details within 12 hours to avoid suspension: https://billing-verify.example/confirm
+Account Services Team

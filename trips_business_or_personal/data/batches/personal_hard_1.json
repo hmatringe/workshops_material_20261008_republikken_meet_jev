@@ -1,0 +1,119 @@
+{
+  "business": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "fr", "note_style": "none"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "da", "note_style": "short"},
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "leisure_trip", "situation": "a weekend away, a summerhouse, a museum, a concert, a beach", "language": "da", "note_style": "sentence"},
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "fr", "note_style": "short"}
+  ],
+  "trips": [
+    {
+      "date": "2026-09-24",
+      "start_time": "19:45",
+      "duration_min": 22,
+      "distance_km": 5.2,
+      "start_address": "Amagerbrogade 85, 2300 København S",
+      "end_address": "Værnedamsvej 14, 1619 København V",
+      "note": "",
+      "justification": "A weekday evening drive from home to a restaurant street in Vesterbro with no client, company or work purpose in the record, so it is a private dinner out."
+    },
+    {
+      "date": "2026-09-28",
+      "start_time": "07:25",
+      "duration_min": 17,
+      "distance_km": 4.8,
+      "start_address": "Amagerbrogade 85, 2300 København S",
+      "end_address": "Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",
+      "note": "",
+      "justification": "A Monday-morning drop at the central station looks like a work trip, but it starts at home, is short, and ends at a station without any work stop, consistent with dropping a partner off for their train."
+    },
+    {
+      "date": "2026-09-30",
+      "start_time": "12:30",
+      "duration_min": 8,
+      "distance_km": 1.6,
+      "start_address": "Vester Farimagsgade 20, 1606 København V",
+      "end_address": "Torvehallerne, Frederiksborggade 21, 1360 København K",
+      "note": "Lunch alone",
+      "justification": "The trip leaves the usual office during working hours, but the note says it is a lunch alone at a food hall, which is personal."
+    },
+    {
+      "date": "2026-09-29",
+      "start_time": "08:05",
+      "duration_min": 24,
+      "distance_km": 4.6,
+      "start_address": "Amagerbrogade 85, 2300 København S",
+      "end_address": "Vester Farimagsgade 20, 1606 København V",
+      "note": "Til kontoret, kø på Langebro",
+      "justification": "Home to the usual office on a weekday morning is the regular commute, which is personal even though it ends at the employer's address."
+    },
+    {
+      "date": "2026-10-08",
+      "start_time": "17:40",
+      "duration_min": 7,
+      "distance_km": 1.1,
+      "start_address": "Vester Farimagsgade 20, 1606 København V",
+      "end_address": "Vesterbrogade 97, 1620 København V",
+      "note": "gym after wrk",
+      "justification": "The trip starts at the office on a weekday, but it ends at a gym and the note says it is a workout after work."
+    },
+    {
+      "date": "2026-10-03",
+      "start_time": "10:15",
+      "duration_min": 40,
+      "distance_km": 33.0,
+      "start_address": "Amagerbrogade 85, 2300 København S",
+      "end_address": "Gammel Strandvej 13, 3050 Humlebæk",
+      "note": "Tur til Louisiana med børnene for at se udstillingen.",
+      "justification": "A Saturday family outing to a museum with the children, with a long distance that could resemble a site visit but a clearly private purpose in the note."
+    },
+    {
+      "date": "2026-10-10",
+      "start_time": "05:10",
+      "duration_min": 17,
+      "distance_km": 9.0,
+      "start_address": "Amagerbrogade 85, 2300 København S",
+      "end_address": "Lufthavnsboulevarden 6, 2770 Kastrup",
+      "note": "Holiday Crete",
+      "justification": "A trip to the airport could be a business flight, but the note says it is for a holiday in Crete."
+    },
+    {
+      "date": "2026-10-16",
+      "start_time": "18:50",
+      "duration_min": 12,
+      "distance_km": 2.0,
+      "start_address": "Vester Farimagsgade 20, 1606 København V",
+      "end_address": "Skindergade 28, 1159 København K",
+      "note": "",
+      "justification": "A Friday evening trip from the office to a restaurant street after working hours with no client or work purpose recorded, so it is a private dinner."
+    },
+    {
+      "date": "2026-10-02",
+      "start_time": "08:50",
+      "duration_min": 22,
+      "distance_km": 5.9,
+      "start_address": "Amagerbrogade 85, 2300 København S",
+      "end_address": "Frederiksberg Hospital, Nordre Fasanvej 57, 2000 Frederiksberg",
+      "note": "Dropped Maria off at the hospital for her morning shift.",
+      "justification": "A weekday-morning trip to an institutional address looks work-related, but the note shows it is dropping a partner at her own workplace."
+    },
+    {
+      "date": "2026-10-13",
+      "start_time": "12:20",
+      "duration_min": 10,
+      "distance_km": 2.3,
+      "start_address": "Vester Farimagsgade 20, 1606 København V",
+      "end_address": "Flæsketorvet 100, 1711 København V",
+      "note": "déj seul, sushi, pas de rdv",
+      "justification": "The trip leaves the office at midday on a weekday, but the note states it is a lunch alone with no meeting, which is personal."
+    }
+  ]
+}

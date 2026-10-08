@@ -1,0 +1,14 @@
+From: Tilla Events <no-reply@tilla-events.example>
+Subject: Your event 'Open Mic Night' has 3 new registrations
+Date: 2026-10-02 18:41
+
+Hello,
+
+This is an automatic notification from Tilla Events.
+
+Your event 'Open Mic Night' on 2026-10-17 has received 3 new registrations today.
+Total registrations: 28 of 40 places.
+
+You can view the full guest list in your Tilla Events dashboard.
+
+This message was sent automatically. Please do not reply.

@@ -1,0 +1,17 @@
+From: Elena Whitcombe <elena.whitcombe@meridian-assets.example>
+Subject: Your community space has been selected
+Date: 2026-10-12 11:20
+
+Hello,
+
+I am writing from Meridian Assets Group. We are running a community support programme for independent workspaces in Northern Europe, and your space has been selected to receive a grant of 18,000 EUR.
+
+To release the grant we first need to verify your organisation. This only takes a few minutes. We ask for a refundable verification deposit of 400 EUR, paid in cryptocurrency (USDT) to the wallet shown on the application page. The deposit is returned together with the grant.
+
+Application page: https://meridian-assets.example/grant-apply
+
+Selected spaces must complete the verification within five days, otherwise the grant goes to the next organisation on our list.
+
+Kind regards,
+Elena Whitcombe
+Grants Desk, Meridian Assets Group

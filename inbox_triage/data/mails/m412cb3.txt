@@ -1,0 +1,26 @@
+From: Accounts Receivable <billing@norvik-ledger.example>
+Subject: Invoice 40817 overdue - payment failed
+Date: 2026-09-14 08:12
+
+Hello,
+
+We attempted to process the monthly payment for your workspace services account but the transaction was declined by the issuing bank.
+
+Invoice number: 40817
+Amount due: 2,340.00 DKK
+Original due date: 2026-09-10
+Status: Payment failed (code 51)
+
+To avoid interruption of service and a late fee of 250.00 DKK, please review the invoice and update your payment details using the secure link below within 48 hours.
+
+View invoice and update payment method:
+https://secure-portal.norvik-ledger.example/invoices/40817/pay
+
+If you have already settled this invoice, please disregard this notice. A copy of the invoice is available in your account area once you sign in.
+
+Please note that accounts with two failed attempts are passed to our collections partner.
+
+Kind regards,
+Accounts Receivable
+Norvik Ledger Services
+This mailbox is not monitored.

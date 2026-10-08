@@ -1,0 +1,14 @@
+From: Vestmark Growth Forum <info@vestmark-forum.example>
+Subject: Product launch webinar: scale your SaaS to 1M EUR
+Date: 2026-09-24 09:20
+
+Dear team,
+
+Vestmark Growth Forum invites you to a live product launch webinar on 7 October at 14:00 CET. Our founders will present the new Vestmark Revenue Suite and share how mid-sized software companies reach 1M EUR in annual recurring revenue.
+
+Seats are limited. Registration is free until 30 September, after which a fee of 49 EUR applies. Premium access with the recording and slides costs 129 EUR.
+
+Register here: vestmark-forum.example/launch
+
+Best regards,
+The Vestmark Team

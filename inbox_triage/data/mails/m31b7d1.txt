@@ -1,0 +1,14 @@
+From: Service Facturation <jm.lefort@facturation-express-pro.example>
+Subject: urgent facture a regler
+Date: 2026-10-09 06:55
+
+Bonjour,
+
+je vous ecrit car votre facture n°7741 de 389 EUR et toujours impayee depuis 3 semaines.
+Sans reglement sous 24h votre compte sera suspendu et des frais de retard s appliqueront.
+Cliquez sur le lien pour regler tout de suite : http://reglement.facturation-express-pro.example/7741
+Si vous avez deja payer ignorez ce message.
+
+Cordialement
+J. Lefort
+Envoyé de mon iPhone

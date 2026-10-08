@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "da",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "fr",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "fr",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "long",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "da",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "en",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Alex Reed <alex.reed@docshare-secure.example>",
+      "subject": "Re: Shared document",
+      "date": "2026-09-05 10:47",
+      "body": "> Please review the attached document.\n\nYou need to sign in again to view it: http://docshare-secure.example/login/view\nAlex",
+      "justification": "Phishing fake document-sharing link in a fabricated reply."
+    },
+    {
+      "from": "Frederik Lindegaard <frederik@svanemoellen-invest.example>",
+      "subject": "Eksklusiv investering med garanteret afkast",
+      "date": "2026-09-13 21:03",
+      "body": "Hej\n\nJeg skriver til dig fordi du er blevet udvalgt til en lukket investeringsmulighed i et nyt grønt energiprojekt.\nVi garanterer 14 procent afkast på 90 dage, uden risiko.\nMinimumsindskud er 2.000 DKK, og pengene overføres til vores klientkonto i udlandet.\nDer er kun få pladser tilbage, og tilbuddet udløber søndag aften.\nSkriv tilbage med dit telefonnummer, så ringer jeg til dig i morgen.\n\nMvh\nFrederik Lindegaard",
+      "justification": "Investment scam promising guaranteed returns with a foreign transfer, from a stranger."
+    },
+    {
+      "from": "Léa de Printéo <lea@printeo-promo.example>",
+      "subject": "Notre nouvelle gamme de goodies est là 🎁",
+      "date": "2026-09-20 11:25",
+      "body": "Coucou ! 👋\n\nC'est Léa de Printéo ! On vient de sortir notre nouvelle collection de goodies personnalisés : tote bags, gourdes, carnets... 🌿\nPour fêter ça, on vous offre -20 % sur votre première commande jusqu'à vendredi avec le code BIENVENUE 🎉\nJetez un oeil au catalogue ici : printeo-promo.example/catalogue 😍\nOn adore les espaces comme le vôtre, alors n'hésitez pas à nous suivre ! 💚\n\nLéa et toute l'équipe",
+      "justification": "Mass marketing for a product launch from a company the space never subscribed to."
+    },
+    {
+      "from": "Claire Dubois <c.dubois@talentia-recrutement.example>",
+      "subject": "Offres d'emploi à diffuser auprès de vos membres",
+      "date": "2026-09-24 14:00",
+      "body": "Bonjour,\n\nJe suis consultante chez Talentia Recrutement. Nous avons actuellement 12 postes ouverts à Copenhague pour des profils francophones : commerciaux, chefs de projet et développeurs.\nNous souhaiterions que vous diffusiez ces offres auprès des membres de votre espace.\nEn échange, nous versons une commission de 300 EUR pour chaque candidat recruté.\nLa liste complète des postes est disponible sur talentia-recrutement.example/offres.\nN'hésitez pas à me répondre pour recevoir les fiches de poste.\n\nCordialement,\nClaire Dubois",
+      "justification": "Recruitment blast from an unknown agency asking the space to relay job offers."
+    },
+    {
+      "from": "Office of Business Development <outreach@halvorsen-partners.example>",
+      "subject": "Introduction: outsourced IT support services",
+      "date": "2026-10-02 08:15",
+      "body": "Dear Sir or Madam, Halvorsen & Partners provides managed IT support to organisations in the Øresund region. We would welcome the opportunity to present our services at your convenience.\nYours faithfully,\nOffice of Business Development",
+      "justification": "Cold B2B sales introduction from an unknown IT firm."
+    },
+    {
+      "from": "Greg <greg@rankmyspace.example>",
+      "subject": "Get more traffic to your website",
+      "date": "2026-10-06 12:34",
+      "body": "Hi, I can get you 50 quality backlinks and more visitors. Interested? Reply and I will send details.\nGreg",
+      "justification": "Unsolicited SEO and backlink offer from a stranger."
+    },
+    {
+      "from": "Accounts Dept <billing@sendmailpro-account.example>",
+      "subject": "Payment failed: update your billing details to avoid suspension",
+      "date": "2026-10-08 09:20",
+      "body": "Hello,\n\nWe could not process your latest payment of 79,00 EUR for your SendMail Pro subscription.\n\nDetails of the failed transaction:\n- Plan: Business Annual\n- Amount: 79,00 EUR\n- Card ending: 4417\n- Date: 8 October 2026\n- Reason: Card declined\n\nYour account will be suspended in 24 hours and all stored contacts and campaigns will be deleted permanently.\n\nTo avoid this, update your billing details immediately:\nhttp://billing.sendmailpro-account.example/update\n\nPlease enter your full card number, expiry date and security code, as well as your account password, to verify your identity.\n\nIf you have already updated your details, please disregard this message.\n\nThank you for your prompt attention,\nSendMail Pro Billing Team\nDo not reply to this email",
+      "justification": "Phishing about a failed payment for a service the space does not use, asking for card details and password."
+    },
+    {
+      "from": "Joachim <joachim.k@kryptofast-profit.example>",
+      "subject": "Du har vundet 12.000 DKK i krypto!",
+      "date": "2026-10-11 07:49",
+      "body": "hej\n\ndu har vundet 12.000 DKK i krypto i vores traekning. For at faa pengene skal du bare sende 250 DKK i gebyr til denne wallet, saa overforer vi alt til dig i dag!!\nklik her: kryptofast-profit.example/claim\nskynd dig det udloeber snart\nmvh Joachim\nSendt fra min iPhone",
+      "justification": "Crypto prize scam asking for an upfront fee, from a stranger."
+    },
+    {
+      "from": "Monika Rautio <monika@summitlive-events.example>",
+      "subject": "Re: Last chance to join Founders Summit Live",
+      "date": "2026-10-15 09:05",
+      "body": "Hi again,\n\n> Founders Summit Live is back this November, and we would love to see you there.\n\nJust a quick follow up since I have not heard back from you. We are now at 85 percent capacity and early bird tickets close on Friday.\n\nWhat you get at Founders Summit Live (November 19 to 20, Copenhagen):\n- 40 speakers from 12 countries\n- Two days of workshops on growth, funding and product\n- Networking dinner on the first evening\n- A free copy of our 2026 Founders Report\n\nTickets start at 190 EUR for general admission. Teams of five or more get 25 percent off. If you run a community or coworking space, we also offer a partner package where you receive a commission on every ticket sold with your code.\n\nWe are also hosting a free online preview session next Tuesday at 16:00 where our programme director will walk you through the schedule. Register at summitlive-events.example/preview.\n\nHope to see you there!\n\nMonika Rautio\nPartnerships Manager, Summit Live Events\nTo stop receiving our emails, reply STOP.",
+      "justification": "Mass event marketing in a fake follow-up thread; the space never subscribed or replied."
+    },
+    {
+      "from": "James Whitmore <james@boldhire-network.example>",
+      "subject": "Weekend note: 40 candidates available for your members' companies",
+      "date": "2026-10-18 20:55",
+      "body": "Hi,\n\nApologies for writing on a Sunday evening, this is the only time I get to catch up with my outreach list.\n\nI run BoldHire Network, a staffing and recruitment company working with startups across the Nordics. We currently have more than 40 vetted candidates available for roles in sales, marketing, operations and engineering.\n\nMany of them are looking for a position in Copenhagen starting in November. Salaries range from 38,000 to 65,000 DKK per month depending on the role and seniority.\n\nSince you run a space full of growing companies, I thought you might know which of them are hiring. We work on a success fee only, 15 percent of the first year salary, no upfront cost.\n\nHere is what I suggest:\n1. You forward this email to your members or post our link in your community channel.\n2. Any company interested replies to me directly.\n3. We send them three matching profiles within 48 hours.\n\nYou can also see our candidate pool at boldhire-network.example/candidates. We pay a 500 EUR referral bonus for each placement that comes through your space.\n\nLet me know if I can send you a one page overview.\n\nBest regards,\nJames Whitmore\nFounder, BoldHire Network",
+      "justification": "Recruitment and staffing blast from a stranger, sent on a Sunday evening, asking the space to relay it."
+    }
+  ]
+}

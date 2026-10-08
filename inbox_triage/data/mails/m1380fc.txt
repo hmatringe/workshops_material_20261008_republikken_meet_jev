@@ -1,0 +1,6 @@
+From: Secure Delivery <alerts@parcelhub-track.example>
+Subject: Your parcel is on hold
+Date: 2026-09-21 13:27
+
+Your parcel could not be delivered because of an unpaid fee of 2.95 EUR.
+Pay the fee and rebook delivery: https://parcelhub-track.example/pay

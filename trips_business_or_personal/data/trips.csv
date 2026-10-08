@@ -1,0 +1,351 @@
+id,date,start_time,duration_min,distance_km,start_address,end_address,note
+ta76ddb,2026-09-14,10:30,22,6.2,"Nørre Farimagsgade 40, 1364 København K","Arne Jacobsens Allé 15, 2300 København S",mtg w/ Nordlys Energi re Q4 offer
+te96827,2026-09-16,14:00,14,3.4,"Nørre Farimagsgade 40, 1364 København K","Kalvebod Brygge 45, 1560 København V",""
+t57d7b5,2026-09-18,08:45,20,5.8,"Vesterbrogade 85, 1620 København V","Glentevej 10, 2400 København NV",pick up proofs at Tryk Nord printer
+t243d3b,2026-09-22,13:15,22,12.5,"Nørre Farimagsgade 40, 1364 København K","Avedøreholmen 72, 2650 Hvidovre",""
+t7c2aea,2026-10-01,07:50,18,6.9,"Vesterbrogade 85, 1620 København V","Bella Center, Center Boulevard 5, 2300 København S",Bella Ctr - SaaS expo day 1
+tfbfe13,2026-09-24,05:20,20,11.8,"Vesterbrogade 85, 1620 København V","Lufthavnsboulevarden 6, 2770 Kastrup",Vol Paris
+t576f6a,2026-10-06,15:30,17,5.4,"Nørre Farimagsgade 40, 1364 København K","Sundkrogsgade 20, 2100 København Ø",Site visit
+tac5d32,2026-09-29,11:10,8,1.6,"Nørre Farimagsgade 40, 1364 København K","Holmens Kanal 12, 1060 København K",""
+t011aa9,2026-10-13,09:30,28,12.5,"Vesterbrogade 85, 1620 København V","Lyngby Hovedgade 28, 2800 Kongens Lyngby",Kundemøde hos Brandt & Søn om den nye aftale.
+t15c02f,2026-10-15,16:00,14,3.1,"Nørre Farimagsgade 40, 1364 København K","Værnedamsvej 5, 1819 Frederiksberg C",First coffee with Sofie Lund from Havbrise Foods to discuss a possible pilot.
+t41ae59,2026-09-15,08:30,32,13.1,"Nørrebrogade 120, 2200 København N","Lyngby Hovedgade 54, 2800 Kongens Lyngby","rdv Nordlys, signature avenant"
+t6c670c,2026-09-22,15:40,14,3.9,"Kalvebod Brygge 45, 1560 København V","Founders Café (Hviid Robotics), Sankt Peders Stræde 14, 1453 København K",""
+tcbfa67,2026-09-18,16:40,22,10.6,"Kalvebod Brygge 45, 1560 København V","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",""
+t50dff7,2026-09-19,19:30,18,6.2,"Nørrebrogade 120, 2200 København N","Restaurant Kødbyens Fiskebar, Flæsketorvet 100, 1711 København V",Client dinner
+t511306,2026-09-13,11:40,24,9.8,"Københavns Lufthavn Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup","Hotel d'Angleterre, Kongens Nytorv 34, 1050 København K",Je récupère Mme Girard de Lumière Conseil à l'aéroport et je la dépose à son hôtel.
+t922ead,2026-10-06,07:50,27,14.3,"Hotel Atlantic Kempinski, An der Alster 72, 20099 Hamburg","Elbchaussee 350, 22609 Hamburg",Rental car from the hotel to the Nordwind Logistik warehouse for the contract review.
+t0fcbc1,2026-09-30,17:20,28,10.4,"Kalvebod Brygge 45, 1560 København V","Strandvejen 102, 2900 Hellerup",""
+taef6bd,2026-10-11,10:00,21,9.0,"Nørrebrogade 120, 2200 København N","Café Dyrehaven, Jægersborg Allé 20, 2920 Charlottenlund","coffee w/ Anna Holm (Fjord Foods), 1st intro, pitch deck"
+tac6c08,2026-10-17,06:15,16,5.1,"Nørrebrogade 120, 2200 København N","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",Fagmesse Odense
+t02c3b2,2026-10-18,18:45,17,6.0,"Nørrebrogade 120, 2200 København N","Restaurant Aamanns 1921, Niels Hemmingsens Gade 19, 1153 København K","dinner w/ Jonas @ Kvist Partners, renewal terms"
+t9b7527,2026-09-15,10:15,19,5.8,"Amagerbrogade 118, 2300 København S","Kalvebod Brygge 45, 1560 København V",Presenting the Q4 rollout plan to Anna Roed at Nordlys Energi.
+tb7a9b8,2026-09-24,14:30,11,2.4,"Vesterbrogade 149, 1620 København V","Værnedamsvej 5, 1819 Frederiksberg C",""
+te05912,2026-09-17,08:20,23,13.1,"Vesterbrogade 149, 1620 København V","Park Allé 345, 2605 Brøndby","Imprimerie Holm, epreuves brochure"
+t2a917f,2026-10-02,13:40,15,4.7,"Vesterbrogade 149, 1620 København V","Sydhavnsgade 20, 2450 København SV",Lager
+t67b5f4,2026-10-06,07:30,11,3.6,"Amagerbrogade 118, 2300 København S","Center Boulevard 5, 2300 København S","Nordic Retail Summit d1, badge"
+t29ab34,2026-09-28,05:50,16,9.0,"Amagerbrogade 118, 2300 København S","Lufthavnsboulevarden 6, 2770 Kastrup","CPH, flt to Stockholm, client wkshop"
+t7afa9e,2026-10-13,09:00,12,2.6,"Vesterbrogade 149, 1620 København V","Ny Carlsberg Vej 100, 1799 København V",Visite du chantier de Brygger Byg pour valider l'installation des capteurs.
+te32b9c,2026-09-19,19:30,21,6.3,"Amagerbrogade 118, 2300 København S","Flæsketorvet 100, 1711 København V",""
+te06611,2026-10-01,16:10,17,4.5,"Vesterbrogade 149, 1620 København V","Kongens Nytorv 34, 1050 København K",""
+t2143d2,2026-10-20,08:45,15,5.9,"Åboulevarden 28, 8000 Aarhus C","Palle Juul-Jensens Boulevard 99, 8200 Aarhus N",Kunde
+t59ce30,2026-09-10,07:50,9,2.1,"Skt. Thomas Allé 22, 2000 Frederiksberg","Grundtvigsvej 18, 1864 Frederiksberg C",School drop
+t3833f8,2026-09-12,10:15,20,7.5,"Skt. Thomas Allé 22, 2000 Frederiksberg","Arne Jacobsens Allé 12, 2300 København S",courses du samedi au Fields
+td46ef6,2026-09-15,16:40,14,3.1,"Skt. Thomas Allé 22, 2000 Frederiksberg","Vesterbrogade 120, 1620 København V",""
+t1c4902,2026-09-16,18:30,6,1.4,"Skt. Thomas Allé 22, 2000 Frederiksberg","Helgesvej 29, 2000 Frederiksberg",""
+tf072a2,2026-09-20,17:30,28,14.5,"Skt. Thomas Allé 22, 2000 Frederiksberg","Lyngby Hovedgade 45, 2800 Kongens Lyngby",Birthday dinner at my sister Camilla's place.
+tafb738,2026-09-26,09:30,38,34.0,"Skt. Thomas Allé 22, 2000 Frederiksberg","Gl. Strandvej 13, 3050 Humlebæk",Tur til Louisiana med familien for at se den nye udstilling.
+t0c806f,2026-10-02,05:15,20,11.5,"Skt. Thomas Allé 22, 2000 Frederiksberg","Lufthavnsboulevarden 6, 2770 Kastrup",""
+t91ce3d,2026-10-09,20:00,18,4.8,"Skt. Thomas Allé 22, 2000 Frederiksberg","Jægersborggade 41, 2200 København N",dinner w/ Anna
+t194f31,2026-10-17,11:00,15,3.5,"Skt. Thomas Allé 22, 2000 Frederiksberg","Østergade 52, 1001 København K",bday gift for mum
+tdb0783,2026-10-19,15:20,10,2.1,"Grundtvigsvej 18, 1864 Frederiksberg C","Skt. Thomas Allé 22, 2000 Frederiksberg",Pickup
+tf6c481,2026-09-24,19:45,22,5.2,"Amagerbrogade 85, 2300 København S","Værnedamsvej 14, 1619 København V",""
+tb0f1b2,2026-09-28,07:25,17,4.8,"Amagerbrogade 85, 2300 København S","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",""
+t653e60,2026-09-30,12:30,8,1.6,"Vester Farimagsgade 20, 1606 København V","Torvehallerne, Frederiksborggade 21, 1360 København K",Lunch alone
+t17c912,2026-09-29,08:05,24,4.6,"Amagerbrogade 85, 2300 København S","Vester Farimagsgade 20, 1606 København V","Til kontoret, kø på Langebro"
+tcd3449,2026-10-08,17:40,7,1.1,"Vester Farimagsgade 20, 1606 København V","Vesterbrogade 97, 1620 København V",gym after wrk
+tc3c8a7,2026-10-03,10:15,40,33.0,"Amagerbrogade 85, 2300 København S","Gammel Strandvej 13, 3050 Humlebæk",Tur til Louisiana med børnene for at se udstillingen.
+t81c987,2026-10-10,05:10,17,9.0,"Amagerbrogade 85, 2300 København S","Lufthavnsboulevarden 6, 2770 Kastrup",Holiday Crete
+t20a802,2026-10-16,18:50,12,2.0,"Vester Farimagsgade 20, 1606 København V","Skindergade 28, 1159 København K",""
+te5444a,2026-10-02,08:50,22,5.9,"Amagerbrogade 85, 2300 København S","Frederiksberg Hospital, Nordre Fasanvej 57, 2000 Frederiksberg",Dropped Maria off at the hospital for her morning shift.
+t9878fa,2026-10-13,12:20,10,2.3,"Vester Farimagsgade 20, 1606 København V","Flæsketorvet 100, 1711 København V","déj seul, sushi, pas de rdv"
+t154b9a,2026-09-15,18:15,20,6.2,"Amagerbrogade 112, 2300 København S","Helgesvej 29, 2000 Frederiksberg",svømning m. Lars
+t18be2c,2026-09-19,17:30,22,8.1,"Amagerbrogade 112, 2300 København S","Toftegårds Allé 14, 2500 Valby",Kører til min søster Camillas fødselsdagsmiddag.
+t4047e8,2026-09-27,10:00,40,33.0,"Amagerbrogade 112, 2300 København S","Gammel Strandvej 13, 3050 Humlebæk",Louisiana w/ Anna
+tb7f517,2026-10-02,05:45,14,7.5,"Amagerbrogade 112, 2300 København S","Lufthavnsboulevarden 6, 2770 Kastrup","Airport, Lisbon hol"
+td9eca6,2026-09-26,19:30,18,6.0,"Amagerbrogade 112, 2300 København S","Jægersborggade 41, 2200 København N",Dinner
+t9b4e0f,2026-10-05,07:50,20,7.2,"Amagerbrogade 112, 2300 København S","Blegdamsvej 9, 2100 København Ø",dropped Mia at work
+te376bd,2026-09-16,12:10,15,4.8,"Sundkrogsgade 21, 2100 København Ø","Frederiksborggade 21, 1360 København K",""
+t1d2df5,2026-10-10,11:00,10,3.5,"Amagerbrogade 112, 2300 København S","Arne Jacobsens Allé 12, 2300 København S",""
+t8c7781,2026-09-17,07:55,25,6.4,"Amagerbrogade 112, 2300 København S","Sundkrogsgade 21, 2100 København Ø","Trajet habituel de la maison au bureau, heure de pointe."
+t107e4c,2026-09-22,15:20,9,2.5,"Islands Brygge 30, 2300 København S","Amagerbrogade 112, 2300 København S",""
+t51d178,2026-09-16,13:15,22,6.5,"Gammel Kongevej 60, 1850 Frederiksberg C","Havnestad Ejendomme, Sundkrogsgade 21, 2100 København Ø",""
+t1d0528,2026-09-22,08:40,30,17.2,"Gammel Kongevej 60, 1850 Frederiksberg C","Grafisk Center Trykkeri, Naverland 8, 2600 Glostrup",Picking up the 500 printed brochures from Grafisk Center for the Thursday trade event.
+t89c83b,2026-09-25,14:05,22,11.4,"Nordhavn Interiør, Gammel Kongevej 60, 1850 Frederiksberg C","Nordhavn Interiør Lager, Avedøre Tværvej 12, 2650 Hvidovre",Lager
+t4a477c,2026-10-06,07:50,12,4.6,"Amagerbrogade 120, 2300 København S","Bella Center Copenhagen, Center Boulevard 5, 2300 København S",""
+te22373,2026-09-27,17:30,15,7.8,"Amagerbrogade 120, 2300 København S","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","flight to Oslo, client wkshp mon"
+t9f4c46,2026-10-01,10:20,25,9.1,"Gammel Kongevej 60, 1850 Frederiksberg C","Byggeplads Ørestad Bolig, Ørestads Boulevard 55, 2300 København S",""
+tf44c17,2026-09-21,09:10,15,3.6,"Gammel Kongevej 60, 1850 Frederiksberg C","Sjællands Erhvervsbank, Holmens Kanal 12, 1060 København K",Bank
+ta2ce1c,2026-10-08,09:30,16,5.2,"Amagerbrogade 120, 2300 København S","Fjordvind A/S, Kalvebod Brygge 39, 1560 København V",Quarterly review with Louise Brandt at Fjordvind about the new service contract.
+t14ec5e,2026-09-18,15:00,9,2.3,"Gammel Kongevej 60, 1850 Frederiksberg C","Café Dahlia, Istedgade 44, 1650 København V","coffee w/ Jonas Krogh (Vintra), 1st intro"
+te8cae2,2026-10-14,11:00,25,14.3,"Gammel Kongevej 60, 1850 Frederiksberg C","Atelier Menuiserie Holm, Literbuen 9, 2740 Skovlunde",chercher échantillons chez Holm
+t061483,2026-09-08,09:20,28,12.3,"Laurits Design Studio, Lyngbyvej 20, 2100 København Ø","Kaffegrossisten Bønnen, Hammerholmen 40, 2650 Hvidovre",Fournisseur café
+t5e3dc5,2026-09-17,15:40,28,20.1,"Laurits Design Studio, Lyngbyvej 20, 2100 København Ø","Laurits Lager, Ejby Industrivej 40, 2600 Glostrup","to storage, grab demo units"
+tbfeef3,2026-09-30,06:45,110,166.0,"Toftegårds Allé 18, 2500 Valby","Odense Congress Center, Ørbækvej 350, 5220 Odense SØ","Salon professionnel de l'emballage à Odense, je pars tôt de la maison."
+t219ed2,2026-10-12,05:40,20,11.2,"Toftegårds Allé 18, 2500 Valby","Københavns Lufthavn Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup",Berlin client
+tde9ca5,2026-09-29,13:30,18,6.0,"Laurits Design Studio, Lyngbyvej 20, 2100 København Ø","Pharmatek Lab, Ole Maaløes Vej 3, 2200 København N","install check at Pharmatek lab, sensors"
+t8ca6b3,2026-10-02,08:15,22,10.4,"Laurits Design Studio, Lyngbyvej 20, 2100 København Ø","Pakkeposten Erhvervscenter, Hedegaardsvej 88, 2300 København S",""
+t268277,2026-09-23,08:30,20,6.3,"Toftegårds Allé 18, 2500 Valby","Mølgaard Revision, Bredgade 25, 1260 København K",""
+t58e86f,2026-10-15,16:10,20,5.6,"Laurits Design Studio, Lyngbyvej 20, 2100 København Ø","Studio Aalto Design, Pilestræde 15, 1112 København K",""
+t3a8099,2026-09-14,10:00,28,21.0,"Laurits Design Studio, Lyngbyvej 20, 2100 København Ø","Jysk Emballage A/S, Gydevang 20, 3450 Allerød",Visiting the packaging supplier Jysk Emballage to check the new carton samples with Henrik.
+t491b7f,2026-10-23,12:20,20,5.1,"Laurits Design Studio, Lyngbyvej 20, 2100 København Ø","Laurits Butik, Frederiksberggade 10, 1459 København K",til butikken m. nye prøver
+t0fd7ac,2026-09-09,14:30,20,10.2,"Maison Kvist Bureau, Sluseholmen 8, 2450 København SV","Maison Kvist Entrepôt, Avedøre Holme 80, 2650 Hvidovre",""
+t0935ab,2026-10-01,08:20,12,4.1,"Sluseholmen 8, 2450 København SV","Øksnehallen, Halmtorvet 11, 1700 København V",CPH Retail Summit day 1
+t93fa0c,2026-10-18,06:10,22,13.5,"Jagtvej 105, 2200 København N","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Paris
+t259c40,2026-09-21,07:50,24,12.0,"Maison Kvist Bureau, Sluseholmen 8, 2450 København SV","Byggeplads Nordhavn Etape 4, Orientkaj 20, 2150 Nordhavn",""
+t948549,2026-09-30,11:40,14,3.5,"Maison Kvist Bureau, Sluseholmen 8, 2450 København SV","Nordkyst Bank Erhverv, Bernstorffsgade 17, 1577 København V","Bank, kvitteringer + indskud"
+t09450c,2026-09-17,09:00,14,3.4,"Jagtvej 105, 2200 København N","Rosendahl Møbler, Strandboulevarden 49, 2100 København Ø","møde m. Rosendahl om kontrakt, Karen"
+t0c9a6c,2026-10-13,15:30,17,5.0,"Maison Kvist Bureau, Sluseholmen 8, 2450 København SV","Tidewave Robotics ApS, Ny Carlsberg Vej 80, 1760 København V","First meeting with Sofie Lund, head of operations at Tidewave Robotics, to present our service."
+t831e86,2026-10-09,09:45,24,18.4,"Maison Kvist Bureau, Sluseholmen 8, 2450 København SV","Lind Metalværksted, Fabriksparken 22, 2600 Glostrup",Dropping off the drawings and checking the prototype brackets at Lind Metalværksted.
+ta2474f,2026-10-05,16:40,20,10.0,"Maison Kvist Entrepôt, Avedøre Holme 80, 2650 Hvidovre","Maison Kvist Bureau, Sluseholmen 8, 2450 København SV",Warehouse
+td90144,2026-10-20,07:30,45,41.0,"Jagtvej 105, 2200 København N","Malmö Live Congress Centre, Dag Hammarskjölds torg 2, 211 18 Malmö",""
+tb2de18,2026-09-24,07:55,14,6.4,"Havneholmen 29, 1561 København V","Bella Center Copenhagen, Center Boulevard 5, 2300 København S",""
+t2e04f3,2026-09-23,06:30,20,11.0,"Smallegade 25, 2000 Frederiksberg","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","fly til Stockholm, kundemøde"
+t79689d,2026-09-28,10:15,16,6.0,"Havneholmen 29, 1561 København V","Chantier Refshaleøen, Refshalevej 163, 1432 København K","inspection chantier, client Havnebad"
+t0d653b,2026-09-29,13:20,20,6.5,"Havneholmen 29, 1561 København V","Toldstyrelsen, Tagensvej 135, 2200 København N",Douane
+t9f213f,2026-09-15,09:45,12,3.2,"Smallegade 25, 2000 Frederiksberg","Aurora Software ApS, Nørre Voldgade 34, 1358 København K",""
+tdf668e,2026-10-02,14:20,11,3.0,"Havneholmen 29, 1561 København V","Kornmark Foods A/S, Islands Brygge 79, 2300 København S",""
+t4e561f,2026-10-14,08:30,25,15.2,"Havneholmen 29, 1561 København V","Nordisk Print A/S, Mileparken 20, 2740 Skovlunde",proofs @ Nordisk Print
+td6cfee,2026-09-19,11:00,18,5.0,"Delta Handel Kontor, Havneholmen 29, 1561 København V","Delta Handel Butik, Jægersborggade 22, 2200 København N",Butik
+te8747a,2026-10-06,08:20,12,4.0,"Hotel Elbblick, Reeperbahn 30, 20359 Hamburg","Hamburg Messe, Messeplatz 1, 20357 Hamburg","Taxi from the hotel to the Hamburg Messe, I attend the logistics trade fair all day."
+taa1fe6,2026-10-22,21:40,22,11.5,"Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Smallegade 25, 2000 Frederiksberg","Back from the Amsterdam supplier visit, taxi from the airport home."
+t78e25d,2026-09-12,10:15,24,8.5,"Amagerbrogade 120, 2300 København S","Café Atelier September, Gl. Kongevej 100, 1850 Frederiksberg C",Prospect Lund
+t48698e,2026-09-20,19:10,17,9.2,"Fjordline Software ApS, Islands Brygge 81, 2300 København S","Københavns Lufthavn Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup",""
+t356a57,2026-09-26,18:30,18,6.1,"Amagerbrogade 120, 2300 København S","Kødbyens Fiskebar, Flæsketorvet 100, 1711 København V",Middag med Henrik Skov fra Nordlys Energi for at lukke Q4-aftalen.
+tf90a1c,2026-10-04,09:00,14,4.6,"Copenhagen Marriott Hotel, Kalvebod Brygge 5, 1560 København V","Fjordline Software ApS, Islands Brygge 81, 2300 København S",""
+te080ff,2026-09-20,08:05,22,9.8,"Hotel Atlantic Hamburg, An der Alster 72, 20099 Hamburg","Hanseatic Marine GmbH, Am Sandtorkai 50, 20457 Hamburg",Rental car from the hotel to the Hanseatic Marine yard for the pre-delivery inspection with Jens Brandt.
+td499cd,2026-09-08,08:10,17,5.6,"Amagerbrogade 120, 2300 København S","Nordlys Energi, Kalvebod Brygge 45, 1560 København V",mtg w/ Nordlys re Q4 offer
+tea8839,2026-10-01,18:45,14,6.3,"Amagerbrogade 120, 2300 København S","Brix & Vinge Consulting, Værnedamsvej 16, 1819 Frederiksberg C",""
+t7c6539,2026-09-25,23:20,16,9.1,"Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Amagerbrogade 120, 2300 København S",Retour salon Berlin
+t9c4166,2026-10-10,12:10,22,7.2,"Amagerbrogade 120, 2300 København S","Café Norden, Østergade 61, 1100 København K",Frokost m. leverandør Brix
+tc40cd1,2026-10-18,09:40,18,6.0,"Amagerbrogade 120, 2300 København S","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",Candidate pickup
+td83011,2026-09-13,17:40,22,12.3,"Jagtvej 85, 2200 København N","Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Oslo trip, Arctis demo Mon"
+t12abd7,2026-10-08,18:40,21,7.4,"Meridian Pharma A/S, Ørestads Boulevard 73, 2300 København S","Restaurant Gorilla, Flæsketorvet 63, 1711 København V",""
+t9bd7d1,2026-09-27,20:30,16,8.1,"Havneholmen 25, 1561 København V","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",Hentede vores norske kunde Ingrid Moe på Hovedbanegården og kørte hende til hotellet.
+t6b13e5,2026-10-03,09:00,20,4.1,"Hôtel Pullman Paris Montparnasse, 19 Rue du Commandant Mouchotte, 75014 Paris","Paris Expo Porte de Versailles, 1 Place de la Porte de Versailles, 75015 Paris","Salon Equip Auto, voiture louée"
+teeb85c,2026-09-21,08:05,16,4.5,"Jagtvej 85, 2200 København N","Havnegade Shipping A/S, Havnegade 39, 1058 København K",Client
+t9e688b,2026-09-19,10:30,15,4.0,"Jagtvej 85, 2200 København N","Det Lille Apotek, Store Kannikestræde 15, 1169 København K","Prospekt, Mikkel"
+t3d2034,2026-09-26,05:30,20,10.4,"Tidewater Software ApS, Havneholmen 25, 1561 København V","Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",""
+tf56327,2026-10-11,19:30,15,4.8,"Jagtvej 85, 2200 København N","Restaurant Geranium, Per Henrik Lings Allé 4, 2100 København Ø",Dinner with Anders Holm of Meridian Pharma to close the licensing deal.
+tf9a143,2026-10-17,13:10,14,3.6,"Jagtvej 85, 2200 København N","Hotel Skt. Petri, Krystalgade 22, 1172 København K",pick up client Holm @ hotel
+t35c9ae,2026-10-24,14:00,20,6.5,"Hotel Pulitzer Amsterdam, Prinsengracht 315-331, 1016 GZ Amsterdam","RAI Amsterdam Convention Centre, Europaplein 24, 1078 GZ Amsterdam",""
+t218ab1,2026-09-11,20:00,12,3.3,"Falkoner Allé 55, 2000 Frederiksberg","Restaurant Schønnemann, Hauser Plads 16, 1127 København K","middag m. Jysk Vind, kontrakt"
+tbaa3c5,2026-09-13,14:20,13,4.4,"Falkoner Allé 55, 2000 Frederiksberg","Hotel Phoenix Copenhagen, Bredgade 37, 1260 København K","pickup Tanaka, Orbit demo"
+tb5a8c2,2026-10-10,07:30,25,14.2,"Hotel Skeppsholmen, Gröna Gången 1, 111 86 Stockholm","Stockholmsmässan, Mässvägen 1, 125 80 Älvsjö",Rental car to the Stockholm trade fair where we have a stand with Lena Berg's team.
+tf75d27,2026-09-14,08:00,17,5.6,"Falkoner Allé 55, 2000 Frederiksberg","Solvang Ejendomme A/S, Dampfærgevej 27, 2100 København Ø",Client
+te8c85a,2026-09-26,09:45,10,2.5,"Falkoner Allé 55, 2000 Frederiksberg","Kaffeslaget, Vesterbrogade 72, 1620 København V","First coffee with Nina Aggerholm, founder of Kornmark Foods, to pitch our reporting tool."
+t34f374,2026-10-18,06:05,22,12.6,"Lumo Systems ApS, Sluseholmen 14, 2450 København SV","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",""
+tc9cab3,2026-10-08,18:30,20,6.5,"Kornmark Foods A/S, Refshalevej 163A, 1432 København K","Kødbyens Fiskebar, Flæsketorvet 100, 1711 København V",""
+tbd10ae,2026-10-24,08:45,12,4.3,"Scandic Palace Hotel, Rådhuspladsen 57, 1550 København V","Lumo Systems ApS, Sluseholmen 14, 2450 København SV",""
+t8ad80a,2026-10-13,07:40,20,11.0,"Radisson Blu Plaza Hotel, Sonja Henies plass 3, 0134 Oslo","Nordhavn Marine AS, Strandveien 15, 1366 Lysaker",Client visit
+t511dcf,2026-10-06,08:25,22,11.5,"Falkoner Allé 55, 2000 Frederiksberg","Nexus Logistik A/S, Lundtoftegårdsvej 93, 2800 Kongens Lyngby","RDV client Nexus, offre T4"
+te0f00f,2026-09-06,19:50,20,11.2,"Classensgade 30, 2100 København Ø","Copenhagen Airport Terminal 2 Arrivals, Lufthavnsboulevarden 6, 2770 Kastrup","pickup candidate fr airport, interview Mon"
+tcfd814,2026-09-19,09:30,22,6.8,"Hotel Adlon Kempinski, Unter den Linden 77, 10117 Berlin","Spreewerk Digital GmbH, Stralauer Allee 2, 10245 Berlin","lejebil, kundemøde Spreewerk"
+t5dfc09,2026-09-16,08:10,18,5.5,"Classensgade 30, 2100 København Ø","Kvist Entreprise A/S, Roskildevej 22, 2000 Frederiksberg",""
+td5d225,2026-10-04,10:20,12,3.2,"Classensgade 30, 2100 København Ø","Torvehallerne, Frederiksborggade 21, 1360 København K","1st coffee w/ prospect Maja Dall, Fjordlab"
+t8e0311,2026-10-17,05:45,20,11.8,"Classensgade 30, 2100 København Ø","Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Vol Londres client
+t733ad8,2026-10-16,19:10,14,5.9,"Brightwave Media ApS, Ny Carlsberg Vej 80, 1760 København V","Told & Snaps, Tordenskjoldsgade 7, 1055 København K",""
+t966549,2026-10-24,08:20,14,6.2,"Hotel Skt. Petri, Krystalgade 22, 1172 København K","Fjordbyte ApS, Teglholmsgade 1, 2450 København SV",""
+tcbdaa2,2026-10-14,06:50,75,66.0,"The Hoxton Holborn, 199-206 High Holborn, London WC1V 7BD","Pennine Data Ltd, 200 Brook Drive, Reading RG2 6UB",Hired car from the Hoxton to the Pennine Data site visit in Reading with Tom Ashby.
+tb218f7,2026-10-15,07:50,12,3.4,"Classensgade 30, 2100 København Ø","Bruun & Dahl Revision, Amaliegade 14, 1256 København K",Client
+ta7cab7,2026-10-31,09:15,17,5.0,"Classensgade 30, 2100 København Ø","Granola, Værnedamsvej 5, 1819 Frederiksberg C","Premier café avec Lars Kjeldsen, directeur de Havbrise Foods, pour présenter notre offre."
+t5f9fbd,2026-09-08,13:40,22,5.9,"Nørrebrogade 150, 2200 København N","Havnegaarden Rederi, Nordre Toldbod 12, 1259 København K",1st mtg w/ Anne Korsgaard re fleet app
+t96c114,2026-09-10,08:15,26,12.3,"Nørrebrogade 150, 2200 København N","Printhuset Kvist, Avedøre Tværvej 30, 2650 Hvidovre",""
+tbd8ed8,2026-09-15,11:30,14,4.1,"Studio Lys Kontor, Nørrebrogade 150, 2200 København N","Studio Lys Butik, Værnedamsvej 14, 1819 Frederiksberg C",""
+te5b65c,2026-09-23,07:40,13,4.6,"Amagerbrogade 100, 2300 København S","Bella Center, Center Boulevard 5, 2300 København S","salon Nordic Logistics, jour 1"
+te0a335,2026-09-29,05:20,14,7.2,"Amagerbrogade 100, 2300 København S","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Early flight to Stockholm for the Lindqvist Retail workshop.
+t88585f,2026-10-02,10:00,21,7.4,"Nørrebrogade 150, 2200 København N","Nordhavn Byg Site, Orientkaj 22, 2150 Nordhavn",Site walk
+t01f5e7,2026-10-03,19:00,22,6.3,"Amagerbrogade 100, 2300 København S","Restaurant Kronborg Bistro, Store Kongensgade 66, 1264 København K",Middag Hansen
+t5d71ac,2026-10-06,16:30,19,5.6,"Nørrebrogade 150, 2200 København N","Hotel Skt. Petri, Krystalgade 22, 1172 København K","pick up Dr Meyer, Brandt visiting"
+t955239,2026-09-17,08:45,21,6.6,"Hotel Atlantic Kempinski, An der Alster 72, 20099 Hamburg","Elbtech Maschinenbau, Am Sandtorkai 50, 20457 Hamburg",Rental car from the hotel to the Elbtech kickoff meeting.
+t3a38e3,2026-09-18,09:45,17,4.3,"Nørrebrogade 150, 2200 København N","Kanalbanken Erhverv, Holmens Kanal 2, 1090 København K",""
+t9c1eb1,2026-09-03,08:30,23,14.1,"Kapsel Kaffe HQ, Islands Brygge 43, 2300 København S","Brøndby Lager Nord, Park Allé 355, 2605 Brøndby",""
+tacd90a,2026-09-09,13:20,11,3.2,"Kapsel Kaffe HQ, Islands Brygge 43, 2300 København S","Kapsel Kaffe Lager, Sluseholmen 8, 2450 København SV",Stock
+t249705,2026-09-24,08:05,12,2.9,"Falkoner Allé 45, 2000 Frederiksberg","Forum Copenhagen, Julius Thomsens Gade 7, 1632 København V",Salon RH
+tf9cd02,2026-10-13,05:45,21,12.6,"Falkoner Allé 45, 2000 Frederiksberg","Københavns Lufthavn Terminal 2 Afrejse, Lufthavnsboulevarden 6, 2770 Kastrup",""
+t997db4,2026-09-16,15:10,14,3.9,"Kapsel Kaffe HQ, Islands Brygge 43, 2300 København S","Byggeplads Carlsberg Byen, Ny Carlsberg Vej 100, 1760 København V",""
+td77b63,2026-09-18,12:00,13,3.5,"Kapsel Kaffe HQ, Islands Brygge 43, 2300 København S","Restaurant Kødbyens Fiskebar, Flæsketorvet 100, 1711 København V",frokost m. Nielsen fra Sorensen A/S
+t36d841,2026-10-08,10:15,13,3.3,"Falkoner Allé 45, 2000 Frederiksberg","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",Picking up our visiting client Julia Hartmann from the Hamburg train for the Q4 review.
+te78298,2026-09-30,08:30,15,4.2,"Thon Hotel Opera, Christian Frederiks plass 5, 0154 Oslo","Fjordkraft Partner, Støperigata 2, 0250 Oslo",Rental car from the hotel to the Fjordkraft Partner contract meeting.
+td1b2bb,2026-09-11,09:15,10,2.8,"Kapsel Kaffe HQ, Islands Brygge 43, 2300 København S","Pakkeposten Erhvervscenter, Hedegaardsvej 88, 2300 København S",pakker til kunder
+t7fd6f6,2026-10-14,13:30,24,10.4,"Falkoner Allé 45, 2000 Frederiksberg","Solbakke Forsikring, Tuborg Havnevej 15, 2900 Hellerup","mtg Solbakke, renewal"
+t8b067c,2026-09-04,14:00,22,8.3,"Hjem & Have Butik Frederiksberg, Frederiksberg Allé 40, 1820 Frederiksberg C","Hjem & Have Lager Hvidovre, Hvidovrevej 270, 2650 Hvidovre",""
+t4ee144,2026-09-22,07:50,15,4.7,"Toftegårds Allé 30, 2500 Valby","Øksnehallen, Halmtorvet 11, 1700 København V","formation sécurité, J1"
+t273554,2026-09-14,04:50,19,15.2,"Toftegårds Allé 30, 2500 Valby","Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Berlin
+t630e05,2026-09-25,10:30,20,11.8,"Ørestads Boulevard 73, 2300 København S","Brix Foods Fabrik, Industriholmen 40, 2650 Hvidovre",Install check
+t123755,2026-10-17,19:15,23,7.4,"Toftegårds Allé 30, 2500 Valby","Restaurant Fjordsmag, Overgaden Oven Vandet 28, 1415 København K",Dinner with Marta Kowalski of Baltic Cargo to close the contract terms.
+t8aff24,2026-10-01,11:45,15,8.6,"Ørestads Boulevard 73, 2300 København S","Copenhagen Airport Terminal 3 Ankomst, Lufthavnsboulevarden 6, 2770 Kastrup",""
+t7cc274,2026-09-29,09:10,19,5.3,"Hotel Okura Amsterdam, Ferdinand Bolstraat 333, 1072 LH Amsterdam","Van der Meer Retail, Strawinskylaan 1725, 1077 XX Amsterdam",hotel -> VdMeer mtg
+t915313,2026-09-18,15:20,10,3.1,"Ørestads Boulevard 73, 2300 København S","Pakkeposten Postbutik, Kastrupvej 105, 2300 København S",Envoi du colis de contrats pour le client Dahl chez Pakkeposten.
+t4678af,2026-10-06,09:30,21,7.1,"Ørestads Boulevard 73, 2300 København S","Skovgaard Rådgivning, Frederiksborggade 15, 1360 København K",""
+t172300,2026-10-13,08:40,23,6.2,"Toftegårds Allé 30, 2500 Valby","Café Paludan, Fiolstræde 10, 1171 København K",1st coffee w/ Sofie Winther (Tidal Health)
+t2c48e8,2026-09-10,08:10,22,8.7,"Classensgade 40, 2100 København Ø","Bella Center, Center Boulevard 5, 2300 København S",Attending the day-two sessions at the Nordic HR Tech expo.
+t332daa,2026-10-20,16:40,19,10.9,"Københavns Lufthavn Terminal 3 Ankomst, Lufthavnsboulevarden 6, 2770 Kastrup","Classensgade 40, 2100 København Ø",Retour de Paris après la formation chez Lemaire Conseil.
+t9d917c,2026-09-21,07:30,19,8.2,"Classensgade 40, 2100 København Ø","Byggeplads Ørestad Syd, Ørestads Boulevard 108, 2300 København S",walkthru w/ site mgr Pedersen
+tf894fb,2026-09-16,12:15,9,2.3,"Torvegade 30, 1400 København K","Restaurant Gråbrødre, Gråbrødre Torv 16, 1154 København K",Client lunch
+t39e73d,2026-10-08,06:50,14,4.1,"Classensgade 40, 2100 København Ø","Hotel d'Angleterre, Kongens Nytorv 34, 1050 København K",Pick-up M. Okafor
+ta2164a,2026-09-24,08:20,21,5.7,"Motel One Berlin-Alexanderplatz, Dircksenstraße 36, 10179 Berlin","Kreuzwerk GmbH, Köpenicker Straße 154, 10997 Berlin",lejebil hotel -> kunde Kreuzwerk
+t18a63d,2026-09-28,10:20,6,1.2,"Torvegade 30, 1400 København K","Havnebank Erhverv, Strandgade 3, 1401 København K",""
+t70cc3d,2026-10-14,10:00,11,2.5,"Torvegade 30, 1400 København K","Aurum Capital, Amaliegade 20, 1256 København K",Aurum Q4 review
+tdba37f,2026-10-22,14:30,19,7.6,"Classensgade 40, 2100 København Ø","Beringer Logistik A/S, Arne Jacobsens Allé 15, 2300 København S",""
+tb1d6b8,2026-09-30,08:00,26,15.4,"Torvegade 30, 1400 København K","Nordic Pack Warehouse, Avedøre Holme 60, 2650 Hvidovre",""
+t0106c1,2026-09-05,10:15,16,6.8,"Amagerbrogade 120, 2300 København S","Bauhaus Amager, Englandsvej 380, 2770 Kastrup",Picked up paint and a new tap for our bathroom at Bauhaus.
+t22d891,2026-09-08,08:20,18,5.6,"Amagerbrogade 120, 2300 København S","Tandlæge Østerbro, Østerbrogade 95, 2100 København Ø","dentiste, contrôle annuel"
+tac136a,2026-09-16,18:05,9,2.7,"Amagerbrogade 120, 2300 København S","SATS Islands Brygge, Islands Brygge 79, 2300 København S",Styrketræning
+t21ade1,2026-09-20,13:30,28,14.5,"Amagerbrogade 120, 2300 København S","Hos Søren og Lise, Hyldegårdsvej 18, 2920 Charlottenlund",""
+t9baedf,2026-09-26,09:00,38,34.2,"Amagerbrogade 120, 2300 København S","Louisiana Museum of Modern Art, Gl Strandvej 13, 3050 Humlebæk",Day out at Louisiana with the kids to see the Hockney exhibition.
+t83200c,2026-10-02,05:10,14,9.5,"Amagerbrogade 120, 2300 København S","Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Holiday flight
+tad57e1,2026-09-12,19:30,17,5.2,"Amagerbrogade 120, 2300 København S","Pizzeria Luna Rossa, Istedgade 60, 1650 København V",""
+te212c0,2026-09-19,11:00,10,3.2,"Amagerbrogade 120, 2300 København S","Elgiganten Field's, Arne Jacobsens Allé 12, 2300 København S",""
+tc8d670,2026-09-14,07:55,7,1.9,"Amagerbrogade 120, 2300 København S","Amager Fælled Skole, Sundholmsvej 72, 2300 København S",dépose Léa à l'école
+t7a1e7c,2026-10-08,17:40,8,2.4,"Amagerbrogade 120, 2300 København S","Lidl Sundby, Englandsvej 54, 2300 København S",weekly shop
+t090500,2026-09-07,08:40,11,2.9,"Smallegade 18, 2000 Frederiksberg","Fysioterapi Vesterbro, Vesterbrogade 120, 1620 København V",""
+t19fd80,2026-09-15,19:10,6,1.2,"Smallegade 18, 2000 Frederiksberg","Frederiksberg Svømmehal, Helgesvej 29, 2000 Frederiksberg",swim 7.30pm w/ Anna
+t610710,2026-09-26,17:45,26,13.8,"Smallegade 18, 2000 Frederiksberg","Hos Mikkel og Sara, Bakkegårdsvej 12, 2830 Virum",""
+t3bfff6,2026-09-13,10:00,22,11.5,"Smallegade 18, 2000 Frederiksberg","Bakken, Dyrehavevej 62, 2930 Klampenborg",""
+tca9add,2026-10-17,06:15,20,12.3,"Smallegade 18, 2000 Frederiksberg","Kastrup Lufthavn, Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup",Ferie Mallorca
+t074553,2026-10-02,20:00,16,4.6,"Smallegade 18, 2000 Frederiksberg","Bistro Havnen, Nyhavn 31, 1051 København K","Birthday dinner with Anna, just the two of us, table booked at 8pm."
+t18566c,2026-10-10,12:20,18,4.4,"Smallegade 18, 2000 Frederiksberg","Magasin du Nord, Kongens Nytorv 13, 1095 København K",bday gift for mum
+t4a6855,2026-09-23,15:20,6,1.3,"Smallegade 18, 2000 Frederiksberg","Lindevangskolen, Lindevangs Allé 2, 2000 Frederiksberg",Hentede Emil fra skole klokken halv fire.
+td7d1e5,2026-09-05,10:30,7,1.5,"Smallegade 18, 2000 Frederiksberg","Irma, Gl. Kongevej 74, 1850 Frederiksberg C",courses
+tbff368,2026-10-22,14:15,22,6.4,"Smallegade 18, 2000 Frederiksberg","Rigshospitalet, Blegdamsvej 9, 2100 København Ø","rdv cardio, bilan perso"
+te0bc80,2026-09-14,06:45,5,1.1,"Nørrebrogade 150, 2200 København N","CrossFit Nørrebro, Jagtvej 150, 2200 København N",CrossFit
+t4fb973,2026-09-27,12:30,32,27.0,"Nørrebrogade 150, 2200 København N","Kirsten Aagaard, Hovedgaden 40, 2970 Hørsholm","Sunday lunch at my mother's, she turned 70 this week."
+t8dce1b,2026-09-19,09:30,58,62.0,"Nørrebrogade 150, 2200 København N","Tisvildeleje Strand, Hawvej, 3220 Tisvildeleje",""
+tb6a592,2026-10-25,19:30,19,11.8,"Kastrup Lufthavn Ankomst, Lufthavnsboulevarden 6, 2770 Kastrup","Nørrebrogade 150, 2200 København N",""
+tff4459,2026-09-18,20:15,5,1.0,"Nørrebrogade 150, 2200 København N","Bistro Marcel, Elmegade 20, 2200 København N",Dîner au restaurant avec ma femme pour fêter notre anniversaire.
+ta16104,2026-10-03,11:15,11,2.8,"Nørrebrogade 150, 2200 København N","Bolia Østerbro, Østerbrogade 100, 2100 København Ø",Sofa
+td16878,2026-09-22,08:05,4,0.8,"Nørrebrogade 150, 2200 København N","Rådmandsgades Skole, Rådmandsgade 60, 2200 København N",""
+tcdacff,2026-10-14,18:00,10,3.0,"Nørrebrogade 150, 2200 København N","Netto, Frederikssundsvej 40, 2400 København NV",dinner shop
+t967e25,2026-10-01,10:40,12,2.4,"Nørrebrogade 150, 2200 København N","Øjenlæge Winther, Nørre Voldgade 22, 1358 København K","eye check, new glasses"
+tbb703e,2026-09-06,10:00,11,3.0,"Nørrebrogade 150, 2200 København N","Parken, Per Henrik Lings Allé 2, 2100 København Ø",tournoi de foot de mon fils
+te66162,2026-09-12,18:30,20,7.6,"Toftegårds Allé 25, 2500 Valby","Hos Jonas og Mia, Kay Fiskers Plads 9, 2300 København S",Jonas bday dinner
+t3c92ac,2026-09-26,10:30,45,46.0,"Toftegårds Allé 25, 2500 Valby","Kronborg Slot, Kronborg 2C, 3000 Helsingør",Château Hamlet
+t96a3db,2026-10-09,16:50,20,6.2,"Toftegårds Allé 25, 2500 Valby","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V","train to Mum's in Odense, back Sun"
+t9654a7,2026-10-17,12:45,17,5.1,"Toftegårds Allé 25, 2500 Valby","Café Bang & Jensen, Istedgade 130, 1650 København V",""
+t91606f,2026-09-19,14:00,15,4.7,"Toftegårds Allé 25, 2500 Valby","Elgiganten Fisketorvet, Kalvebod Brygge 59, 1560 København V",headphones
+td01b4f,2026-09-21,07:50,6,1.4,"Toftegårds Allé 25, 2500 Valby","Kirkebjerg Skole, Vigerslev Allé 130, 2500 Valby",""
+tf032f2,2026-10-06,17:15,5,1.1,"Toftegårds Allé 25, 2500 Valby","Lidl Valby, Valby Langgade 60, 2500 Valby",""
+td686cd,2026-09-30,08:10,22,8.5,"Toftegårds Allé 25, 2500 Valby","Bispebjerg Hospital, Bispebjerg Bakke 23, 2400 København NV",Went for my follow-up appointment at the orthopaedic outpatient clinic after my knee surgery.
+tcab689,2026-10-15,19:00,8,2.2,"Toftegårds Allé 25, 2500 Valby","Valby Idrætspark, Julius Andersens Vej 3, 2450 København SV","Football training with my Thursday club team, then straight home."
+tcbf76c,2026-10-11,14:00,33,38.0,"Toftegårds Allé 25, 2500 Valby","Mormor og Morfar, Hovedgaden 20, 4000 Roskilde",Bedstes fødselsdag
+tfd0c61,2026-09-07,08:10,14,3.1,"Jagtvej 140, 2200 København N","Rigshospitalet, Blegdamsvej 9, 2100 København Ø","Afleverede Maria på hendes arbejde på Rigshospitalet, inden jeg kørte videre mod kontoret."
+t07ed13,2026-09-16,12:35,5,0.9,"Dansk Havnelogistik, Sundkrogsgade 21, 2100 København Ø","Sandwichbar Kronborg, Århusgade 30, 2100 København Ø",Lunch alone
+tf0764b,2026-09-22,07:50,22,5.4,"Jagtvej 140, 2200 København N","Dansk Havnelogistik, Sundkrogsgade 21, 2100 København Ø",""
+t9f7e8b,2026-09-24,17:45,15,3.8,"Dansk Havnelogistik, Sundkrogsgade 21, 2100 København Ø","Fitness World Østerbro, Østerbrogade 105, 2100 København Ø","gym after work, leg day"
+t1eb7fd,2026-09-12,10:20,40,33.5,"Jagtvej 140, 2200 København N","Louisiana Museum of Modern Art, Gl Strandvej 13, 3050 Humlebæk",""
+t9bfe96,2026-10-02,05:15,22,12.6,"Jagtvej 140, 2200 København N","Københavns Lufthavn, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Flight to Lisbon, holiday week"
+t8f9f92,2026-10-07,18:50,20,6.2,"Dansk Havnelogistik, Sundkrogsgade 21, 2100 København Ø","Restaurant Kødbyens Fiskebar, Flæsketorvet 100, 1711 København V","dinner w/ my sister, her bday"
+taad0cb,2026-10-08,08:25,7,1.4,"Jagtvej 140, 2200 København N","Nørrebro Station, Nørrebrogade 224, 2200 København N",""
+tc3014f,2026-09-29,12:40,6,1.1,"Dansk Havnelogistik, Sundkrogsgade 21, 2100 København Ø","Café Nordhavn, Århusgade 44, 2150 Nordhavn","Déjeuner seul au café du quartier, sans rendez-vous avec personne."
+t7ebf1a,2026-09-30,17:40,25,5.6,"Dansk Havnelogistik, Sundkrogsgade 21, 2100 København Ø","Jagtvej 140, 2200 København N",Home
+t327d56,2026-10-01,12:30,4,1.0,"Bech Elektro, Ørestads Boulevard 73, 2300 København S","Sushi Ørestad, Arne Jacobsens Allé 12, 2300 København S","déj seul, pause"
+t76f0ee,2026-09-15,08:15,24,7.0,"Falkoner Allé 58, 2000 Frederiksberg","Bech Elektro, Ørestads Boulevard 73, 2300 København S",to office
+te3708d,2026-10-14,12:10,22,6.5,"Bech Elektro, Ørestads Boulevard 73, 2300 København S","Frederiksberg Svømmehal, Helgolandsgade 7, 1653 København V","Swam laps during my lunch break, nothing to do with work."
+tfafa4f,2026-09-19,08:30,55,52.0,"Falkoner Allé 58, 2000 Frederiksberg","Hornbæk Strand, Strandvejen 65, 3100 Hornbæk",""
+t7b7fc0,2026-10-11,19:20,20,8.9,"Københavns Lufthavn, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Falkoner Allé 58, 2000 Frederiksberg",Picked up my sister Anna returning from her holiday in Crete; she is staying with us for a few days.
+tce1248,2026-09-17,18:50,25,7.5,"Bech Elektro, Ørestads Boulevard 73, 2300 København S","Pizzeria Mamma Rosa, Værnedamsvej 14, 1819 Frederiksberg C",Birthday
+t45c1ad,2026-10-05,07:45,17,4.8,"Falkoner Allé 58, 2000 Frederiksberg","Bispebjerg Hospital, Bispebjerg Bakke 23, 2400 København NV",Dépose Camille
+tb97757,2026-09-22,12:20,5,1.3,"Bech Elektro, Ørestads Boulevard 73, 2300 København S","Bageren i Ørestad, Richard Mortensens Vej 81, 2300 København S",""
+t11153c,2026-10-15,16:55,35,7.2,"Bech Elektro, Ørestads Boulevard 73, 2300 København S","Falkoner Allé 58, 2000 Frederiksberg",hjem fra job
+t34a315,2026-10-19,17:30,25,7.4,"Bech Elektro, Ørestads Boulevard 73, 2300 København S","SATS Frederiksberg, Falkoner Allé 20, 2000 Frederiksberg",""
+t6e4a01,2026-09-09,07:40,26,11.4,"Toftegårds Allé 34, 2500 Valby","Vestegn Medico, Hovedvejen 120, 2600 Glostrup",""
+tf3a21b,2026-09-15,17:45,5,1.4,"Vestegn Medico, Hovedvejen 120, 2600 Glostrup","SATS Glostrup, Hovedvejen 20, 2600 Glostrup",Gym
+t608de7,2026-09-26,09:15,60,66.0,"Toftegårds Allé 34, 2500 Valby","Rågeleje Strand, Rågeleje Strandvej 40, 3210 Vejby",""
+ta6e312,2026-10-02,16:10,25,14.8,"Toftegårds Allé 34, 2500 Valby","Københavns Lufthavn, Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup","Skal på ferie til Kreta med familien, og jeg har sat dem af ved afgangshallen."
+t71fdf4,2026-09-29,19:20,17,5.2,"Toftegårds Allé 34, 2500 Valby","Café Bang & Jensen, Istedgade 130, 1650 København V",aftensmad m/ svigermor
+t50e252,2026-09-10,08:05,18,5.5,"Toftegårds Allé 34, 2500 Valby","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",Dépose Julie
+ta9ce9c,2026-10-09,12:30,4,0.9,"Vestegn Medico, Hovedvejen 120, 2600 Glostrup","Café Nova, Hovedvejen 90, 2600 Glostrup","lunch alone, burger"
+tbc1a8c,2026-09-28,17:15,38,11.6,"Vestegn Medico, Hovedvejen 120, 2600 Glostrup","Toftegårds Allé 34, 2500 Valby",home from work
+ted8218,2026-10-04,10:00,9,2.6,"Toftegårds Allé 34, 2500 Valby","Valby Idrætspark, Ellebjergvej 50, 2450 København SV",Playing in my Sunday five-a-side league match at the club.
+t3214d9,2026-10-18,11:10,30,16.8,"Toftegårds Allé 34, 2500 Valby","Ordrupgaard, Vilvordevej 110, 2920 Charlottenlund",""
+t83d952,2026-10-14,12:15,6,1.6,"Rask Fødevarer, Teglholm Allé 14, 2450 København SV","CrossFit Sydhavn, Sydhavns Plads 12, 2450 København SV",muscu midi
+tb24d9c,2026-09-05,08:50,70,72.0,"Amagerbrogade 98, 2300 København S","Tisvilde Strand, Strandvejen 100, 3220 Tisvildeleje","Weekend at my parents' summerhouse near Tisvildeleje, back on Sunday."
+t121a43,2026-09-20,22:30,17,9.7,"Københavns Lufthavn, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Amagerbrogade 98, 2300 København S",hentet Lise efter ferie i Rom
+te4b4be,2026-09-19,13:30,20,6.8,"Amagerbrogade 98, 2300 København S","Café Atelier September, Gothersgade 30, 1123 København K",brunch w/ friends
+t484121,2026-10-06,08:40,20,7.4,"Amagerbrogade 98, 2300 København S","Østerport Station, Oslo Plads 1, 2100 København Ø",Dropped Sam
+tb01731,2026-09-23,12:25,4,0.8,"Rask Fødevarer, Teglholm Allé 14, 2450 København SV","Café Havnen, Sluseholmen 8, 2450 København SV","Lunch by myself on the harbour bench, no meeting, just taking my break."
+t2a85b7,2026-10-01,07:35,24,6.4,"Amagerbrogade 98, 2300 København S","Rask Fødevarer, Teglholm Allé 14, 2450 København SV",""
+ta08588,2026-10-03,09:00,10,3.1,"Amagerbrogade 98, 2300 København S","Løbeklub Amager, Amager Strandvej 20, 2300 København S",Course
+t542213,2026-09-27,14:30,28,19.0,"Amagerbrogade 98, 2300 København S","Bakken, Dyrehavevej 62, 2930 Klampenborg",""
+tee1141,2026-10-10,05:25,14,6.1,"Amagerbrogade 98, 2300 København S","Københavns Lufthavn, Afgange Charter og Ferie, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",""
+t157379,2026-09-12,17:30,28,14.2,"Amagerbrogade 85, 2300 København S","Famille Dupont (domicile), Strandvejen 210, 2900 Hellerup",""
+t9cceb6,2026-09-19,10:15,41,38.6,"Amagerbrogade 85, 2300 København S","Louisiana Museum of Modern Art, Gl. Strandvej 13, 3050 Humlebæk",Museum
+tfa9b62,2026-10-03,05:10,14,8.5,"Amagerbrogade 85, 2300 København S","Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Driving to the airport for our week in Lisbon with the kids.
+tdae657,2026-09-25,19:45,18,6.3,"Amagerbrogade 85, 2300 København S","Bistro Hveen, Flæsketorvet 100, 1711 København V",""
+t1174dd,2026-09-16,07:50,22,7.8,"Amagerbrogade 85, 2300 København S","Rigshospitalet, Blegdamsvej 9, 2100 København Ø",dépose Léa au boulot
+tbfc821,2026-09-22,12:10,8,1.4,"Lunde Consulting, Havnegade 39, 1058 København K","Café Amalie, Store Kongensgade 52, 1264 København K",""
+td072b6,2026-10-10,11:00,25,14.1,"Amagerbrogade 85, 2300 København S","Møbelhuset Nord, Gladsaxe Møllevej 15, 2860 Søborg",sofa for lounge
+tf5699d,2026-09-17,08:05,24,6.2,"Amagerbrogade 85, 2300 København S","Lunde Consulting, Havnegade 39, 1058 København K",Arbejde
+t27b8fa,2026-09-14,08:00,6,1.2,"Amagerbrogade 85, 2300 København S","Sundby Skole, Backersvej 20, 2300 København S",Afleverer Oscar og Ida
+t964723,2026-10-14,17:40,14,4.5,"Lunde Consulting, Havnegade 39, 1058 København K","Netto, Amagerbrogade 190, 2300 København S",Quick grocery run for dinner on the way home.
+t901b5f,2026-09-05,09:30,26,13.4,"Frederiksberg Allé 62, 1820 Frederiksberg C","Dyrehavsbakken (amusement park), Dyrehavevej 62, 2930 Klampenborg",""
+tcaeaf5,2026-10-18,21:15,20,11.2,"Copenhagen Airport Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup","Frederiksberg Allé 62, 1820 Frederiksberg C","retour de Nice, vacances"
+t839bce,2026-09-19,13:00,15,3.9,"Frederiksberg Allé 62, 1820 Frederiksberg C","Bistro Kajen, Nyhavn 31, 1051 København K","Birthday brunch with my sister Maja, just us."
+t393a93,2026-09-08,07:40,14,3.6,"Frederiksberg Allé 62, 1820 Frederiksberg C","Nørreport Station, Nørre Voldgade, 1358 København K",dépose Paul à la gare
+tef4112,2026-09-23,12:30,17,5.2,"Brix Revision, Ny Carlsberg Vej 80, 1760 København V","Torvehallerne, Frederiksborggade 21, 1360 København K",Lunch
+t94384f,2026-10-03,14:20,16,3.8,"Frederiksberg Allé 62, 1820 Frederiksberg C","Magasin du Nord, Kongens Nytorv 13, 1095 København K",""
+tae33de,2026-09-11,17:25,18,3.1,"Brix Revision, Ny Carlsberg Vej 80, 1760 København V","Hjem, Frederiksberg Allé 62, 1820 Frederiksberg C",""
+tf531ac,2026-09-21,15:45,8,1.8,"Frederiksberg Allé 62, 1820 Frederiksberg C","Grøndal Skole, Grøndalsvej 9, 2000 Frederiksberg",Henter
+t5ed969,2026-09-17,18:10,11,2.9,"Brix Revision, Ny Carlsberg Vej 80, 1760 København V","Rema 1000, Valby Langgade 120, 2500 Valby",groceries + milk
+te09591,2026-10-06,16:10,12,2.4,"Frederiksberg Allé 62, 1820 Frederiksberg C","Fysioterapi Vesterbro, Vesterbrogade 120, 1620 København V",Physio appointment for my sore shoulder.
+t206464,2026-09-04,16:30,22,13.5,"Nørrebrogade 150, 2200 København N","Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Dropping my brother Jonas at the airport, he flies home to Edinburgh."
+td29a97,2026-09-13,19:00,6,1.2,"Nørrebrogade 150, 2200 København N","Bistro Marguerite, Jægersborggade 41, 2200 København N",Dîner
+t5bb90c,2026-09-26,07:50,16,4.1,"Nørrebrogade 150, 2200 København N","Copenhagen Central Station, Bernstorffsgade 16, 1577 København V",""
+t713c5f,2026-10-08,12:20,6,1.9,"Strand Logistik, Sluseholmen 8, 2450 København SV","Café Teglholm, Teglholmsgade 24, 2450 København SV","lunch alone, back by 1"
+t2300e9,2026-10-17,11:30,20,7.4,"Nørrebrogade 150, 2200 København N","Elgiganten Fields, Arne Jacobsens Allé 12, 2300 København S",""
+t4778a5,2026-09-30,07:45,28,7.3,"Nørrebrogade 150, 2200 København N","Strand Logistik, Sluseholmen 8, 2450 København SV","Kører på arbejde som hver dag, meget trafik i myldretiden."
+t258bda,2026-09-15,15:05,5,0.9,"Nørrebrogade 150, 2200 København N","Nørrebro Børneskole, Hans Tavsens Gade 15, 2200 København N",""
+t15fae1,2026-10-03,09:40,8,2.0,"Nørrebrogade 150, 2200 København N","Lidl, Rovsingsgade 20, 2100 København Ø",courses + lessive
+tc424e6,2026-09-21,14:00,12,3.3,"Strand Logistik, Sluseholmen 8, 2450 København SV","Tandlæge Kirstine Holm, Enghavevej 40, 1674 København V",Dentist
+t7eae08,2026-10-13,18:15,12,3.2,"Nørrebrogade 150, 2200 København N","Bellahøj Svømmehal, Bellahøj Allé 1, 2700 Brønshøj",svømning m. Tobias
+t77441a,2026-09-26,20:10,22,8.6,"Søborg Hovedgade 120, 2860 Søborg","Osteria Fratelli, Værnedamsvej 14, 1819 Frederiksberg C","dinner w/ Anna, anniv."
+ta29335,2026-09-10,07:20,14,5.6,"Søborg Hovedgade 120, 2860 Søborg","Gentofte Station, Gentoftegade 2, 2820 Gentofte",""
+t64fab6,2026-09-29,12:05,7,1.8,"Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø","Café Svanen, Strandboulevarden 90, 2100 København Ø",frokost alene
+t992702,2026-10-24,13:15,30,12.4,"Søborg Hovedgade 120, 2860 Søborg","Illums Bolighus, Amagertorv 10, 1160 København K",Gift
+t42ef48,2026-10-05,08:20,32,8.9,"Søborg Hovedgade 120, 2860 Søborg","Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø",""
+t1b2cd6,2026-09-18,15:20,22,9.0,"Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø","Buddinge Skole, Buddingevej 100, 2860 Søborg",Picking up Freja and Noah from school after work.
+t5bedd1,2026-10-01,17:50,20,8.2,"Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø","Netto, Gladsaxe Møllevej 20, 2860 Søborg",Stopping at the supermarket to buy things for the weekend.
+tc8ea10,2026-10-13,08:40,17,6.5,"Søborg Hovedgade 120, 2860 Søborg","Gentofte Hospital, Gentofte Hospitalsvej 1, 2900 Hellerup",""
+t520284,2026-09-27,09:30,9,3.4,"Søborg Hovedgade 120, 2860 Søborg","Gladsaxe Svømmehal, Vandtårnsvej 1, 2860 Søborg",Swim
+t2a5683,2026-10-11,12:30,15,6.0,"Søborg Hovedgade 120, 2860 Søborg","Lone Jensen (private home), Hegnsvej 14, 2820 Gentofte",Sunday lunch at mum's
+tee0519,2026-09-14,06:10,17,9.6,"Amagerbrogade 85, 2300 København S","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Flight Oslo
+tb7bdc3,2026-09-22,13:30,19,6.8,"Havnetek ApS, Islands Brygge 43, 2300 København S","Byggeplads Nordhavn, Århusgade 88, 2150 Nordhavn","Byggepladsbesøg m/ bygherre, tjek af installation"
+t77d720,2026-09-17,10:40,13,3.4,"Havnetek ApS, Islands Brygge 43, 2300 København S","Kanalbanken Erhverv, Holmens Kanal 2, 1090 København K",""
+t004e7f,2026-09-24,14:00,9,2.1,"Havnetek ApS, Islands Brygge 43, 2300 København S","Nordlys Energi, Kalvebod Brygge 45, 1560 København V",Kunde Nordlys
+t2a7f18,2026-10-01,08:45,16,4.3,"Havnetek ApS, Islands Brygge 43, 2300 København S","Café Atelier September, Gl. Kongevej 107, 1850 Frederiksberg C",First meeting with Sofie Lindqvist from Brandt Logistics about a possible fleet contract.
+tcb3636,2026-09-29,15:15,26,14.2,"Havnetek ApS, Islands Brygge 43, 2300 København S","Rosendahl Print ApS, Literbuen 9, 2740 Skovlunde",Picking up the proofs for the autumn brochure at our printer Rosendahl Print.
+t12f969,2026-10-06,11:20,23,12.5,"Havnetek ApS (kontor), Islands Brygge 43, 2300 København S","Havnetek ApS lager, Avedøreholmen 72, 2650 Hvidovre",""
+tfe2d18,2026-10-14,08:15,13,4.7,"Amagerbrogade 85, 2300 København S","Bella Center, Center Boulevard 5, 2300 København S","salon Nordic Logistics, jour 1"
+t206cfb,2026-09-18,21:40,17,9.9,"Københavns Lufthavn Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup","Amagerbrogade 85, 2300 København S","retour Paris, rdv client"
+tf59334,2026-10-21,09:50,15,4.2,"Havnetek ApS, Islands Brygge 43, 2300 København S","Byggeplads Carlsberg Byen, Ny Carlsberg Vej 100, 1799 København V",""
+t96879c,2026-09-14,06:10,22,12.6,"Ingerslevsgade 40, 1705 København V","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Berlin client
+teb5f69,2026-09-16,10:20,16,4.8,"Havnebyg Rådgivning, Islands Brygge 30, 2300 København S","Byggeplads Carlsberg Byen, Ny Carlsberg Vej 100, 1799 København V","site visit Brohus apts, snagging list"
+t3b1cb0,2026-10-03,19:00,11,2.9,"Ingerslevsgade 40, 1705 København V","Restaurant Höst, Nørre Farimagsgade 41, 1364 København K",Client dinner
+t9f2b88,2026-09-17,08:30,15,3.6,"Hotel d'Angleterre, Kongens Nytorv 34, 1050 København K","Havnebyg Rådgivning, Islands Brygge 30, 2300 København S",Picking up Anders Holm from Brøndby Marine at his hotel to bring him to our office.
+tb46f0c,2026-10-06,09:15,17,4.6,"Hotel Atlantic Hamburg, An der Alster 72, 20099 Hamburg","Elbtor Logistik GmbH, Am Sandtorkai 50, 20457 Hamburg",""
+t31831e,2026-09-22,14:20,14,3.4,"Havnebyg Rådgivning, Islands Brygge 30, 2300 København S","Kanalbanken, Holmens Kanal 2, 1092 København K",Dépôt des chèques clients à la banque pour l'entreprise.
+td59e15,2026-09-30,10:30,13,3.7,"Ingerslevsgade 40, 1705 København V","Fjordvind Energi A/S, Sluseholmen 8, 2450 København SV",""
+t38e0f2,2026-10-12,15:00,12,3.1,"Havnebyg Rådgivning, Islands Brygge 30, 2300 København S","Café Dyrehaven, Sønder Boulevard 72, 1720 København V","1st mtg w/ Sofie Lund, prospect"
+t65e6a4,2026-10-13,13:40,14,4.2,"Havnebyg Rådgivning, Islands Brygge 30, 2300 København S","Amager Trykkeri ApS, Englandsvej 42, 2300 København S",""
+t899145,2026-09-18,16:05,15,4.4,"Havnebyg Rådgivning, Islands Brygge 30, 2300 København S","Havnebyg Lager, Vasbygade 10, 2450 København SV","office -> lager, samples"
+t54b6cb,2026-09-14,07:15,14,3.1,"Falkoner Allé 45, 2000 Frederiksberg","Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",""
+t97faeb,2026-09-22,12:10,12,3.4,"Brix & Lund ApS, Havnegade 39, 1058 København K","Café Dyrehaven, Sønder Boulevard 72, 1720 København V","Lunch by myself at the café, back at the office by one."
+t85eec7,2026-10-03,10:30,28,13.6,"Falkoner Allé 45, 2000 Frederiksberg","IKEA Ballerup, Lautrupvang 1, 2750 Ballerup",""
+t6b25e6,2026-09-16,08:05,22,4.6,"Falkoner Allé 45, 2000 Frederiksberg","Brix & Lund ApS, Havnegade 39, 1058 København K",Maison-bureau
+td801bc,2026-09-17,08:10,8,1.8,"Falkoner Allé 45, 2000 Frederiksberg","Duevej Skole, Duevej 70, 2000 Frederiksberg",dépose enfants ecole
+t9051eb,2026-09-27,11:20,6,1.1,"Falkoner Allé 45, 2000 Frederiksberg","Netto, Godthåbsvej 120, 2000 Frederiksberg",weekly shop
+t992834,2026-10-02,08:30,22,6.2,"Falkoner Allé 45, 2000 Frederiksberg","Tandlæge Østerbro, Østerbrogade 105, 2100 København Ø",Dentist appointment for a check-up and a cleaning.
+t40965f,2026-09-29,18:15,8,1.6,"Falkoner Allé 45, 2000 Frederiksberg","Fitness World, Gammel Kongevej 70, 1850 Frederiksberg C",Styrketræning
+t8314de,2026-10-11,13:30,22,9.2,"Falkoner Allé 45, 2000 Frederiksberg","Mum and Dad's home, Strandvejen 210, 2900 Hellerup",""
+t9a5358,2026-10-17,09:30,42,34.5,"Falkoner Allé 45, 2000 Frederiksberg","Louisiana Museum of Modern Art, Gl Strandvej 13, 3050 Humlebæk",Louisiana
+ta84ee6,2026-09-15,10:30,18,6.8,"Lysbro ApS, Vesterbrogade 85, 1620 København V","Havnestad Byg, byggeplads, Ørestads Boulevard 55, 2300 København S",""
+t0d3a3c,2026-09-19,19:30,16,4.6,"Amagerbrogade 120, 2300 København S","Bistro Solsiden, Wildersgade 28, 1408 København K",Dîner avec Claire Moreau de Nordlys Energi pour parler du contrat annuel.
+t0f9426,2026-10-06,08:15,22,12.7,"Lysbro ApS, Vesterbrogade 85, 1620 København V","Københavns Lufthavn, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",Pickup client
+tc8a143,2026-09-24,08:40,20,8.1,"Hotel Atlantic Kempinski, An der Alster 72, 20099 Hamburg","Brandt Logistik GmbH, Überseeallee 10, 20457 Hamburg","rental car, mtg Brandt Logistik"
+t8a96d6,2026-09-29,14:10,10,1.9,"Lysbro ApS, Vesterbrogade 85, 1620 København V","Pakkeposten Postkontor, Tietgensgade 37, 1704 København V",""
+t735d84,2026-10-01,13:30,14,4.3,"Amagerbrogade 120, 2300 København S","Nordlys Energi, Kalvebod Brygge 45, 1560 København V",Quarterly review with Mikkel Sørensen at Nordlys Energi.
+tecf083,2026-09-17,15:45,13,3.2,"Lysbro ApS, Vesterbrogade 85, 1620 København V","Fjordvind Rederi A/S, Havnegade 39, 1058 København K",""
+t504244,2026-09-22,07:50,24,16.4,"Lysbro ApS, Vesterbrogade 85, 1620 København V","Tryk & Co Offset, Hovedvejen 21, 2600 Glostrup",collect flyers @ printer
+t258729,2026-10-12,11:20,21,10.3,"Lysbro ApS, Vesterbrogade 85, 1620 København V","Lysbro ApS Lager, Avedøre Havnevej 30, 2650 Hvidovre","til lageret, hent pallevarer"
+t4fa80b,2026-10-20,07:30,112,168.0,"Amagerbrogade 120, 2300 København S","Odense Congress Center, Ørbækvej 350, 5220 Odense SØ",Konference
+t8624f7,2026-10-09,05:40,16,8.7,"Amagerbrogade 85, 2300 København S","Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup",départ vacances Lisbonne
+tf47a0b,2026-09-19,11:05,17,4.6,"Amagerbrogade 85, 2300 København S","Café Dyrehaven, Sønder Boulevard 72, 1720 København V",Brunch
+t6df4a8,2026-09-26,10:30,19,5.3,"Amagerbrogade 85, 2300 København S","Magasin du Nord, Kongens Nytorv 13, 1095 København K",""
+tc57893,2026-09-15,08:05,7,1.8,"Amagerbrogade 85, 2300 København S","Sundbyvester Skole, Sundbyvestervej 40, 2300 København S",""
+t16988e,2026-10-03,09:20,14,6.4,"Amagerbrogade 85, 2300 København S","Bauhaus, Englandsvej 360, 2770 Kastrup",Købte maling og skruer til badeværelset derhjemme.
+tb8d301,2026-10-14,17:10,23,6.6,"Amagerbrogade 85, 2300 København S","Fysioterapi Vesterbro, Vesterbrogade 120, 1620 København V",physio 17:30
+t8c01ab,2026-10-05,18:30,6,1.4,"Amagerbrogade 85, 2300 København S","Fitness World Amager, Amagerbrogade 200, 2300 København S",gym leg day
+t294d5e,2026-09-20,13:00,38,31.5,"Amagerbrogade 85, 2300 København S","Rungsted Strandvej 55, 2960 Rungsted Kyst",Mum's birthday
+t43f305,2026-09-25,17:30,68,66.0,"Amagerbrogade 85, 2300 København S","Strandvejen 40, 3210 Vejby",Weekend at the summerhouse in Vejby with friends.
+te263fb,2026-10-18,22:10,15,8.7,"Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup","Amagerbrogade 85, 2300 København S",""

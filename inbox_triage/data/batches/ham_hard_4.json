@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "fr",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": "an organiser asks for AV, chairs or a room change for an event this week"
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "da",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "da",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "fr",
+      "length": "medium",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "en",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "someone asks about joining, prices, a trial day, desk availability",
+      "language": "en",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a member gives notice or asks how to pause their membership",
+      "language": "en",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a person or company proposes to host a meetup or workshop next month",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+    }
+  ],
+  "mails": [
+    {
+      "from": "Office of Tenant Relations <tenants@kronborg-estates.example>",
+      "subject": "Notice regarding noise from your premises",
+      "date": "2026-09-16 10:30",
+      "body": "Dear Sir or Madam,\n\nKronborg Estates, the owner of the building adjacent to Vesterled Hub, has received three written complaints from our tenants about amplified music after 22:00 on 4, 11 and 12 September. We request that you take measures to ensure the noise ceases and confirm these measures in writing within five working days.",
+      "justification": "A property owner formally complains about late noise and requests a written response; the legal tone resembles a scam notice but it is a neighbour with a real grievance."
+    },
+    {
+      "from": "Oskar Lindholm <oskar.lindholm@lindholm-freight.example>",
+      "subject": "Card rejected, locked out of the building",
+      "date": "2026-10-02 18:45",
+      "body": "Hello,\n\nI am a member with a night-access plan (DKK 350 per month extra) and my card was rejected at the side entrance at 18:30 today. The reader shows a red light, and the building is now locked. I have my coat, keys and laptop inside, and I need to get in tonight to finish a customs filing that is due tomorrow at 09:00.\n\nI have already tried the code on the keypad with no luck. I suspect the system deactivated the night plan because my last payment of DKK 2,150 was late, but I paid it yesterday and have the confirmation.\n\nCould someone please let me in or tell me how to reactivate the card? I am happy to show my ID and the payment receipt on arrival. My number is +45 5550 0178.\n\nRegards,\nOskar Lindholm\nLindholm Freight",
+      "justification": "A paying member is locked out of the building with an urgent deadline and a possibly mistakenly deactivated card, so it needs same-day human action; the payment details are context rather than a scam."
+    },
+    {
+      "from": "Jeanne <jeanne@atelier-quai.example>",
+      "subject": "Facture + salle jeudi 🙂",
+      "date": "2026-09-21 09:12",
+      "body": "Salut Karl ! Peux-tu m'envoyer le reçu de septembre avec notre numéro de TVA (FR 40 303 265 045) ? Et pour jeudi : on a besoin du projecteur et de 20 chaises dans la grande salle pour notre atelier, c'est bon ? Merci beaucoup ! 🌿",
+      "justification": "A member asks for a receipt with a VAT number and also an AV/chairs setup for an event on Thursday; it is a billing request that needs a reply within 24 hours."
+    },
+    {
+      "from": "Vesterled Nyt <nyt@vesterled-hub.example>",
+      "subject": "Vesterled Nyt: oktober",
+      "date": "2026-10-01 07:30",
+      "body": "Hej og velkommen til oktober-udgaven af Vesterled Nyt, nyhedsbrevet for alle i vores fællesskab. Du får denne mail, fordi du har tilmeldt dig via vores hjemmeside.\n\nNYT FRA HUSET\nVi har fået ny kaffemaskine på anden sal. Den laver både espresso og varm chokolade, og den er gratis for medlemmer. Gæster betaler 15 kr. pr. kop. Vi har også opdateret vores prisliste for dagkort fra 1. november: et dagkort koster fremover 195 kr., og et tiklip koster 1.600 kr.\n\nARRANGEMENTER I OKTOBER\n- 6. oktober: Gründerfrokost kl. 12.00\n- 13. oktober: Workshop i enkel bogføring for små virksomheder\n- 20. oktober: Åbent hus for naboer, med smagsprøver fra caféen på hjørnet\n- 29. oktober: Foredrag om fjernarbejde og trivsel\n\nMEDLEMSPORTRÆT\nDenne måned møder vi Karoline fra Sprogværkstedet, som underviser i dansk for voksne. Hun har sin egen lille klasse i det lille mødelokale hver tirsdag aften, og hun fortæller, at det bedste ved huset er stilheden før otte om morgenen.\n\nTILBUD FRA VORES PARTNERE\nVores nabo Bageriet Kajen giver 10 procent på alle brød mod forevisning af medlemskort. Cykelværkstedet i gården tilbyder gratis eftersyn den første lørdag i måneden.\n\nPRAKTISK\nVi minder om, at cykler skal stilles i cykelrummet og ikke i gangen. Brandøvelsen finder sted den 15. oktober kl. 10.00, så regn med en kort afbrydelse.\n\nOPSIGELSE AF NYHEDSBREV\nDu kan til enhver tid afmelde dig via linket nederst på vores hjemmeside.\n\nDe bedste hilsner\nHoldet i Vesterled Hub",
+      "justification": "A subscribed newsletter with prices, offers and promotions that reads like marketing, but the recipient signed up and nothing needs an answer."
+    },
+    {
+      "from": "TicketBox <besked@ticketbox-events.example>",
+      "subject": "Din billet til Gründerfrokost er bekræftet",
+      "date": "2026-10-03 15:08",
+      "body": "Hej,\n\nTak for din tilmelding via TicketBox. Din billet er bekræftet.\n\nArrangement: Gründerfrokost\nSted: Vesterled Hub, 2. sal\nTidspunkt: 6. oktober 2026 kl. 12.00\nAntal billetter: 2\nPris: Gratis\n\nDu kan se eller ændre din billet ved at logge ind her:\nhttps://ticketbox-events.example/min-konto?t=9d22c1\n\nDette er en automatisk besked fra TicketBox. Du kan ikke svare på denne mail.",
+      "justification": "An automatic confirmation from the event platform the space uses, with a login link and ticket details, which needs no reply."
+    },
+    {
+      "from": "Claire Dumont <claire.dumont@vesterled-hub.example>",
+      "subject": "Fwd: Merci pour la soirée",
+      "date": "2026-10-09 08:55",
+      "body": "Pour info, rien à faire, mais ça fait plaisir de le lire.\n\n---------- Message transféré ----------\nDe : Pascal Rieux <pascal@rieux-formation.example>\n\nBonjour à toute l'équipe,\n\nJe voulais simplement vous remercier pour l'accueil de notre session de formation mardi soir. Les 18 participants ont adoré la salle, le café et la patience de votre équipe quand le projecteur a fait des siennes.\n\nNous avons réglé la facture de 1 200 DKK ce matin, donc tout est en ordre de notre côté. Je ne vous écris pas pour demander quelque chose, juste pour dire que nous reviendrons volontiers au printemps.\n\nTrès bonne continuation,\nPascal Rieux",
+      "justification": "A forwarded thank-you from an event organiser that mentions a paid invoice and a future return but asks nothing, so it is a pure FYI."
+    },
+    {
+      "from": "Nadia Berg <nadia.berg@bergdesign.example>",
+      "subject": "Re: Black scarf at the coat rack",
+      "date": "2026-10-07 14:21",
+      "body": "Hi again,\n\nThanks for the photo, that is not mine, mine is dark green wool with a fringe. But I think I know whose it is, a woman from the Tuesday pottery group had a black one.\n\n> Is this the scarf you were looking for?\n\nWould it be possible to also check the lost property box in the kitchen cupboard? I was in the small meeting room last Wednesday too, and I think I may have left my reading glasses (round, tortoiseshell frames) there. If they are not in the box, could you ask the cleaners whether they found anything?\n\nNo rush, I can come by any day next week.\n\nNadia",
+      "justification": "A person replying in a lost-and-found thread asks the team to look for another item, which needs a personal reply within the week."
+    },
+    {
+      "from": "Peter Hollis <peter.hollis@hollis-consulting.example>",
+      "subject": "Joining Vesterled Hub",
+      "date": "2026-10-10 23:41",
+      "body": "Hello,\n\nSorry for writing late on a Saturday night, I am only now getting round to this. I run a two-person consultancy (Hollis Consulting) and we have been looking for a better home than a rented room above a dentist. A friend who is a member at your space recommended you.\n\nHere is what I would like to know, in no particular order.\n\nFirst, do you currently have two desks free next to each other, ideally in the open area on the second floor? We would want to start around the middle of November.\n\nSecond, what are the monthly prices for a fixed desk versus a flexible one? On the website I only found the day pass, at 195 DKK, and a mention of \"talk to us for monthly options\".\n\nThird, can we try a day or two before signing anything? I understand this is probably something you do routinely, but I would rather ask than assume.\n\nFourth, is there a contract period or can we leave with one month's notice? We are still a young company and cannot commit for a year.\n\nFinally, do you offer a business address for registration? If that costs extra, I would like to know the price.\n\nI am in the area on Tuesday and Wednesday and could stop by for a short tour if that suits you. If it is easier, call me on +45 5550 0191. I know you do not owe me a quick answer, but a reply this week would help me decide.\n\nBest regards,\nPeter Hollis",
+      "justification": "A prospective member writing at night asks about desks, prices and a trial day; the late hour and long question list do not make it unsolicited, and it needs a reply within the week."
+    },
+    {
+      "from": "Office of the Managing Director, Brightline Analytics <office@brightline-analytics.example>",
+      "subject": "Formal notice of termination of membership",
+      "date": "2026-10-12 11:00",
+      "body": "Dear Vesterled Hub management,\n\nOn behalf of Brightline Analytics ApS, I hereby give formal notice of termination of our team membership agreement, covering six fixed desks, in accordance with the terms of the agreement signed on 15 February 2026.\n\nAs we understand the contract, the notice period is two calendar months. We therefore request that the termination takes effect on 31 December 2026, and that you confirm this date in writing.\n\nWe have decided to consolidate our operations at our headquarters in Aarhus, and this decision has no bearing on the quality of your service, which has been excellent. Our team members have appreciated both the premises and the staff.\n\nWe would like to ask you to clarify the following points:\n1. Whether the deposit of DKK 12,000 will be returned in full after the handover of the desks.\n2. Whether it is possible to terminate earlier, should we vacate the premises in November, and what the financial consequences would be.\n3. The procedure for returning access cards and keys, and the date by which this must be done.\n\nAlternatively, if it is possible to convert our agreement into a smaller arrangement of two flexible desks from January, we would be glad to discuss it.\n\nPlease acknowledge receipt of this notice and respond to the questions above at your earliest convenience.\n\nYours faithfully,\nMargrethe Kjær\nManaging Director, Brightline Analytics ApS",
+      "justification": "A member company formally gives notice and asks several questions about the deposit and handover, which needs a human reply within the week; the formal legal tone does not make it unsolicited."
+    },
+    {
+      "from": "Ellis Ward <ellis@wardworks-events.example>",
+      "subject": "Workshop host proposal, DKK 3,000",
+      "date": "2026-10-13 10:05",
+      "body": "Hi, we run hands-on workshops on product photography and would like to host one at your space in November. We would pay DKK 3,000 for the room and offer your members a 15% discount. We found you through your newsletter, which we subscribe to. Are you open to it?",
+      "justification": "A company proposes to host a workshop next month and pays for the room, mentioning it follows the space's newsletter; the discount and money read like a pitch but it is a proposal needing a reply within the week."
+    }
+  ]
+}

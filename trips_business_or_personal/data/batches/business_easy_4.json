@@ -1,0 +1,29 @@
+{
+  "business": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": true, "purpose": "between_sites", "situation": "between two sites of the same company (office, shop, storage, second office)", "language": "fr", "note_style": "none"},
+    {"business": true, "purpose": "conference", "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "airport_work", "situation": "home or office to the airport or the central station for a work trip, or the return", "language": "en", "note_style": "words"},
+    {"business": true, "purpose": "site_visit", "situation": "a construction site, a store opening, a property, a customer installation", "language": "fr", "note_style": "none"},
+    {"business": true, "purpose": "company_errand", "situation": "bank, post office, customs, a hardware store for the company, a delivery to a customer", "language": "da", "note_style": "short"},
+    {"business": true, "purpose": "client_meeting", "situation": "office or home to a client's office, weekday, working hours", "language": "da", "note_style": "short"},
+    {"business": true, "purpose": "prospect_meeting", "situation": "a café or the prospect's office, first meeting, note may name a person", "language": "en", "note_style": "sentence"},
+    {"business": true, "purpose": "supplier_visit", "situation": "to a supplier, a printer, a warehouse, a workshop", "language": "en", "note_style": "sentence"},
+    {"business": true, "purpose": "between_sites", "situation": "between two sites of the same company (office, shop, storage, second office)", "language": "en", "note_style": "words"},
+    {"business": true, "purpose": "conference", "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city", "language": "en", "note_style": "none"}
+  ],
+  "trips": [
+    {"date": "2026-09-09", "start_time": "14:30", "duration_min": 20, "distance_km": 10.2, "start_address": "Maison Kvist Bureau, Sluseholmen 8, 2450 København SV", "end_address": "Maison Kvist Entrepôt, Avedøre Holme 80, 2650 Hvidovre", "note": "", "justification": "Both addresses carry the same company name, one being the office and the other its warehouse, on a weekday afternoon."},
+    {"date": "2026-10-01", "start_time": "08:20", "duration_min": 12, "distance_km": 4.1, "start_address": "Sluseholmen 8, 2450 København SV", "end_address": "Øksnehallen, Halmtorvet 11, 1700 København V", "note": "CPH Retail Summit day 1", "justification": "The note names a retail summit and the destination is an event hall, so the driver attends a conference for work."},
+    {"date": "2026-10-18", "start_time": "06:10", "duration_min": 22, "distance_km": 13.5, "start_address": "Jagtvej 105, 2200 København N", "end_address": "Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "note": "Paris", "justification": "The note names a work destination and the airport drive starts before a Monday trip, hence a work flight."},
+    {"date": "2026-09-21", "start_time": "07:50", "duration_min": 24, "distance_km": 12.0, "start_address": "Maison Kvist Bureau, Sluseholmen 8, 2450 København SV", "end_address": "Byggeplads Nordhavn Etape 4, Orientkaj 20, 2150 Nordhavn", "note": "", "justification": "A weekday morning drive from the office to a named construction site, which is a site visit."},
+    {"date": "2026-09-30", "start_time": "11:40", "duration_min": 14, "distance_km": 3.5, "start_address": "Maison Kvist Bureau, Sluseholmen 8, 2450 København SV", "end_address": "Nordkyst Bank Erhverv, Bernstorffsgade 17, 1577 København V", "note": "Bank, kvitteringer + indskud", "justification": "The note says the driver goes to the company's business bank for receipts and a deposit."},
+    {"date": "2026-09-17", "start_time": "09:00", "duration_min": 14, "distance_km": 3.4, "start_address": "Jagtvej 105, 2200 København N", "end_address": "Rosendahl Møbler, Strandboulevarden 49, 2100 København Ø", "note": "møde m. Rosendahl om kontrakt, Karen", "justification": "The note names a client, a contact person and a contract meeting, on a weekday morning straight from home."},
+    {"date": "2026-10-13", "start_time": "15:30", "duration_min": 17, "distance_km": 5.0, "start_address": "Maison Kvist Bureau, Sluseholmen 8, 2450 København SV", "end_address": "Tidewave Robotics ApS, Ny Carlsberg Vej 80, 1760 København V", "note": "First meeting with Sofie Lund, head of operations at Tidewave Robotics, to present our service.", "justification": "The note describes a first sales meeting with a named person at a prospect company."},
+    {"date": "2026-10-09", "start_time": "09:45", "duration_min": 24, "distance_km": 18.4, "start_address": "Maison Kvist Bureau, Sluseholmen 8, 2450 København SV", "end_address": "Lind Metalværksted, Fabriksparken 22, 2600 Glostrup", "note": "Dropping off the drawings and checking the prototype brackets at Lind Metalværksted.", "justification": "The note says the driver visits a metal workshop supplier to deliver drawings and check prototypes."},
+    {"date": "2026-10-05", "start_time": "16:40", "duration_min": 20, "distance_km": 10.0, "start_address": "Maison Kvist Entrepôt, Avedøre Holme 80, 2650 Hvidovre", "end_address": "Maison Kvist Bureau, Sluseholmen 8, 2450 København SV", "note": "Warehouse", "justification": "The trip runs from the company's warehouse back to its office, which is movement between two work sites."},
+    {"date": "2026-10-20", "start_time": "07:30", "duration_min": 45, "distance_km": 41.0, "start_address": "Jagtvej 105, 2200 København N", "end_address": "Malmö Live Congress Centre, Dag Hammarskjölds torg 2, 211 18 Malmö", "note": "", "justification": "A weekday morning drive from home to a congress centre in Malmö, indicating attendance at a conference for work."}
+  ]
+}

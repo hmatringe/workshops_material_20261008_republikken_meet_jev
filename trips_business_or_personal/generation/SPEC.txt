@@ -1,0 +1,115 @@
+TRIPS: dataset generation spec
+Written 2026-10-07. Method: label-first. The scenario fixes the label, then a model writes a trip record that fits.
+The definitions are the ones in ../questions.txt. The generator and the auditor both receive them.
+Same pipeline as inbox_triage: generate.rb exports prompts and scenarios, a subagent (or the API) writes a
+batch JSON, ingest.rb writes the records, audit.rb audits blind, a human decides on the disputes.
+
+----------------------------------------------------------------------
+Output
+----------------------------------------------------------------------
+data/trips.csv           one row per trip, what the models under test see:
+                           id, date, start_time, duration_min, distance_km, start_address, end_address, note
+                         The id is opaque (t + 6 hex chars): no label, no cell, no order in the file name or id.
+data/labels.csv          one row per trip, the truth and the bookkeeping:
+                           id, business, purpose, difficulty, language, note_style, generator_model,
+                           justification, audit_label, audit_confidence, audit_model, status
+                         The models under test never see labels.csv.
+
+----------------------------------------------------------------------
+Quotas: 300 trips
+----------------------------------------------------------------------
+                  easy   medium   hard   total
+business            50       50     50     150
+personal            50       50     50     150
+
+Each cell is filled by 5 calls of 10 trips. The first test set is 1 call per cell, 60 trips.
+
+----------------------------------------------------------------------
+Geography
+----------------------------------------------------------------------
+Ground trips (car, taxi, rental car) in and around cities within three hours of flight of Copenhagen:
+Copenhagen and suburbs (most trips), Malmö, Aarhus, Odense, Stockholm, Oslo, Hamburg, Berlin, Paris,
+Amsterdam, London. Real streets and postcodes, invented house numbers, invented company names.
+Distances and durations must be plausible for the two addresses (a cross-town trip in Copenhagen is
+5 to 15 km, Copenhagen to Malmö about 40 km, airport from the centre about 10 km).
+
+----------------------------------------------------------------------
+Difficulty (on the business axis, the benchmark question)
+----------------------------------------------------------------------
+easy    obvious in one glance: the note names a client, a meeting or a private purpose, and the
+        addresses and time agree with it.
+medium  the note is short, abbreviated or absent; the addresses, the day and the time carry the
+        signal, and a human reads them to decide.
+hard    misleading signals of the opposite class, but an attentive reader justifies the label in
+        one sentence. NOT truly ambiguous.
+        hard business: Saturday client dinner; Sunday airport pickup of a visiting client; café with a
+                       prospect; a colleague's home for a work session; home straight to a client at
+                       8:30 (looks like a commute); a rental car abroad with a hotel as start address.
+        hard personal: home to the usual office (commute); lunch alone near the office at 12:30;
+                       dropping a partner at their workplace; a trade fair visited on a day off; the gym
+                       next to the office; a weekend trip to Malmö with friends; an airport run for a holiday.
+
+----------------------------------------------------------------------
+Scenario catalogue (labels fixed by the scenario)
+----------------------------------------------------------------------
+Business scenarios. Columns: purpose | situation
+client_meeting   | office or home to a client's office, weekday, working hours
+prospect_meeting | a café or the prospect's office, first meeting, note may name a person
+supplier_visit   | to a supplier, a printer, a warehouse, a workshop
+between_sites    | between two sites of the same company (office, shop, storage, second office)
+conference       | to a conference venue, a trade fair attended for work, or a training, sometimes in another city
+airport_work     | home or office to the airport or the central station for a work trip, or the return
+site_visit       | a construction site, a store opening, a property, a customer installation
+business_meal    | a restaurant with a client or a partner, lunch or dinner, sometimes evening or weekend
+client_pickup    | picking up a visiting client or candidate at the airport, station or hotel
+rental_abroad    | a rental car between a hotel and a client or a venue in another city
+company_errand   | bank, post office, customs, a hardware store for the company, a delivery to a customer
+
+Personal scenarios. Columns: purpose | situation
+commute          | home to the usual workplace or back, weekday, rush hour
+school_run       | dropping or picking up children
+groceries        | supermarket, mall, hardware store for home
+doctor           | doctor, dentist, physiotherapist, hospital visit
+sport            | gym, swimming, football, running club
+family_friends   | visiting family or friends, a birthday, a dinner at someone's home
+leisure_trip     | a weekend away, a summerhouse, a museum, a concert, a beach
+airport_holiday  | airport or station for a holiday or a private visit, or the return
+restaurant_private | a restaurant or café without any work purpose
+partner_dropoff  | dropping a partner or a friend at their workplace or station
+lunch_alone      | lunch alone during work hours
+shopping         | furniture, clothes, electronics, a gift
+
+----------------------------------------------------------------------
+Variety, per trip
+----------------------------------------------------------------------
+Note style, per call of 10 (shuffled): 3 no note at all, 2 one or two words, 3 a short note, 2 a full sentence.
+  Examples of one or two words: "Client", "IKEA", "Mette", "NB Q4", "dentist".
+  Short notes may use abbreviations and typos. Full sentences may name people, companies, topics.
+Language of the note (when there is one): about 60% English, 25% Danish, 15% French.
+Time of day and day of week follow the scenario, with variation: not every business trip at 9:00 on a Tuesday.
+Dates between 2026-09-01 and 2026-10-31.
+
+----------------------------------------------------------------------
+Constraints
+----------------------------------------------------------------------
+- Same generator for business and personal, otherwise the style betrays the label.
+- No real person. Invented companies and people. Real streets, invented numbers.
+- Each trip carries a one-sentence justification. The auditor and the models under test never see it.
+- The audit is blind and uses a model of another family than the generator (Gemma 4 via Ollama), with
+  Claude Sonnet and Claude Opus as second and third auditors.
+- Audit outcome: agree -> ok. Disagree on easy or medium -> reject. Disagree on hard -> review.
+  Agree with confidence under 0.6 -> review. The human decides on review and reject.
+
+----------------------------------------------------------------------
+Audit notes, 2026-10-07
+----------------------------------------------------------------------
+- The Opus subagent audit of the first 60 trips reported "confidence" as the probability of business, not
+  as confidence in its answer (0.03 for a confident "personal"). Rows with audit_label=false and
+  confidence under 0.5 were flipped to 1 - confidence in the audit file. Later prompts ask explicitly
+  for "how sure you are about your answer".
+- First 60 trips: every real dispute was a record with no note and a bare street address, undecidable
+  on its own. The generator prompt now requires the place name in the address when the note is empty.
+- Full set, three auditors (2026-10-07 evening). Gemma 4 disagrees on 31 of 330 trips: 26 of them have no
+  note, and 27 of them are business trips it calls personal. Language makes no difference. Reading: the
+  local model does not infer "business" from a company name in the address; it needs the note. Sonnet and
+  Opus do. That is a finding for the workshop, not a flaw of the records: the records stay decidable.

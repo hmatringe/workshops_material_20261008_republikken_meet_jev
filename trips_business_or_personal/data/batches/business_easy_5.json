@@ -1,0 +1,29 @@
+{
+  "business": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": true, "purpose": "conference", "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city", "language": "en", "note_style": "none"},
+    {"business": true, "purpose": "airport_work", "situation": "home or office to the airport or the central station for a work trip, or the return", "language": "da", "note_style": "short"},
+    {"business": true, "purpose": "site_visit", "situation": "a construction site, a store opening, a property, a customer installation", "language": "fr", "note_style": "short"},
+    {"business": true, "purpose": "company_errand", "situation": "bank, post office, customs, a hardware store for the company, a delivery to a customer", "language": "fr", "note_style": "words"},
+    {"business": true, "purpose": "client_meeting", "situation": "office or home to a client's office, weekday, working hours", "language": "en", "note_style": "none"},
+    {"business": true, "purpose": "prospect_meeting", "situation": "a café or the prospect's office, first meeting, note may name a person", "language": "en", "note_style": "none"},
+    {"business": true, "purpose": "supplier_visit", "situation": "to a supplier, a printer, a warehouse, a workshop", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "between_sites", "situation": "between two sites of the same company (office, shop, storage, second office)", "language": "da", "note_style": "words"},
+    {"business": true, "purpose": "conference", "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city", "language": "en", "note_style": "sentence"},
+    {"business": true, "purpose": "airport_work", "situation": "home or office to the airport or the central station for a work trip, or the return", "language": "en", "note_style": "sentence"}
+  ],
+  "trips": [
+    {"date": "2026-09-24", "start_time": "07:55", "duration_min": 14, "distance_km": 6.4, "start_address": "Havneholmen 29, 1561 København V", "end_address": "Bella Center Copenhagen, Center Boulevard 5, 2300 København S", "note": "", "justification": "A weekday morning drive from the office to a major conference and trade fair venue, indicating a work event."},
+    {"date": "2026-09-23", "start_time": "06:30", "duration_min": 20, "distance_km": 11.0, "start_address": "Smallegade 25, 2000 Frederiksberg", "end_address": "Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "note": "fly til Stockholm, kundemøde", "justification": "The note says the flight to Stockholm is for a client meeting."},
+    {"date": "2026-09-28", "start_time": "10:15", "duration_min": 16, "distance_km": 6.0, "start_address": "Havneholmen 29, 1561 København V", "end_address": "Chantier Refshaleøen, Refshalevej 163, 1432 København K", "note": "inspection chantier, client Havnebad", "justification": "The note says the driver inspects a construction site for a named client during a weekday morning."},
+    {"date": "2026-09-29", "start_time": "13:20", "duration_min": 20, "distance_km": 6.5, "start_address": "Havneholmen 29, 1561 København V", "end_address": "Toldstyrelsen, Tagensvej 135, 2200 København N", "note": "Douane", "justification": "The destination is the customs authority and the note says customs, a company errand on a weekday afternoon."},
+    {"date": "2026-09-15", "start_time": "09:45", "duration_min": 12, "distance_km": 3.2, "start_address": "Smallegade 25, 2000 Frederiksberg", "end_address": "Aurora Software ApS, Nørre Voldgade 34, 1358 København K", "note": "", "justification": "A weekday morning drive from home straight to a named company's office, which counts as a client visit."},
+    {"date": "2026-10-02", "start_time": "14:20", "duration_min": 11, "distance_km": 3.0, "start_address": "Havneholmen 29, 1561 København V", "end_address": "Kornmark Foods A/S, Islands Brygge 79, 2300 København S", "note": "", "justification": "A weekday afternoon drive from the office to another company's head office, indicating a business meeting."},
+    {"date": "2026-10-14", "start_time": "08:30", "duration_min": 25, "distance_km": 15.2, "start_address": "Havneholmen 29, 1561 København V", "end_address": "Nordisk Print A/S, Mileparken 20, 2740 Skovlunde", "note": "proofs @ Nordisk Print", "justification": "The note says the driver is checking proofs at a named printing supplier during a weekday morning."},
+    {"date": "2026-09-19", "start_time": "11:00", "duration_min": 18, "distance_km": 5.0, "start_address": "Delta Handel Kontor, Havneholmen 29, 1561 København V", "end_address": "Delta Handel Butik, Jægersborggade 22, 2200 København N", "note": "Butik", "justification": "The trip runs between the company's office and its own shop, which is movement between two work sites."},
+    {"date": "2026-10-06", "start_time": "08:20", "duration_min": 12, "distance_km": 4.0, "start_address": "Hotel Elbblick, Reeperbahn 30, 20359 Hamburg", "end_address": "Hamburg Messe, Messeplatz 1, 20357 Hamburg", "note": "Taxi from the hotel to the Hamburg Messe, I attend the logistics trade fair all day.", "justification": "The note states the driver is attending a trade fair for the whole day, travelling from a hotel to the fair grounds."},
+    {"date": "2026-10-22", "start_time": "21:40", "duration_min": 22, "distance_km": 11.5, "start_address": "Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "end_address": "Smallegade 25, 2000 Frederiksberg", "note": "Back from the Amsterdam supplier visit, taxi from the airport home.", "justification": "The note says the trip is the return from a work trip to visit a supplier, so the airport ride is part of the business trip."}
+  ]
+}

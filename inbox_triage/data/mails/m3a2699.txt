@@ -1,0 +1,11 @@
+From: Accounts Payable, Rosendal Foundation <ap@rosendal-foundation.example>
+Subject: Invoice 2026-0412: VAT number missing
+Date: 2026-10-02 14:20
+
+Dear Sir or Madam,
+
+We have received invoice 2026-0412 for EUR 380.00 dated 28 September 2026. The invoice does not show our VAT number, DK 98765432. Please issue a corrected invoice including it, so that we can process payment within our standard terms.
+
+Yours faithfully,
+Accounts Payable
+Rosendal Foundation

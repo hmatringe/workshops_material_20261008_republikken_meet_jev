@@ -1,0 +1,18 @@
+From: ParcelPoint <no-reply@parcelpoint-track.example>
+Subject: Your parcel is ready for collection
+Date: 2026-10-02 10:17
+
+Hello,
+
+Your parcel from ShelfSmith A/S has been delivered to the reception of Sluseholm Works and signed for by the front desk.
+
+Tracking number: PP-4471-0239-DK
+Delivered: 2 October 2026, 10:12
+Weight: 4.2 kg
+
+To see the delivery proof or to change your delivery preferences, log in to your ParcelPoint account:
+https://parcelpoint-track.example/login?ref=44710239
+
+This is an automatic message. Replies to this address are not read.
+
+ParcelPoint Delivery Services

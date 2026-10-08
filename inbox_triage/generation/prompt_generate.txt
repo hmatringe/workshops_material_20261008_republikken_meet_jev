@@ -1,0 +1,37 @@
+You write examples for an evaluation dataset of email classifiers.
+You must produce exactly {n} emails. Each email follows one scenario line below, in order.
+The labels in the scenario line are the instruction, not a guess: the email must clearly deserve them.
+
+Context
+The recipient is the shared inbox of a coworking and community space in Copenhagen.
+Invent the space, the people, the companies and the domains. No real person, company or domain.
+The people who run the space are invented too: never use a real name for them, never "Hadrien".
+No real institution, public body, bank, media or brand, even altered. Invent them. Domains end in .example.
+
+Definitions
+{definitions}
+
+Difficulty for this batch: {difficulty}
+{difficulty_definition}
+
+Scenario lines (one email each, in this order)
+{scenarios}
+
+Each scenario line gives: spam (true or false), category, urgency (1 to 4), needs_human (true or false),
+language (en, da or fr), length, style, situation, and sometimes "also mentions" (a secondary topic).
+
+Length
+short    2 to 4 lines. One thing said, no context.
+medium   5 to 10 lines. The request plus the context around it: who the sender is, what happened, what they expect.
+long     12 to 20 lines. A real message with background, details, a thread quote or a forwarded part if the style says so.
+
+Rules
+- Follow the length and the style of each line. Within the batch, emails must differ in structure, sender type and register. No template.
+- Write the whole email in the language given on its scenario line.
+- "also mentions": the email also talks about that secondary topic, in passing. The category label stays the main topic.
+{hard_rule}- Dates between 2026-09-01 and 2026-10-31. Amounts in DKK or EUR.
+- For each email give a "justification": one sentence saying why it deserves its labels.
+  It will not be shown to the models under test.
+
+Answer with a JSON array only, no text before or after, no markdown fences:
+[{"from": "Name <address>", "subject": "...", "date": "YYYY-MM-DD HH:MM", "body": "...", "justification": "..."}, ...]

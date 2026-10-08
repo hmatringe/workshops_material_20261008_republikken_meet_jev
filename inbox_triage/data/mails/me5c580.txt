@@ -1,0 +1,9 @@
+From: Sam from ParcelPal <sam@parcelpal-delivery.example>
+Subject: oops, your package is waiting 📦
+Date: 2026-10-16 12:44
+
+Hey! 👋 We tried to drop off your parcel today but nobody was around. To rebook the delivery, please confirm your address and pay the small redelivery fee (2.90 EUR) here: parcelpal-delivery.example/rebook
+
+Thanks! 😊
+Sam
+ParcelPal Support

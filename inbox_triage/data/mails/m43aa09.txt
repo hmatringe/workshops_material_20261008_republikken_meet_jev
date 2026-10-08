@@ -1,0 +1,23 @@
+From: Service Comptabilité <paiements@gestion-factures-securite.example>
+Subject: Re: Votre facture FA-2026-0932 en attente
+Date: 2026-09-15 08:42
+
+Bonjour,
+
+Suite à notre dernier message, nous constatons que votre facture reste impayée.
+
+> Votre facture FA-2026-0932 d'un montant de 1 284,00 EUR est disponible en pièce jointe.
+
+Pour éviter des pénalités de retard et la suspension de vos services, merci de vous connecter à votre espace client afin de valider le paiement :
+http://espace-client.gestion-factures-securite.example/connexion
+
+Pour des raisons de sécurité, vous devrez saisir votre identifiant et votre mot de passe bancaire ainsi que le code reçu par SMS.
+
+Le règlement doit intervenir avant 17 h aujourd'hui.
+
+Si vous avez déjà effectué ce paiement, merci de ne pas tenir compte de ce message.
+
+Cordialement,
+Service Comptabilité
+Gestion Factures Sécurité
+Pièce jointe : FA-2026-0932.zip

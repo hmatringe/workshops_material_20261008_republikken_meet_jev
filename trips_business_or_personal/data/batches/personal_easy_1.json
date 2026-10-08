@@ -1,0 +1,119 @@
+{
+  "business": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "school_run", "situation": "dropping or picking up children", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "groceries", "situation": "supermarket, mall, hardware store for home", "language": "fr", "note_style": "short"},
+    {"business": false, "purpose": "doctor", "situation": "doctor, dentist, physiotherapist, hospital visit", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "fr", "note_style": "none"},
+    {"business": false, "purpose": "family_friends", "situation": "visiting family or friends, a birthday, a dinner at someone's home", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "leisure_trip", "situation": "a weekend away, a summerhouse, a museum, a concert, a beach", "language": "da", "note_style": "sentence"},
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "da", "note_style": "none"},
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "shopping", "situation": "furniture, clothes, electronics, a gift", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "school_run", "situation": "dropping or picking up children", "language": "en", "note_style": "words"}
+  ],
+  "trips": [
+    {
+      "date": "2026-09-10",
+      "start_time": "07:50",
+      "duration_min": 9,
+      "distance_km": 2.1,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Grundtvigsvej 18, 1864 Frederiksberg C",
+      "note": "School drop",
+      "justification": "A morning drop-off of the children at school is a private family errand."
+    },
+    {
+      "date": "2026-09-12",
+      "start_time": "10:15",
+      "duration_min": 20,
+      "distance_km": 7.5,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Arne Jacobsens Allé 12, 2300 København S",
+      "note": "courses du samedi au Fields",
+      "justification": "A Saturday grocery run to a shopping mall is clearly a private household errand."
+    },
+    {
+      "date": "2026-09-15",
+      "start_time": "16:40",
+      "duration_min": 14,
+      "distance_km": 3.1,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Vesterbrogade 120, 1620 København V",
+      "note": "",
+      "justification": "A late-afternoon trip from home to a physiotherapy clinic is a private health appointment."
+    },
+    {
+      "date": "2026-09-16",
+      "start_time": "18:30",
+      "duration_min": 6,
+      "distance_km": 1.4,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Helgesvej 29, 2000 Frederiksberg",
+      "note": "",
+      "justification": "An evening trip from home to the public swimming pool is a private sport activity."
+    },
+    {
+      "date": "2026-09-20",
+      "start_time": "17:30",
+      "duration_min": 28,
+      "distance_km": 14.5,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Lyngby Hovedgade 45, 2800 Kongens Lyngby",
+      "note": "Birthday dinner at my sister Camilla's place.",
+      "justification": "A Sunday evening drive to a family birthday dinner at a relative's home is purely private."
+    },
+    {
+      "date": "2026-09-26",
+      "start_time": "09:30",
+      "duration_min": 38,
+      "distance_km": 34.0,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Gl. Strandvej 13, 3050 Humlebæk",
+      "note": "Tur til Louisiana med familien for at se den nye udstilling.",
+      "justification": "A Saturday family outing to an art museum is leisure with no work purpose."
+    },
+    {
+      "date": "2026-10-02",
+      "start_time": "05:15",
+      "duration_min": 20,
+      "distance_km": 11.5,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Lufthavnsboulevarden 6, 2770 Kastrup",
+      "note": "",
+      "justification": "An early Friday morning drive from home to the airport at the start of the autumn school holiday week is a private holiday departure."
+    },
+    {
+      "date": "2026-10-09",
+      "start_time": "20:00",
+      "duration_min": 18,
+      "distance_km": 4.8,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Jægersborggade 41, 2200 København N",
+      "note": "dinner w/ Anna",
+      "justification": "A Friday evening dinner at a restaurant with a friend has no work purpose."
+    },
+    {
+      "date": "2026-10-17",
+      "start_time": "11:00",
+      "duration_min": 15,
+      "distance_km": 3.5,
+      "start_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "end_address": "Østergade 52, 1001 København K",
+      "note": "bday gift for mum",
+      "justification": "A Saturday shopping trip to buy a birthday gift for a parent is a private errand."
+    },
+    {
+      "date": "2026-10-19",
+      "start_time": "15:20",
+      "duration_min": 10,
+      "distance_km": 2.1,
+      "start_address": "Grundtvigsvej 18, 1864 Frederiksberg C",
+      "end_address": "Skt. Thomas Allé 22, 2000 Frederiksberg",
+      "note": "Pickup",
+      "justification": "Picking up the children from school and driving them home is a private family errand."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a member gives notice or asks how to pause their membership",
+      "language": "en",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": "lost and found, a question that fits no category"
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a person or company proposes to host a meetup or workshop next month",
+      "language": "fr",
+      "length": "medium",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+      "language": "da",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "en",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "en",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "da",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)"
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "fr",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Ingrid Vestergaard <ingrid.vestergaard@norrebrofond.example>",
+      "subject": "Notice regarding membership no. 0482 and a question about a lost item",
+      "date": "2026-09-14 09:12",
+      "body": "Dear Sir or Madam,\n\nI am writing on behalf of Nørrebro Fondsrådgivning ApS, which holds a flexible desk membership (no. 0482) at your space since February 2025.\n\nFollowing an internal reorganisation, our team will work from the client's premises between 1 November and 28 February. Our management has therefore asked me to enquire whether your terms allow the membership to be paused for these four months, rather than terminated.\n\nIf a pause is not possible, please consider this email as a preliminary notice of termination, and kindly confirm the notice period that applies under our agreement and the date on which the final invoice would be issued.\n\nWe would be grateful to receive your written answer before the end of September, so that our finance department can update its forecast for the fourth quarter.\n\nSeparately, one of our colleagues believes he left a dark green thermos flask and a pair of reading glasses in the phone booth on the second floor, probably during the week of 7 September. May I ask whether anything of the kind has been handed in to the reception?\n\nThank you in advance for your assistance.\n\nYours faithfully,\n\nIngrid Vestergaard\nOffice Manager\nNørrebro Fondsrådgivning ApS\ningrid.vestergaard@norrebrofond.example",
+      "justification": "A member formally asks to pause or terminate a membership, expects a reply within the week, and mentions a lost item in passing."
+    },
+    {
+      "from": "Camille Rousseau <camille.rousseau@atelier-lumen.example>",
+      "subject": "Fwd: Proposition d'atelier chez vous en novembre ?",
+      "date": "2026-09-22 11:40",
+      "body": "Salut, je pense que ça peut coller avec votre programme d'automne, tu peux répondre à Mathis directement ?\n\n---------- Message transféré ----------\nDe : Mathis Perrin <mathis.perrin@collectif-sillage.example>\nObjet : Proposition d'atelier en novembre\n\nBonjour,\n\nJe suis animateur au sein du Collectif Sillage, nous organisons des ateliers de sérigraphie et de petite impression pour les indépendants. Nous cherchons un lieu à Copenhague pour une session de trois heures, un samedi de novembre, avec une douzaine de participants.\n\nSeriez-vous ouverts à accueillir cet atelier dans votre espace ? Nous apportons tout le matériel. Pouvez-vous nous indiquer vos conditions et vos disponibilités ?\n\nCordialement,\nMathis Perrin",
+      "justification": "A third party proposes hosting a workshop next month, forwarded with a comment, so it is an event request needing a reply within the week."
+    },
+    {
+      "from": "Mikkel Holm <mikkel@kodeklub-kbh.example>",
+      "subject": "Torsdag: projektor og stole? 🙏",
+      "date": "2026-10-05 14:25",
+      "body": "Hej begge to!\n\nVi holder Kodeklubbens efterårsmeetup på torsdag aften kl. 18, og vi er blevet flere end forventet. Lige nu står vi på 45 tilmeldte 🎉\n\nKan vi få flyttet fra det lille lokale til det store ved vinduerne? Ellers skal vi bruge mindst 15 ekstra stole.\n\nVi skal også bruge projektoren, en mikrofon til Q&A og en HDMI-adapter til USB-C, hvis I har en liggende. Jeg kommer og stiller op kl. 16.30, hvis det er okay.\n\nGiv lige besked i morgen, så jeg kan skrive til deltagerne 😊\n\nMange hilsner\nMikkel",
+      "justification": "An organiser asks for a bigger room, chairs and AV for an event this week, needing an answer within 24 hours."
+    },
+    {
+      "from": "Sofie Lindqvist <sofie.lindqvist@brightpath-labs.example>",
+      "subject": "Move Wednesday meeting room to Friday",
+      "date": "2026-09-23 08:50",
+      "body": "Hi, could we move our Wednesday 10:00-12:00 booking of the Harbour room to Friday at the same time? The client call changed. If the extra half day rate is 450 DKK, that is fine, please just add it to our monthly invoice. Thanks, Sofie",
+      "justification": "A member asks to move a meeting room booking within this week, so room_booking with a 24 hour need."
+    },
+    {
+      "from": "Jonas Berg <jonasberg84@mailbox.example>",
+      "subject": "Renting a room for a day?",
+      "date": "2026-09-17 18:03",
+      "body": "Hi there,\n\nSent from my phone so sorry for typos. Im Jonas, I run a small design studio with 4 people and we are looking for somewere to have an all-day planning session with the whole team, probly in the next month or two but I dont have a date yet.\n\nDo you rent out meeting rooms by the day to people who are not members? And if yes how many people can the biggest room take, and is there a projector or a whiteboard we can use? We would also need coffee and maybe lunch if thats posible.\n\nAlso is there a price list somewhere on your site? I looked but could not find it.\n\nIts not urgent at all, we just want to know if its an option before we decide.\n\nThanks a lot\nJonas Berg\nStudio Berg\n+45 55 01 22 34\nSent from my iPhone",
+      "justification": "A visitor asks whether a room can be rented for a day with no date, a low urgency booking enquiry needing a reply."
+    },
+    {
+      "from": "Elena Marchetti <elena.marchetti@greenloop-network.example>",
+      "subject": "Sponsorship proposal for your autumn community events",
+      "date": "2026-10-02 10:15",
+      "body": "Hello,\n\nI am the partnerships lead at GreenLoop Network, a Copenhagen non-profit that promotes reuse and repair among small businesses.\n\nWe would like to propose a sponsoring arrangement for your autumn community events. We would contribute 12,000 DKK towards refreshments and print material, and in return we would ask for our logo on your event pages and a short mention at each event.\n\nWe could also write a short article about your space for our members' newsletter.\n\nIf this is of interest, I would be glad to set up a call in the coming weeks to discuss details.\n\nKind regards,\nElena Marchetti\nGreenLoop Network",
+      "justification": "An organisation proposes sponsoring and a press piece, a collaboration proposal with no immediate deadline."
+    },
+    {
+      "from": "Tobias Nielsen <tobias.nielsen@fjordworks.example>",
+      "subject": "Re: Third floor is freezing",
+      "date": "2026-10-13 15:32",
+      "body": "> The heating on the third floor should be fixed by Monday.\n\nIt is Tuesday and it is still 16 degrees at my desk. Could someone come and look at it today or tomorrow? Thanks, Tobias",
+      "justification": "A member follows up on an unresolved heating problem, a complaint needing a reply within a day."
+    },
+    {
+      "from": "Rasmus Kjær <rasmus.kjaer@kjaer-video.example>",
+      "subject": "Kan ikke komme ind - adgangskort virker ikke",
+      "date": "2026-09-27 22:41",
+      "body": "Hej, jeg står uden for hoveddøren og mit kort giver bare rødt lys. Jeg har en deadline i morgen tidlig og mit udstyr ligger indenfor. Kan nogen ringe til mig eller åbne på afstand? Tlf. 55 03 91 18.\n\nJeg fik i øvrigt en automatisk mail fra bookingsystemet i går om, at mit medlemskab er fornyet, så det burde virke.\n\nRasmus",
+      "justification": "A member is locked out late on a Saturday with the access card failing, needing action today, with a mention of an automatic booking notification."
+    },
+    {
+      "from": "Service Comptabilité <compta@maison-delmas.example>",
+      "subject": "Demande de rectification de la facture n° 2026-0731",
+      "date": "2026-09-30 10:05",
+      "body": "Madame, Monsieur,\n\nNous avons bien reçu votre facture n° 2026-0731 d'un montant de 1 250 EUR, relative à nos postes de travail du mois de septembre.\n\nCette facture ne mentionne pas notre numéro de TVA intracommunautaire (FR 12 345 678 901), qui est obligatoire pour sa comptabilisation. Nous vous prions de bien vouloir émettre une facture rectifiée comportant cette mention.\n\nMerci de nous la faire parvenir dans les meilleurs délais, notre clôture mensuelle approchant.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nClaire Delmas\nResponsable comptabilité, Maison Delmas SAS",
+      "justification": "A company formally asks for an invoice to be reissued with a VAT number, a billing request needing an answer within a day or so."
+    },
+    {
+      "from": "Copenhagen Coworking Digest <digest@cowork-digest.example>",
+      "subject": "The Coworking Digest, October edition",
+      "date": "2026-10-01 07:00",
+      "body": "Hello and welcome to the October edition of The Coworking Digest, the monthly round-up you signed up for.\n\nTHIS MONTH IN SHARED WORKSPACES\n\n1. Quiet hours are back. Several spaces in northern Europe are trying out two silent blocks per day, from 9 to 11 and from 14 to 16. Early reports suggest members like it, and phone booth queues get shorter.\n\n2. Pricing trends. A survey of 140 flexible workspaces shows desk prices rising about 4 percent over the last year, while meeting room hire has stayed flat.\n\n3. Community managers speak. We interviewed three managers about what keeps members coming back. The common answer: regular small events beat big occasional ones.\n\nTOOLS WE LIKE\n\nA free floor plan tool for planning room layouts, and a simple shared calendar for equipment loans.\n\nUPCOMING DATES\n\n- 14 October: online meetup for community managers\n- 29 October: webinar on running a good members' lunch\n\nThat is all for this month. See you in November.\n\nYou receive this newsletter because you subscribed at cowork-digest.example. Unsubscribe at any time using the link in your account settings.\n\nThe Coworking Digest team",
+      "justification": "A subscribed monthly newsletter, with nothing to reply to and no action needed."
+    }
+  ]
+}

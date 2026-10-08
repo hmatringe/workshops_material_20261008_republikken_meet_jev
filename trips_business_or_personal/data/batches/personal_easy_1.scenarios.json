@@ -1,0 +1,72 @@
+[
+  {
+    "business": false,
+    "purpose": "school_run",
+    "situation": "dropping or picking up children",
+    "language": "en",
+    "note_style": "words"
+  },
+  {
+    "business": false,
+    "purpose": "groceries",
+    "situation": "supermarket, mall, hardware store for home",
+    "language": "fr",
+    "note_style": "short"
+  },
+  {
+    "business": false,
+    "purpose": "doctor",
+    "situation": "doctor, dentist, physiotherapist, hospital visit",
+    "language": "en",
+    "note_style": "none"
+  },
+  {
+    "business": false,
+    "purpose": "sport",
+    "situation": "gym, swimming, football, running club",
+    "language": "fr",
+    "note_style": "none"
+  },
+  {
+    "business": false,
+    "purpose": "family_friends",
+    "situation": "visiting family or friends, a birthday, a dinner at someone's home",
+    "language": "en",
+    "note_style": "sentence"
+  },
+  {
+    "business": false,
+    "purpose": "leisure_trip",
+    "situation": "a weekend away, a summerhouse, a museum, a concert, a beach",
+    "language": "da",
+    "note_style": "sentence"
+  },
+  {
+    "business": false,
+    "purpose": "airport_holiday",
+    "situation": "airport or station for a holiday or a private visit, or the return",
+    "language": "da",
+    "note_style": "none"
+  },
+  {
+    "business": false,
+    "purpose": "restaurant_private",
+    "situation": "a restaurant or café without any work purpose",
+    "language": "en",
+    "note_style": "short"
+  },
+  {
+    "business": false,
+    "purpose": "shopping",
+    "situation": "furniture, clothes, electronics, a gift",
+    "language": "en",
+    "note_style": "short"
+  },
+  {
+    "business": false,
+    "purpose": "school_run",
+    "situation": "dropping or picking up children",
+    "language": "en",
+    "note_style": "words"
+  }
+]

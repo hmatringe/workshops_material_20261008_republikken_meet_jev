@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "en",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "fr",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": "someone asks about joining, prices, a trial day, desk availability"
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "en",
+      "length": "short",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "en",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "da",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "fr",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "en",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "someone asks about joining, prices, a trial day, desk availability",
+      "language": "da",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Oliver Winther <oliver.winther@gmail.example>",
+      "subject": "day rental for a workshop?",
+      "date": "2026-09-06 21:33",
+      "body": "Hi there,\n\nI run a small ceramics-meets-tech collective and we are thinking about a one day workshop somewhere central. A friend told me you rent out rooms. Is that right?\n\nWe dont have a date yet, probly sometime in the spring, but I wanted to check if its even possible before I start planning. We would be about 18 people, mostly sitting at tables, and we would bring some materials that can get a bit messy (clay, so nothing crazy).\n\nCould you tell me roughly what a day costs, and whether we can come the evening before to set up? Also is there a kitchen or at least a sink nearby, for cleaning hands and tools.\n\nNo rush at all, whenever you have time.\n\nThanks a lot!\nOliver\n\nSent from my iPhone",
+      "justification": "A visitor asks if a room can be rented for a day with no date, so room_booking, answer within the week."
+    },
+    {
+      "from": "Direction de la Communication <communication@fondation-alder.example>",
+      "subject": "Proposition de partenariat : programme d'accompagnement des indépendants",
+      "date": "2026-09-18 09:20",
+      "body": "Madame, Monsieur,\n\nLa Fondation Alder lance cet automne un programme d'accompagnement destiné aux travailleurs indépendants de la région. Nous souhaiterions associer votre espace à cette initiative, en tant que lieu partenaire : votre logo figurerait sur nos supports, et nous publierions un article de présentation de votre communauté dans notre lettre d'information.\n\nNous serions heureux d'échanger avec vous à ce sujet dans le courant des prochaines semaines.\n\nPar ailleurs, l'une de nos chargées de mission envisage de rejoindre votre espace. Pourriez-vous lui communiquer les tarifs d'un poste fixe et les possibilités de journée d'essai ?\n\nNous vous prions d'agréer, Madame, Monsieur, nos salutations distinguées.\n\nHélène Barbier\nResponsable des partenariats",
+      "justification": "An organisation formally proposes co-branding and a press piece, with a passing membership question, so partnership, within the week."
+    },
+    {
+      "from": "Sara Nyborg <sara@stenbro-hub.example>",
+      "subject": "Fwd: Cold again on the 2nd floor",
+      "date": "2026-10-21 10:02",
+      "body": "Can someone check the radiators on 2? Third complaint this week, see below.\n\n---------- Forwarded ----------\nFrom: Tomas, desk 14\nThe heating by the east windows is off again and it is 16 degrees. Please fix it before the weekend.",
+      "justification": "A colleague forwards a member complaint about heating asking for a fix, so complaint, 24-hour urgency, reply expected."
+    },
+    {
+      "from": "Ayesha Rahman <ayesha@rahman-studio.example>",
+      "subject": "Locked out of the building",
+      "date": "2026-10-13 07:48",
+      "body": "Hello,\n\nMy access card does not open the front door this morning. I tried the side entrance as well and the reader stays red. I have a client workshop starting at 8:30 in the Harbour room, so I need to get in as soon as possible.\n\nI am standing outside right now. Please call me on 20 00 00 00 or let me in through the intercom.\n\nThanks,\nAyesha Rahman",
+      "justification": "A member is locked out right now with a workshop imminent, so complaint at maximum urgency and a reply needed."
+    },
+    {
+      "from": "Lars Ebbesen <lars@ebbesen-regnskab.example>",
+      "subject": "Receipt for October",
+      "date": "2026-10-17 23:58",
+      "body": "Hi, could you send me the receipt for the October desk payment (1,450 DKK)? My accountant needs it Monday. Thanks, Lars",
+      "justification": "A member asks for a payment receipt needed soon, so billing, 24-hour urgency, human reply needed."
+    },
+    {
+      "from": "Arbejdsrum Ugebrev <ugebrev@arbejdsrum-kbh.example>",
+      "subject": "Arbejdsrum Ugebrev: Hybridarbejde, flere kontorer og et nyt værktøj til faktura",
+      "date": "2026-09-29 07:15",
+      "body": "Hej, og velkommen til ugens udgave.\n\nHVAD ER NYT\nI denne uge har vi talt med tre fælleskontorer i Storkøbenhavn om, hvordan de håndterer medlemmer, der kun kommer to dage om ugen. Flere af dem er gået væk fra faste pladser til fleksible kort med et fast antal dage om måneden. Det giver mere fleksibilitet, men det kræver bedre overblik over, hvem der er i huset.\n\nTAL FRA BRANCHEN\nGennemsnitlig belægning på hverdage ligger omkring 62 procent, mod 55 procent sidste år. Fredage er stadig den svageste dag.\n\nVÆRKTØJ I FOKUS\nVi har testet et nyt værktøj til automatisk fakturering af medlemmer. Det kan sende påmindelser, håndtere momsnumre og eksportere til de fleste regnskabsprogrammer. Den fulde test finder du på vores hjemmeside.\n\nKOMMENDE EVENTS\n- 7. oktober: Netværksaften for fælleskontorer i Nørrebro\n- 21. oktober: Webinar om bæredygtig drift af delte lokaler\n\nDu modtager dette nyhedsbrev, fordi du har tilmeldt dig på vores hjemmeside. Du kan afmelde dig når som helst.\n\nVenlig hilsen\nRedaktionen",
+      "justification": "A subscribed industry newsletter with no request, so newsletter, no action and no reply."
+    },
+    {
+      "from": "Slotte <no-reply@slotte-booking.example>",
+      "subject": "Booking confirmed: Small room, 22 Oct 10:00",
+      "date": "2026-10-20 16:40",
+      "body": "Your booking is confirmed. Room: Small room. Date: 22 Oct 2026, 10:00 to 11:30. Booked by: Tomas Brix. This is an automatic message, please do not reply.",
+      "justification": "An automatic confirmation from the booking tool in use, so newsletter category, nothing to do and no reply."
+    },
+    {
+      "from": "Noémie Vidal <noemie.vidal@mailbox.example>",
+      "subject": "Re: Merci pour la soirée !",
+      "date": "2026-10-08 09:14",
+      "body": "Bonjour à tous,\n\nUn grand merci pour la soirée de jeudi, c'était vraiment réussi. Les invités ont adoré l'ambiance du lieu.\n\nPour info, j'ai bien reçu votre lettre d'information de septembre, et je me suis inscrite à la prochaine. Pas besoin de répondre à ce message.\n\nBonne journée,\nNoémie\n\n> Le 7 oct, l'équipe a écrit : Merci à vous d'avoir choisi notre espace pour votre soirée.",
+      "justification": "A thank-you reply in a thread mentioning the subscribed newsletter in passing, so other, no action, no reply."
+    },
+    {
+      "from": "Karl <karl.mogensen@mailbox.example>",
+      "subject": "Lost headphones??",
+      "date": "2026-10-26 12:51",
+      "body": "Hi, i think i left my blue headphones (the over ear ones) in the quiet room friday evening. Did anyone find them? Id come by this week to pick them up if so. Thanks\nKarl\nSent from my phone, sorry for typos",
+      "justification": "A visitor asks about lost property, which fits no other category, so other, answer within the week, reply needed."
+    },
+    {
+      "from": "Indkøbsafdelingen <indkoeb@hansen-og-brandt.example>",
+      "subject": "Forespørgsel om medlemskab for 6 medarbejdere",
+      "date": "2026-09-09 11:00",
+      "body": "Til rette vedkommende,\n\nHansen & Brandt Rådgivning overvejer at flytte en del af vores team til et fælleskontor fra januar næste år. Vi er seks medarbejdere, som arbejder sammen dagligt og har behov for faste pladser samt adgang til et mødelokale to gange om ugen.\n\nVi vil gerne høre, om I har ledige faste skriveborde til seks personer fra 1. januar, og hvad prisen vil være pr. plads pr. måned ved en aftale på mindst tolv måneder. Vi vil også gerne vide, om der er mulighed for en prøvedag, hvor hele teamet kan komme forbi og afprøve rummet.\n\nHar I en samlet virksomhedsaftale med fælles fakturering, eller faktureres hver medarbejder for sig? Vi har brug for et overblik, før vi præsenterer forslaget for vores ledelse sidst i oktober.\n\nVi ser frem til at høre fra Jer.\n\nMed venlig hilsen\nBirgitte Hansen\nIndkøbschef, Hansen & Brandt Rådgivning",
+      "justification": "A company formally asks about desks, prices and a trial day for six people, so membership, answer within the week, reply needed."
+    }
+  ]
+}

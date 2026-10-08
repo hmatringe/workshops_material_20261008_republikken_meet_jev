@@ -1,0 +1,24 @@
+From: Customer Security <security@mailbox-verify-center.example>
+Subject: Your mailbox will be deactivated
+Date: 2026-10-09 05:45
+
+Dear user,
+
+Our system detected that your mailbox has exceeded its storage quota and that several login attempts were made from an unknown location.
+
+To prevent your mailbox from being deactivated, you must verify your account within 12 hours. Accounts that are not verified will lose access to all emails, contacts and calendar entries.
+
+Please follow these steps:
+1. Click the link below
+2. Enter your email address and current password
+3. Confirm the code you receive by text message
+
+Verification link: http://mailbox-verify-center.example/secure/login
+
+If you do not complete this process, we will not be able to recover your data.
+
+This is an automated message. Please do not reply.
+
+Customer Security Team
+Mailbox Verify Center
+Reference: MV-88213-DK

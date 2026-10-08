@@ -1,0 +1,179 @@
+{
+  "business": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "business": false,
+      "purpose": "sport",
+      "situation": "gym, swimming, football, running club",
+      "language": "en",
+      "note_style": "words"
+    },
+    {
+      "business": false,
+      "purpose": "family_friends",
+      "situation": "visiting family or friends, a birthday, a dinner at someone's home",
+      "language": "en",
+      "note_style": "sentence"
+    },
+    {
+      "business": false,
+      "purpose": "leisure_trip",
+      "situation": "a weekend away, a summerhouse, a museum, a concert, a beach",
+      "language": "en",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "airport_holiday",
+      "situation": "airport or station for a holiday or a private visit, or the return",
+      "language": "en",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "restaurant_private",
+      "situation": "a restaurant or café without any work purpose",
+      "language": "fr",
+      "note_style": "sentence"
+    },
+    {
+      "business": false,
+      "purpose": "shopping",
+      "situation": "furniture, clothes, electronics, a gift",
+      "language": "da",
+      "note_style": "words"
+    },
+    {
+      "business": false,
+      "purpose": "school_run",
+      "situation": "dropping or picking up children",
+      "language": "da",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "groceries",
+      "situation": "supermarket, mall, hardware store for home",
+      "language": "en",
+      "note_style": "short"
+    },
+    {
+      "business": false,
+      "purpose": "doctor",
+      "situation": "doctor, dentist, physiotherapist, hospital visit",
+      "language": "en",
+      "note_style": "short"
+    },
+    {
+      "business": false,
+      "purpose": "sport",
+      "situation": "gym, swimming, football, running club",
+      "language": "fr",
+      "note_style": "short"
+    }
+  ],
+  "trips": [
+    {
+      "date": "2026-09-14",
+      "start_time": "06:45",
+      "duration_min": 5,
+      "distance_km": 1.1,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "CrossFit Nørrebro, Jagtvej 150, 2200 København N",
+      "note": "CrossFit",
+      "justification": "The destination is a CrossFit gym and the note says CrossFit, a private workout."
+    },
+    {
+      "date": "2026-09-27",
+      "start_time": "12:30",
+      "duration_min": 32,
+      "distance_km": 27.0,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Kirsten Aagaard, Hovedgaden 40, 2970 Hørsholm",
+      "note": "Sunday lunch at my mother's, she turned 70 this week.",
+      "justification": "The note describes a Sunday lunch with the driver's mother for her birthday, a family visit."
+    },
+    {
+      "date": "2026-09-19",
+      "start_time": "09:30",
+      "duration_min": 58,
+      "distance_km": 62.0,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Tisvildeleje Strand, Hawvej, 3220 Tisvildeleje",
+      "note": "",
+      "justification": "A Saturday-morning trip from home to a beach car park is a leisure outing."
+    },
+    {
+      "date": "2026-10-25",
+      "start_time": "19:30",
+      "duration_min": 19,
+      "distance_km": 11.8,
+      "start_address": "Kastrup Lufthavn Ankomst, Lufthavnsboulevarden 6, 2770 Kastrup",
+      "end_address": "Nørrebrogade 150, 2200 København N",
+      "note": "",
+      "justification": "A Sunday-evening trip from the airport arrivals hall to home with no work indication is the return from a private trip."
+    },
+    {
+      "date": "2026-09-18",
+      "start_time": "20:15",
+      "duration_min": 5,
+      "distance_km": 1.0,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Bistro Marcel, Elmegade 20, 2200 København N",
+      "note": "Dîner au restaurant avec ma femme pour fêter notre anniversaire.",
+      "justification": "The note says a dinner with the driver's wife for their anniversary, a private meal."
+    },
+    {
+      "date": "2026-10-03",
+      "start_time": "11:15",
+      "duration_min": 11,
+      "distance_km": 2.8,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Bolia Østerbro, Østerbrogade 100, 2100 København Ø",
+      "note": "Sofa",
+      "justification": "The destination is a furniture store and the note says sofa, private shopping on a Saturday."
+    },
+    {
+      "date": "2026-09-22",
+      "start_time": "08:05",
+      "duration_min": 4,
+      "distance_km": 0.8,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Rådmandsgades Skole, Rådmandsgade 60, 2200 København N",
+      "note": "",
+      "justification": "A short trip from home to a school at 08:05 on a school day is dropping off a child."
+    },
+    {
+      "date": "2026-10-14",
+      "start_time": "18:00",
+      "duration_min": 10,
+      "distance_km": 3.0,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Netto, Frederikssundsvej 40, 2400 København NV",
+      "note": "dinner shop",
+      "justification": "The destination is a supermarket and the note says a dinner shop, a private grocery errand."
+    },
+    {
+      "date": "2026-10-01",
+      "start_time": "10:40",
+      "duration_min": 12,
+      "distance_km": 2.4,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Øjenlæge Winther, Nørre Voldgade 22, 1358 København K",
+      "note": "eye check, new glasses",
+      "justification": "The destination is an eye doctor and the note says an eye check for new glasses, a personal health appointment."
+    },
+    {
+      "date": "2026-09-06",
+      "start_time": "10:00",
+      "duration_min": 11,
+      "distance_km": 3.0,
+      "start_address": "Nørrebrogade 150, 2200 København N",
+      "end_address": "Parken, Per Henrik Lings Allé 2, 2100 København Ø",
+      "note": "tournoi de foot de mon fils",
+      "justification": "The note says it is the son's football tournament on a Sunday morning, a family sport activity."
+    }
+  ]
+}

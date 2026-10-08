@@ -1,0 +1,29 @@
+{
+  "business": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": true, "purpose": "supplier_visit", "situation": "to a supplier, a printer, a warehouse, a workshop", "language": "fr", "note_style": "words"},
+    {"business": true, "purpose": "between_sites", "situation": "between two sites of the same company (office, shop, storage, second office)", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "conference", "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city", "language": "fr", "note_style": "sentence"},
+    {"business": true, "purpose": "airport_work", "situation": "home or office to the airport or the central station for a work trip, or the return", "language": "en", "note_style": "words"},
+    {"business": true, "purpose": "site_visit", "situation": "a construction site, a store opening, a property, a customer installation", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "company_errand", "situation": "bank, post office, customs, a hardware store for the company, a delivery to a customer", "language": "en", "note_style": "none"},
+    {"business": true, "purpose": "client_meeting", "situation": "office or home to a client's office, weekday, working hours", "language": "da", "note_style": "none"},
+    {"business": true, "purpose": "prospect_meeting", "situation": "a café or the prospect's office, first meeting, note may name a person", "language": "en", "note_style": "none"},
+    {"business": true, "purpose": "supplier_visit", "situation": "to a supplier, a printer, a warehouse, a workshop", "language": "en", "note_style": "sentence"},
+    {"business": true, "purpose": "between_sites", "situation": "between two sites of the same company (office, shop, storage, second office)", "language": "da", "note_style": "short"}
+  ],
+  "trips": [
+    {"date": "2026-09-08", "start_time": "09:20", "duration_min": 28, "distance_km": 12.3, "start_address": "Laurits Design Studio, Lyngbyvej 20, 2100 København Ø", "end_address": "Kaffegrossisten Bønnen, Hammerholmen 40, 2650 Hvidovre", "note": "Fournisseur café", "justification": "The note says the destination is a coffee supplier and the end address names a wholesaler, during working hours."},
+    {"date": "2026-09-17", "start_time": "15:40", "duration_min": 28, "distance_km": 20.1, "start_address": "Laurits Design Studio, Lyngbyvej 20, 2100 København Ø", "end_address": "Laurits Lager, Ejby Industrivej 40, 2600 Glostrup", "note": "to storage, grab demo units", "justification": "The trip goes from the company's studio to its own storage site to fetch demo units, which is movement between work sites."},
+    {"date": "2026-09-30", "start_time": "06:45", "duration_min": 110, "distance_km": 166.0, "start_address": "Toftegårds Allé 18, 2500 Valby", "end_address": "Odense Congress Center, Ørbækvej 350, 5220 Odense SØ", "note": "Salon professionnel de l'emballage à Odense, je pars tôt de la maison.", "justification": "The note says the driver is attending a professional packaging trade fair, and the destination is a congress center."},
+    {"date": "2026-10-12", "start_time": "05:40", "duration_min": 20, "distance_km": 11.2, "start_address": "Toftegårds Allé 18, 2500 Valby", "end_address": "Københavns Lufthavn Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup", "note": "Berlin client", "justification": "The note says the flight is to see a client in Berlin, so the airport drive is a work trip."},
+    {"date": "2026-09-29", "start_time": "13:30", "duration_min": 18, "distance_km": 6.0, "start_address": "Laurits Design Studio, Lyngbyvej 20, 2100 København Ø", "end_address": "Pharmatek Lab, Ole Maaløes Vej 3, 2200 København N", "note": "install check at Pharmatek lab, sensors", "justification": "The note describes checking an installation at a named customer's lab on a weekday afternoon."},
+    {"date": "2026-10-02", "start_time": "08:15", "duration_min": 22, "distance_km": 10.4, "start_address": "Laurits Design Studio, Lyngbyvej 20, 2100 København Ø", "end_address": "Pakkeposten Erhvervscenter, Hedegaardsvej 88, 2300 København S", "note": "", "justification": "A weekday morning drive from the company office to a postal business center, an errand for the company."},
+    {"date": "2026-09-23", "start_time": "08:30", "duration_min": 20, "distance_km": 6.3, "start_address": "Toftegårds Allé 18, 2500 Valby", "end_address": "Mølgaard Revision, Bredgade 25, 1260 København K", "note": "", "justification": "A weekday morning drive from home straight to a named accounting firm's office, which counts as a client visit."},
+    {"date": "2026-10-15", "start_time": "16:10", "duration_min": 20, "distance_km": 5.6, "start_address": "Laurits Design Studio, Lyngbyvej 20, 2100 København Ø", "end_address": "Studio Aalto Design, Pilestræde 15, 1112 København K", "note": "", "justification": "A weekday afternoon drive from the office to another company's studio in the city centre, indicating a business meeting."},
+    {"date": "2026-09-14", "start_time": "10:00", "duration_min": 28, "distance_km": 21.0, "start_address": "Laurits Design Studio, Lyngbyvej 20, 2100 København Ø", "end_address": "Jysk Emballage A/S, Gydevang 20, 3450 Allerød", "note": "Visiting the packaging supplier Jysk Emballage to check the new carton samples with Henrik.", "justification": "The note names the supplier, the person and the purpose of reviewing carton samples."},
+    {"date": "2026-10-23", "start_time": "12:20", "duration_min": 20, "distance_km": 5.1, "start_address": "Laurits Design Studio, Lyngbyvej 20, 2100 København Ø", "end_address": "Laurits Butik, Frederiksberggade 10, 1459 København K", "note": "til butikken m. nye prøver", "justification": "The trip runs between the company's studio and its own shop to bring new samples, which is movement between work sites."}
+  ]
+}

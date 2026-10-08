@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a person or company proposes to host a meetup or workshop next month",
+      "language": "en",
+      "length": "short",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+      "language": "en",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "en",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": "someone asks about joining, prices, a trial day, desk availability"
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "da",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": "a member books, moves or cancels a meeting room for this week"
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "da",
+      "length": "long",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "fr",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "fr",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Pernille Dahl <pernille.dahl@verdantbyte.example>",
+      "subject": "Fwd: meetup idea, worth a look",
+      "date": "2026-09-09 13:20",
+      "body": "FYI, this looks like a good fit for November, can you reply to Anders?\n\nFrom: Anders Wolff <anders@pixelpub.example>\nWe run a monthly indie game dev meetup (about 30 people) and need a new home from November. Would you host us on a Thursday evening?",
+      "justification": "A third party proposes hosting a monthly meetup starting next month, forwarded with a one-line comment."
+    },
+    {
+      "from": "Noor Hassan <noor@thursdaytalks.example>",
+      "subject": "Saturday setup for Tuesday's panel",
+      "date": "2026-09-26 23:18",
+      "body": "Hi team,\n\nSorry for writing so late on a Saturday. I'm organising the panel on sustainable packaging this Tuesday evening at 18:00, and the numbers look bigger than planned, 60 people instead of 40.\n\nCould we swap the small event room for the main hall? If that is taken, we would need around 20 extra chairs in the current room.\n\nWe also need two handheld microphones, the projector and a clicker for the slides. I can come on Tuesday at 15:00 to set up with a colleague.\n\nCould you let me know by Monday what is possible, so I can update the invitation?\n\nThank you very much,\nNoor Hassan\nThursday Talks",
+      "justification": "An organiser asks for room change, chairs and AV for an event this week, needing an answer within 24 hours."
+    },
+    {
+      "from": "Office of Facilities <facilities@halvorsen-partners.example>",
+      "subject": "Cancellation of meeting room booking, Thursday 1 October",
+      "date": "2026-09-28 09:30",
+      "body": "Dear Sir or Madam,\n\nOn behalf of Halvorsen & Partners, I hereby request the cancellation of our booking of the Canal meeting room on Thursday 1 October, from 13:00 to 17:00, as the meeting has been postponed.\n\nPlease confirm the cancellation in writing.\n\nYours faithfully,\nOle Halvorsen",
+      "justification": "A member formally cancels a meeting room booking for this week, a booking change needing a reply within 24 hours."
+    },
+    {
+      "from": "Leila Karimi <leila.karimi@postmail.example>",
+      "subject": "Re: Your enquiry about meeting rooms",
+      "date": "2026-10-08 12:47",
+      "body": "> Thanks for getting in touch, can you tell us what date you have in mind?\n\nWe don't have a date yet, probably sometime in November. Do you rent a room for a full day to non-members? Also, is there a trial day for a desk if we like it? Leila",
+      "justification": "A visitor replies in a thread asking about a day room rental with no date, and also asks about a trial day."
+    },
+    {
+      "from": "Freja & Mads <freja@kaffekollektivet.example>",
+      "subject": "Samarbejde? Kaffe + jeres rum ☕",
+      "date": "2026-10-12 10:05",
+      "body": "Hej allesammen 👋\n\nVi er Kaffekollektivet, et lille ristet-kaffe-firma på Vesterbro. Vi elsker jeres rum og tænkte, om vi kunne lave en sponsoraftale?\n\nVi leverer gratis kaffe og bønner til jeres fælleskøkken i hele november og december, og til gengæld sætter vi vores logo op ved kaffemaskinen og nævner jer i vores nyhedsbrev. Vi kunne også lave en lille smagning for medlemmerne 🎉\n\nHvad siger I? Vi kan tage en snak over en kop kaffe, når det passer jer.\n\nBedste hilsner\nFreja og Mads",
+      "justification": "An organisation proposes sponsorship with logo and newsletter mention, a collaboration proposal with no deadline."
+    },
+    {
+      "from": "Henrik Sloth <henrik.sloth@sloth-analytics.example>",
+      "subject": "Constant noise from the open area next to desk 14",
+      "date": "2026-09-18 16:10",
+      "body": "Hello,\n\nI am a member with a fixed desk (no. 14) and I want to flag a problem that has been getting worse for about three weeks. The area next to my desk is used more and more for phone calls and informal meetings, and from around 10:00 to 15:00 the noise level makes it very hard to work.\n\nI have spoken to a couple of the people involved and they were polite but nothing has changed. I do not think it is anybody's fault, it is a layout issue.\n\nCould you consider one or more of the following: a rule for calls in the open area, moving the standing meeting table to the other side of the room, or putting up an acoustic panel? I would also be happy to move to another desk if one is free.\n\nI work on client reports with tight deadlines, so I would appreciate an answer this week, and some action soon.\n\nThanks in advance,\nHenrik Sloth\nDesk 14, Sloth Analytics",
+      "justification": "A member reports ongoing noise and asks for a fix this week, so a complaint needing an answer within 24 hours."
+    },
+    {
+      "from": "Anita Reyes <anita.reyes@reyes-studio.example>",
+      "subject": "LOCKED OUT - card not working",
+      "date": "2026-10-03 08:22",
+      "body": "Hi,\n\nIm standing outside the main door and my access card is not working, the light stays red. I have a client workshop in the big room starting at 9:00 and 12 people are arriving soon.\n\nI also booked the big room for 9-13 today and the confirmation is in my email, so it should be open for me. Please can someone let me in or call me asap, 55 07 66 41?? I tried the buzzer twice no answer.\n\nThanks!!\nAnita\nSent from my phone",
+      "justification": "A member is locked out right now with a client workshop starting, a security and access issue needing action today, mentioning a room booking."
+    },
+    {
+      "from": "Stine Borup <stine.borup@borup-consult.example>",
+      "subject": "Faktura 3318 og manglende kvittering",
+      "date": "2026-10-07 11:30",
+      "body": "Hej,\n\nJeg har fået faktura 3318 på 2.400 DKK for oktober, men jeg tror, der er sket en fejl. Jeg har kun et flexskrivebord, som koster 1.800 DKK, og så er der de 600 DKK, som jeg ikke kan genkende.\n\nJeg kan se, at 600 DKK passer til et møderum i september, men det blev allerede betalt med kort på dagen, og jeg har en kvittering fra kortbetalingen med dato 14. september.\n\nKan I tjekke, om beløbet er faktureret to gange? Hvis ja, vil jeg gerne have en rettet faktura.\n\nJeg har også brug for, at jeg får en samlet kvittering for hele september til min bogholder, som skal bruge den til momsangivelsen i næste uge.\n\nJeg kan ellers sende et skærmbillede af kortbetalingen.\n\nTak på forhånd,\nStine Borup\nBorup Consult",
+      "justification": "A member questions a possible double-charged invoice and asks for a receipt, a billing question needing a reply within a day or so."
+    },
+    {
+      "from": "Le Bulletin du Quartier <bulletin@quartier-nord.example>",
+      "subject": "Le Bulletin d'octobre : ce qui bouge dans le quartier",
+      "date": "2026-10-02 07:30",
+      "body": "Bonjour,\n\nVoici le bulletin d'octobre, que vous recevez parce que vous êtes inscrit à notre liste.\n\nCette semaine : le marché de producteurs du dimanche reprend sur la place, de 9 h à 14 h. Les pistes cyclables de la rue du Port seront en travaux jusqu'au 20 octobre. Une exposition de photos d'habitants ouvre à la bibliothèque du quartier le 12 octobre.\n\nÀ noter aussi : la collecte des déchets verts passe désormais le mercredi.\n\nPour vous désinscrire, utilisez le lien en bas de ce message.\n\nL'équipe du Bulletin",
+      "justification": "A subscribed local newsletter with no request, so nothing to reply to."
+    },
+    {
+      "from": "Réservations Plateforme Salle <no-reply@salle-booking.example>",
+      "subject": "Confirmation de réservation n° 88421",
+      "date": "2026-10-06 06:00",
+      "body": "Bonjour,\n\nCeci est un message automatique. Votre réservation a bien été enregistrée.\n\nRéservation : n° 88421\nSalle : Atelier Nord\nDate : jeudi 8 octobre 2026\nHoraire : 14 h 00 à 16 h 00\nMontant : 300 DKK, payé par carte\n\nUn rappel vous sera envoyé la veille. Pour modifier ou annuler votre réservation, rendez-vous sur votre espace personnel.\n\nMerci de ne pas répondre à ce message.",
+      "justification": "An automatic booking confirmation from a service in use, so a notification that needs no reply."
+    }
+  ]
+}

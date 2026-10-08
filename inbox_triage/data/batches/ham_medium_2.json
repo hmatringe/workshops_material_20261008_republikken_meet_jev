@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+      "language": "fr",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "en",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "en",
+      "length": "long",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": "a thank-you note or a pure FYI, nothing to answer"
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "fr",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "da",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "da",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": "a thank-you note or a pure FYI, nothing to answer"
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "en",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Camille Roussel <camille@atelier-fournil.example>",
+      "subject": "Jeudi soir : projecteur et chaises en plus",
+      "date": "2026-09-19 23:12",
+      "body": "Bonsoir,\nPour notre meetup de jeudi (18h, salle Nordhavn), pouvons-nous avoir le projecteur et 10 chaises de plus ? On passe de 25 à 35 inscrits.\nMerci d'avance, je passe vers 16h pour le montage.\nCamille",
+      "justification": "An event organiser asks for AV and extra chairs for an event later this week, so event, needs a reply within 24 hours."
+    },
+    {
+      "from": "Mikkel Vestergaard <mikkel@lindholm-studio.example>",
+      "subject": "Re: Meeting room Wednesday",
+      "date": "2026-09-22 09:41",
+      "body": "Hi,\n\nYes, that works, thanks. Could we move it to Thursday 24 September, 14:00 to 16:00 instead? Wednesday fell through on our side, the client can only do Thursday afternoon.\nIf the Harbour room is taken, the smaller one is fine too, we will be four people.\nI can pay the difference if Thursday costs more.\n\nBest,\nMikkel\n\nOn 21 Sep, Freja wrote:\n> The Harbour room is free on Wednesday between 14:00 and 16:00, I have pencilled you in.",
+      "justification": "A member asks to move a meeting room booking to a day this week, so room_booking, 24-hour answer, a reply is expected."
+    },
+    {
+      "from": "Sofie Brandt <sofie.brandt@kobbel-works.example>",
+      "subject": "Fwd: Renting a room for a day?",
+      "date": "2026-10-06 11:05",
+      "body": "Hi team, can one of you take this one? I think they are a good fit for the big room.\n\n---------- Forwarded message ----------\nFrom: Jonas Eriksen <jonas.eriksen@northwind-collective.example>\nDate: 5 Oct 2026, 20:17\nSubject: Renting a room for a day?\n\nHello,\n\nI found your space through a friend who is a member there. I coordinate a small research network, about 14 people, and twice a year we gather for a full day of working sessions. So far we have used a university room, but it is no longer available to us.\n\nI do not have a date yet. We are looking at sometime in November or early December, depending on when everyone can travel in from Aarhus and Odense. Before we start the scheduling, I would like to know whether a day rental is possible at all for a group our size.\n\nWe would need a table layout rather than rows, a screen to share slides, and ideally coffee and lunch, though we can sort lunch ourselves if you do not offer it.\n\nCould you tell me what the rental conditions look like, the rough price for a full day, and how far in advance you usually need to be told? If it helps, I can send a short description of what we do.\n\nThank you in advance,\nJonas Eriksen\nNorthwind Collective",
+      "justification": "A visitor with no date asks if a room can be rented for a day, forwarded with a one-line comment, so room_booking, answer within the week."
+    },
+    {
+      "from": "Anders <anders@fjordkaffe.example>",
+      "subject": "Coffee sponsor for your autumn events? ☕",
+      "date": "2026-09-10 14:30",
+      "body": "Hey both!\nWe are Fjord Kaffe, a small roaster nearby. Would love to supply coffee at your community events this autumn and put our logo on a table card. No pressure, happy to chat whenever suits 🙂\nPS: the beans we dropped off last week, thanks for the kind words, no reply needed!\nAnders",
+      "justification": "A local company proposes sponsoring events with co-branding, so partnership, no date, reply within the week, with a passing FYI thank-you."
+    },
+    {
+      "from": "Léa Marchetti <lea.marchetti@mailbox.example>",
+      "subject": "Chauffage open space",
+      "date": "2026-10-14 08:52",
+      "body": "Bonjour, je suis au 2e etage depuis 8h et il fait vraiment froid, le chauffage semble coupé dans l'open space cote fenetres. Nous sommes plusieurs a avoir garde nos manteaux. Pouvez vous regarder ca aujourdhui ou demain svp ? Merci\nLéa Marchetti\nEnvoyé de mon iPhone",
+      "justification": "A member reports no heating in the open space and asks for a fix soon, so complaint, 24-hour urgency, a reply is expected."
+    },
+    {
+      "from": "Facilities Office <facilities@harborside-legal.example>",
+      "subject": "Urgent: access card not working, staff locked out",
+      "date": "2026-10-02 08:07",
+      "body": "Dear team,\nTwo of our staff members are currently locked out of the building: their access cards are rejected at the main door since this morning. Please send someone to let them in and confirm when the cards have been reactivated.\nRegards,\nIngrid Skov\nOffice Manager, Harborside Legal",
+      "justification": "Members are locked out right now because their cards fail, so complaint at maximum urgency and a human reply is needed."
+    },
+    {
+      "from": "Nanna Holm <nanna@holm-design.example>",
+      "subject": "Invoice 2026-0318, VAT number and card payment",
+      "date": "2026-09-28 16:20",
+      "body": "Hello,\n\nI have three questions about my account.\n\nFirst, the invoice for September (2026-0318, 1,950 DKK) was sent without my company VAT number. My company is Holm Design ApS, VAT DK 12345678. Could you reissue it with the number? I need it for my bookkeeper before the end of the month.\n\nSecond, I noticed that the card payment for the 2 meeting room hours on 18 September (480 DKK) failed on my side, my bank sent a message saying it was declined. I do not know if this was a one-off. Could you tell me if the amount is still open, and send me a link to pay again?\n\nThird, could you send me a receipt for the 1,950 DKK I paid by bank transfer on 3 September? I cannot find it in my emails.\n\nThank you for your help.\n\nKind regards,\nNanna Holm\nHolm Design ApS",
+      "justification": "A member asks about adding a VAT number, a failed card payment and a receipt, so billing, answer within 24 hours, human reply needed."
+    },
+    {
+      "from": "Kvarter Nyt <nyhedsbrev@kvarternyt.example>",
+      "subject": "Kvarter Nyt: Uge 40 i Nordhavn",
+      "date": "2026-10-02 07:00",
+      "body": "Hej og tak, fordi du abonnerer på Kvarter Nyt.\n\nDenne uge i kvarteret:\n- Loppemarked på havnepladsen lørdag kl. 10 til 15.\n- Ny cykelrute åbner mellem Nordhavn og stationen mandag.\n- Biblioteket holder åbent til kl. 20 torsdag med oplæsning for børn.\n\nHusk at tilmelde dig vores kvartersmøde den 15. oktober, hvor vi taler om byggeriet ved kajen.\n\nDu modtager denne mail, fordi du har tilmeldt dig nyhedsbrevet. Afmeld nederst på siden.\n\nMed venlig hilsen\nRedaktionen",
+      "justification": "A neighbourhood newsletter the space subscribed to, so newsletter, no action and no reply needed."
+    },
+    {
+      "from": "Pakkepost <besked@pakkepost.example>",
+      "subject": "Din pakke er leveret til Nordhavn Fælleskontor",
+      "date": "2026-09-15 13:48",
+      "body": "Hej,\n\nPakke 7340 2211 98 er leveret i dag kl. 13:41 og afleveret til modtageren i receptionen.\n\nAfsender: Bogladen Online\nVægt: 2,4 kg\nKvittering: Underskrevet af Freja\n\nDu kan følge alle dine forsendelser i appen.\n\nDette er en automatisk besked. Svar ikke på denne mail.\n\nVenlig hilsen\nPakkepost",
+      "justification": "An automatic parcel delivery notification from a service in use, so newsletter category, nothing to answer."
+    },
+    {
+      "from": "Tobias Lund <tobias.lund@lund-and-wright.example>",
+      "subject": "Re: Thank you for hosting the product demo night",
+      "date": "2026-10-09 10:15",
+      "body": "Hi Freja and team,\n\nJust a short note to close the loop. We got 41 sign-ups for the product demo night and about 30 showed up, which is better than we hoped for in a new venue. Several guests asked afterwards where we found the space and whether we do this regularly.\n\nThe room setup was perfect. The projector worked on the first try, the chairs were already arranged in the half circle we had asked for, and the coffee was ready before anyone arrived. Thank you also to whoever stayed late to help us stack the tables.\n\nFor your information, we have already sent the invoice for our part of the catering to our own accounting, so there is nothing more on your side. I will send the photos on Friday, in case you want to use them on your website. No need to answer this, I just wanted you to know it went well.\n\nAll the best,\nTobias\n\nOn 8 Oct, Freja wrote:\n> Thanks for a lovely evening, let us know if you need anything for the follow up.",
+      "justification": "A thank-you and FYI after an event with no question or request, so other, no action needed, no reply required."
+    }
+  ]
+}

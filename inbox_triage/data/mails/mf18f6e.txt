@@ -1,0 +1,13 @@
+From: Gareth Pryce <gareth.pryce@parcelhub-notice.example>
+Subject: Re: Delivery attempt for Kanalhuset front desk
+Date: 2026-10-12 15:22
+
+Hello,
+
+> Your parcel could not be delivered to Kanalhuset reception, no one was available.
+
+As a follow-up to the notice above, the parcel (ref KH-55291) is held at our depot for 3 days. To rebook delivery and avoid a return fee of 45 DKK, please confirm your address and pay the redelivery charge here: https://parcelhub-notice.example/redeliver/KH-55291
+
+Regards,
+Gareth Pryce
+Customer Service, ParcelHub

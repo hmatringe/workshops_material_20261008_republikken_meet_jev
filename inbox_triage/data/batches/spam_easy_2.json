@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "da",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "da",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "fr",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "fr",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Kristoffer Vendelbo <kv@nordtalent-rekruttering.example>",
+      "subject": "Fast pris: 18.500 DKK pr. rekruttering",
+      "date": "2026-09-03 09:12",
+      "body": "Hej\nVi finder din næste medarbejder til kun 18.500 DKK, ingen fund, ingen binding.\nSvar på denne mail for at få vores kandidatliste.\nNordTalent Rekruttering",
+      "justification": "Cold recruitment blast from an unknown agency with no prior relationship to the space."
+    },
+    {
+      "from": "Dave <dave.m@brightleadz-outsourcing.example>",
+      "subject": "quick question about ur growth",
+      "date": "2026-09-07 07:41",
+      "body": "Hi there,\n\nHope your doing well. Im Dave from BrightLeadz, we are a lead gen team based in Manila and Riga. I was looking at your coworking site and I think we can help u fill more desks every month.\n\nWhat we do:\n- build a list of 500 verified founders in Copenhagen\n- run cold email and linkedin outreach for u\n- book calls straight in your calender\n\nWe already helped 40+ spaces (cant name them, NDA) get 3x more leads. Our outsourced SDR team costs a fraction of one hire.\n\nCan I send you a 2 min loom video? Or we can hop on a quick call tomorow, just tell me a time that works.\n\nThx a lot,\nDave\nSent from my iPhone",
+      "justification": "Cold sales outreach for lead generation from a stranger, sent to a generic inbox with no prior contact."
+    },
+    {
+      "from": "Marianne Skovgaard-Lund <kontakt@rankhoej-digital.example>",
+      "subject": "Tilbud: gæsteindlæg og backlinks til jeres hjemmeside",
+      "date": "2026-09-10 10:05",
+      "body": "Kære virksomhedsejer\n\nRankhøj Digital A/S er et specialiseret bureau inden for søgemaskineoptimering og linkbuilding.\nVi har gennemgået Deres hjemmeside og konstateret, at domæneautoriteten kan forbedres væsentligt.\nVi tilbyder derfor placering af gæsteindlæg på en række danske nyhedssider med høj trafik.\nPakkerne kan tilpasses Deres behov, og vi sender gerne en uforpligtende prisoversigt.\nØnsker De at høre mere, bedes De svare på denne e-mail.\n\nMed venlig hilsen\nMarianne Skovgaard-Lund\nSalgschef, Rankhøj Digital A/S",
+      "justification": "Unsolicited SEO and backlink offer from an agency the space has never dealt with."
+    },
+    {
+      "from": "Sofie from Parcels <sofie@parcel-hub-notice.example>",
+      "subject": "Your parcel is waiting 📦",
+      "date": "2026-09-14 15:30",
+      "body": "Hi!! 😊 We tried to deliver your parcel today but there is a small fee of 2,95 EUR to pay. Please confirm your address and pay here: http://pay.parcel-hub-notice.example/r/88213 or it goes back. Thanks! Sofie",
+      "justification": "Phishing message about a parcel nobody ordered, with a payment link on a suspicious domain."
+    },
+    {
+      "from": "Mr. Adewale Okonkwo <a.okonkwo@lagos-trustclaims.example>",
+      "subject": "Unclaimed funds in your favour",
+      "date": "2026-09-18 13:20",
+      "body": "Dear Beneficiary,\n\nMy name is Adewale Okonkwo, a claims officer at Trust Claims Office. A deceased client left unclaimed funds of 4,200,000 EUR and records show no next of kin.\n\nI propose that we present you as the beneficiary. You will receive 40 percent of the total sum, I take 60 percent for the legal process.\n\nThis transaction is risk free and confidential. To start, reply with your full name, address and bank account number.\n\nPlease treat this as urgent.\n\nRegards,\nAdewale Okonkwo",
+      "justification": "Advance-fee inheritance scam from a stranger asking for bank details."
+    },
+    {
+      "from": "Camille Roussel <c.roussel@digitalsummit-nord.example>",
+      "subject": "Re: Invitation au Digital Summit Nord",
+      "date": "2026-09-22 11:08",
+      "body": "> Réservez votre place pour le Digital Summit Nord, le 14 octobre.\n\nDernier rappel : il reste 12 billets à tarif réduit. Inscrivez-vous sur digitalsummit-nord.example.",
+      "justification": "Mass marketing for a conference with a fake Re: prefix; the space never subscribed or wrote first."
+    },
+    {
+      "from": "Jonas Pryor <jonas@staffwave-global.example>",
+      "subject": "Hiring? 3 senior devs ready this week",
+      "date": "2026-09-27 22:47",
+      "body": "Hi,\n\nSorry for writing on a Sunday night, I am in a different time zone. StaffWave Global places pre-vetted developers, designers and sales reps within 5 days.\nWe currently have 3 senior developers available on short notice for remote or hybrid work.\nWe charge only when the candidate starts, and our fee is a flat 12 percent of the first year salary.\nIf you are hiring, or know a company that is, reply with your needs and I will send profiles tomorrow.\n\nBest,\nJonas Pryor\nTalent Partner, StaffWave Global",
+      "justification": "Recruitment blast from an unknown staffing company, sent late on a weekend to a generic address."
+    },
+    {
+      "from": "Priya Nandakumar <priya.n@cloudcrafters-solutions.example>",
+      "subject": "Custom software development for your business",
+      "date": "2026-10-01 09:00",
+      "body": "Dear Sir or Madam,\n\nI am writing to introduce CloudCrafters Solutions, a software development company with over 12 years of experience.\n\nWe build custom web applications, mobile apps and internal tools for small and medium businesses. Our team of 60 engineers works in your time zone and follows agile methods.\n\nOur services include:\n- Web and mobile app development\n- UI and UX design\n- Cloud migration and DevOps\n- Dedicated development teams on a monthly basis\n\nWe believe that your organisation could benefit from a reliable technology partner. Many of our clients reduced development costs by up to 50 percent compared with local hiring.\n\nWe would be happy to prepare a free estimate based on your requirements. Please let me know a convenient time for a 15 minute introductory call.\n\nI look forward to hearing from you.\n\nKind regards,\nPriya Nandakumar\nBusiness Development Manager\nCloudCrafters Solutions",
+      "justification": "Cold outsourcing sales pitch from a company with no relationship to the recipient."
+    },
+    {
+      "from": "Elliot Barnaby <elliot@linkforge-seo.example>",
+      "subject": "Guest post on your blog: 250 EUR per placement",
+      "date": "2026-10-05 14:22",
+      "body": "Hello,\n\nMy name is Elliot and I work for LinkForge, a link building service. I found your website while researching coworking and startup blogs.\n\nWe would like to buy a guest post slot on your site. We pay 250 EUR per article, and we can write the article ourselves in good English. It would include two dofollow links to our clients' websites.\n\nBesides this, we also sell high authority backlinks to sites like yours. Our packages:\n- Starter: 10 backlinks for 390 EUR\n- Growth: 30 backlinks for 990 EUR\n- Pro: 80 backlinks for 2.100 EUR\n\nAll links come from real sites, no spam, we promise. Past clients saw their Google rankings go up in 30 days.\n\nIf you are interested in either option, just reply to this email and I send you the topic list and the payment details.\n\nThank you,\nElliot Barnaby\nLinkForge SEO",
+      "justification": "SEO and paid backlink offer from a stranger, never requested by the space."
+    },
+    {
+      "from": "Service Facturation <jm.lefort@facturation-express-pro.example>",
+      "subject": "urgent facture a regler",
+      "date": "2026-10-09 06:55",
+      "body": "Bonjour,\n\nje vous ecrit car votre facture n°7741 de 389 EUR et toujours impayee depuis 3 semaines.\nSans reglement sous 24h votre compte sera suspendu et des frais de retard s appliqueront.\nCliquez sur le lien pour regler tout de suite : http://reglement.facturation-express-pro.example/7741\nSi vous avez deja payer ignorez ce message.\n\nCordialement\nJ. Lefort\nEnvoyé de mon iPhone",
+      "justification": "Phishing with a fake overdue invoice, a suspension threat and a payment link on a suspicious domain."
+    }
+  ]
+}

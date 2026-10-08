@@ -1,0 +1,25 @@
+From: Kanalhuset Billing <billing@kanalhuset-accounts.example>
+Subject: Payment issue on your Kanalhuset account
+Date: 2026-10-04 23:47
+
+Dear member,
+
+We attempted to process the monthly payment for your Kanalhuset membership but the transaction was declined by your bank. As a result your access card is scheduled to be suspended on Monday at 08:00.
+
+Please note that the invoice below remains unpaid:
+
+Invoice no. 2026-10-8841
+Amount due: 2,450 DKK
+Due: 2026-10-05
+
+To avoid suspension, confirm your payment details through the secure member portal:
+https://kanalhuset-accounts.example/portal/verify
+
+You will be asked to sign in with your member email and password and to re-enter your card number.
+
+If you have already made this payment, please ignore this reminder. Late payments may incur a fee of 150 DKK.
+
+Thank you for being part of our community.
+
+Kanalhuset Accounts Team
+This message was sent automatically, please do not reply.

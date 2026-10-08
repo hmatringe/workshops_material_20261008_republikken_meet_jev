@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "fr",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "fr",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "da",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "da",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "en",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Étienne Marchal <etienne@visibilite-web-plus.example>",
+      "subject": "Améliorez votre référencement Google",
+      "date": "2026-09-04 14:10",
+      "body": "Bonjour, nous proposons des articles invités et des liens entrants pour améliorer le classement de votre site. Souhaitez-vous recevoir nos tarifs ?\nÉtienne Marchal, Visibilité Web Plus",
+      "justification": "Unsolicited SEO and backlink offer from an unknown agency."
+    },
+    {
+      "from": "Cloud Storage Team <alert@cloudvault-storage-mail.example>",
+      "subject": "Your storage is full - sign in to keep your files",
+      "date": "2026-09-12 02:48",
+      "body": "Hello,\n\nYour CloudVault storage is 100 percent full and we will start deleting your files within 48 hours.\nTo keep your documents, please sign in and verify your account here: http://cloudvault-storage-mail.example/verify\nYou will need to confirm your email password and card details to upgrade for free.\nThis is an automated security message.\nCloudVault Storage Team",
+      "justification": "Phishing about full storage with a fake sign-in link asking for password and card details."
+    },
+    {
+      "from": "Jamie <jamie@coinrise-club.example>",
+      "subject": "you in? 🚀💰",
+      "date": "2026-09-16 18:25",
+      "body": "Hey!! 😄\n\nJamie here from CoinRise Club. Last month our members turned 1,000 EUR into 7,500 EUR with our new token, seriously!! 🤑 We are giving 50 free tokens to the first 100 people who join this week.\n\nAll you have to do is send 100 EUR in crypto to our wallet to activate your account, and you get back 10x in 14 days. No risk, we guarantee it 😎\n\nReply with \"I'M IN\" and I'll send the wallet link. Don't miss this one! 🔥\n\nCheers,\nJamie",
+      "justification": "Crypto investment scam promising unrealistic returns, from a stranger asking for an upfront deposit."
+    },
+    {
+      "from": "Atelier Numérique Nord <info@atelier-numerique-nord.example>",
+      "subject": "Webinaire gratuit : l'IA pour les PME",
+      "date": "2026-09-23 09:30",
+      "body": "Bonjour, rejoignez notre webinaire gratuit sur l'IA pour les PME le 7 octobre à 11 h. Inscription : atelier-numerique-nord.example/ia",
+      "justification": "Mass webinar marketing from a sender the space never subscribed to."
+    },
+    {
+      "from": "Pernille <pernille@dansk-vikar-service.example>",
+      "subject": "Vi har 15 vikarer klar - kan i bruge dem?",
+      "date": "2026-09-28 20:14",
+      "body": "Hej :)\n\nJeg hedder Pernille og jeg skriver til mange virksomheder i København. Vi er Dansk Vikar Service og vi har lige nu 15 vikarer der kan starte med det samme, både kontor, lager og kundeservice.\n\nVi tager kun betaling hvis I ansætter nogen, og prisen er 210 kr i timen. Vi har ogsaa fast ansaettelse hvis i vil det.\n\nI behøver ikke at have en stilling slået op, vi kan lave en profil til jer hvis I fortæller hvad i har brug for.\n\nHvis i kender nogen andre der søger folk må i gerne sende mailen videre til dem, det betyder meget for mig.\n\nVi har allerede hjulpet over 300 virksomheder og vores kunder er glade, det kan jeg love.\n\nSkriv bare tilbage med hvad i mangler så vender jeg tilbage hurtigst muligt, eller ring til mig i løbet af ugen.\n\nMange hilsner\nPernille\nDansk Vikar Service\nSendt fra min iPhone",
+      "justification": "Cold staffing blast sent to many businesses by an agency with no relationship to the space."
+    },
+    {
+      "from": "Rasmus Fogh <rasmus@fakturaflow.example>",
+      "subject": "Re: Spar tid på fakturering",
+      "date": "2026-10-01 10:18",
+      "body": "Hej igen\n\n> Jeg skrev i sidste uge om vores faktureringsprogram, så jeg tænkte jeg lige ville følge op.\n\nFakturaFlow kan automatisere jeres fakturaer og påmindelser. Vi tilbyder en gratis demo på 20 minutter, hvis I har tid på torsdag.\nSvar blot med et tidspunkt.\n\nMvh Rasmus Fogh, FakturaFlow",
+      "justification": "Cold software sales follow-up styled as a reply to a thread that never existed."
+    },
+    {
+      "from": "Natalia Kovacs <natalia@pagepeak-links.example>",
+      "subject": "Content and link package for your site: from 450 EUR",
+      "date": "2026-10-04 15:00",
+      "body": "Dear website owner,\n\nWe are PagePeak, a link building studio, and we would like to offer you a content and link package for your coworking website.\n\nHere is what you get for a single payment:\n- 12 contextual backlinks on blogs with domain rating 40 or higher: 450 EUR\n- 4 SEO optimised articles written by our team: 280 EUR\n- A full technical audit of your website: 150 EUR\n- Monthly ranking report: included\n\nIf you take all three, we apply a discount and the total comes to 790 EUR instead of 880 EUR. The offer is open until 15 October. Our past clients report up to 60 percent more organic traffic in three months.\n\nWe work only with real publishers and every link is manually placed. We accept bank transfer and card, and we can send the invoice right away.\n\nTo get started, just reply with the package you want and your website address. If you prefer, we can also offer a trial with 3 links for 99 EUR so you can see the quality first.\n\nLooking forward to working with you.\n\nBest regards,\nNatalia Kovacs\nPartnerships, PagePeak",
+      "justification": "Unsolicited paid SEO and backlink offer from a stranger."
+    },
+    {
+      "from": "Danish Business Compliance Office <noreply@dbco-notifications.example>",
+      "subject": "Final notice: unpaid annual compliance fee",
+      "date": "2026-10-08 07:30",
+      "body": "Dear Sir or Madam,\n\nThis is the final notice issued by the Danish Business Compliance Office regarding your outstanding annual compliance fee.\n\nOur records show that no payment has been received for the registration period ending 31 October 2026. According to our general terms, an unpaid fee will result in an administrative penalty and the suspension of your business listing.\n\nReference number: DBCO-554-20261\nAmount due: 245,00 EUR\nPayment deadline: 14 October 2026\n\nTo settle the amount, please access the secure portal using the link below and enter your company credentials and the card used for registration:\nhttp://secure.dbco-notifications.example/pay\n\nPlease do not reply to this message, as the mailbox is not monitored. Payments made after the deadline may be subject to a late fee of 60,00 EUR.\n\nYours faithfully,\nAdministration Department\nDanish Business Compliance Office",
+      "justification": "Phishing impersonating an official-sounding compliance body with a fake fee and a credential-harvesting link."
+    },
+    {
+      "from": "Mr. Samuel Osei <s.osei@goldcoast-lottery-board.example>",
+      "subject": "Congratulations: you have won 750,000 EUR",
+      "date": "2026-10-14 12:05",
+      "body": "Dear Winner,\n\nYour email address was selected in our international online lottery draw. You have won 750,000 EUR.\nTo claim your prize, contact our agent and send your full name, address, phone number and a copy of your passport.\nA small processing fee of 150 EUR must be paid before the funds can be released.\nReply to this email as soon as possible.\n\nMr. Samuel Osei\nClaims Department, Gold Coast Lottery Board",
+      "justification": "Prize scam from a stranger asking for personal documents and an upfront fee."
+    },
+    {
+      "from": "Event Team <team@startup-expo-cph.example>",
+      "subject": "Tickets for Startup Expo, this weekend only",
+      "date": "2026-10-25 23:40",
+      "body": "Startup Expo Copenhagen is this week! Grab your ticket now: startup-expo-cph.example",
+      "justification": "Mass event marketing sent late at night without any subscription or prior contact."
+    }
+  ]
+}

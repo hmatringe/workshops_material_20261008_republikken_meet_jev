@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "da",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "da",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "fr",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "fr",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "short",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Victoria Ashdown <v.ashdown@crestfield-assets.example>",
+      "subject": "Re: Your approved funds release",
+      "date": "2026-09-06 16:20",
+      "body": "Dear Friend,\n\n> We are pleased to inform you that your compensation fund has been approved.\n\nI am following up because I have not received your reply. The fund of 1,800,000 EUR is ready for transfer, but our legal department needs a refundable security deposit of 900 EUR to release it.\nPlease send the deposit by crypto transfer and confirm with your full name and phone number.\nThis offer is confidential and expires in 72 hours.\n\nVictoria Ashdown\nCrestfield Assets, Release Division",
+      "justification": "Advance-fee scam presented as a follow-up to a thread that never existed, asking for a deposit."
+    },
+    {
+      "from": "Bo Kjeldsen <bo@koebenhavn-brunch-festival.example>",
+      "subject": "Brunch festival i weekenden - kom og vær med!",
+      "date": "2026-09-19 10:42",
+      "body": "Hej alle sammen\n\nJeg skriver for at fortælle om Københavns Brunch Festival som afholdes d. 3. og 4. oktober på en stor plads i byen. Der kommer over 60 boder med alt fra pandekager til vegansk smørrebrød, og der er live musik begge dage.\n\nBilletter koster 95 kr for voksne og børn under 12 kommer gratis ind. Hvis i booker 10 billetter eller mere får i 20 procent rabat, det kan være godt til en gruppe fra jeres kontorfælleskab.\n\nVi leder også efter virksomheder der vil have en stand eller sponsorere festivalen, priserne starter ved 4.500 kr.\n\nSe programmet og køb billetter på koebenhavn-brunch-festival.example, det tager kun to minutter.\n\nJeg håber vi ses!! Del gerne mailen med dem i kender, så fylder vi pladsen helt op.\n\nHilsen Bo\nFestivalarrangør\nSendt fra min telefon, undskyld evt. tastefejl",
+      "justification": "Mass festival marketing sent to many businesses, with no subscription or prior relationship."
+    },
+    {
+      "from": "Rita <rita@talentbridge-jobs.example>",
+      "subject": "Open roles in Copenhagen",
+      "date": "2026-09-26 11:10",
+      "body": "We have 8 open roles in sales and support in Copenhagen. Reply to receive the job descriptions and candidate profiles.\nRita, TalentBridge",
+      "justification": "Recruitment blast from an unknown sender."
+    },
+    {
+      "from": "Lars Brandt <lars@datasmedjen.example>",
+      "subject": "Skræddersyet CRM til jeres fællesskab",
+      "date": "2026-10-03 22:36",
+      "body": "Hej\n\nJeg ved det er lørdag aften, men jeg ville gerne skrive mens jeg tænkte på det. Datasmedjen bygger skræddersyede CRM-systemer til små virksomheder, og jeg tror vi kan spare jer mange timer.\nVi har et færdigt setup der passer til kontorfælleskaber, og vi kan have det oppe at køre på to uger.\nHvis i vil høre mere, så svar blot på denne mail, så sender jeg en kort præsentation.\n\nMvh Lars Brandt\nDatasmedjen",
+      "justification": "Cold software sales pitch sent late on a Saturday by a company the space never contacted."
+    },
+    {
+      "from": "Zara & Co <zara@linkjuice-outreach.example>",
+      "subject": "Guest post? 🙌",
+      "date": "2026-10-07 13:08",
+      "body": "Hey there! 👋\n\nZara here from LinkJuice! I stumbled on your site yesterday and honestly loved the vibe 😍 Really great work on the space!\n\nSo here's the thing: we help sites like yours get seen on Google. 🚀 We could write you a few free guest posts (yes, FREE!) in exchange for a couple of links back to our clients. Win-win, right? 🙂\n\nAnd if you'd like to go further, we've got really affordable packages for backlinks, so you can climb the rankings without the headache. 📈\n\nWe've done this for loads of blogs and the results are crazy good. Seriously, some of them doubled their visitors in 6 weeks! 🤯\n\nIf this sounds fun, just reply with \"yes please\" and I'll send over some topic ideas and a sample article! ✨\n\nOr, if you prefer, we can hop on a super quick 10 min chat. Totally up to you! 😊\n\nTalk soon,\nZara 💛\nLinkJuice Outreach",
+      "justification": "Unsolicited guest-post and backlink offer from a stranger."
+    },
+    {
+      "from": "Customer Security <security@mailbox-verify-center.example>",
+      "subject": "Your mailbox will be deactivated",
+      "date": "2026-10-09 05:45",
+      "body": "Dear user,\n\nOur system detected that your mailbox has exceeded its storage quota and that several login attempts were made from an unknown location.\n\nTo prevent your mailbox from being deactivated, you must verify your account within 12 hours. Accounts that are not verified will lose access to all emails, contacts and calendar entries.\n\nPlease follow these steps:\n1. Click the link below\n2. Enter your email address and current password\n3. Confirm the code you receive by text message\n\nVerification link: http://mailbox-verify-center.example/secure/login\n\nIf you do not complete this process, we will not be able to recover your data.\n\nThis is an automated message. Please do not reply.\n\nCustomer Security Team\nMailbox Verify Center\nReference: MV-88213-DK",
+      "justification": "Phishing claiming the mailbox will be deactivated, asking for the password and a text message code on a fake site."
+    },
+    {
+      "from": "Daniel <daniel@yieldmax-fund.example>",
+      "subject": "Earn 15% monthly, minimum 1,000 EUR",
+      "date": "2026-10-13 10:00",
+      "body": "Our private fund pays 15 percent monthly on deposits from 1,000 EUR. Guaranteed. Reply for the wallet address.\nDaniel",
+      "justification": "Investment scam promising guaranteed monthly returns, from a stranger."
+    },
+    {
+      "from": "Direction Événements <inscriptions@forum-innovation-nordique.example>",
+      "subject": "Invitation officielle : Forum de l'Innovation Nordique 2026",
+      "date": "2026-10-16 09:00",
+      "body": "Madame, Monsieur,\n\nNous avons le plaisir de vous convier à la sixième édition du Forum de l'Innovation Nordique, qui se tiendra à Copenhague les 12 et 13 novembre 2026.\nCet événement réunit des dirigeants, des investisseurs et des responsables de communautés autour des enjeux de la transformation numérique.\nLes frais de participation s'élèvent à 420 EUR par personne. Les inscriptions sont ouvertes sur forum-innovation-nordique.example.\nNous vous prions de bien vouloir diffuser cette invitation auprès de vos membres.\n\nVeuillez agréer, Madame, Monsieur, nos salutations distinguées.\nLa Direction des Événements",
+      "justification": "Mass conference marketing from an organiser the space never subscribed to."
+    },
+    {
+      "from": "Sandrine Mercier <s.mercier@equipe-talents-nord.example>",
+      "subject": "Re: Opportunités de recrutement",
+      "date": "2026-10-21 15:35",
+      "body": "Bonjour,\n\n> Nous recrutons actuellement plusieurs profils pour des entreprises de la région.\n\nJe me permets de relancer mon message précédent. Nous avons 25 candidats disponibles immédiatement dans le commerce et la logistique.\nNos honoraires sont de 12 % du salaire annuel, uniquement en cas de recrutement.\nPouvez-vous me dire si certains de vos membres recrutent ?\n\nCordialement,\nSandrine Mercier",
+      "justification": "Recruitment blast styled as a follow-up in a thread that never existed."
+    },
+    {
+      "from": "tobias <tobias@fastwebdesign-co.example>",
+      "subject": "website redesign",
+      "date": "2026-10-27 08:12",
+      "body": "hi i can redesign ur website for 300 euro, 3 days. portfolio on my site. reply if intrested. sent from my phone",
+      "justification": "Cold design-agency sales message from a stranger."
+    }
+  ]
+}

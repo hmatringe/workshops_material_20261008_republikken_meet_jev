@@ -1,0 +1,18 @@
+From: TicketBox <besked@ticketbox-events.example>
+Subject: Din billet til Gründerfrokost er bekræftet
+Date: 2026-10-03 15:08
+
+Hej,
+
+Tak for din tilmelding via TicketBox. Din billet er bekræftet.
+
+Arrangement: Gründerfrokost
+Sted: Vesterled Hub, 2. sal
+Tidspunkt: 6. oktober 2026 kl. 12.00
+Antal billetter: 2
+Pris: Gratis
+
+Du kan se eller ændre din billet ved at logge ind her:
+https://ticketbox-events.example/min-konto?t=9d22c1
+
+Dette er en automatisk besked fra TicketBox. Du kan ikke svare på denne mail.

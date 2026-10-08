@@ -1,0 +1,11 @@
+From: Cloud Storage Team <alert@cloudvault-storage-mail.example>
+Subject: Your storage is full - sign in to keep your files
+Date: 2026-09-12 02:48
+
+Hello,
+
+Your CloudVault storage is 100 percent full and we will start deleting your files within 48 hours.
+To keep your documents, please sign in and verify your account here: http://cloudvault-storage-mail.example/verify
+You will need to confirm your email password and card details to upgrade for free.
+This is an automated security message.
+CloudVault Storage Team

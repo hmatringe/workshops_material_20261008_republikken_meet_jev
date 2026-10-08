@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "someone asks about joining, prices, a trial day, desk availability",
+      "language": "en",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a member gives notice or asks how to pause their membership",
+      "language": "fr",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a person or company proposes to host a meetup or workshop next month",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+      "language": "fr",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": "an organiser asks for AV, chairs or a room change for an event this week"
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "da",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "da",
+      "length": "short",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "en",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": "someone asks about joining, prices, a trial day, desk availability"
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Tobias Lindqvist <tobias@lindqvist-illustration.example>",
+      "subject": "Re: Question about desks and a trial day",
+      "date": "2026-09-14 10:22",
+      "body": "Hi Mette,\n\nThanks for the quick answer. You wrote: \"We have two fixed desks open from November.\"\n\nThat sounds great. Could I come for a trial day next Thursday, 24 September? I am a freelance illustrator and work alone, so one desk is all I need.\nAlso, what is the monthly price for a fixed desk, and is there a deposit?\nI will bring my own laptop and headphones.\n\nBest,\nTobias Lindqvist",
+      "justification": "A prospective member asks about prices, desk availability and a trial day in an ongoing thread, which is a membership request needing a personal reply within the week."
+    },
+    {
+      "from": "Camille Roussel <camille.roussel@brisemer-studio.example>",
+      "subject": "Mise en pause de mon abonnement",
+      "date": "2026-09-22 09:05",
+      "body": "Bonjour,\n\nJe suis membre du Hangar Nord depuis mars avec un bureau fixe. Je pars en congé de longue durée du 1er novembre au 31 janvier.\nEst-il possible de mettre mon abonnement en pause pendant cette période, ou dois-je le résilier et le reprendre en février ?\nMon préavis serait-il de un mois dans les deux cas ?\nMerci d'avance pour votre retour.\n\nCamille Roussel",
+      "justification": "A member asks how to pause or end their membership with no urgent date, so it is a membership question needing a human reply within the week."
+    },
+    {
+      "from": "Jonas Eriksen <jonas@nordlys-makers.example>",
+      "subject": "Workshop proposal for November",
+      "date": "2026-10-02 15:48",
+      "body": "Hello, we are Nordlys Makers, a small design collective. We would like to host a free evening workshop on risograph printing in your space in November, about 25 people.\nWe can pay a room fee of 1,500 DKK. Could you tell us which Thursdays are free?",
+      "justification": "An outside organiser proposes hosting a workshop next month and offers a fee, an event proposal needing a reply within the week."
+    },
+    {
+      "from": "Léa Fontaine <lea.fontaine@cercle-livres.example>",
+      "subject": "Salle pour mardi soir",
+      "date": "2026-10-10 23:40",
+      "body": "Bonsoir, désolée d'écrire si tard. Pour notre soirée de mardi à 19h, pourrait-on avoir le grand projecteur, 30 chaises et la salle du fond plutôt que celle du haut ?\nPouvez-vous me confirmer avant lundi midi ? Merci beaucoup, Léa",
+      "justification": "An organiser sent late on a weekend asks for projector, chairs and a room change for an event in a few days, so event, 24-hour urgency, reply needed."
+    },
+    {
+      "from": "Priya Nair <priya@quietpine-labs.example>",
+      "subject": "Moving Wednesday's room + a favour 🙏",
+      "date": "2026-09-29 08:31",
+      "body": "Hey team! 👋\n\nQuick one from Priya (Quietpine Labs, desk 12). I booked the Birch room on Wednesday 30 September from 14:00 to 16:00 for a client call, but the client just pushed it to Thursday, same time. Is the Birch room free then? 🤞\nIf Birch is taken, the Oak room would also work, as long as there is a screen I can plug into.\nIf neither is free on Thursday, just cancel Wednesday's booking and I will find another slot next week, no problem.\n\nAlso, totally unrelated to my booking: my friend Elias is running a small community meetup in the main hall this Friday evening, about 40 people. He asked me to pass on his requests since he is not in the mailing list yet.\nHe would love the big projector with a microphone, and 40 chairs in rows instead of the cafe tables. 😅\nHe says he can arrive at 16:00 to set up, if someone can open the hall for him.\n\nCould you reply to both things when you get a minute? Thanks a lot!!\n\nPriya ☀️",
+      "justification": "A member asks to move a meeting room booking this week, with a passing mention of an event AV and chairs request, so room_booking with 24-hour urgency and a needed reply."
+    },
+    {
+      "from": "Mette Skovgaard <mette.skovgaard@kobenhavns-kursuscenter.example>",
+      "subject": "Forespørgsel vedrørende leje af mødelokale",
+      "date": "2026-09-17 11:12",
+      "body": "Til rette vedkommende,\n\nJeg skriver på vegne af Københavns Kursuscenter, en uddannelsesinstitution med kurser for voksne. Vi overvejer at leje et lokale hos jer til en hel dag i løbet af efteråret.\nDer vil være omkring 14 deltagere, og vi har brug for et lokale med projektor og mulighed for kaffe og frokost.\nVi har endnu ikke fastlagt en dato, da det afhænger af, hvornår underviseren er tilgængelig.\nKunne I venligst oplyse, om jeres lokaler kan lejes for en hel dag af eksterne, og hvad prisen er for en dag?\nHører vi gerne, hvilke dage der typisk er ledige, og om der er særlige vilkår for faste kunder.\nVi har brug for oplysningerne til vores interne budgetgodkendelse, men der er ingen hast.\nHvis det er nødvendigt, kan vi aftale et kort besøg i lokalerne, så vi kan se dem før beslutningen.\nVi modtager også gerne jeres standardvilkår for leje og eventuelle afbestillingsregler.\n\nMed venlig hilsen\n\nMette Skovgaard\nKursuskoordinator\nKøbenhavns Kursuscenter\nTlf. 55 01 02 03",
+      "justification": "An institution asks whether a room can be rented for a day with no date set, a room_booking inquiry with no deadline needing a reply within the week."
+    },
+    {
+      "from": "Sofie Holm <sofie@havnebyens-hub.example>",
+      "subject": "Fwd: Sponsorat af jeres sommerfest?",
+      "date": "2026-09-25 13:20",
+      "body": "Denne her bør du se, Anders. Synes den er interessant.\n\n---------- Videresendt besked ----------\nFra: Kristian Dahl, Bølgen Bryggeri\nHej, vi vil gerne sponsorere drikkevarer til jeres næste fællesarrangement mod, at vi må have vores logo på invitationen. Kan vi tage en snak?",
+      "justification": "A colleague forwards a brewery's sponsorship offer with a comment, a partnership proposal needing a reply within the week."
+    },
+    {
+      "from": "Daniel Okafor <daniel.okafor@gridpoint-analytics.example>",
+      "subject": "Heating broken in the quiet room",
+      "date": "2026-10-06 08:47",
+      "body": "Hi,\n\nThe quiet room on the 2nd floor has been freezing since monday, i think the radiator is not workin at all. I checked with two other people and its the same for them.\nIts getting really hard to work there, my hands are cold in the mornings. Also the wifi in that room keeps droping.\nCould someone come look at it before the weekend please? Thanks.\n\nDaniel Okafor\nSent from my iPhone",
+      "justification": "A member reports broken heating and wifi and asks for a fix this week, a complaint needing a reply within 24 hours."
+    },
+    {
+      "from": "Ingrid Solheim <ingrid@solheim-consulting.example>",
+      "subject": "Re: Locked out - card not working",
+      "date": "2026-10-07 07:58",
+      "body": "Hi again,\n\nThanks for replying so fast. You said: \"Please try the card on the side door instead.\"\n\nI tried that too and nothing happens, the light stays red. I have been standing outside for 20 minutes and I have a client presentation at 9:00 that is on my desk inside.\nI also noticed the side door does not fully latch, so anyone could walk in tonight. That is probably a security problem you should know about.\nMy card number is 0482. It worked yesterday evening when I left at 18:30.\nCan someone come down and let me in right now, or tell me the code for the door? My phone number is 20 55 01 99.\n\nAnother thing, since I am writing: a colleague of mine, Jakob, is interested in joining. Could he do a trial day next week and what are the prices for a flexible desk?\nHe would only need it two or three days a week.\nNo rush on that one, the door is the priority.\n\nIngrid",
+      "justification": "A member is locked out with a failing access card and a door security problem right now, so complaint with highest urgency, with a passing membership question about a trial day."
+    },
+    {
+      "from": "Henrik Bauer <accounts@bauer-logistik.example>",
+      "subject": "Invoice 2026-0317 and VAT number",
+      "date": "2026-10-05 14:10",
+      "body": "Hello,\n\nWe are a member company with two desks. The invoice 2026-0317 for October was issued without our VAT number.\nOur accountant needs it on the invoice for the quarterly return. The VAT number is DK 00 00 00 00.\nCould you issue a corrected invoice for the amount of 4,800 DKK and send it to this address?\nWe also had one card payment fail on 1 October, so please tell us if it was retried.\nThank you.\n\nHenrik Bauer",
+      "justification": "A member asks for a corrected invoice with a VAT number and checks a failed card payment, a billing request needing a reply within 24 hours."
+    }
+  ]
+}

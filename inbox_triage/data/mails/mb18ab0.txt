@@ -1,0 +1,5 @@
+From: Regional Registry Services <notice@eu-registry-services.example>
+Subject: Final notice: domain renewal required
+Date: 2026-09-29 08:00
+
+Your domain registration is scheduled to expire. Renew at registry-renew.eu-registry-services.example to avoid loss of service.

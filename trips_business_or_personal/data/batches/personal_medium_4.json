@@ -1,0 +1,29 @@
+{
+  "business": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "fr", "note_style": "words"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "shopping", "situation": "furniture, clothes, electronics, a gift", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "da", "note_style": "sentence"},
+    {"business": false, "purpose": "school_run", "situation": "dropping or picking up children", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "groceries", "situation": "supermarket, mall, hardware store for home", "language": "fr", "note_style": "short"},
+    {"business": false, "purpose": "doctor", "situation": "doctor, dentist, physiotherapist, hospital visit", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "da", "note_style": "short"}
+  ],
+  "trips": [
+    {"date": "2026-09-04", "start_time": "16:30", "duration_min": 22, "distance_km": 13.5, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "note": "Dropping my brother Jonas at the airport, he flies home to Edinburgh.", "justification": "The note says the driver is taking his brother to the airport for a private flight home."},
+    {"date": "2026-09-13", "start_time": "19:00", "duration_min": 6, "distance_km": 1.2, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Bistro Marguerite, Jægersborggade 41, 2200 København N", "note": "Dîner", "justification": "A Sunday evening trip from home to a bistro with the note Dîner shows no work purpose."},
+    {"date": "2026-09-26", "start_time": "07:50", "duration_min": 16, "distance_km": 4.1, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Copenhagen Central Station, Bernstorffsgade 16, 1577 København V", "note": "", "justification": "A Saturday morning drive from home to the central station, nowhere near the usual office, shows no work context (a drop-off)."},
+    {"date": "2026-10-08", "start_time": "12:20", "duration_min": 6, "distance_km": 1.9, "start_address": "Strand Logistik, Sluseholmen 8, 2450 København SV", "end_address": "Café Teglholm, Teglholmsgade 24, 2450 København SV", "note": "lunch alone, back by 1", "justification": "The note says lunch alone and the café is near the office at midday."},
+    {"date": "2026-10-17", "start_time": "11:30", "duration_min": 20, "distance_km": 7.4, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Elgiganten Fields, Arne Jacobsens Allé 12, 2300 København S", "note": "", "justification": "A Saturday late-morning trip from home to a consumer electronics store is private shopping."},
+    {"date": "2026-09-30", "start_time": "07:45", "duration_min": 28, "distance_km": 7.3, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Strand Logistik, Sluseholmen 8, 2450 København SV", "note": "Kører på arbejde som hver dag, meget trafik i myldretiden.", "justification": "The note describes the daily drive to work in rush hour, which is a commute."},
+    {"date": "2026-09-15", "start_time": "15:05", "duration_min": 5, "distance_km": 0.9, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Nørrebro Børneskole, Hans Tavsens Gade 15, 2200 København N", "note": "", "justification": "A short mid-afternoon trip from home to a school fits picking up children."},
+    {"date": "2026-10-03", "start_time": "09:40", "duration_min": 8, "distance_km": 2.0, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Lidl, Rovsingsgade 20, 2100 København Ø", "note": "courses + lessive", "justification": "The note says groceries and laundry detergent and the destination is a supermarket on a Saturday morning."},
+    {"date": "2026-09-21", "start_time": "14:00", "duration_min": 12, "distance_km": 3.3, "start_address": "Strand Logistik, Sluseholmen 8, 2450 København SV", "end_address": "Tandlæge Kirstine Holm, Enghavevej 40, 1674 København V", "note": "Dentist", "justification": "The destination is a dentist's practice and the note confirms a dental visit."},
+    {"date": "2026-10-13", "start_time": "18:15", "duration_min": 12, "distance_km": 3.2, "start_address": "Nørrebrogade 150, 2200 København N", "end_address": "Bellahøj Svømmehal, Bellahøj Allé 1, 2700 Brønshøj", "note": "svømning m. Tobias", "justification": "The note says swimming with Tobias and the destination is a swimming pool in the evening."}
+  ]
+}

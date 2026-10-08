@@ -1,0 +1,11 @@
+From: Plateforme Billetterie Nord <notifications@billetterie-nord.example>
+Subject: Nouvelle inscription pour votre événement
+Date: 2026-10-03 11:15
+
+Bonjour,
+
+Une nouvelle personne s'est inscrite à votre événement "Soirée portes ouvertes du 15 octobre". Vous avez désormais 24 inscrits sur 40 places.
+
+Consultez la liste complète dans votre espace organisateur.
+
+Ceci est un message automatique, merci de ne pas y répondre.

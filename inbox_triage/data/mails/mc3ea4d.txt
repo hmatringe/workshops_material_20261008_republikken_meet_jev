@@ -1,0 +1,11 @@
+From: Gustav Rask <gustav.rask@raskrobotics.example>
+Subject: Re: Booking confirmation, Studio B on Friday
+Date: 2026-10-20 11:08
+
+> Your booking of Studio B for Friday 23 October, 13:00 to 15:00, is confirmed.
+
+Thanks. One change: our team has grown by two people, so we need a larger room. Could you move us to the Atrium room instead, same Friday slot, if it is free?
+
+If the Atrium is taken, we could also start at 15:00 instead. Please let me know by tomorrow, as the guests are travelling in and need to be told where to go.
+
+Gustav

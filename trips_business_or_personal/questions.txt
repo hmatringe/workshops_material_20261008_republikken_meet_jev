@@ -1,0 +1,37 @@
+TRIPS: the question sent to Jev
+One call per batch of trips, one noul question per trip. State = the trip record (date, start time, duration,
+distance, start address, end address, the driver's note) plus two fields computed in code: weekday and
+"within working hours". Dates and arithmetic stay in code: Jev reads them literally.
+These definitions are also the ground truth definitions used to generate the dataset (generation/SPEC.txt).
+
+----------------------------------------------------------------------
+business (noul)
+----------------------------------------------------------------------
+Question: Is this a business trip?
+
+Criteria
+true:  the main purpose of the trip is work: meeting a client, a prospect, a supplier or a partner;
+       moving between two work sites; a conference, a trade fair or a training attended for work;
+       a site or store visit; driving to or from the airport or station for a work trip; picking up
+       a visiting client; a business meal; an errand done for the company (bank, post, customs);
+       a rental car used between a hotel and a client abroad. Evenings and weekends do not matter:
+       a client dinner on a Saturday is business.
+false: the main purpose is private: home, family, school, groceries, doctor, sport, friends, holidays,
+       restaurants, shopping, a partner's workplace. Commuting between home and the usual workplace
+       is personal, as in the mileage rules of Denmark and most countries. A trip whose main purpose
+       is private stays personal even if it passes by the office or ends near a client.
+
+Where a human hesitates (the hard cases)
+- Home to the usual office: personal (commute). Home straight to a client: business.
+- A weekend or evening trip to a restaurant: business only if the record shows a client or a work purpose.
+- Airport trips: business or personal depending on the purpose of the flight, not the airport.
+- A trip to a café, a colleague's home or a hotel: the note or the context decides.
+- Lunch alone during work hours: personal. Lunch with a client: business.
+
+----------------------------------------------------------------------
+How the demo uses the answer (in code, not in Jev)
+----------------------------------------------------------------------
+- business above 0.65: logged as business. Below 0.35: logged as personal.
+- Between the two: "ask the driver" band. The app asks, the person taps, the answer is kept.
+- Weekday and working hours are computed in code from the date and time, and passed as fields.
+- The benchmark (Sonnet vs Jev vs the 25-lines script) uses this one question as a binary task.

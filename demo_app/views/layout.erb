@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meet Jev: the AI that decides</title>
+<style>
+  :root { --ink: #1f2430; --muted: #6b7280; --line: #e5e7eb; --yes: #2f855a; --no: #c53030; --check: #b7791f; --bar: #3b6ea5; --bg: #fafafa; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); background: var(--bg); }
+  header { border-bottom: 1px solid var(--line); background: white; }
+  header .inner { display: flex; align-items: baseline; gap: 18px; padding: 14px 24px; max-width: 1400px; margin: 0 auto; }
+  header h1 { font-size: 18px; margin: 0; }
+  header .brand { margin-left: auto; text-align: right; }
+  header .brand .hint { display: block; font-size: 12px; }
+  header a { color: var(--muted); text-decoration: none; } header a.active { color: var(--ink); font-weight: 600; }
+  main { padding: 20px 24px; max-width: 1400px; margin: 0 auto; }
+  .cols { display: grid; grid-template-columns: 1.1fr 1fr; gap: 24px; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  h2 { font-size: 15px; margin: 0 0 8px; }
+  textarea, input[type=text] { width: 100%; font: 13px/1.4 ui-monospace, Menlo, monospace; padding: 8px; border: 1px solid var(--line); border-radius: 6px; background: white; }
+  textarea.record { min-height: 260px; }
+  textarea.q { min-height: 56px; }
+  .question { border: 1px solid var(--line); border-radius: 8px; background: white; padding: 10px 12px; margin-bottom: 10px; }
+  .question .name { font-weight: 600; font-size: 13px; } .question .type { color: var(--muted); font-size: 12px; margin-left: 6px; }
+  label.small { font-size: 12px; color: var(--muted); display: block; margin-top: 6px; }
+  button { font: 600 14px -apple-system, sans-serif; padding: 10px 16px; border: 0; border-radius: 8px; background: var(--ink); color: white; cursor: pointer; }
+  button:disabled { opacity: .5; }
+  .samples { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+  .samples button { background: white; color: var(--ink); border: 1px solid var(--line); padding: 6px 10px; font-weight: 500; font-size: 12px; }
+  .result { background: white; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-top: 10px; }
+  .bar { position: relative; height: 18px; background: #eef1f5; border-radius: 4px; overflow: hidden; margin: 4px 0; }
+  .bar span { position: absolute; left: 0; top: 0; bottom: 0; background: var(--bar); }
+  .bar b { position: absolute; left: 8px; top: 0; line-height: 18px; font-size: 12px; color: white; mix-blend-mode: difference; }
+  .verdict { font-weight: 700; } .yes { color: var(--yes); } .no { color: var(--no); } .check { color: var(--check); }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  table { border-collapse: collapse; width: 100%; background: white; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; color: var(--muted); font-weight: 600; }
+  td.p { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .error { color: var(--no); font-weight: 600; }
+  .hint { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <a href="/inbox" class="<%= @kind == 'inbox' ? 'active' : '' %>">Inbox triage</a>
+    <a href="/trips" class="<%= @kind == 'trips' ? 'active' : '' %>">Trips</a>
+    <% if QUESTIONS.key?(@kind) %><a href="/<%= @kind %>/batch">Batch of 20</a><% end %>
+  <a href="/benchmark" class="<%= @kind == 'benchmark' ? 'active' : '' %>">Benchmark</a>
+    <!-- <span class="hint">Change a word in a question, ask again, watch the probability move.</span> -->
+    <div class="brand"><h1>Meet Jev</h1><span class="hint">Republikken, October 8, 2026</span></div>
+  </div>
+</header>
+<main>
+<%= yield %>
+</main>
+</body>
+</html>

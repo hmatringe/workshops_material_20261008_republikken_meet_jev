@@ -1,0 +1,29 @@
+{
+  "business": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "leisure_trip", "situation": "a weekend away, a summerhouse, a museum, a concert, a beach", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "fr", "note_style": "short"},
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "fr", "note_style": "short"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "shopping", "situation": "furniture, clothes, electronics, a gift", "language": "da", "note_style": "none"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "school_run", "situation": "dropping or picking up children", "language": "da", "note_style": "words"},
+    {"business": false, "purpose": "groceries", "situation": "supermarket, mall, hardware store for home", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "doctor", "situation": "doctor, dentist, physiotherapist, hospital visit", "language": "en", "note_style": "sentence"}
+  ],
+  "trips": [
+    {"date": "2026-09-05", "start_time": "09:30", "duration_min": 26, "distance_km": 13.4, "start_address": "Frederiksberg Allé 62, 1820 Frederiksberg C", "end_address": "Dyrehavsbakken (amusement park), Dyrehavevej 62, 2930 Klampenborg", "note": "", "justification": "A Saturday morning drive from home to an amusement park is a leisure outing."},
+    {"date": "2026-10-18", "start_time": "21:15", "duration_min": 20, "distance_km": 11.2, "start_address": "Copenhagen Airport Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup", "end_address": "Frederiksberg Allé 62, 1820 Frederiksberg C", "note": "retour de Nice, vacances", "justification": "The note says the driver is returning from a holiday in Nice, so the airport trip is private."},
+    {"date": "2026-09-19", "start_time": "13:00", "duration_min": 15, "distance_km": 3.9, "start_address": "Frederiksberg Allé 62, 1820 Frederiksberg C", "end_address": "Bistro Kajen, Nyhavn 31, 1051 København K", "note": "Birthday brunch with my sister Maja, just us.", "justification": "The note describes a Saturday birthday brunch with the driver's sister."},
+    {"date": "2026-09-08", "start_time": "07:40", "duration_min": 14, "distance_km": 3.6, "start_address": "Frederiksberg Allé 62, 1820 Frederiksberg C", "end_address": "Nørreport Station, Nørre Voldgade, 1358 København K", "note": "dépose Paul à la gare", "justification": "The note says the driver is dropping Paul off at the station, a private favour."},
+    {"date": "2026-09-23", "start_time": "12:30", "duration_min": 17, "distance_km": 5.2, "start_address": "Brix Revision, Ny Carlsberg Vej 80, 1760 København V", "end_address": "Torvehallerne, Frederiksborggade 21, 1360 København K", "note": "Lunch", "justification": "A midday trip from the office to a food market with the note Lunch and no client named is a solo lunch."},
+    {"date": "2026-10-03", "start_time": "14:20", "duration_min": 16, "distance_km": 3.8, "start_address": "Frederiksberg Allé 62, 1820 Frederiksberg C", "end_address": "Magasin du Nord, Kongens Nytorv 13, 1095 København K", "note": "", "justification": "A Saturday afternoon trip from home to a department store is private shopping."},
+    {"date": "2026-09-11", "start_time": "17:25", "duration_min": 18, "distance_km": 3.1, "start_address": "Brix Revision, Ny Carlsberg Vej 80, 1760 København V", "end_address": "Hjem, Frederiksberg Allé 62, 1820 Frederiksberg C", "note": "", "justification": "A weekday rush-hour trip from the usual office to home is a commute."},
+    {"date": "2026-09-21", "start_time": "15:45", "duration_min": 8, "distance_km": 1.8, "start_address": "Frederiksberg Allé 62, 1820 Frederiksberg C", "end_address": "Grøndal Skole, Grøndalsvej 9, 2000 Frederiksberg", "note": "Henter", "justification": "A trip from home to a school in the afternoon with the note Henter (picking up) is a school pick-up."},
+    {"date": "2026-09-17", "start_time": "18:10", "duration_min": 11, "distance_km": 2.9, "start_address": "Brix Revision, Ny Carlsberg Vej 80, 1760 København V", "end_address": "Rema 1000, Valby Langgade 120, 2500 Valby", "note": "groceries + milk", "justification": "The note says groceries and the destination is a supermarket, after work hours."},
+    {"date": "2026-10-06", "start_time": "16:10", "duration_min": 12, "distance_km": 2.4, "start_address": "Frederiksberg Allé 62, 1820 Frederiksberg C", "end_address": "Fysioterapi Vesterbro, Vesterbrogade 120, 1620 København V", "note": "Physio appointment for my sore shoulder.", "justification": "The note states a physiotherapy appointment for the driver's own shoulder."}
+  ]
+}

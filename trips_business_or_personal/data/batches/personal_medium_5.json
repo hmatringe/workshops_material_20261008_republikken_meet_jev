@@ -1,0 +1,29 @@
+{
+  "business": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "da", "note_style": "none"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "da", "note_style": "short"},
+    {"business": false, "purpose": "shopping", "situation": "furniture, clothes, electronics, a gift", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "fr", "note_style": "none"},
+    {"business": false, "purpose": "school_run", "situation": "dropping or picking up children", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "groceries", "situation": "supermarket, mall, hardware store for home", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "doctor", "situation": "doctor, dentist, physiotherapist, hospital visit", "language": "fr", "note_style": "none"},
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "family_friends", "situation": "visiting family or friends, a birthday, a dinner at someone's home", "language": "en", "note_style": "short"}
+  ],
+  "trips": [
+    {"date": "2026-09-26", "start_time": "20:10", "duration_min": 22, "distance_km": 8.6, "start_address": "Søborg Hovedgade 120, 2860 Søborg", "end_address": "Osteria Fratelli, Værnedamsvej 14, 1819 Frederiksberg C", "note": "dinner w/ Anna, anniv.", "justification": "A Saturday night trip from home to a restaurant, with a note about an anniversary dinner and no work element."},
+    {"date": "2026-09-10", "start_time": "07:20", "duration_min": 14, "distance_km": 5.6, "start_address": "Søborg Hovedgade 120, 2860 Søborg", "end_address": "Gentofte Station, Gentoftegade 2, 2820 Gentofte", "note": "", "justification": "A morning drive from home to a train station away from the usual office, with no work context, fits dropping someone off."},
+    {"date": "2026-09-29", "start_time": "12:05", "duration_min": 7, "distance_km": 1.8, "start_address": "Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø", "end_address": "Café Svanen, Strandboulevarden 90, 2100 København Ø", "note": "frokost alene", "justification": "The note says lunch alone, a short midday trip from the office to a café."},
+    {"date": "2026-10-24", "start_time": "13:15", "duration_min": 30, "distance_km": 12.4, "start_address": "Søborg Hovedgade 120, 2860 Søborg", "end_address": "Illums Bolighus, Amagertorv 10, 1160 København K", "note": "Gift", "justification": "A Saturday afternoon trip from home to a design store with the note Gift is private shopping."},
+    {"date": "2026-10-05", "start_time": "08:20", "duration_min": 32, "distance_km": 8.9, "start_address": "Søborg Hovedgade 120, 2860 Søborg", "end_address": "Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø", "note": "", "justification": "A Monday rush-hour trip from home to the usual office is a commute."},
+    {"date": "2026-09-18", "start_time": "15:20", "duration_min": 22, "distance_km": 9.0, "start_address": "Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø", "end_address": "Buddinge Skole, Buddingevej 100, 2860 Søborg", "note": "Picking up Freja and Noah from school after work.", "justification": "The note says the driver is picking up his children from school."},
+    {"date": "2026-10-01", "start_time": "17:50", "duration_min": 20, "distance_km": 8.2, "start_address": "Holm & Vind ApS, Lyngbyvej 2, 2100 København Ø", "end_address": "Netto, Gladsaxe Møllevej 20, 2860 Søborg", "note": "Stopping at the supermarket to buy things for the weekend.", "justification": "The note says a supermarket stop for weekend groceries after work."},
+    {"date": "2026-10-13", "start_time": "08:40", "duration_min": 17, "distance_km": 6.5, "start_address": "Søborg Hovedgade 120, 2860 Søborg", "end_address": "Gentofte Hospital, Gentofte Hospitalsvej 1, 2900 Hellerup", "note": "", "justification": "A trip from home to a hospital, which is not a work site, is a private medical visit."},
+    {"date": "2026-09-27", "start_time": "09:30", "duration_min": 9, "distance_km": 3.4, "start_address": "Søborg Hovedgade 120, 2860 Søborg", "end_address": "Gladsaxe Svømmehal, Vandtårnsvej 1, 2860 Søborg", "note": "Swim", "justification": "A Sunday morning trip from home to a swimming pool with the note Swim is sport."},
+    {"date": "2026-10-11", "start_time": "12:30", "duration_min": 15, "distance_km": 6.0, "start_address": "Søborg Hovedgade 120, 2860 Søborg", "end_address": "Lone Jensen (private home), Hegnsvej 14, 2820 Gentofte", "note": "Sunday lunch at mum's", "justification": "The note says Sunday lunch at the driver's mother's home."}
+  ]
+}

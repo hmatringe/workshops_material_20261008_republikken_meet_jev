@@ -1,0 +1,109 @@
+You write examples for an evaluation dataset of email classifiers.
+You must produce exactly 10 emails. Each email follows one scenario line below, in order.
+The labels in the scenario line are the instruction, not a guess: the email must clearly deserve them.
+
+Context
+The recipient is the shared inbox of a coworking and community space in Copenhagen.
+Invent the space, the people, the companies and the domains. No real person, company or domain.
+The people who run the space are invented too: never use a real name for them, never "Hadrien".
+No real institution, public body, bank, media or brand, even altered. Invent them. Domains end in .example.
+
+Definitions
+INBOX TRIAGE: the questions sent to Jev
+One call per email. Four questions, evaluated in parallel. State = the email (from, subject, date, body).
+These definitions are also the ground truth definitions used to generate the dataset (generation/SPEC.txt).
+
+----------------------------------------------------------------------
+1. spam (noul)
+----------------------------------------------------------------------
+Question: Is this message unsolicited?
+
+Criteria
+true:  the recipient never asked for this message and has no relationship with the sender:
+       cold sales outreach, mass marketing without a subscription, phishing, scams,
+       fake invoices, SEO or link-building offers, recruitment blasts.
+false: the message comes from an existing relationship or from something the recipient
+       signed up for: members, visitors asking about the space, partners, suppliers,
+       newsletters the recipient subscribed to, notifications from services in use
+       (event platform, bank, parcel delivery, booking tools), automatic replies.
+
+Note: a newsletter the recipient subscribed to is NOT spam, even when it is pure marketing.
+
+----------------------------------------------------------------------
+2. category (choice)
+----------------------------------------------------------------------
+Question: What is this message mainly about?
+
+Options
+membership      joining the space, prices, trial day, desk availability, leaving
+event           hosting or proposing an event, meetup, workshop, AV or room setup for an event
+room_booking    booking, changing or cancelling a meeting room or a desk for a day
+partnership     sponsoring, co-branding, press, a collaboration proposal from an organisation
+complaint       something is wrong: noise, wifi, access card, heating, cleaning, a bad experience
+billing         invoices, payments, receipts, VAT numbers, failed card
+newsletter      a subscribed newsletter or an automatic notification from a service in use
+spam            unsolicited commercial, fraudulent or irrelevant message (see question 1)
+other           anything else: thanks, lost and found, a question that fits no option
+
+----------------------------------------------------------------------
+3. urgency (score, 4 levels)
+----------------------------------------------------------------------
+Question: How soon does this message need action?
+
+Levels (each described on its own, not relative to the others)
+1  no action needed: a newsletter, a notification, a thank-you note, spam
+2  answer within the week: a general question, a proposal for next month, a request with no date
+3  answer within 24 hours: a request for this week, a booking change, a payment question
+4  answer today: something happening today or tomorrow, a person locked out, a safety or
+   security issue, a payment that is failing right now
+
+----------------------------------------------------------------------
+4. needs_human (noul)
+----------------------------------------------------------------------
+Question: Does this message need a reply written by a person?
+
+Criteria
+true:  the sender asks something, requests something, or reports a problem, and expects a reply.
+false: nothing to reply to: newsletters, notifications, automatic replies, spam, pure FYI.
+
+Difficulty for this batch: hard
+A human hesitates, then decides. The email carries misleading signals of the opposite class,
+but an attentive reader can justify the label in one sentence. It must NOT be truly ambiguous.
+Hard ham: a subscribed newsletter that reads like marketing; a follow-up from someone met at an event;
+a supplier invoice from an unfamiliar sender; a service notification with a login link.
+Hard spam: "we met at your event" with no real detail; a fake invoice from a plausible supplier;
+a phishing mail imitating the event platform or the bank; a partnership offer that is a disguised
+sales pitch; a "member" who never was one.
+
+Scenario lines (one email each, in this order)
+1. spam=false category=room_booking urgency=3 needs_human=true language=fr length=short style=casual tone, first names, emojis allowed | a member books, moves or cancels a meeting room for this week
+2. spam=false category=room_booking urgency=2 needs_human=true language=en length=short style=sent on a weekend or late at night | a visitor asks whether a room can be rented for a day, no date yet
+3. spam=false category=partnership urgency=2 needs_human=true language=en length=medium style=plain and neutral, no particular style | an organisation proposes sponsoring, co-branding or a press piece
+4. spam=false category=complaint urgency=3 needs_human=true language=da length=medium style=with an amount in DKK or EUR | wifi, heating, noise, cleaning, a bad experience, a request to fix it | also mentions: a member books, moves or cancels a meeting room for this week
+5. spam=false category=complaint urgency=4 needs_human=true language=en length=long style=forwarded by a colleague with a one-line comment | access card not working, a person locked out, a security issue right now
+6. spam=false category=billing urgency=3 needs_human=true language=da length=long style=institutional sender, formal tone | an invoice question, a receipt request, a VAT number to add, a failed card
+7. spam=false category=newsletter urgency=1 needs_human=false language=en length=medium style=plain and neutral, no particular style | a newsletter the recipient subscribed to (coworking, tech, city, a tool)
+8. spam=false category=newsletter urgency=1 needs_human=false language=en length=short style=plain and neutral, no particular style | an automatic notification from a service in use (event platform, bank, parcel, booking tool)
+9. spam=false category=other urgency=1 needs_human=false language=en length=long style=casual tone, first names, emojis allowed | a thank-you note or a pure FYI, nothing to answer
+10. spam=false category=other urgency=2 needs_human=true language=fr length=medium style=sent on a weekend or late at night | lost and found, a question that fits no category | also mentions: someone asks about joining, prices, a trial day, desk availability
+
+Each scenario line gives: spam (true or false), category, urgency (1 to 4), needs_human (true or false),
+language (en, da or fr), length, style, situation, and sometimes "also mentions" (a secondary topic).
+
+Length
+short    2 to 4 lines. One thing said, no context.
+medium   5 to 10 lines. The request plus the context around it: who the sender is, what happened, what they expect.
+long     12 to 20 lines. A real message with background, details, a thread quote or a forwarded part if the style says so.
+
+Rules
+- Follow the length and the style of each line. Within the batch, emails must differ in structure, sender type and register. No template.
+- Write the whole email in the language given on its scenario line.
+- "also mentions": the email also talks about that secondary topic, in passing. The category label stays the main topic.
+- Hard batch: the misleading signal must sit in the body (sender identity, wording, what is asked, a link,
+  an amount), never in the subject line alone. A shouting subject on a normal body is not a hard email.
+- Dates between 2026-09-01 and 2026-10-31. Amounts in DKK or EUR.
+- For each email give a "justification": one sentence saying why it deserves its labels.
+  It will not be shown to the models under test.
+
+Answer with a JSON array only, no text before or after, no markdown fences:
+[{"from": "Name <address>", "subject": "...", "date": "YYYY-MM-DD HH:MM", "body": "...", "justification": "..."}, ...]

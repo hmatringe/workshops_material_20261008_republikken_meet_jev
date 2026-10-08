@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "fr",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "en",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "da",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": "a member books, moves or cancels a meeting room for this week"
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "long",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "da",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "fr",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": "someone asks about joining, prices, a trial day, desk availability"
+    }
+  ],
+  "mails": [
+    {
+      "from": "Théo Lambert <theo@lumenstudio.example>",
+      "subject": "Salle Fjord jeudi",
+      "date": "2026-09-15 09:12",
+      "body": "Salut Maja ! 🙂 C'est Théo de Lumen Studio. On avait pris la salle Fjord jeudi à 14h mais le client décale, tu peux la passer à vendredi même heure ?\nSi elle est prise, j'annule et on se rabat sur la salle Nord. Merci !! 🙏",
+      "justification": "A current member asks to move a room booking later this week, which needs a person's reply within a day despite the very casual tone."
+    },
+    {
+      "from": "Priya Nandakumar <priya.n@outlook-mail.example>",
+      "subject": "Renting a room for a day?",
+      "date": "2026-09-20 23:41",
+      "body": "Hi, I found your space online. Could a meeting room be rented for a full day, for roughly ten people? I have no date yet, just checking if it is possible and what it would cost. Thanks.",
+      "justification": "A first-time visitor asks a genuine question about renting a room, with no date, so a reply is needed within the week although the sender is a stranger writing at night."
+    },
+    {
+      "from": "Casper Ellegaard <casper.ellegaard@nordlys-fonden.example>",
+      "subject": "Idea: co-branded autumn workshop series",
+      "date": "2026-10-02 10:30",
+      "body": "Dear team,\n\nI am the programme lead at the Nordlys Foundation, a small non-profit supporting early-stage founders in the Copenhagen area. Two of our fellows attended the open evening at your space in September and spoke very warmly about it.\n\nWe would like to propose a co-branded series of three workshops in November and December. We would cover the cost of catering and a modest sponsorship contribution of 15,000 DKK towards your programming, in exchange for our logo on the invitations and a short mention at each session.\n\nIf this is of interest, I would be glad to send a one-page outline and arrange a call in the coming weeks.\n\nBest regards,\nCasper Ellegaard\nProgramme Lead, Nordlys Foundation",
+      "justification": "This is a collaboration proposal from an organisation that references a concrete prior contact with the space, not a mass pitch, and it needs a person's answer within the week or so."
+    },
+    {
+      "from": "Mikkel Rask <mikkel@brinkdata.example>",
+      "subject": "Støj og planlagt møde",
+      "date": "2026-09-24 16:05",
+      "body": "Hej,\n\nJeg er medlem på fast skrivebord, og de seneste tre dage har der været boremaskiner fra ombygningen ved siden af fra kl. 8. Jeg har haft to kundemøder, hvor vi næsten ikke kunne høre hinanden.\n\nJeg synes, at jeg bør have en del af min månedlige betaling på 2.400 DKK refunderet for de dage, eller at I i det mindste får lavet en aftale om støjtider med byggefirmaet.\n\nUanset hvad skal jeg også have flyttet mit møderum fra torsdag kl. 10 til fredag kl. 10 denne uge. Kan det lade sig gøre?\n\nMvh\nMikkel Rask",
+      "justification": "A paying member reports ongoing noise and asks for a fix and partial refund, with a room move this week as a side request, so it is a complaint needing a reply within 24 hours."
+    },
+    {
+      "from": "Sofie Winther <sofie@aurelia-design.example>",
+      "subject": "Fwd: Locked out of the building - urgent",
+      "date": "2026-10-06 08:47",
+      "body": "Hadn't seen this until now, can someone from the front desk deal with it before 9? Thanks, Sofie\n\n---------- Forwarded message ----------\nFrom: Jonas Albrecht <jonas@aurelia-design.example>\nDate: 2026-10-06 08:31\nSubject: Locked out of the building - urgent\nTo: Sofie Winther <sofie@aurelia-design.example>\n\nHi Sofie,\n\nI am standing outside the main door and my access card is not working. The reader blinks red three times and nothing happens. I tried it five times and also the back entrance.\n\nI have a client presentation at 9:30 and my laptop and the printed material are inside, at my desk on the second floor.\n\nThe odd thing is that the door beside the bike room has been left propped open with a chair since yesterday evening, according to Mette who left late. So anyone can walk in, but I cannot.\n\nCould you ask the space to reactivate card number 0417 and also close that side door properly? Someone should probably check that nothing was taken overnight.\n\nI am on 20 55 01 23 if you need me.\n\nJonas",
+      "justification": "A member is locked out with a meeting in under two hours and a side door is left open, so it is a same-day security complaint despite the forwarding wrapper and casual tone."
+    },
+    {
+      "from": "Økonomiafdelingen, Havnegade Rådgivning A/S <okonomi@havnegade-raadgivning.example>",
+      "subject": "Vedr. faktura 2026-0388 og momsnummer",
+      "date": "2026-10-08 13:20",
+      "body": "Til rette vedkommende,\n\nVi skriver på vegne af Havnegade Rådgivning A/S (CVR 12 34 56 78), som siden august har lejet to faste pladser hos jer.\n\nVi har modtaget faktura nr. 2026-0388 på 5.600 DKK ekskl. moms for september. På fakturaen mangler vores CVR-nummer, og vi kan derfor ikke bogføre den. Vi anmoder om en rettet faktura med CVR-nummeret påført.\n\nDerudover har vi bemærket, at betalingen fra vores firmakort blev afvist den 1. oktober, selvom kortet ikke er udløbet. Vi kan ikke se, om betalingen blev gennemført ved et senere forsøg. Vi beder jer bekræfte status og sende en betalingskvittering for de to foregående måneder.\n\nVi beder om svar senest fredag den 10. oktober, da vores månedsafslutning finder sted i næste uge.\n\nMed venlig hilsen\nHenrik Bjerregaard\nØkonomichef, Havnegade Rådgivning A/S\nTlf. 33 00 00 00",
+      "justification": "A paying tenant's finance department writes formally about a missing VAT number, a declined card and receipt requests, which needs a human reply within about a day."
+    },
+    {
+      "from": "The Fjordline Weekly <hello@fjordline-news.example>",
+      "subject": "This week in Copenhagen coworking: 20% off, new spaces, and a plug-in you will like",
+      "date": "2026-09-29 07:00",
+      "body": "Hello again,\n\nHere is your Tuesday round-up from Fjordline Weekly.\n\n1. Three new flexible offices opened in Nordhavn this month. Full list and prices below.\n2. LIMITED TIME: 20% off an annual pass to the Fjordline Remote Work Summit with code AUTUMN20.\n3. Tool of the week: Plankton, a simple desk-sharing plug-in for calendars. Free for teams under 10.\n4. Reader question: how do you handle guests who overstay the day pass?\n\nRead the full issue: https://fjordline-news.example/issue/212\n\nYou are receiving this because you subscribed on 3 March 2026. Manage preferences or unsubscribe at https://fjordline-news.example/prefs",
+      "justification": "It is a newsletter the space subscribed to, so it is wanted and needs no reply, even though it contains discount codes and promotional wording."
+    },
+    {
+      "from": "Tickety Events <no-reply@tickety-platform.example>",
+      "subject": "Your event page was approved - sign in to review",
+      "date": "2026-09-18 11:02",
+      "body": "Your event \"Open Desk Friday\" has been approved and is now live.\n\nSign in to review ticket sales: https://tickety-platform.example/login/events/88213\n\nThis is an automatic message from Tickety. Please do not reply.",
+      "justification": "It is an automatic notification from the event platform the space uses, so no reply is needed even though it contains a sign-in link."
+    },
+    {
+      "from": "Emil & Lotte <emil@kernhuset-studio.example>",
+      "subject": "Thanks again + FYI",
+      "date": "2026-10-12 18:25",
+      "body": "Hey all! 👋\n\nJust wanted to say a big thank you from the whole Kernhuset crew. We spent six weeks in your back room while our office was being renovated and honestly it was the best stretch we have had in a long time. 🎉\n\nThe coffee alone deserves a medal. Special thanks to whoever kept moving the plants toward the window, our ficus has never looked happier. 🌿\n\nA couple of FYIs, nothing to do on your side:\n- We handed back the two keys to the front desk on Friday, so no need to look for them.\n- Our last invoice (4,200 DKK) has already been paid on our end, you should see it come in this week.\n- We are moving into our new office on 19 October, just ten minutes away, so you will probably see us at the Thursday meetups.\n\nIf you are ever curious how the renovation turned out, we posted photos here: https://kernhuset-studio.example/new-office. No rush at all, just for fun.\n\nTake care and see you soon!\nEmil and Lotte ☕",
+      "justification": "It is a warm thank-you with pure FYI items from a former tenant, containing an invoice mention and a link but asking nothing, so no reply is needed."
+    },
+    {
+      "from": "Camille Ferrand <camille.ferrand@boite-mail.example>",
+      "subject": "Écharpe oubliée + question",
+      "date": "2026-10-17 22:48",
+      "body": "Bonsoir,\n\nJ'ai participé à l'atelier de jeudi soir chez vous et je crois avoir oublié une écharpe grise en laine sur le canapé du fond. Pourriez-vous vérifier si elle a été retrouvée ?\n\nPar la même occasion, votre espace m'a beaucoup plu. Je travaille en freelance et je cherche un bureau. Y a-t-il une journée d'essai possible, et quel est le prix d'un poste fixe par mois ? Avez-vous de la place en novembre ?\n\nMerci d'avance,\nCamille",
+      "justification": "A past event attendee asks about a lost scarf, with a membership and trial-day question on the side, which is a normal human-answered request within the week."
+    }
+  ]
+}

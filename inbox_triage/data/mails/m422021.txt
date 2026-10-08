@@ -1,0 +1,26 @@
+From: Nordic Digital Registry <accounts@nordic-digital-registry.example>
+Subject: NOTICE: Domain registration renewal invoice 2026/10
+Date: 2026-10-12 08:00
+
+Dear Domain Holder,
+
+This is a formal notice regarding the registration of your domain name, issued by the Nordic Digital Registry Administration.
+
+Our records indicate that the annual renewal fee for your domain is due. Failure to complete the renewal within seven (7) days will result in the domain being released to the public registry and your website and email services will be interrupted.
+
+Invoice reference: NDR-2026-884201
+Amount due: 189,00 EUR (including administration fee)
+Payment deadline: 19 October 2026
+
+To avoid interruption, you are required to verify your account and settle the invoice via our secure portal:
+http://portal.nordic-digital-registry.example/renew
+
+You will be asked to enter your domain control password and your payment card details to confirm the renewal.
+
+Please note that this notice is not issued by your current hosting provider. Late renewals are subject to a reactivation surcharge of 95,00 EUR.
+
+Yours faithfully,
+
+Department of Domain Renewals
+Nordic Digital Registry Administration
+This message is intended for the domain holder only.

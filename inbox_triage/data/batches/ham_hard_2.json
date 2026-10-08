@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "da",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": "someone asks about joining, prices, a trial day, desk availability"
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "medium",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "fr",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "da",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "en",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "fr",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "someone asks about joining, prices, a trial day, desk availability",
+      "language": "en",
+      "length": "medium",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": "a person or company proposes to host a meetup or workshop next month"
+    }
+  ],
+  "mails": [
+    {
+      "from": "Birgitte Holmegaard <birgitte@holmegaard-analyse.example>",
+      "subject": "Leje af mødelokale for en dag",
+      "date": "2026-09-14 10:22",
+      "body": "Hej,\n\nJeg hedder Birgitte og driver et lille analysebureau, Holmegaard Analyse, med tre ansatte. Vi sidder normalt hjemmefra, og jeg fandt jer via en kollega, som har holdt et møde hos jer i foråret.\n\nVi skal have et heldagsseminar for vores kunder en gang i løbet af vinteren, men jeg har endnu ikke en dato. Det handler mest om at finde ud af, om det overhovedet er muligt at leje et af jeres lokaler til en hel dag, og hvad det cirka koster. Vi bliver ca. 12 personer.\n\nDet vil være rigtig rart, hvis der er et projektor eller en stor skærm, og hvis vi kan få kaffe og frokost ind udefra. Jeres hjemmeside viser kun en prisliste for timer, så jeg ved ikke, om der er en dagspris.\n\nJeg ved godt, at det lyder lidt som et løst tilbud, men jeg vil gerne have et overslag, før jeg går videre med planlægningen og vælger dato. Jeg kan tilføje, at vi gerne betaler på faktura med EAN eller almindeligt CVR-nummer.\n\nEn ting mere: to af mine ansatte overvejer at leje et fast skrivebord hos jer, så de kommer ud af hjemmekontoret. Kan de komme forbi en dag og prøve det af, og er der overhovedet ledige pladser i åbent kontorlandskab? Hvad koster det om måneden?\n\nDu kan se, hvad vi laver, på www.holmegaard-analyse.example. Der står også et telefonnummer, hvis det er nemmere at ringe.\n\nPå forhånd tak for hjælpen.\n\nVenlig hilsen\nBirgitte Holmegaard\nHolmegaard Analyse ApS",
+      "justification": "A visitor with a real, specific question about renting a room for a day and a trial for two desks; the website link and company pitch look promotional but she is the one asking and expects a reply, with no date so urgency is 2."
+    },
+    {
+      "from": "Mira Castellan <mira.castellan@lykkegade-cowork.example>",
+      "subject": "Fwd: Partnership idea from Northbound Fund",
+      "date": "2026-09-22 15:41",
+      "body": "Mira here: this looks legit to me, can you take a look before Friday's team meeting?\n\n---------- Forwarded message ----------\nFrom: Jonas Aabye <jonas.aabye@northbound-fund.example>\nSubject: Press feature and co-branded evening series\n\nDear team,\n\nI am the community lead at Northbound Fund, a small regional foundation supporting early-stage founders. We have followed your space since your open day in June and would like to propose two things.\n\nFirst, our quarterly magazine would like to run a two-page feature on your space and its resident founders. There is no fee and no advertorial; we only ask for a visit and a few quotes.\n\nSecond, we would like to explore a co-branded evening series (four sessions, January to April), with our logo next to yours on invitations. We would cover room hire at your standard rate and a modest contribution of EUR 1,500 towards your costs.\n\nOur programme page has the details: northbound-fund.example/partners. Could we schedule a call in the next two weeks?\n\nWarm regards,\nJonas Aabye",
+      "justification": "A foundation proposes a press piece and co-branded series after following the space; the offered money and link resemble a sales pitch, but it is a genuine collaboration proposal forwarded by a colleague that needs a reply within the week."
+    },
+    {
+      "from": "Syndicat des locataires de Havnebakken <secretariat@havnebakken-locataires.example>",
+      "subject": "Réseau Wi-Fi commun du bâtiment",
+      "date": "2026-10-06 09:05",
+      "body": "Madame, Monsieur,\n\nEn notre qualité de représentants des locataires du bâtiment de Havnebakken, nous vous informons que le réseau Wi-Fi de votre espace perturbe depuis trois semaines la connexion du rez-de-chaussée, où nos membres partagent le même canal.\n\nNous vous prions de bien vouloir ajuster votre point d'accès dans un délai de huit jours, faute de quoi nous saisirons le gestionnaire de l'immeuble.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe secrétariat",
+      "justification": "Neighbouring tenants' association with a formal, threatening tone writes about a real wifi interference problem and asks for a fix, so it is a complaint needing a reply within days, not spam."
+    },
+    {
+      "from": "Tobias Wren <tobias.wren@fieldnotes-studio.example>",
+      "subject": "Locked out, card does nothing",
+      "date": "2026-09-19 22:48",
+      "body": "Hi,\n\nI'm a member (desk 14, the Fieldnotes Studio team) and I'm standing outside the main entrance right now. My access card has stopped working: the reader blinks red three times and the door stays shut. I tried it ten times, and my colleague's card works fine, so it's not the reader.\n\nI have a laptop with a client deadline for Monday morning inside, and nowhere else to get it. It is also raining.\n\nAnother thing I noticed, which might be a security issue: the side door by the bike room does not latch properly. I pushed it and it opened without a card. Someone should check it tonight, because anyone could walk in.\n\nYou may think this is a phishing attempt, since I'm writing from my personal account, but I'm really a member. You can check my name against the list. Please call me on +45 5550 0142 or let me in if someone is on call.\n\nTobias",
+      "justification": "A member locked out on a Saturday night who reports a door that does not latch is a real, immediate problem needing a human the same day; the unfamiliar personal address is explained by the sender and is not unsolicited."
+    },
+    {
+      "from": "Sofie <sofie@pixelhaven.example>",
+      "subject": "kortet virker ikke igen",
+      "date": "2026-09-28 11:12",
+      "body": "Hej Mads 😊 Mit kort blev afvist igen i morges, da fakturaen på 1.450 kr. skulle trækkes. Kan I sende et betalingslink, så jeg kan betale manuelt? Og husk lige at sætte vores CVR 31 55 02 47 på fakturaen, den manglede i sidste måned. Tak! 🙏",
+      "justification": "A member reports a failed card and asks for a payment link and VAT number on the invoice; the payment link request looks like phishing bait but she is a known customer asking for a reply within 24 hours."
+    },
+    {
+      "from": "Lykkegade Letters <letters@lykkegade-cowork.example>",
+      "subject": "The October Desk: new rooms, a sale, and a chair auction",
+      "date": "2026-10-01 08:00",
+      "body": "Hello neighbour,\n\nWelcome to the October edition of The Desk, the monthly letter from the Lykkegade community. You are receiving it because you signed up at the front desk or on our site.\n\nTHIS MONTH AT A GLANCE\n\n1. Two new meeting rooms are open\nThe old storage room on the second floor is now Room Pelikan (4 seats) and Room Tangle (8 seats). Both have screens and whiteboards. Book them through the usual booking tool.\n\n2. Autumn offer: 20% off day passes\nBring a friend and your next three day passes cost 20% less. The code is HYGGE20 and works until 31 October. This is a limited offer, so grab it while it lasts.\n\n3. Chair auction on Friday 16 October\nWe are replacing 30 old chairs. Bids start at DKK 50, proceeds go to the community kitchen fund. Doors open at 16:00.\n\n4. Member spotlight\nThis month we meet Aiko from Paperbridge, a two-person studio that makes tactile maps. She has worked from desk 9 since March and gives her tip on surviving a Danish winter: wool socks and a thermos.\n\n5. Quiet hours reminder\nThe third floor remains a quiet zone until 14:00 on weekdays. Phone calls belong in the booths.\n\n6. Coming up\nFounders' breakfast, 8 October. Open lab on paper prototyping, 21 October. Halloween potluck, 30 October.\n\nThat's all for now. See you in the kitchen.\n\nThe Lykkegade team\n\nYou can unsubscribe at any time using the link at the bottom of our website. Lykkegade Cowork, Havnegade 12, 1058 Copenhagen K.",
+      "justification": "A monthly newsletter the recipient subscribed to, which reads like marketing with a discount code, but it asks nothing and needs no reply."
+    },
+    {
+      "from": "Roomly Bookings <notifications@roomly-booking.example>",
+      "subject": "Your booking confirmation and sign-in link",
+      "date": "2026-09-30 13:30",
+      "body": "Hello,\n\nThis is an automatic message from Roomly, the booking tool used by Lykkegade Cowork.\n\nYour reservation has been confirmed:\nRoom: Pelikan\nDate: 7 October 2026, 14:00 to 16:00\nBooked by: front desk (shared account)\n\nTo view or edit this booking, sign in with the link below. The link is valid for 24 hours.\nhttps://roomly-booking.example/signin/token/8f3a21\n\nIf you did not make this booking, you can ignore this message. Please do not reply, as this mailbox is not monitored.\n\nRoomly, booking made simple.",
+      "justification": "An automatic notification from the booking tool the space uses; the sign-in link looks like phishing but it is expected transactional mail with nothing to answer."
+    },
+    {
+      "from": "Anders Kjeldsen <anders@kjeldsen-bygge.example>",
+      "subject": "Re: Invoice for the kitchen repair",
+      "date": "2026-10-09 16:55",
+      "body": "Hi Lina, just letting you know I paid the invoice this afternoon, 3,200 DKK, bank reference on the transfer is KB-2209. Nothing for you to do.\n\n> Can you confirm the payment has gone through on your side?\n\nThanks again for the quick repair.\nAnders",
+      "justification": "A reply in an existing supplier thread that only confirms a payment and thanks; despite money and an invoice reference, nothing is asked."
+    },
+    {
+      "from": "Camille Roussel <camille.roussel@verdier-conseil.example>",
+      "subject": "Objet trouvé : un carnet bleu dans la cuisine ?",
+      "date": "2026-10-12 17:20",
+      "body": "Bonjour,\n\nJe ne suis pas membre de votre espace, je suis venue mardi dernier pour un atelier d'écriture organisé par une autre association, dans la grande salle du premier étage. Je me permets de vous écrire parce que je ne retrouve plus mon carnet depuis ce soir-là.\n\nC'est un carnet à couverture rigide bleu nuit, format A5, avec un élastique gris et une étiquette à mon nom collée à l'intérieur. Il contient des notes de travail pour un projet de livre, donc il compte beaucoup pour moi. Je l'ai peut-être oublié sur une table ou dans la cuisine, car j'ai pris un thé avant de partir.\n\nPourriez-vous vérifier si quelqu'un l'a trouvé ? Si oui, je peux passer le récupérer jeudi ou vendredi, ou bien vous pouvez me l'envoyer par la poste et je rembourserai les frais d'envoi.\n\nJe comprends bien que vous recevez beaucoup de messages et que ce n'est pas votre priorité. Si vous avez une boîte d'objets trouvés, un coup d'oeil rapide me rassurerait.\n\nJe peux aussi vous décrire plus précisément le contenu pour prouver que le carnet est le mien. Il y a notamment un plan de roman sur les dix premières pages.\n\nJe vous remercie d'avance pour votre aide et vous souhaite une bonne semaine.\n\nCordialement,\nCamille Roussel",
+      "justification": "A visitor who is not a member asks about a lost notebook after attending an event in the space; the unfamiliar sender is a genuine person with a question, answerable within the week."
+    },
+    {
+      "from": "Lina Brandt <lina.brandt@lykkegade-cowork.example>",
+      "subject": "Fwd: Trial day and desk prices",
+      "date": "2026-09-17 09:48",
+      "body": "Can you answer this one? I think they'd be a good fit for the quiet floor.\n\n---------- Forwarded message ----------\nFrom: Ravi Menon <ravi@menon-lab.example>\nDate: 16 Sep 2026\n\nHi,\n\nI'm a freelance UX researcher, currently working from home in Valby and it's getting lonely. I would like to join for at least six months. Could I do a trial day next week, and what does a fixed desk cost per month? Are there any free desks on the quiet floor?\n\nSeparately: I run a monthly meetup on research methods, about 25 people, and we're looking for a new venue starting in October. We could host it at your place on a Thursday evening in the first week of next month, if that's of interest. Happy to pay for the room.\n\nBest,\nRavi",
+      "justification": "A prospective member asks about a trial day and desk prices, forwarded by a colleague; the meetup offer is secondary and the sender expects a personal reply within the week."
+    }
+  ]
+}

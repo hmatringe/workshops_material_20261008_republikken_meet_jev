@@ -1,0 +1,14 @@
+From: Claire Dubois <c.dubois@talentia-recrutement.example>
+Subject: Offres d'emploi à diffuser auprès de vos membres
+Date: 2026-09-24 14:00
+
+Bonjour,
+
+Je suis consultante chez Talentia Recrutement. Nous avons actuellement 12 postes ouverts à Copenhague pour des profils francophones : commerciaux, chefs de projet et développeurs.
+Nous souhaiterions que vous diffusiez ces offres auprès des membres de votre espace.
+En échange, nous versons une commission de 300 EUR pour chaque candidat recruté.
+La liste complète des postes est disponible sur talentia-recrutement.example/offres.
+N'hésitez pas à me répondre pour recevoir les fiches de poste.
+
+Cordialement,
+Claire Dubois

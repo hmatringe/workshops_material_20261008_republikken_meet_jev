@@ -1,0 +1,179 @@
+{
+  "business": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "business": false,
+      "purpose": "doctor",
+      "situation": "doctor, dentist, physiotherapist, hospital visit",
+      "language": "en",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "sport",
+      "situation": "gym, swimming, football, running club",
+      "language": "en",
+      "note_style": "short"
+    },
+    {
+      "business": false,
+      "purpose": "family_friends",
+      "situation": "visiting family or friends, a birthday, a dinner at someone's home",
+      "language": "en",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "leisure_trip",
+      "situation": "a weekend away, a summerhouse, a museum, a concert, a beach",
+      "language": "en",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "airport_holiday",
+      "situation": "airport or station for a holiday or a private visit, or the return",
+      "language": "da",
+      "note_style": "words"
+    },
+    {
+      "business": false,
+      "purpose": "restaurant_private",
+      "situation": "a restaurant or café without any work purpose",
+      "language": "en",
+      "note_style": "sentence"
+    },
+    {
+      "business": false,
+      "purpose": "shopping",
+      "situation": "furniture, clothes, electronics, a gift",
+      "language": "en",
+      "note_style": "short"
+    },
+    {
+      "business": false,
+      "purpose": "school_run",
+      "situation": "dropping or picking up children",
+      "language": "da",
+      "note_style": "sentence"
+    },
+    {
+      "business": false,
+      "purpose": "groceries",
+      "situation": "supermarket, mall, hardware store for home",
+      "language": "fr",
+      "note_style": "words"
+    },
+    {
+      "business": false,
+      "purpose": "doctor",
+      "situation": "doctor, dentist, physiotherapist, hospital visit",
+      "language": "fr",
+      "note_style": "short"
+    }
+  ],
+  "trips": [
+    {
+      "date": "2026-09-07",
+      "start_time": "08:40",
+      "duration_min": 11,
+      "distance_km": 2.9,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Fysioterapi Vesterbro, Vesterbrogade 120, 1620 København V",
+      "note": "",
+      "justification": "The destination is a physiotherapy clinic, a personal health appointment."
+    },
+    {
+      "date": "2026-09-15",
+      "start_time": "19:10",
+      "duration_min": 6,
+      "distance_km": 1.2,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Frederiksberg Svømmehal, Helgesvej 29, 2000 Frederiksberg",
+      "note": "swim 7.30pm w/ Anna",
+      "justification": "The destination is a public swimming pool and the note mentions swimming with a friend in the evening."
+    },
+    {
+      "date": "2026-09-26",
+      "start_time": "17:45",
+      "duration_min": 26,
+      "distance_km": 13.8,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Hos Mikkel og Sara, Bakkegårdsvej 12, 2830 Virum",
+      "note": "",
+      "justification": "A Saturday-evening trip from home to a private household labelled with first names indicates a social visit."
+    },
+    {
+      "date": "2026-09-13",
+      "start_time": "10:00",
+      "duration_min": 22,
+      "distance_km": 11.5,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Bakken, Dyrehavevej 62, 2930 Klampenborg",
+      "note": "",
+      "justification": "A Sunday-morning trip to an amusement park is a leisure outing."
+    },
+    {
+      "date": "2026-10-17",
+      "start_time": "06:15",
+      "duration_min": 20,
+      "distance_km": 12.3,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Kastrup Lufthavn, Terminal 2, Lufthavnsboulevarden 6, 2770 Kastrup",
+      "note": "Ferie Mallorca",
+      "justification": "The note says the flight is for a holiday in Mallorca, so the airport trip is private."
+    },
+    {
+      "date": "2026-10-02",
+      "start_time": "20:00",
+      "duration_min": 16,
+      "distance_km": 4.6,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Bistro Havnen, Nyhavn 31, 1051 København K",
+      "note": "Birthday dinner with Anna, just the two of us, table booked at 8pm.",
+      "justification": "The note describes a private birthday dinner for two on a Friday evening with no work purpose."
+    },
+    {
+      "date": "2026-10-10",
+      "start_time": "12:20",
+      "duration_min": 18,
+      "distance_km": 4.4,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Magasin du Nord, Kongens Nytorv 13, 1095 København K",
+      "note": "bday gift for mum",
+      "justification": "The note says the trip is to buy a birthday gift for the driver's mother, private shopping."
+    },
+    {
+      "date": "2026-09-23",
+      "start_time": "15:20",
+      "duration_min": 6,
+      "distance_km": 1.3,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Lindevangskolen, Lindevangs Allé 2, 2000 Frederiksberg",
+      "note": "Hentede Emil fra skole klokken halv fire.",
+      "justification": "The note says the driver picked up their child from school, a private school run."
+    },
+    {
+      "date": "2026-09-05",
+      "start_time": "10:30",
+      "duration_min": 7,
+      "distance_km": 1.5,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Irma, Gl. Kongevej 74, 1850 Frederiksberg C",
+      "note": "courses",
+      "justification": "The destination is a supermarket and the note says groceries on a Saturday morning."
+    },
+    {
+      "date": "2026-10-22",
+      "start_time": "14:15",
+      "duration_min": 22,
+      "distance_km": 6.4,
+      "start_address": "Smallegade 18, 2000 Frederiksberg",
+      "end_address": "Rigshospitalet, Blegdamsvej 9, 2100 København Ø",
+      "note": "rdv cardio, bilan perso",
+      "justification": "The destination is a hospital and the note says a personal cardiology check-up."
+    }
+  ]
+}

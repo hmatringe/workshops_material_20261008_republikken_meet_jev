@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "da",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "fr",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "fr",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "da",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Vinge Seminarer <tilbud@vinge-seminarer.example>",
+      "subject": "Ledelseskonference: 2.495 kr. til kl. 23.59",
+      "date": "2026-09-11 14:02",
+      "body": "Ledelseskonference i Odense 3. november. Early bird: 2.495 kr. (normalpris 3.995 kr.). Se program: vinge-seminarer.example/ledelse",
+      "justification": "Mass marketing for a conference with no prior subscription. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Julien Marchand <julien@recrut-nordique.example>",
+      "subject": "dispos pour candidats serveurs/barista",
+      "date": "2026-09-15 18:22",
+      "body": "Bonsoir,\n\nJe vous écrit car nous avons plusieur candidats francophones dispo a Copenhague pour des poste de serveur, barista ou accueil. Ils cherchent du temp plein ou partiel, parfois des le mois prochain.\n\nSi votre espace a besoin de renfort pour le café ou les évènements, je peut vous envoyer 3 ou 4 profils par mail. C'est gratuit tant que vous n'embauchez pas.\n\nBonne soirée\nJulien Marchand\nRecrut Nordique\nEnvoyé depuis mon téléphone",
+      "justification": "Staffing blast from an unknown agency, sent from a phone, offering candidates. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Ingrid Solberg <ingrid@northwave-collab.example>",
+      "subject": "Following up after the Copenhagen workshop week",
+      "date": "2026-09-23 11:10",
+      "body": "Hello,\n\nI hope this finds you well. We met briefly at the Copenhagen workshop week and I wanted to reach out about a potential partnership between Northwave Collaborative and your community.\n\nOur network includes creators and teams from several countries, and we believe your space could be an ideal host for some of our activities. We would love to discuss how we might support each other, share ideas and grow together.\n\nIf you are interested, I would be glad to set up an introduction call with our team. We are flexible on format and timing.\n\nLooking forward to hearing from you.\n\nBest regards,\nIngrid Solberg\nNorthwave Collaborative",
+      "justification": "Vague partnership approach referring to a meeting that did not take place, with no concrete proposal. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Ravi Menon <ravi@docuflow-apps.example>",
+      "subject": "Automate your member paperwork",
+      "date": "2026-10-08 10:48",
+      "body": "Hi,\n\nI came across your coworking space online and wanted to introduce DocuFlow, a tool that turns contracts, onboarding forms and invoices into automated workflows.\n\nOur customers typically cut admin time by around 30 percent. It connects with the main accounting tools and takes an afternoon to set up.\n\nI would be happy to show you a 20 minute demo this week or next. Is there someone responsible for operations I could speak to?\n\nBest,\nRavi Menon\nDocuFlow Apps",
+      "justification": "Cold outreach pitching software to a coworking space. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Tessa @ Pixelnest <tessa@pixelnest-seo.example>",
+      "subject": "Quick favour? 🙏 + a free article for you",
+      "date": "2026-10-03 20:30",
+      "body": "Hey there! 👋\n\nTessa here from Pixelnest. I spent some time on your site this week (love the vibe, by the way!) and I think there's a really easy win for your Google rankings.\n\nWe write high quality articles for coworking and startup blogs, and we can place them on well-known sites with a link back to you. Totally free for the first one, I'd just love to show you what we do! 😊\n\nTopics we could cover:\n- Why remote workers choose coworking\n- How to host a good community event\n- Tips for small teams on a budget\n\nIf you like it, we have monthly packages from 199 EUR, but there's no pressure at all. Want me to send the first article over? 💌\n\nThanks so much!\nTessa\nPixelnest",
+      "justification": "SEO link and guest-article offer from an unknown agency. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Regional Registry Services <notice@eu-registry-services.example>",
+      "subject": "Final notice: domain renewal required",
+      "date": "2026-09-29 08:00",
+      "body": "Your domain registration is scheduled to expire. Renew at registry-renew.eu-registry-services.example to avoid loss of service.",
+      "justification": "Fake domain renewal phishing notice from an unknown registry. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Mikkel Rask <mikkel@rask-crypto-desk.example>",
+      "subject": "Re: your enquiry about digital asset returns",
+      "date": "2026-09-16 13:25",
+      "body": "Hello,\n\nThank you for getting back to me.\n\n> I'd like to hear more about this opportunity.\n\nThat is great to hear. As discussed, our desk offers fixed returns of 3 percent per week on stablecoin deposits, and a first deposit of 1,000 EUR is enough to start. Withdrawals are available at any time through your personal dashboard.\n\nTo open your account, send the amount to the wallet address on the dashboard page and reply with the transaction number. I will activate your plan within the hour.\n\nMikkel Rask\nRask Crypto Desk",
+      "justification": "Crypto scam disguised as a reply to an enquiry that was never sent. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Studio Clémence <bonjour@studio-clemence.example>",
+      "subject": "Lancement de notre nouvelle collection de bureaux",
+      "date": "2026-10-04 09:15",
+      "body": "Bonjour à toutes et à tous,\n\nCe week-end, nous avons le plaisir de vous annoncer le lancement de la collection Atelier, notre nouvelle gamme de bureaux modulaires et de mobilier pour espaces partagés.\n\nPour fêter ça, une conférence en ligne gratuite aura lieu le jeudi 15 octobre à 18h. Nos designers y présenteront les pièces, les matériaux et les finitions, et répondront aux questions en direct.\n\nUne remise de lancement de 15 % s'applique à toute commande passée avant le 31 octobre.\n\nOn y dévoilera aussi en avant-première les prochaines couleurs de la saison, ainsi que notre programme pour les professionnels.\n\nRéservez votre place : studio-clemence.example/atelier\n\nÀ très bientôt,\nL'équipe Studio Clémence\n\nVous recevez ce message car votre adresse figure dans notre liste de prospection.",
+      "justification": "Mass marketing for a product launch sent to a prospecting list, with no subscription. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Anders Holm <anders@jobbro-vikar.example>",
+      "subject": "Vikarer fra 195 kr/t",
+      "date": "2026-10-07 11:05",
+      "body": "Hej, vi har vikarer klar til receptions- og rengøringsopgaver fra 195 kr. i timen. Skriv for tilbud. Anders, Jobbro Vikar",
+      "justification": "Staffing blast offering temp workers with no prior relationship. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Daniel Okafor <daniel@bluecrest-ventures.example>",
+      "subject": "Re: Re: introduction from the networking dinner",
+      "date": "2026-10-10 17:50",
+      "body": "hi, sorry for the delay, sent from my phone so keep it short\n\nIt was great speaking with you at the dinner last week. As promised I wanted to send over the details about our offer. We are a small group of investors and creators who connect with spaces like yours, and we think there is real potential in a joint programme, maybe a series of mixed events, maybe something bigger.\n\nI know this sounds vague, but things are moving fast on our side and I would rather talk than write long emails. We have partners lined up in Sweden, Germany and the Netherlands, and a Copenhagen base would be perfect.\n\nWould you have 20 minutes on Tuesday or Wednesday? I can also come by in person if easier.\n\nOne more thing: if you can send me the name of the person who manages events there, I will reach out to them directly, that would save us both some time.\n\nThanks a lot and talk soon\nDaniel\n\nSent from my iPhone",
+      "justification": "Fake 'we met' partnership pitch with no substance and typical vagueness, no real prior contact. The sender has no relationship with the space and the message was never requested."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+You write examples for an evaluation dataset of trip classifiers (business or personal), the kind of
+records a mileage-tracking app stores for a driver.
+You must produce exactly 10 trip records. Each record follows one scenario line below, in order.
+The label in the scenario line is the instruction, not a guess: the record must clearly deserve it.
+
+Context
+The driver works in Copenhagen for a small company and sometimes travels. Trips are by car, taxi or
+rental car, in and around Copenhagen and in cities within three hours of flight (Malmö, Aarhus, Odense,
+Stockholm, Oslo, Hamburg, Berlin, Paris, Amsterdam, London). Use real streets and postcodes with
+invented house numbers. Invent every company and person. The driver's home and usual office are
+up to you but must stay consistent within the batch.
+
+Definitions
+TRIPS: the question sent to Jev
+One call per batch of trips, one noul question per trip. State = the trip record (date, start time, duration,
+distance, start address, end address, the driver's note) plus two fields computed in code: weekday and
+"within working hours". Dates and arithmetic stay in code: Jev reads them literally.
+These definitions are also the ground truth definitions used to generate the dataset (generation/SPEC.txt).
+
+----------------------------------------------------------------------
+business (noul)
+----------------------------------------------------------------------
+Question: Is this a business trip?
+
+Criteria
+true:  the main purpose of the trip is work: meeting a client, a prospect, a supplier or a partner;
+       moving between two work sites; a conference, a trade fair or a training attended for work;
+       a site or store visit; driving to or from the airport or station for a work trip; picking up
+       a visiting client; a business meal; an errand done for the company (bank, post, customs);
+       a rental car used between a hotel and a client abroad. Evenings and weekends do not matter:
+       a client dinner on a Saturday is business.
+false: the main purpose is private: home, family, school, groceries, doctor, sport, friends, holidays,
+       restaurants, shopping, a partner's workplace. Commuting between home and the usual workplace
+       is personal, as in the mileage rules of Denmark and most countries. A trip whose main purpose
+       is private stays personal even if it passes by the office or ends near a client.
+
+Where a human hesitates (the hard cases)
+- Home to the usual office: personal (commute). Home straight to a client: business.
+- A weekend or evening trip to a restaurant: business only if the record shows a client or a work purpose.
+- Airport trips: business or personal depending on the purpose of the flight, not the airport.
+- A trip to a café, a colleague's home or a hotel: the note or the context decides.
+- Lunch alone during work hours: personal. Lunch with a client: business.
+
+Difficulty for this batch: medium
+The note is short, abbreviated or absent; the addresses, the day and the time carry the signal, and a human reads them to decide.
+
+Scenario lines (one record each, in this order)
+1. business=false purpose=leisure_trip language=en note_style=none | a weekend away, a summerhouse, a museum, a concert, a beach
+2. business=false purpose=airport_holiday language=fr note_style=short | airport or station for a holiday or a private visit, or the return
+3. business=false purpose=restaurant_private language=en note_style=sentence | a restaurant or café without any work purpose
+4. business=false purpose=partner_dropoff language=fr note_style=short | dropping a partner or a friend at their workplace or station
+5. business=false purpose=lunch_alone language=en note_style=words | lunch alone during work hours
+6. business=false purpose=shopping language=da note_style=none | furniture, clothes, electronics, a gift
+7. business=false purpose=commute language=en note_style=none | home to the usual workplace or back, weekday, rush hour
+8. business=false purpose=school_run language=da note_style=words | dropping or picking up children
+9. business=false purpose=groceries language=en note_style=short | supermarket, mall, hardware store for home
+10. business=false purpose=doctor language=en note_style=sentence | doctor, dentist, physiotherapist, hospital visit
+
+Each scenario line gives: business (true or false), purpose, language of the note (en, da or fr),
+note_style, and the situation.
+
+Note styles
+none      the note field is empty. The addresses, day and time carry all the signal.
+words     one or two words: "Client", "IKEA", "Mette", "NB Q4", "dentist".
+short     a short note, may use abbreviations or a typo: "mtg w/ Nordlys re Q4 offer".
+sentence  a full sentence naming people, companies or the topic.
+
+Rules
+- The record must be decidable on its own. Everything the justification relies on must be visible in the
+  record: when the note is empty or a single word, the address carries the place name, as a mileage app
+  shows it from the map ("Fysioterapi Vesterbro, Vesterbrogade 120, 1620 København V", "Café Dyrehaven,
+  Sønder Boulevard 72", "Nordlys Energi, Kalvebod Brygge 45"). A bare street address is fine only when the
+  note explains the trip.
+- Distances and durations must be plausible for the two addresses.
+- Start times and days must fit the situation, with variation: not every business trip at 9:00 on a Tuesday.
+- Write the note in the language of its scenario line. An empty note when note_style is "none".
+- Dates between 2026-09-01 and 2026-10-31.
+- For each record give a "justification": one sentence saying why it deserves its label.
+  It will not be shown to the models under test.
+
+Answer with a JSON array only, no text before or after, no markdown fences:
+[{"date": "YYYY-MM-DD", "start_time": "HH:MM", "duration_min": 25, "distance_km": 12.4,
+  "start_address": "...", "end_address": "...", "note": "...", "justification": "..."}, ...]

@@ -1,0 +1,112 @@
+[
+  {
+    "spam": false,
+    "category": "room_booking",
+    "urgency": 3,
+    "needs_human": true,
+    "situation": "a member books, moves or cancels a meeting room for this week",
+    "language": "en",
+    "length": "medium",
+    "style": "a reply in a thread (Re:), quoting one earlier line",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "room_booking",
+    "urgency": 2,
+    "needs_human": true,
+    "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+    "language": "fr",
+    "length": "medium",
+    "style": "written from a phone, signature and a couple of typos",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "partnership",
+    "urgency": 2,
+    "needs_human": true,
+    "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+    "language": "en",
+    "length": "medium",
+    "style": "casual tone, first names, emojis allowed",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "complaint",
+    "urgency": 3,
+    "needs_human": true,
+    "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+    "language": "fr",
+    "length": "short",
+    "style": "institutional sender, formal tone",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "complaint",
+    "urgency": 4,
+    "needs_human": true,
+    "situation": "access card not working, a person locked out, a security issue right now",
+    "language": "en",
+    "length": "medium",
+    "style": "with an amount in DKK or EUR",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "billing",
+    "urgency": 3,
+    "needs_human": true,
+    "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+    "language": "da",
+    "length": "short",
+    "style": "sent on a weekend or late at night",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "newsletter",
+    "urgency": 1,
+    "needs_human": false,
+    "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+    "language": "en",
+    "length": "short",
+    "style": "plain and neutral, no particular style",
+    "also": "a thank-you note or a pure FYI, nothing to answer"
+  },
+  {
+    "spam": false,
+    "category": "newsletter",
+    "urgency": 1,
+    "needs_human": false,
+    "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+    "language": "en",
+    "length": "long",
+    "style": "plain and neutral, no particular style",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "other",
+    "urgency": 1,
+    "needs_human": false,
+    "situation": "a thank-you note or a pure FYI, nothing to answer",
+    "language": "en",
+    "length": "long",
+    "style": "a reply in a thread (Re:), quoting one earlier line",
+    "also": null
+  },
+  {
+    "spam": false,
+    "category": "other",
+    "urgency": 2,
+    "needs_human": true,
+    "situation": "lost and found, a question that fits no category",
+    "language": "da",
+    "length": "long",
+    "style": "written from a phone, signature and a couple of typos",
+    "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+  }
+]

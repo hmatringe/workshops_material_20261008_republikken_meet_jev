@@ -1,0 +1,29 @@
+{
+  "business": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "family_friends", "situation": "visiting family or friends, a birthday, a dinner at someone's home", "language": "fr", "note_style": "none"},
+    {"business": false, "purpose": "leisure_trip", "situation": "a weekend away, a summerhouse, a museum, a concert, a beach", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "fr", "note_style": "short"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "shopping", "situation": "furniture, clothes, electronics, a gift", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "da", "note_style": "words"},
+    {"business": false, "purpose": "school_run", "situation": "dropping or picking up children", "language": "da", "note_style": "short"},
+    {"business": false, "purpose": "groceries", "situation": "supermarket, mall, hardware store for home", "language": "en", "note_style": "sentence"}
+  ],
+  "trips": [
+    {"date": "2026-09-12", "start_time": "17:30", "duration_min": 28, "distance_km": 14.2, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Famille Dupont (domicile), Strandvejen 210, 2900 Hellerup", "note": "", "justification": "A Saturday evening trip from home to a private family residence with no work context visible."},
+    {"date": "2026-09-19", "start_time": "10:15", "duration_min": 41, "distance_km": 38.6, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Louisiana Museum of Modern Art, Gl. Strandvej 13, 3050 Humlebæk", "note": "Museum", "justification": "A Saturday morning drive from home to an art museum is a leisure outing."},
+    {"date": "2026-10-03", "start_time": "05:10", "duration_min": 14, "distance_km": 8.5, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Copenhagen Airport Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "note": "Driving to the airport for our week in Lisbon with the kids.", "justification": "The note states the airport trip is for a family holiday in Lisbon."},
+    {"date": "2026-09-25", "start_time": "19:45", "duration_min": 18, "distance_km": 6.3, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Bistro Hveen, Flæsketorvet 100, 1711 København V", "note": "", "justification": "A Friday evening trip from home to a restaurant with no client or work indication."},
+    {"date": "2026-09-16", "start_time": "07:50", "duration_min": 22, "distance_km": 7.8, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Rigshospitalet, Blegdamsvej 9, 2100 København Ø", "note": "dépose Léa au boulot", "justification": "The note says the driver is dropping off Léa at her job, a private favour to a partner away from the driver's own office."},
+    {"date": "2026-09-22", "start_time": "12:10", "duration_min": 8, "distance_km": 1.4, "start_address": "Lunde Consulting, Havnegade 39, 1058 København K", "end_address": "Café Amalie, Store Kongensgade 52, 1264 København K", "note": "", "justification": "A short midday hop from the office to a café, consistent with lunch alone, with no client named."},
+    {"date": "2026-10-10", "start_time": "11:00", "duration_min": 25, "distance_km": 14.1, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Møbelhuset Nord, Gladsaxe Møllevej 15, 2860 Søborg", "note": "sofa for lounge", "justification": "A Saturday trip from home to a furniture store to buy a sofa for the home."},
+    {"date": "2026-09-17", "start_time": "08:05", "duration_min": 24, "distance_km": 6.2, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Lunde Consulting, Havnegade 39, 1058 København K", "note": "Arbejde", "justification": "A weekday rush-hour trip from home to the usual office is a commute, which is personal."},
+    {"date": "2026-09-14", "start_time": "08:00", "duration_min": 6, "distance_km": 1.2, "start_address": "Amagerbrogade 85, 2300 København S", "end_address": "Sundby Skole, Backersvej 20, 2300 København S", "note": "Afleverer Oscar og Ida", "justification": "The note says the driver is dropping off the children at their school."},
+    {"date": "2026-10-14", "start_time": "17:40", "duration_min": 14, "distance_km": 4.5, "start_address": "Lunde Consulting, Havnegade 39, 1058 København K", "end_address": "Netto, Amagerbrogade 190, 2300 København S", "note": "Quick grocery run for dinner on the way home.", "justification": "The note says the stop is a grocery run for dinner, a private errand after work."}
+  ]
+}

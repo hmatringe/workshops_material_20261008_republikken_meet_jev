@@ -1,0 +1,22 @@
+From: Evenia Notifications <notifications@evenia-tickets.example>
+Subject: Récapitulatif de votre événement : Soirée Open Desk, 8 octobre
+Date: 2026-10-07 18:20
+
+Bonjour,
+
+Ceci est une notification automatique de la plateforme Evenia concernant votre événement Soirée Open Desk, organisé le jeudi 8 octobre 2026 à 18h00.
+
+État des inscriptions à ce jour :
+- Billets gratuits émis : 41
+- Billets en liste d'attente : 6
+- Participants ayant ajouté l'événement à leur agenda : 29
+
+Rappel automatique : la liste des participants sera disponible en téléchargement dès 12h00 demain, depuis l'onglet Participants de votre tableau de bord. Les modifications de capacité effectuées après 15h00 ne déclencheront pas d'e-mail aux inscrits.
+
+Pour information, un participant a laissé ce message lors de son inscription : Merci d'accueillir ce type de soirée, c'est très agréable de pouvoir découvrir l'espace avant de s'engager. Ce message est transmis à titre informatif, il n'appelle aucune réponse de votre part.
+
+Votre abonnement Evenia Essentiel est actif jusqu'au 31 décembre 2026. Le prochain prélèvement aura lieu le 1er novembre.
+
+Cet e-mail a été envoyé automatiquement, merci de ne pas y répondre.
+
+L'équipe Evenia

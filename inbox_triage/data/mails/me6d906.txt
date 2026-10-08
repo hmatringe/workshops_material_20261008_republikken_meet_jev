@@ -1,0 +1,21 @@
+From: Danfjord Bank Notifications <alerts@danfjord-bank.example>
+Subject: Payment received: DKK 4,500
+Date: 2026-10-05 12:36
+
+Hello,
+
+This is an automatic notification from Danfjord Bank.
+
+A payment has been credited to the business account ending 5532 of Kornmarken Studio.
+
+Amount: DKK 4,500.00
+From: Fieldgate Labs ApS
+Reference: Inv 2026-0311
+Booked: 5 October 2026
+
+You can see the full details by signing in to online banking:
+https://online.danfjord-bank.example/login
+
+We will never ask for your password or card number by email. Please do not reply to this message.
+
+Danfjord Bank

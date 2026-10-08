@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "fr",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "da",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "da",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "fr",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Elise Warren <elise@harbourline-talent.example>",
+      "subject": "Weekend note: candidates for your open roles",
+      "date": "2026-09-19 22:10",
+      "body": "Hi there,\n\nSorry to write on a Saturday evening, this is the only time I get to catch up on outreach.\n\nI am a recruiter at Harbourline Talent, and we place people in operations, community management and customer success across the Nordic region. At the moment we have several candidates who would be a good match for a coworking or hospitality environment, including a community manager with six years of experience in Copenhagen.\n\nHere is how we work:\n- We send you two or three anonymised profiles.\n- You tell us if you would like to meet any of them.\n- We only invoice if you hire, at 15 percent of the first year salary.\n\nWe do not need a brief to start. If there is nothing open right now, I would be happy to keep you in mind for later in the year.\n\nI have also attached our short guide to hiring in the Danish market in the link below.\nharbourline-talent.example/guide\n\nIf you are not the right person for this, please forward this message to whoever handles hiring.\n\nBest wishes,\nElise Warren\nSenior Recruiter, Harbourline Talent",
+      "justification": "Recruitment blast offering candidates and fees to a space with no open search. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Hugo Verdier <hugo@meridien-impulse.example>",
+      "subject": "Re : Suite à notre rencontre au salon",
+      "date": "2026-09-25 14:30",
+      "body": "Bonjour,\n\nJe reviens vers vous suite à mon dernier message.\n\n> Ravi de vous avoir rencontré lors de votre dernier événement, on devrait collaborer.\n\nJe tenais à vous redire à quel point votre lieu m'a marqué. Chez Meridien Impulse, nous accompagnons des communautés et des espaces de travail partagés dans leur développement, et je suis convaincu qu'il existe de belles synergies entre nos deux structures.\n\nNous ne cherchons rien de précis pour le moment, simplement à nouer des liens, à échanger sur nos pratiques et à voir si des projets communs peuvent naître. Nous avons une approche très souple et nous nous adaptons toujours à nos partenaires.\n\nSeriez-vous disponible pour un appel de quinze minutes la semaine prochaine ? Je peux aussi passer à Copenhague en octobre si cela vous convient.\n\nDans l'attente de votre retour, je vous souhaite une très belle fin de semaine.\n\nBien cordialement,\nHugo Verdier\nDirecteur du développement, Meridien Impulse\nmeridien-impulse.example",
+      "justification": "Vague partnership email referring to a meeting that never happened. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Nils Petersen <nils@stackbridge-outsourcing.example>",
+      "subject": "Dev team on demand, no hiring needed",
+      "date": "2026-10-15 09:12",
+      "body": "Hi,\n\nsorry for typos, writing this on my phone in the train.\n\nMy name is Nils and I run Stackbridge, a small outsourcing company with developers in Poland and Portugal. We build websites, booking tools and mobile apps for businesses that do not want to hire in house.\n\nI saw that your space has a members area and an events page, and I think we could improve both. For example:\n- a booking system for rooms and desks that syncs with your calendar\n- a members portal with invoices and access cards\n- a simple app for your community\n\nOur rate is 45 EUR per hour for senior developers, and we can start with a trial week of 20 hours at half price. Most clients stay with us for years after the trial.\n\nWe have worked with more than 80 companies in Europe, from startups to larger firms. I can send a portfolio and a couple of references if that helps.\n\nWould you be open to a short call this week? I am flexible on time.\n\nBest,\nNils Petersen\nCEO, Stackbridge\nSent from my iPad",
+      "justification": "Cold outsourcing sales pitch from an unknown company. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Office of Digital Visibility <contact@webmerit-institute.example>",
+      "subject": "Invitation to join the Webmerit Link Directory",
+      "date": "2026-09-10 10:20",
+      "body": "Dear Sir or Madam,\n\nThe Webmerit Institute is pleased to invite your organisation to be listed in our curated Link Directory, which is consulted by professionals across Europe.\n\nListing includes a permanent backlink to your website and a profile page. The annual fee is 180 EUR. Contributors may also submit one guest article per quarter.\n\nTo confirm your listing, please reply to this message or visit webmerit-institute.example/join.\n\nYours sincerely,\nOffice of Digital Visibility\nWebmerit Institute",
+      "justification": "SEO backlink listing sold by an unknown institute. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Sam from ParcelPal <sam@parcelpal-delivery.example>",
+      "subject": "oops, your package is waiting 📦",
+      "date": "2026-10-16 12:44",
+      "body": "Hey! 👋 We tried to drop off your parcel today but nobody was around. To rebook the delivery, please confirm your address and pay the small redelivery fee (2.90 EUR) here: parcelpal-delivery.example/rebook\n\nThanks! 😊\nSam\nParcelPal Support",
+      "justification": "Fake parcel redelivery phishing asking for card details through a link. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Birgitte Kjær <birgitte@lykkepuljen.example>",
+      "subject": "Du har vundet 25.000 kr.",
+      "date": "2026-10-19 16:05",
+      "body": "Hej,\n\nDin e-mailadresse er blevet udtrukket i vores månedlige lodtrækning, og du har vundet 25.000 kr.\n\nFor at modtage gevinsten skal du bekræfte dit navn, adresse og bankoplysninger via dette link: lykkepuljen.example/gevinst\n\nHusk at gøre det inden 48 timer, ellers går gevinsten videre til næste deltager.\n\nMed venlig hilsen\nBirgitte Kjær\nLykkepuljen",
+      "justification": "Prize scam asking for bank details for a lottery nobody entered. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Frederik <nyhed@kaffeknuden.example>",
+      "subject": "Ny kaffemaskine på markedet",
+      "date": "2026-10-21 09:00",
+      "body": "Mød Knuden Pro, den nye kaffemaskine til kontorer. Lanceringsevent 29. oktober i København. Se mere på kaffeknuden.example/pro",
+      "justification": "Product launch mass mailing from a company the space never subscribed to. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Clara Weiss <clara@northstack-careers.example>",
+      "subject": "Candidate shortlist 2026, from 3,900 EUR",
+      "date": "2026-10-18 11:34",
+      "body": "Hello,\n\nNorthstack Careers offers fixed price recruitment for small companies: a shortlist of three vetted candidates for 3,900 EUR, delivered within 14 days. If you do not hire, you do not pay.\n\nWe cover marketing, sales, operations and support roles in Denmark and Sweden.\n\nShall I send our rate card?\n\nClara Weiss\nNorthstack Careers",
+      "justification": "Staffing blast offering a fixed-price recruitment service to an unrelated space. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Lucie <lucie@collectif-aurore.example>",
+      "subject": "Re: ravie de t'avoir croisée à votre soirée !",
+      "date": "2026-10-24 21:15",
+      "body": "Salut ! Je reviens vers toi suite à notre échange, on devrait vraiment se voir ! Lucie 😊\n\n> C'était top de se rencontrer, on garde contact.",
+      "justification": "Fake 'we met at your event' follow-up with no substance, from a stranger. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Tom Reid <tom@leadharbor.example>",
+      "subject": "Re: quick intro",
+      "date": "2026-10-20 08:55",
+      "body": "Hi,\n\nBumping this to the top of your inbox.\n\n> We help coworking spaces get more members through targeted outreach.\n\nAre you the right person to talk to?\n\nTom",
+      "justification": "Cold lead generation follow-up pretending to be part of an earlier thread. The sender has no relationship with the space and the message was never requested."
+    }
+  ]
+}

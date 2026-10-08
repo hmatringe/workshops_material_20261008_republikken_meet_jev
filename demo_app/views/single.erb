@@ -1,0 +1,87 @@
+<div class="cols">
+  <section>
+    <h2><%= @kind == 'inbox' ? 'The email' : 'The trip record' %></h2>
+    <div class="samples">
+      <% @samples.each_with_index do |s, i| %>
+        <button type="button" data-sample="<%= i %>"><%= s[:text].lines.find { |l| l =~ /^Subject:|^to:/ }.to_s.sub(/^(Subject|to): /, '').strip[0, 40].then { |x| x.empty? ? s[:id] : x } %></button>
+      <% end %>
+    </div>
+    <textarea id="record" class="record" placeholder="Paste your own, or pick a sample above."><%= @samples.first[:text] %></textarea>
+    <p><button id="ask">Ask Jev</button> <span id="status" class="hint"></span></p>
+    <div id="results"></div>
+  </section>
+  <section>
+    <h2>The questions, sent in one call</h2>
+    <% @questions.each do |name, q| %>
+      <div class="question" data-name="<%= name %>" data-type="<%= q['type'] %>">
+        <span class="name"><%= name %></span><span class="type"><%= q['type'] %></span>
+        <label class="small">question</label>
+        <textarea class="q instructions"><%= q['instructions'] %></textarea>
+        <% if q['type'] == 'noul' %>
+          <label class="small">true means</label><textarea class="q crit-true"><%= q['criteria']['true'] %></textarea>
+          <label class="small">false means</label><textarea class="q crit-false"><%= q['criteria']['false'] %></textarea>
+        <% elsif q['type'] == 'choice' %>
+          <label class="small">options, one per line: name: description</label>
+          <textarea class="q crit-options" style="min-height:150px"><%= q['criteria'].map { |k, v| "#{k}: #{v}" }.join("\n") %></textarea>
+        <% else %>
+          <label class="small">levels, one per line, lowest first</label>
+          <textarea class="q crit-levels" style="min-height:90px"><%= q['criteria'].join("\n") %></textarea>
+        <% end %>
+      </div>
+    <% end %>
+  </section>
+</div>
+<script>
+  const samples = <%= @samples.map { |s| s[:text] }.to_json %>;
+  const band = <%= @band.to_json %>;
+  document.querySelectorAll('[data-sample]').forEach(b => b.onclick = () => { document.getElementById('record').value = samples[+b.dataset.sample]; });
+
+  function readQuestions() {
+    const out = {};
+    document.querySelectorAll('.question').forEach(div => {
+      const type = div.dataset.type;
+      const q = { type, instructions: div.querySelector('.instructions').value.trim() };
+      if (type === 'noul') q.criteria = { true: div.querySelector('.crit-true').value.trim(), false: div.querySelector('.crit-false').value.trim() };
+      else if (type === 'choice') { q.criteria = {}; div.querySelector('.crit-options').value.split('\n').forEach(l => { const m = l.match(/^\s*([^:]+):\s*(.*)$/); if (m) q.criteria[m[1].trim()] = m[2].trim(); }); }
+      else q.criteria = div.querySelector('.crit-levels').value.split('\n').map(l => l.trim()).filter(Boolean);
+      out[div.dataset.name] = q;
+    });
+    return out;
+  }
+
+  function bar(label, p) { return `<div class="bar"><span style="width:${(p * 100).toFixed(0)}%"></span><b>${label} ${(p * 100).toFixed(0)}%</b></div>`; }
+
+  function render(data) {
+    const r = data.results[0];
+    let html = '';
+    for (const [name, a] of Object.entries(r)) {
+      html += `<div class="result"><div><b>${name}</b> <span class="hint">${a.type || ''}</span></div>`;
+      if (a.type === 'noul') {
+        const p = a.noul; const v = p >= band.high ? ['yes', 'yes'] : p <= band.low ? ['no', 'no'] : ['check', 'check with a person'];
+        html += bar('yes', p) + `<div class="verdict ${v[0]}">${v[1]}</div>`;
+      } else if (a.type === 'choice') {
+        Object.entries(a.probabilities || {}).sort((x, y) => y[1] - x[1]).slice(0, 5).forEach(([k, p]) => html += bar(k, p));
+        html += `<div class="verdict">${a.choice} <span class="hint">confidence ${(a.confidence * 100).toFixed(0)}%</span></div>`;
+      } else if (a.type === 'score') {
+        Object.entries(a.probabilities || {}).forEach(([k, p]) => html += bar('level ' + (+k + 1) + ': ' + (a.legend?.[k] || '').slice(0, 50), p));
+        html += `<div class="verdict">score ${(+a.score + 1).toFixed(2)} <span class="hint">confidence ${(a.confidence * 100).toFixed(0)}%</span></div>`;
+      } else html += `<div class="error">no answer</div>`;
+      html += '</div>';
+    }
+    html += `<div class="meta">${data.ms} ms for the whole call, ${data.input_tokens} input tokens, $${data.cost_usd.toFixed(6)}</div>`;
+    document.getElementById('results').innerHTML = html;
+  }
+
+  document.getElementById('ask').onclick = async () => {
+    const btn = document.getElementById('ask'); const status = document.getElementById('status');
+    btn.disabled = true; status.textContent = 'asking...';
+    try {
+      const res = await fetch('/ask', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ kind: '<%= @kind %>', record: document.getElementById('record').value, questions: readQuestions() }) });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || res.status);
+      render(data); status.textContent = '';
+    } catch (e) { status.innerHTML = `<span class="error">${e.message}</span>`; }
+    btn.disabled = false;
+  };
+</script>

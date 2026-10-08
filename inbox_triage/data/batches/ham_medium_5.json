@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "da",
+      "length": "short",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "da",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "fr",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "en",
+      "length": "long",
+      "style": "casual tone, first names, emojis allowed",
+      "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "fr",
+      "length": "short",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "someone asks about joining, prices, a trial day, desk availability",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+    },
+    {
+      "spam": false,
+      "category": "membership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a member gives notice or asks how to pause their membership",
+      "language": "en",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Gustav Holmgren <gustav.holmgren@bryggeriet-nord.example>",
+      "subject": "Sponsoring your Friday community lunches?",
+      "date": "2026-09-11 10:14",
+      "body": "Hello,\n\nI am the community manager at Bryggeriet Nord, a small independent brewery that makes alcohol-free drinks. We have been reading about your Friday community lunches and would like to sponsor them for the autumn.\n\nWhat we have in mind: we supply drinks for each lunch from October to December, and in return you mention us on your event pages and put a small sign on the lunch table. We can also send someone from the team to say a few words once, if you would like that.\n\nWould you be open to a short call to see if this fits? I am available most weekdays after lunch.\n\nBest regards,\nGustav Holmgren\nBryggeriet Nord",
+      "justification": "An organisation proposes sponsoring community lunches in exchange for a mention, so partnership, no fixed date, answer within the week."
+    },
+    {
+      "from": "Mette Bak <mette.bak@mailbox.example>",
+      "subject": "Støj i stillerummet",
+      "date": "2026-10-07 14:21",
+      "body": "Hej, der er meget larm fra køkkenet i dag, og stillerummet er slet ikke stille. Kan I bede dem tage opkald et andet sted? Tak. Mette\nSendt fra min telefon",
+      "justification": "A member complains about noise in the quiet room and asks for it to be handled, so complaint, 24-hour urgency, reply expected."
+    },
+    {
+      "from": "Jesper Kjær <jesper.kjaer@kjaer-og-co.example>",
+      "subject": "Kan ikke komme ind i bygningen",
+      "date": "2026-09-26 21:36",
+      "body": "Hej,\n\nMit adgangskort virker ikke i aften. Jeg står ved hoveddøren, og læseren blinker rødt. Jeg skal aflevere et tilbud i morgen tidlig og har min computer og alle mine papirer inde på kontoret.\n\nKan en af jer låse mig ind, eller give mig en kode til sidedøren? Jeg kan blive stående ved indgangen i en halv time.\n\nMvh\nJesper Kjær",
+      "justification": "A member is locked out late in the evening with work needed tomorrow, so complaint at maximum urgency, reply needed."
+    },
+    {
+      "from": "Isabelle Moreau <isabelle@moreau-translations.example>",
+      "subject": "Duplicate charge on my invoice, EUR 180",
+      "date": "2026-10-19 11:32",
+      "body": "Hello,\n\nI believe I was charged twice for the meeting room I used on 8 October. My bank statement shows two payments of EUR 180 on 9 October, but your invoice 2026-0412 only lists one.\n\nCould you check this and refund the second payment, or tell me if I am missing something? I would also like my company VAT number (DK 23456789) on a corrected invoice.\n\nThank you,\nIsabelle Moreau",
+      "justification": "A member asks about a possible duplicate charge and a VAT number on the invoice, so billing, 24-hour urgency, reply needed."
+    },
+    {
+      "from": "La Lettre des Quais <lettre@lettredesquais.example>",
+      "subject": "La Lettre des Quais : sept idées pour la rentrée",
+      "date": "2026-09-04 08:00",
+      "body": "Bonjour, voici votre sélection de la semaine : un marché de créateurs samedi, une exposition de photos à la halle, et notre guide des cafés ouverts tard. Vous recevez cette lettre car vous êtes abonné. Désinscription en bas de page.",
+      "justification": "A short subscribed city newsletter, so newsletter, no action and no reply."
+    },
+    {
+      "from": "Kolliboks Service <service@kolliboks.example>",
+      "subject": "Notice of scheduled maintenance of the parcel locker, 14 October",
+      "date": "2026-10-08 09:00",
+      "body": "Dear customer,\n\nWe would like to inform you that the parcel locker installed at your address (Locker ID 4471) will be taken out of service for scheduled maintenance on Wednesday 14 October 2026, between 08:00 and 12:00.\n\nDuring this period, parcels addressed to the locker will be redirected to the nearest alternative pickup point, located at the kiosk on Havnegade 12. Recipients will receive a separate notification with the new pickup point and a new access code.\n\nParcels already stored in the locker before the maintenance window remain available until 07:30 on the same day. We recommend that you collect any parcel before this time.\n\nThe maintenance is expected to improve the reliability of the door mechanism and to update the software of the touch screen. No action is required from your side.\n\nThis message is sent automatically to all registered customers of the Kolliboks service. Please do not reply to this address.\n\nYours faithfully,\nKolliboks Customer Operations",
+      "justification": "An automatic service notice from a parcel locker service in use, so newsletter category, informational, no reply needed."
+    },
+    {
+      "from": "Nikolaj <nikolaj@pixelbridge.example>",
+      "subject": "Re: great night! 🎉",
+      "date": "2026-10-23 12:40",
+      "body": "Hey you two! 👋\n\nJust a quick one to say thanks again for hosting our little game jam last weekend, it went way better than I expected. We ended up with 12 finished prototypes and everyone was still smiling on Sunday evening 😄. A few people already asked if we can come back next year!\n\nFYI, I put the photos in the shared folder, feel free to use any of them on your site or socials, I do not need credit.\n\nAlso, I finally subscribed to your monthly newsletter, the last issue had that tip about the quiet room schedule and I loved it, I will be using it from now on 🙌.\n\nNothing to do on your side, no need to answer! Just wanted you to know.\n\nHugs,\nNiko\n\n> On 19 Oct, Sofia wrote: Hope you all had fun, the room is yours whenever you want to come back.",
+      "justification": "A casual thank-you and FYI after an event, mentioning the newsletter in passing, so other, nothing to act on, no reply."
+    },
+    {
+      "from": "Bastien Roy <bastien.roy@mailbox.example>",
+      "subject": "Re: Objet trouvé ?",
+      "date": "2026-10-12 17:08",
+      "body": "Bonjour, oui c'est bien une veste noire avec une doublure rouge. Savez-vous si je peux passer la récupérer demain en fin de journée ?\n\n> Le 12 oct, vous avez écrit : Nous avons une veste noire au vestiaire, est-ce la vôtre ?",
+      "justification": "A visitor confirms a lost item and asks about picking it up, which fits no other category, so other, within the week, reply needed."
+    },
+    {
+      "from": "Anna Lindqvist <anna.lindqvist@mailbox.example>",
+      "subject": "Hot desk for a freelancer, and a trial day?",
+      "date": "2026-09-16 13:25",
+      "body": "Hello,\n\nI am a freelance illustrator and I am looking for a place to work three days a week. A colleague of mine is a member of your space and recommended it.\n\nCould you tell me what a hot desk costs per month, and if there are desks available from November? I would also love to try the space for a day before deciding. Is that possible, and does it cost anything?\n\nBy the way, I subscribed to your newsletter last week and the autumn programme looks great, so I think I would fit in well.\n\nThank you,\nAnna Lindqvist",
+      "justification": "A visitor asks about hot desk prices, availability and a trial day, with a passing newsletter mention, so membership, within the week."
+    },
+    {
+      "from": "Tobias Wulff <tobias.wulff@wulff-ux.example>",
+      "subject": "pausing my membership?",
+      "date": "2026-10-28 08:30",
+      "body": "Hi,\n\nI wanted to ask about my membership. I have been at the flex desk since March and I love the place, but from December I will be working abroad for about four months, for a project in Lisbon, and it feels silly to pay for a desk I cant use.\n\nIs it possible to pause the membership for those months and then restart in April? Or would you rather I cancel completely and sign up again later? I dont mind either way, I just dont want to loose my place in the community and the lockers.\n\nI think my notice period is one month, but im not sure, I could not find the terms in the welcome email. Could you also tell me what happens to the 400 DKK deposit if I stop?\n\nIf pausing is not an option, please tell me how to give notice properly, and by which date I need to do it so I am not charged for December.\n\nThanks a lot and sorry for the long message,\nTobias\n\nSent from my phone",
+      "justification": "A member asks how to pause or give notice on the membership and about notice terms, so membership, answer within the week, reply needed."
+    }
+  ]
+}

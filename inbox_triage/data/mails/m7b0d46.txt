@@ -1,0 +1,37 @@
+From: Doorlock Cloud <system@doorlockcloud.example>
+Subject: Weekly access report: 14 to 20 September
+Date: 2026-09-21 06:00
+
+Hello,
+
+This is your automatic weekly report from Doorlock Cloud, the access control service used by your space. Please do not reply to this message.
+
+Summary for 14 to 20 September 2026
+
+Total door openings: 1,204
+Unique cards used: 87
+Busiest day: Tuesday (241 openings)
+Quietest day: Sunday (19 openings)
+After-hours entries (after 20:00): 23
+Failed attempts: 11
+
+Door status
+Main entrance: online
+Second floor door: online
+Back entrance: online, battery at 62 percent
+Roof terrace door: online
+
+Cards
+Active cards: 91
+Cards not used in the last 60 days: 6
+Cards expiring in the next 30 days: 2
+
+Firmware
+All readers are running version 4.2.1. A new version, 4.3.0, will be applied automatically on the night of 27 September between 02:00 and 03:00. During the update, doors remain closed from the outside for about 10 minutes.
+
+Billing
+Your plan: Standard, 99 EUR per month. The next invoice will be issued on 1 October. You can download previous invoices in your account.
+
+This message was generated automatically. For questions about your account, use the support portal.
+
+Doorlock Cloud

@@ -1,0 +1,26 @@
+From: Customer Security <security@nordhavn-mail-support.example>
+Subject: Your mailbox storage is full - action required
+Date: 2026-10-01 07:30
+
+Dear user,
+
+Our system has detected that the mailbox associated with your domain has reached 98% of its storage allowance. Incoming messages will be rejected from 2026-10-03 unless the account is verified.
+
+To keep your mailbox active, please confirm your credentials using the verification page:
+
+https://verify.nordhavn-mail-support.example/mailbox
+
+You will be asked to sign in with your current email address and password. This process takes less than one minute and prevents loss of messages.
+
+Additional details:
+- Ticket reference: SEC-220981
+- Account status: pending verification
+- Deadline: 2026-10-03 23:59
+
+Failure to verify will result in suspension of the account and deletion of stored messages after 30 days. Our team will never ask for your password by phone.
+
+Thank you for your cooperation.
+
+Customer Security Team
+Nordhavn Mail Support
+This is an automated message, please do not reply.

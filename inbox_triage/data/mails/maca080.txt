@@ -1,0 +1,15 @@
+From: Nordic Customs & Parcel Office <notice@nordic-parcel-office.example>
+Subject: Notice of undelivered consignment NP-77421
+Date: 2026-10-06 09:03
+
+Dear Sir or Madam,
+
+A consignment addressed to your organisation (reference NP-77421) could not be delivered and is held at our regional depot. Release of the goods requires payment of a handling and storage fee of 49.00 EUR.
+
+Please complete the release form at the address below within three working days. Consignments not claimed within this period will be returned to the sender and a storage charge will apply.
+
+https://release.nordic-parcel-office.example/np-77421
+
+Yours faithfully,
+Customer Compliance Department
+Nordic Customs & Parcel Office

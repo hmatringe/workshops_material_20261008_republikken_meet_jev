@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "fr",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "da",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "long",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "fr",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "da",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Marcus Veldt <marcus@rankbridge-media.example>",
+      "subject": "Guest post opportunity for your coworking blog",
+      "date": "2026-09-09 10:42",
+      "body": "Hello,\n\nI am writing on behalf of Rankbridge Media, a content placement agency working with companies in the workspace and remote work sector.\nI have been reading your community pages and I think your domain would be a good fit for a sponsored article we are preparing for one of our clients, a provider of ergonomic desk accessories.\nHere is what we propose:\n- One article of about 900 words, written by our team and adapted to your tone\n- Two contextual links to our client's site (https://deskwell-supply.example/shop)\n- Publication on your blog within 7 days of your approval\n- A one-time fee of 150 EUR paid to you by bank transfer\n\nWe can also discuss a recurring arrangement if you have several pages that receive regular traffic. Many of our partners publish one article per month and see a steady additional income.\nIf this is of interest, simply reply with the URL of the page you would like to use and I will send over the draft and our terms.\nIf you are not the right person to speak to, could you forward this to whoever manages your website?\n\nKind regards,\nMarcus Veldt\nPartnerships, Rankbridge Media\nhttps://rankbridge-media.example",
+      "justification": "Cold offer of paid guest posts and backlinks from an agency the space has never dealt with."
+    },
+    {
+      "from": "Account Services <noreply@paymentnotice-secure.example>",
+      "subject": "Payment declined - action required",
+      "date": "2026-09-13 23:51",
+      "body": "Your last payment for workspace services could not be processed.\nConfirm your billing details within 12 hours to avoid suspension: https://billing-verify.example/confirm\nAccount Services Team",
+      "justification": "Phishing message about a payment failure for a service the space does not use, pushing a link on an unrelated domain."
+    },
+    {
+      "from": "Bernard Caillaux <b.caillaux@notaires-associes-lemaire.example>",
+      "subject": "Succession en déshérence - bénéficiaire potentiel",
+      "date": "2026-09-17 14:20",
+      "body": "Madame, Monsieur,\n\nJe suis Maître Bernard Caillaux, notaire. Un client de notre étude est décédé sans héritier connu, laissant un compte d'un montant de 4 200 000 EUR.\nAprès recherches, votre établissement porte le même nom que celui du défunt, ce qui nous permet de vous proposer d'être désigné bénéficiaire.\nLa procédure est entièrement confidentielle. Vous recevriez 40 % de la somme, le reste couvrant les frais et les parts de l'étude.\nPour avancer, merci de me retourner une copie de votre pièce d'identité et vos coordonnées bancaires par retour de courrier.\nLe dossier doit être clos avant la fin du mois.\n\nRespectueusement,\nMaître Bernard Caillaux",
+      "justification": "Classic inheritance scam from an unknown sender asking for identity and bank details."
+    },
+    {
+      "from": "Lise Brandt <lise.brandt@skyfunnel-events.example>",
+      "subject": "Re: Invitation til vores digitale salgskonference",
+      "date": "2026-10-02 09:15",
+      "body": "Hej igen,\n\nJeg følger op på min tidligere mail: \"Vi vil gerne invitere jer til en gratis konference om moderne B2B-salg.\"\nVi afholder webinaret SalesShift 2026 torsdag den 15. oktober kl. 10.00, hvor fem talere gennemgår nye værktøjer til lead-generering og opfølgning.\nDeltagelse er gratis, og alle tilmeldte får vores e-bog om kundeemner.\nDu kan tilmelde dig her: https://skyfunnel-events.example/salgsshift\nHvis I ikke ønsker flere invitationer, kan I afmelde jer nederst på siden.\n\nVenlig hilsen\nLise Brandt\nSkyfunnel Events",
+      "justification": "Mass marketing invitation to a webinar from a company the space never contacted, styled as a reply to a thread that never existed."
+    },
+    {
+      "from": "Tessa from Brightpool <tessa@brightpool-staffing.example>",
+      "subject": "Hiring in Copenhagen? We have people! 🚀",
+      "date": "2026-09-24 11:05",
+      "body": "Hi there! 👋\n\nTessa here from Brightpool Staffing. We help growing teams in Copenhagen find developers, designers and customer support people fast.\nRight now we have 30+ candidates available to start in October, many already used to hybrid work.\nDo any of your members or resident companies need extra hands? We would love to be on your radar 😊\nWe also have a referral bonus if you pass our details to a company that hires through us.\nCheck our candidate pool here: https://brightpool-staffing.example/talent\n\nCheers,\nTessa",
+      "justification": "Unsolicited staffing agency blast with no prior relationship with the space."
+    },
+    {
+      "from": "Oliver Nance <oliver@northquay-collective.example>",
+      "subject": "Great meeting you at the autumn meetup - partnership idea",
+      "date": "2026-09-30 16:38",
+      "body": "Hi,\n\nIt was great to be at your recent community evening and to see how well the space brings people together. We did not get a chance to talk properly, but I wanted to follow up.\nI run Northquay Collective, a network of founders and creative professionals across the Nordics. We believe the two communities could create a lot of value together.\nSome ideas we could explore:\n- Joint events shared between our members and yours\n- Cross-promotion on our newsletters and social channels\n- An exclusive membership tier for our network at your space\n- A joint sponsorship package starting at 12 000 DKK per quarter\n\nWe have already spoken with several other spaces in the region and the interest has been very strong.\nI would love to set up a short call to align on the vision and see how we can work together. Just let me know when suits you.\nIf you could also send over your current membership pricing and attendance figures, that would help us shape the offer.\n\nLooking forward to building something together,\nOliver Nance\nFounder, Northquay Collective",
+      "justification": "Vague partnership proposal referring to an event with no specifics, from a sender the space has no relationship with, ending in a paid sponsorship pitch."
+    },
+    {
+      "from": "Julien Marchal <julien@pixelorbit-agence.example>",
+      "subject": "Votre site et vos réseaux : une idée rapide",
+      "date": "2026-10-06 08:12",
+      "body": "Bonjour,\n\nJe me permets de vous ecrire depuis mon telephone car je viens de voir votre espace sur internet et j'ai eu envie de vous contacter tout de suite.\nJe suis Julien, de l'agence Pixelorbit. Nous aidons les lieux comme le votre a obtenir plus de reservations grace a des outils de prospection automatisés.\nConcrètement, nous pouvons : refaire votre site en deux semaines, mettre en place une séquence d'emails pour vos prospects, et gerer vos publications sur les reseaux.\nNos clients voient en moyenne 30 % de contacts en plus en trois mois, et nous travaillons sans engagement.\nJe serais ravi de vous presenter une demo gratuite de 15 minutes cette semaine ou la prochaine.\nDites moi simplement quel creneau vous arrange, ou appelez moi directement.\nNous avons aussi une equipe en offshore qui peut prendre en charge vos taches repetitives a tarif reduit.\nVous pouvez voir quelques exemples ici : https://pixelorbit-agence.example/refs\n\nBien cordialement,\nJulien Marchal\nPixelorbit - agence digitale\n06 00 00 00 00\nEnvoyé de mon iPhone",
+      "justification": "Cold sales outreach from a digital agency the space never contacted, offering paid services."
+    },
+    {
+      "from": "Office of Publications <editorial@globalweb-index.example>",
+      "subject": "Inclusion request: directory listing and link placement",
+      "date": "2026-10-12 10:00",
+      "body": "Dear Sir or Madam,\nThe Global Web Index invites your organisation to purchase a permanent listing and backlink in our business directory, subject to editorial approval.\nApplications may be submitted at https://globalweb-index.example/apply. Yours faithfully, Editorial Office",
+      "justification": "Unsolicited link-building offer from a directory the space never dealt with."
+    },
+    {
+      "from": "Secure Delivery <alerts@parcelhub-track.example>",
+      "subject": "Your parcel is on hold",
+      "date": "2026-09-21 13:27",
+      "body": "Your parcel could not be delivered because of an unpaid fee of 2.95 EUR.\nPay the fee and rebook delivery: https://parcelhub-track.example/pay",
+      "justification": "Phishing message about a parcel the space did not order, pushing a payment link on an unrelated domain."
+    },
+    {
+      "from": "Frederik Lund <frederik.lund@kryptovaekst-invest.example>",
+      "subject": "Eksklusiv mulighed - 300 % afkast",
+      "date": "2026-10-18 01:34",
+      "body": "Hej,\n\nJeg hedder Frederik og arbejder med en lukket investeringsgruppe inden for kryptovaluta.\nVores medlemmer har i år opnået op til 300 % afkast på tre måneder, og vi har netop åbnet nogle få nye pladser.\nMinimumsindbetalingen er 2 500 EUR, og du kan komme i gang i dag.\nSkriv blot tilbage, så sender jeg dig et link til din personlige konto.\nPladserne bliver fordelt efter først til mølle, så vent ikke for længe.\n\nMed venlig hilsen\nFrederik Lund",
+      "justification": "Crypto investment scam promising extreme returns, sent late at night by an unknown sender."
+    }
+  ]
+}

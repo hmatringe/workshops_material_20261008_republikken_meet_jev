@@ -1,0 +1,132 @@
+INBOX TRIAGE: dataset generation spec
+Written 2026-10-07. Method: label-first. The scenario fixes every label, then a model writes an email that fits.
+The definitions are the ones in ../questions.txt. The generator and the auditor both receive them.
+
+----------------------------------------------------------------------
+Output
+----------------------------------------------------------------------
+data/mails/<id>.txt      one file per email, plain text. The id is opaque (m + 6 hex chars): the file
+                         name never leaks the label, the cell or the generation order. Only labels.csv
+                         knows. Batch files in data/batches/ keep their cell names: they are generation
+                         artifacts, never given to a model under test.
+                           From: <name> <address>
+                           Subject: <subject>
+                           Date: <YYYY-MM-DD HH:MM>
+                           <blank line>
+                           <body>
+data/labels.csv          one row per file. Columns:
+                           id, spam, category, urgency, needs_human, difficulty, language, variety,
+                           generator_model, justification, audit_label, audit_confidence, audit_model, status
+                         The models under test never see labels.csv. Only the .txt files.
+
+----------------------------------------------------------------------
+Quotas: 240 emails
+----------------------------------------------------------------------
+                  easy   medium   hard   total
+not spam (ham)      40       40     40     120
+spam                40       40     40     120
+
+Each cell is filled by 4 calls of 10 emails, each call with a different variety seed.
+Ham categories are spread across each call (round robin over the ham scenario list).
+Languages: about 60% English, 25% Danish, 15% French. The language is assigned per email by the scenario line.
+
+----------------------------------------------------------------------
+Difficulty (applies to the spam axis, the benchmark question)
+----------------------------------------------------------------------
+easy    a human decides in under a second. Obvious signals.
+medium  a human has to read it. Natural vocabulary, no caricature.
+hard    a human hesitates, then decides. The email carries misleading signals of the opposite
+        class, but an attentive reader can justify the label in one sentence.
+        hard ham:  a subscribed newsletter that reads like marketing; a follow-up from someone met
+                   at an event; a supplier invoice from an unfamiliar sender; a service notification
+                   with a login link.
+        hard spam: "we met at your event" with no real detail; a fake invoice from a plausible supplier;
+                   a phishing mail imitating the event platform or the bank; a partnership offer
+                   that is a disguised sales pitch; a "member" who never was one.
+        NOT truly ambiguous. If the writer cannot justify the label in one sentence, the item fails.
+
+----------------------------------------------------------------------
+Scenario catalogue (labels fixed by the scenario)
+----------------------------------------------------------------------
+Ham scenarios. Columns: category | urgency | needs_human | situation
+membership   | 2 | true  | someone asks about joining, prices, a trial day, desk availability
+membership   | 2 | true  | a member gives notice or asks how to pause their membership
+event        | 2 | true  | a person or company proposes to host a meetup or workshop next month
+event        | 3 | true  | an organiser asks for AV, chairs or a room change for an event this week
+room_booking | 3 | true  | a member books, moves or cancels a meeting room for this week
+room_booking | 2 | true  | a visitor asks whether a room can be rented for a day, no date yet
+partnership  | 2 | true  | an organisation proposes sponsoring, co-branding or a press piece
+complaint    | 3 | true  | wifi, heating, noise, cleaning, a bad experience, a request to fix it
+complaint    | 4 | true  | access card not working, a person locked out, a security issue right now
+billing      | 3 | true  | an invoice question, a receipt request, a VAT number to add, a failed card
+newsletter   | 1 | false | a newsletter the recipient subscribed to (coworking, tech, city, a tool)
+newsletter   | 1 | false | an automatic notification from a service in use (event platform, bank, parcel, booking tool)
+other        | 1 | false | a thank-you note or a pure FYI, nothing to answer
+other        | 2 | true  | lost and found, a question that fits no category
+
+Spam scenarios. Always: category = spam, urgency = 1, needs_human = false.
+situation
+cold sales outreach (software, lead generation, outsourcing, design agency)
+SEO, backlink or guest-post offer
+phishing: fake invoice, fake login, fake parcel, fake payment failure
+scam: investment, prize, inheritance, crypto
+mass marketing with no subscription (a webinar, a conference, a product launch)
+recruitment or staffing blast
+fake partnership or "we met at your event" with no substance
+
+----------------------------------------------------------------------
+Variety, per email (not per call)
+----------------------------------------------------------------------
+Length, per call of 10: 3 short (2 to 4 lines), 4 medium (5 to 10 lines), 3 long (12 to 20 lines).
+Style, shuffled per call, one per email:
+  institutional sender, formal tone
+  casual tone, first names, emojis allowed
+  plain and neutral, no particular style
+  with an amount in DKK or EUR
+  sent on a weekend or late at night
+  a reply in a thread (Re:), quoting one earlier line
+  forwarded by a colleague with a one-line comment
+  written from a phone, signature and a couple of typos
+  (newsletters and notifications only get the institutional or plain style: they are machine-sent)
+Secondary topic: 2 ham emails per call "also mention" another situation in passing. The labels stay
+  those of the main topic, so the secondary topic is never more urgent than the main one.
+Hard batches: the misleading signal sits in the body (sender identity, wording, what is asked, a link,
+  an amount), never in the subject line alone. A shouting subject on a normal body is not a hard email.
+
+----------------------------------------------------------------------
+Two ways to generate
+----------------------------------------------------------------------
+generate.rb   calls the Anthropic API directly (needs ANTHROPIC_API_KEY). Reproducible outside Claude Code.
+Claude Code   generate.rb --dry-run and --scenarios export the prompt and the scenario JSON of the next
+              call into data/batches/; a subagent writes data/batches/<cell>_<k>.json; ingest.rb writes
+              the mails and labels. No API key. Same prompt, same format, same labels. This is the path
+              used on 2026-10-07.
+
+----------------------------------------------------------------------
+Constraints
+----------------------------------------------------------------------
+- Same generator for ham and spam, otherwise the style betrays the label.
+- Context: a coworking and community space in Copenhagen. The space, people, companies and
+  domains are invented. No real person, no real company, no real domain. The space is never
+  called Republikken.
+- Each email carries a one-sentence justification of its label. The auditor and the models
+  under test never see it. It is for the human review.
+- The audit is blind (no label shown) and uses a model of another family than the generator.
+- Audit outcome: agree -> ok. Disagree on easy or medium -> reject. Disagree on hard -> review.
+  Agree with confidence under 0.6 -> review.
+- The scripts stop after the audit. The human reads data/review.csv and decides.
+  Cells under quota are refilled after that, not before.
+- The report data/README.md gives: generated, rejected, reviewed, disagreement rate per
+  difficulty, models used. Those numbers go on a slide.
+
+----------------------------------------------------------------------
+Audit notes, 2026-10-07
+----------------------------------------------------------------------
+- First 60 mails, three auditors (Gemma 4 local, Sonnet 5.5 and Opus 5.5 through audit.rb): 55 unanimous.
+  Every dispute was the "we met at your event" partnership scenario (read as a relationship by Gemma and
+  once by each Claude) plus one fake invoice. That scenario is now excluded from the easy cell.
+- Gemma's confidence is 1.00 on every mail, disagreements included. Sonnet and Opus lower theirs on exactly
+  the disputed mails. Worth a slide.
+- The 260 further mails were audited by Gemma through audit.rb, and by Sonnet and Opus through Claude Code
+  subagents told to read only the mails (files with the _cc suffix). The script path needs the API key and
+  the workspace id in the environment; rerun it to replace the _cc audits with blind-by-construction ones.

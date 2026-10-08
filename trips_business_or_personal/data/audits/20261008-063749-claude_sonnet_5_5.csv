@@ -1,0 +1,351 @@
+id,business,audit_label,confidence,reason,seconds
+ta76ddb,true,true,0.93,"The note shows a meeting with a client (Nordlys Energi) about a Q4 offer, on a Monday during working hours, so the trip's main purpose is work.",2
+te96827,true,true,0.6,"A weekday afternoon trip at 14:00 between two central Copenhagen non-residential-looking addresses (likely office or work site to a client or work site) fits business travel, though no note confirms the purpose.",2
+t57d7b5,true,true,0.9,"A Friday morning trip within working hours to collect printed proofs from a printer is an errand done for the company, not a commute or private trip.",1
+t243d3b,true,true,0.6,"A Tuesday 13:15 trip from a central Copenhagen address to an industrial area (Avedøreholmen) fits a supplier or site visit during working hours, though there is no note and the origin could be home or the office.",2
+t7c2aea,true,true,0.95,"The trip goes to Bella Center for a SaaS expo, a trade fair attended for work, and the note confirms the work purpose, so it is business rather than a commute.",2
+tfbfe13,true,false,0.5,"The note 'Vol Paris' (flight to Paris) shows an airport trip, but nothing in the record says the flight is for work, and airport trips are business only when the flight itself is, so I default to personal.",2
+t576f6a,true,true,0.9,"The note says 'Site visit', which is a listed business purpose, and the trip falls on a Tuesday afternoon between two non-home addresses (the Sundkrogsgade address is in an industrial area).",2
+tac5d32,true,false,0.55,"The record has no note, no client or work purpose, and neither address is identified as a work site, so a short midday hop between two central Copenhagen addresses could be lunch or a private errand, though a work meeting is plausible.",2
+t011aa9,true,true,0.96,"The note describes a client meeting with Brandt & Søn about a new agreement, held on a Tuesday morning during working hours, so the main purpose of the trip is work.",2
+t15c02f,true,true,0.9,"The note shows a first coffee with a prospect (Sofie Lund of Havbrise Foods) to discuss a possible pilot, which is a client/prospect meeting on a Thursday afternoon, so the main purpose is work.",2
+t41ae59,true,true,0.85,"The note describes a meeting with a client or partner (Nordlys) to sign a contract amendment, and the trip goes from home in Nørrebro straight to that meeting in Lyngby on a weekday morning, so it is not a commute.",7
+t6c670c,true,true,0.7,"The trip is on a Tuesday afternoon during working hours from what appears to be the office area to a café named for a company (Hviid Robotics), which suggests a client or partner meeting, though there is no note to confirm it.",2
+tcbfa67,true,false,0.5,"The trip goes from a Copenhagen address to the airport on a Friday at 16:40, and with no note or other sign of a work flight, the purpose is unclear, so I lean towards a private departure such as a weekend getaway.",2
+t50dff7,true,true,0.95,"The note says 'Client dinner', which is a business meal with a client, and per the criteria a weekend evening does not make it private.",2
+t511306,true,true,0.93,"The note says the driver picked up Mme Girard of Lumière Conseil, a visiting client or partner, at the airport and took her to her hotel, which counts as business even on a Sunday.",2
+t922ead,true,true,0.97,A rental car trip from a hotel to a client's warehouse in Hamburg for a contract review is work travel between a hotel and a client abroad.,2
+t0fcbc1,true,false,0.6,"Nothing in the record (no note, no named client or work purpose) shows a work reason, and a 17:20 weekday trip from central Copenhagen to Hellerup looks like a private or commute-type trip home or to a private destination.",3
+taef6bd,true,true,0.85,"The note shows a first intro meeting with Anna Holm of Fjord Foods, with a pitch deck, so this is a prospect meeting, and the Sunday morning timing and café setting do not make it private.",2
+tac6c08,true,true,0.9,"The note 'Fagmesse Odense' shows the trip is to Copenhagen Central Station to travel to a trade fair for work, and the weekend and early hour do not change that.",1
+t02c3b2,true,true,0.85,"The note shows a dinner with Jonas at Kvist Partners to discuss renewal terms, which is a business meal with a partner or client, so the Sunday evening timing does not matter.",1
+t9b7527,true,true,0.96,"The note shows the trip was made to present a rollout plan to a client contact (Anna Roed at Nordlys Energi) during working hours on a Tuesday, so its main purpose is a client meeting.",1
+tb7a9b8,true,false,0.55,"The record has no note, client name or work purpose, and a short 2.4 km hop between two Copenhagen/Frederiksberg addresses on a Thursday afternoon does not show a business reason, so I default to personal (e.g., a café or errand at Værnedamsvej), though a work site visit during working hours is possible.",2
+te05912,true,true,0.82,"The note names a printing company (Imprimerie Holm) and brochure proofs, so this is a supplier visit for work on a Thursday morning, and the destination is a business address in Brøndby rather than a home or the usual office.",6
+t2a917f,true,true,0.75,"A Friday 13:40 trip within working hours, with the note 'Lager' (warehouse), looks like moving between two work sites or a site visit, and nothing in the record points to a private purpose.",2
+t67b5f4,true,true,0.85,"The note shows the driver is attending the Nordic Retail Summit (day 1, badge), a conference attended for work, and Center Boulevard 5 is a conference venue rather than the usual office, so this is business despite the early start from a likely home address.",2
+t29ab34,true,true,0.96,"The trip is a drive to Copenhagen Airport for a flight to Stockholm for a client workshop, so it is work-related airport travel.",5
+t7afa9e,true,true,0.93,"The note describes a visit to the Brygger Byg construction site to validate sensor installation, which is a site visit for work, made on a Tuesday at 09:00.",3
+te32b9c,true,false,0.8,"A Saturday 19:30 trip from a residential address on Amagerbrogade to Flæsketorvet (a restaurant and nightlife area in the Meatpacking District) has no note or client indication, so it is most likely a private evening outing.",2
+te06611,true,false,0.5,"The record has no note and no client or work purpose, and neither address is identified as a home, office or client site, so there is nothing to show a work purpose and I default to personal.",1
+t2143d2,true,true,0.8,"The note 'Kunde' (client) shows the trip was to meet a client, on a Tuesday morning during working hours, and it is not a commute between home and the usual workplace.",2
+t59ce30,false,false,0.97,"The note says 'School drop', a private family errand on a weekday morning, with no sign of a client or work purpose.",1
+t3833f8,false,false,0.93,"The note says 'courses du samedi au Fields' (Saturday grocery shopping at the Fields mall), which is a private errand on a weekend with no sign of a client or work purpose.",1
+td46ef6,false,false,0.7,"Short late-afternoon trip between two addresses with no note, no client or work purpose shown, and a pattern consistent with a commute or private errand, so it defaults to personal.",2
+t1c4902,false,false,0.85,"A short 1.4 km evening trip between two Frederiksberg residential addresses with no note or client/work indication is most likely private (e.g., visiting friends or family).",2
+tf072a2,false,false,0.98,"The note says the trip is to a birthday dinner at the driver's sister's home on a Sunday evening, which is a private family occasion with no work purpose.",2
+tafb738,false,false,0.97,A Saturday family outing to the Louisiana museum to see an exhibition is a private leisure trip with no work purpose in the note.,2
+t0c806f,false,false,0.55,"The trip goes from a Frederiksberg address (likely home) to Copenhagen Airport at 05:15 on a Friday with no note, so nothing shows the flight was for work; airport trips depend on the flight's purpose, and with no work purpose recorded it is classed as personal, though an early-morning business flight is plausible.",2
+t91ce3d,false,false,0.85,"A Friday-evening dinner with Anna, with no client or work purpose in the note, to a restaurant street in Nørrebro is a private social trip.",2
+t194f31,false,false,0.97,"The note says the trip was to buy a birthday gift for the driver's mother, which is a private shopping errand on a Saturday with no work purpose.",2
+tdb0783,false,false,0.6,"The note 'Pickup' is ambiguous and mentions no client, work purpose or work site; a short 2.1 km hop between two Frederiksberg residential addresses looks like a private errand such as collecting a child or a person.",2
+tf6c481,false,false,0.7,"A Thursday 19:45 trip from a residential address on Amagerbrogade to Værnedamsvej (a street known for cafés and restaurants) has no note or client indication, so it is most likely a private evening outing.",2
+tb0f1b2,false,false,0.6,"A Monday 07:25 drive from an Amagerbrogade address to Copenhagen Central Station with no note looks most like a private trip or commute leg, since nothing in the record shows a work trip, client or business purpose.",2
+t653e60,false,false,0.95,"The note says the driver had lunch alone during work hours, which the criteria classify as a personal trip with no client or work purpose.",1
+t17c912,false,false,0.85,"The note says 'Til kontoret' (to the office) on a Tuesday morning from an Amagerbrogade address, which looks like the home-to-usual-office commute, and commuting counts as personal.",2
+tcd3449,false,false,0.95,"The note says the trip was to the gym after work, which is a private sport activity, not a work purpose.",1
+tc3c8a7,false,false,0.97,A Saturday family outing with the children to see an exhibition at Louisiana museum is a private leisure trip with no work purpose.,1
+t81c987,false,false,0.97,"The note says the trip is for a holiday in Crete, so the airport drive on a Saturday morning is private rather than work-related.",1
+t20a802,false,false,0.7,"A short 2 km Friday-evening trip between two central Copenhagen addresses with no note or sign of a client or work purpose, so it is most likely private (e.g. dinner or socializing).",1
+te5444a,false,false,0.96,"Driving Maria to her shift at the hospital is a private errand for a family member or partner, with no work purpose in the note.",2
+t9878fa,false,false,0.95,"The note (French: 'lunch alone, sushi, no meeting') says this is a solo lunch with no work purpose, which the criteria classify as personal.",2
+t154b9a,false,false,0.95,"The note 'svømning m. Lars' (swimming with Lars) shows a private sport activity in the evening, with no sign of a client or work purpose.",1
+t18be2c,false,false,0.98,"The note says the trip is to the driver's sister's birthday dinner, which is a private family event on a Saturday evening with no work purpose.",2
+t4047e8,false,false,0.93,"A Sunday-morning drive from a home address to the Louisiana museum in Humlebæk with 'Anna' is a private leisure outing, and the note shows no client or work purpose.",2
+tb7f517,false,false,0.6,"The note 'Lisbon hol' most likely means 'holiday', so this airport trip is for a private holiday flight, though 'hol' is abbreviated and could be read differently.",2
+td9eca6,false,false,0.8,A Saturday-evening trip with the note 'Dinner' and no client or work purpose recorded is most likely a private restaurant outing.,1
+t9b4e0f,false,false,0.93,"The note says the driver dropped Mia at work, which is a private errand (a partner's or family member's workplace), and nothing in the record points to a client or a work purpose.",2
+te376bd,false,false,0.55,"The record has no note, no client or work purpose, and a midday 15-minute trip between two Copenhagen addresses with no stated link to work looks like a lunch or private errand rather than business.",2
+t1d2df5,false,false,0.7,"A short Saturday-morning trip between two addresses in Amager with no note, client or work purpose shown, so it is most likely private (e.g. shopping at the Ørestad area, which is near Arne Jacobsens Allé).",2
+t8c7781,false,false,0.95,"The note (French) says this is the usual home-to-office trip during rush hour, which is a commute and therefore personal.",1
+t107e4c,false,false,0.7,"A short 2.5 km trip between two residential-looking addresses in Amager with no note, client, or work purpose indicated, so it defaults to personal even though it falls on a weekday afternoon.",2
+t51d178,true,true,0.72,"A weekday-afternoon trip during working hours to a named company (Havnestad Ejendomme) at a commercial address in Østerbro suggests a client or partner visit, though there is no note to confirm it.",2
+t1d0528,true,true,0.93,"Driving to a printer to pick up brochures for a work trade event is an errand done for the company, during working hours on a weekday.",1
+t89c83b,true,true,0.93,"The trip goes from the company's shop (Nordhavn Interiør) to its warehouse (Lager) on a Friday afternoon during working hours, which is movement between two work sites.",2
+t4a477c,true,true,0.6,"A weekday-morning trip to Bella Center, a conference and trade fair venue, is most likely for work, but the record has no note and does not say whether the from-address is home, so a private purpose cannot be ruled out.",2
+te22373,true,true,0.93,"The trip is a drive to the airport for a flight to Oslo for a client workshop on Monday, so it is a work trip even though it falls on a Sunday evening.",1
+t9f4c46,true,true,0.8,"A weekday mid-morning trip to a construction site (Byggeplads) is most likely a site visit for work, and nothing in the record points to a private purpose, though the missing note and unknown start address (possibly home) leave some doubt.",2
+tf44c17,true,true,0.8,"A Monday-morning trip to a bank branch with the note 'Bank' during working hours fits the company-errand criterion, and it is not a home-to-office commute. The slight uncertainty is that the origin might be the driver's home and the bank visit might be private.",2
+ta2ce1c,true,true,0.96,"The note describes a quarterly review with a contact at Fjordvind about a service contract, a client meeting at the company's address during working hours on a Thursday.",1
+t14ec5e,true,true,0.85,"The note shows a first introductory coffee with Jonas Krogh of Vintra, which reads as a prospect or partner meeting during working hours on a Friday afternoon, so the purpose is work.",10
+te8cae2,true,true,0.88,"The note (French: 'pick up samples at Holm') and the destination, a joinery workshop (Atelier Menuiserie Holm), indicate a supplier errand during working hours on a Wednesday.",2
+t061483,true,true,0.9,"The trip goes from the studio (a work site) to a coffee wholesaler on a Tuesday morning, and the note 'Fournisseur café' (coffee supplier) shows a supplier visit for work.",12
+t5e3dc5,true,true,0.95,A Thursday afternoon trip from the design studio to the company's storage facility to pick up demo units is movement between two work sites for a work purpose.,2
+tbfeef3,true,true,0.96,"The note says the driver is leaving home early for a packaging trade fair at Odense Congress Center, which is a work-related event and not a commute to the usual workplace.",1
+t219ed2,true,true,0.93,"The note 'Berlin client' shows this is a drive to the airport for a work trip to meet a client, which counts as business.",6
+tde9ca5,true,true,0.96,A Tuesday afternoon trip during working hours from the company's studio to Pharmatek Lab for an install check of sensors is a visit to a client or work site.,2
+t8ca6b3,true,true,0.8,"The trip runs from what appears to be the workplace (Laurits Design Studio) to a Pakkeposten business center during Friday morning working hours, which fits a company post errand rather than a private or commuting trip.",9
+t268277,true,true,0.7,"The trip goes from a Valby address (likely home) to an accounting firm (Mølgaard Revision) at 08:30 on a weekday, which looks like a direct trip to a client or supplier rather than the usual office, though the missing note leaves some doubt.",2
+t58e86f,true,true,0.8,"The trip runs from one design studio (likely the user's workplace) to another company's studio on a weekday afternoon, which fits a client or partner visit rather than a private errand, although the note is empty.",2
+t3a8099,true,true,0.97,A weekday trip from the company's studio to a supplier's site to check carton samples is a supplier visit with a clear work purpose.,1
+t491b7f,true,true,0.9,"The trip goes between two work sites (the design studio and the company's store), and the note says the driver is delivering new samples to the store, during working hours on a Friday.",2
+t0fd7ac,true,true,0.92,A Wednesday afternoon trip during working hours between the company's office (Maison Kvist Bureau) and its warehouse (Maison Kvist Entrepôt) is a move between two work sites.,2
+t0935ab,true,true,0.93,"The note shows the driver is attending the CPH Retail Summit, a conference at Øksnehallen, which counts as a work trip rather than a commute.",2
+t93fa0c,true,true,0.6,"An early Sunday trip from home to the airport with the note 'Paris' suggests travel for a work trip, but the note does not state the flight's purpose, so it could be a private holiday.",1
+t259c40,true,true,0.85,"The trip goes from the company office (Maison Kvist Bureau) to a construction site (Byggeplads Nordhavn Etape 4), which is a move between two work sites and a site visit, not a home-to-office commute.",2
+t948549,true,true,0.95,"A weekday midday trip from the company office to a business bank, with a note about receipts and a deposit, is a company errand (bank).",1
+t09450c,true,true,0.95,"The note says the trip is a meeting with Rosendahl about a contract, and the destination is the company's address, during working hours on a Thursday, so it is a client visit.",2
+t0c9a6c,true,true,0.98,"The trip goes from the company office to a prospect's premises for a first meeting to present the company's service, which is a clear work purpose.",2
+t831e86,true,true,0.96,"Trip from the company office to a supplier (Lind Metalværksted) during working hours on a Friday to drop off drawings and check prototype brackets, which is clearly work-related.",2
+ta2474f,true,true,0.85,"The trip is between two company sites (Maison Kvist warehouse and office) on a Monday afternoon during working hours, and the note 'Warehouse' indicates a work purpose rather than a commute.",2
+td90144,true,true,0.82,"A weekday morning trip from Copenhagen to the Malmö Live Congress Centre points to attending a conference or event for work, with no sign of a private purpose, though the note is empty.",2
+tb2de18,true,true,0.62,"Bella Center is a major conference and trade fair venue, and a Thursday 07:55 trip from a Vesterbro address (likely the workplace, not home) fits attending an event for work, though there is no note to confirm it.",2
+t2e04f3,true,true,0.96,"The trip is to the airport for a flight to Stockholm for a client meeting (kundemøde), so it is a work-related airport trip.",1
+t79689d,true,true,0.95,"A weekday-morning trip to a construction site (chantier) for an inspection, noted as being for client Havnebad, is a site visit done for work.",2
+t0d653b,true,true,0.9,"The trip goes to Toldstyrelsen (the Danish customs authority) with the note 'Douane' (customs), during working hours on a Tuesday, which fits an errand done for the company.",1
+t9f213f,true,true,0.7,"A Tuesday-morning trip during working hours from a Frederiksberg address to a named company (Aurora Software ApS) suggests a client or partner visit rather than a commute, though the lack of a note and the unknown home and office addresses leave some doubt.",2
+tdf668e,true,true,0.8,"A Friday-afternoon trip during working hours from what looks like a work address to a named company (Kornmark Foods A/S) fits a client or supplier visit, and nothing in the record points to a private purpose.",2
+t4e561f,true,true,0.9,"The note shows a visit to the print supplier Nordisk Print to review proofs, on a weekday morning, so the main purpose is work rather than a commute.",2
+td6cfee,true,true,0.85,"The trip goes from the company's office (Delta Handel Kontor) to its store (Delta Handel Butik), which is a move between two work sites or a store visit, and the note 'Butik' supports this; the Saturday date does not matter.",2
+te8747a,true,true,0.96,"The trip goes from a hotel to the Hamburg Messe so the driver can attend a logistics trade fair for work, which counts as business under the trade-fair criterion.",2
+taa1fe6,true,true,0.72,"The trip is the return leg from the airport after a work trip (an Amsterdam supplier visit), which counts as business under the airport-trip rule, even though it ends at home and was made by taxi.",2
+t78e25d,true,true,0.72,"The note names a prospect (Lund) and the destination is a café, which fits a prospect meeting, and the weekend timing does not matter under the rules, though the record does not say outright that this is a meeting.",2
+t48698e,true,true,0.6,"The trip starts at the company's office and ends at the airport, which suggests a work trip, though there is no note and the purpose of the flight is unknown, so a private trip remains possible.",2
+t356a57,true,true,0.93,"The note describes a dinner with Henrik Skov from Nordlys Energi to close the Q4 deal, which is a client business meal, and the Saturday evening timing does not make it personal.",1
+tf90a1c,true,true,0.72,"A trip from a hotel to a software company's office (not a home or private destination) suggests a visit to a client or partner, and a Sunday does not rule out business, though no note confirms the purpose.",2
+te080ff,true,true,0.97,"A rental car trip from a hotel to a supplier's yard for a pre-delivery inspection with a named contact is work-related, and the Sunday date does not matter.",2
+td499cd,true,true,0.96,"The note shows a meeting with Nordlys about a Q4 offer, and the destination is Nordlys Energi's office, so this is a client visit rather than a commute.",1
+tea8839,true,true,0.6,"The destination is a named consulting firm (Brix & Vinge Consulting) rather than a private address, which suggests a client or partner visit, though the evening time and missing note leave some doubt.",3
+t7c6539,true,true,0.85,"The note 'Retour salon Berlin' shows the driver returning from a trade fair abroad, so the airport pickup closes a work trip, even though the destination (Amagerbrogade) looks like a home address.",2
+t9c4166,true,true,0.85,"The note says it is a lunch with supplier Brix, which is a business meal with a supplier, and weekends do not make a work-purpose trip personal.",2
+tc40cd1,true,true,0.72,"The note 'Candidate pickup' points to collecting a job candidate at the station, which is a work purpose (like picking up a visiting client), even though it falls on a Sunday and starts from an address that may be the driver's home.",2
+td83011,true,true,0.9,"The note says this is an Oslo trip with an Arctis demo on Monday, so the Sunday airport drive is for a work flight even though it falls on a weekend evening.",2
+t12abd7,true,false,0.6,"A Thursday-evening trip from a company address (likely a client, though not confirmed) to a restaurant with no note showing a client or work purpose, so it defaults to a private restaurant visit.",1
+t9bd7d1,true,true,0.95,"The note says the driver picked up a Norwegian client at the central station and took her to her hotel, which counts as picking up a visiting client, so the Sunday evening timing does not matter.",2
+t6b13e5,true,true,0.96,"The note shows the trip is a rental-car drive from a hotel to the Equip Auto trade fair at Paris Expo, which counts as business even though it falls on a Saturday.",1
+teeb85c,true,true,0.9,"The note says 'Client' and the destination is a company (Havnegade Shipping A/S) on a Monday morning, so this is a client visit, not a commute to the usual office.",2
+t9e688b,true,true,0.6,"The note 'Prospekt, Mikkel' points to a meeting with a prospect, and the criteria say weekends do not matter, though the destination name 'Det Lille Apotek' (likely a café/venue) and the Saturday timing leave some doubt.",2
+t3d2034,true,true,0.6,"The trip starts at the company's office (not home) and ends at the airport very early on a Saturday, which suggests a work trip, but the note is empty so the flight's purpose (work or private) is unconfirmed.",2
+tf56327,true,true,0.95,"The note shows a dinner with Anders Holm of Meridian Pharma to close a licensing deal, which is a business meal with a client, and the Sunday evening timing does not matter.",3
+tf9a143,true,true,0.95,"The note says the driver is picking up client Holm at a hotel, which counts as business under the 'picking up a visiting client' criterion even though it is a Saturday.",2
+t35c9ae,true,true,0.75,"A trip from a hotel to the RAI Amsterdam Convention Centre, a major conference and trade fair venue, most likely means attending a work event while travelling abroad, and weekends do not change that, though there is no note to confirm it.",2
+t218ab1,true,true,0.9,"The note shows a dinner with Jysk Vind about a contract, which is a business meal with a client or partner, and the evening timing does not change that.",1
+tbaa3c5,true,true,0.9,"The note shows the driver is picking up a visiting client (Tanaka) at a hotel for a product demo, which counts as business even on a Sunday.",1
+tb5a8c2,true,true,0.97,"A rental car trip from a hotel to the Stockholmsmässan trade fair where the company has a stand is work-related travel, and the weekend date does not matter.",2
+tf75d27,true,true,0.85,"The note says 'Client' and the destination is a company (Solvang Ejendomme A/S), so this looks like a client visit on a Monday morning, not a commute to the usual office.",1
+te8c85a,true,true,0.93,"The note shows the trip was to a coffee meeting with a prospect (Nina Aggerholm of Kornmark Foods) to pitch the company's reporting tool, which is a work purpose even though it falls on a Saturday.",1
+t34f374,true,true,0.62,"The trip starts at the company's address (not home) and ends at the airport early on a Sunday morning, which fits the start of a work trip, though there is no note and the flight's purpose is not confirmed.",2
+tc9cab3,true,false,0.55,"The trip goes from a company address (Kornmark Foods A/S, apparently a client or work site) to a restaurant on a Thursday evening, but the record has no note and nothing showing a client or work purpose, so by the stated rule a restaurant trip is treated as private.",2
+tbd10ae,true,true,0.8,"A trip from a hotel to a company address (Lumo Systems ApS) points to a client or partner visit, and the Saturday timing doesn't matter, though the lack of a note leaves some uncertainty.",2
+t8ad80a,true,true,0.97,"The trip runs from a hotel in Oslo to a company site in Lysaker on a weekday morning, and the note says 'Client visit', so its purpose is work.",2
+t511dcf,true,true,0.95,"The note shows a client meeting (RDV client Nexus, offer T4) and the destination is the client's company address, so the trip is for work.",1
+te0f00f,true,true,0.8,"The note says the driver is picking up a job candidate arriving at the airport ahead of a Monday interview, which is a work purpose similar to picking up a visiting client, and the Sunday evening timing does not matter.",2
+tcfd814,true,true,0.97,"The note says a rental car was used for a client meeting at Spreewerk, and the trip runs from a hotel in Berlin to the client's office, which counts as business even on a Saturday.",2
+t5dfc09,true,true,0.6,"The destination is a company (Kvist Entreprise A/S) rather than a known usual workplace, and the trip starts at a residential-looking address on a weekday morning, so it is most likely a direct trip from home to a client or supplier, though there is no note to confirm it.",2
+td5d225,true,true,0.85,"The note shows a first coffee meeting with a prospect (Maja Dall of Fjordlab), which is a work purpose, and weekends do not make a client meeting personal.",2
+t8e0311,true,true,0.8,"The note 'Vol Londres client' indicates a flight to London for a client, so the airport trip is for a work trip; weekend and early hour do not matter.",2
+t733ad8,true,false,0.6,"A Friday 19:10 trip from a company address to a restaurant/bar (Told & Snaps) with no note or client indicated looks like a private evening outing, not a work purpose.",2
+t966549,true,true,0.68,"The trip goes from a hotel directly to a company address (Fjordbyte ApS), which looks like a client or partner visit; the Saturday timing does not matter, although the missing note leaves some uncertainty about the purpose.",1
+tcbdaa2,true,true,0.97,"A hired car from a London hotel to a site visit at Pennine Data in Reading with a named contact is a rental car used between a hotel and a client abroad, so the purpose is work.",3
+tb218f7,true,true,0.9,"The note says 'Client' and the destination is a firm's office (Bruun & Dahl Revision), so this looks like a trip from home straight to a client, which counts as business rather than commuting.",2
+ta7cab7,true,true,0.9,"The note says the trip is a first coffee with Lars Kjeldsen, director of Havbrise Foods, to present the company's offer, which is a client or prospect meeting, and weekends do not change that.",2
+t5f9fbd,true,true,0.93,"The note describes a first meeting with a named contact about a fleet app, at a company address (Havnegaarden Rederi) on a Tuesday afternoon during work hours, so the main purpose is a client or prospect meeting.",2
+t96c114,true,true,0.62,"A Thursday-morning trip during working hours from an apparent home address (Nørrebrogade) to a named business, Printhuset Kvist (likely a supplier or client), is not the usual office commute, so it is most likely a supplier or client visit, though there is no note to confirm it.",2
+tbd8ed8,true,true,0.82,"The trip goes from the company's office (Studio Lys Kontor) to its store (Studio Lys Butik) on a Tuesday during working hours, which is a move between two work sites.",2
+te5b65c,true,true,0.93,"The note says the trip is to attend the Nordic Logistics trade fair (day 1) at Bella Center, and attending a trade fair for work counts as business.",2
+te0a335,true,true,0.96,"The trip is to the airport for a flight to a client workshop (Lindqvist Retail in Stockholm), so it is a work-related airport trip.",2
+t88585f,true,true,0.9,"A Friday 10:00 trip to a construction site (Nordhavn Byg Site) with the note 'Site walk' is a site visit for work, and it goes from a Nørrebrogade address rather than the usual office, so it is not a commute.",2
+t01f5e7,true,true,0.72,"The note 'Middag Hansen' suggests a dinner with a named contact (likely a client), and weekends and evenings do not rule out business, though the note does not state the work purpose explicitly.",2
+t5d71ac,true,true,0.85,"The note says the driver is picking up Dr Meyer, a visitor connected to Brandt, at a hotel, which fits the 'picking up a visiting client' criterion for business.",2
+t955239,true,true,0.97,"A rental car was driven from a hotel to a client kickoff meeting at Elbtech in Hamburg on a Thursday morning, which matches the rental-car-between-hotel-and-client criterion.",2
+t3a38e3,true,true,0.7,"A Friday 09:45 trip to a business banking branch (Kanalbanken Erhverv) during working hours fits a company errand, though the start address is not confirmed as home or office and there is no note.",2
+t9c1eb1,true,true,0.8,"The trip goes from the company HQ (Kapsel Kaffe HQ) to a warehouse (Brøndby Lager Nord) on a Thursday morning, which is most likely movement between two work sites rather than a private errand.",2
+tacd90a,true,true,0.9,"A weekday midday trip between the company's HQ and its warehouse, with the note 'Stock', is a move between two work sites.",2
+t249705,true,true,0.7,"Forum Copenhagen is an exhibition and event venue, and the note 'Salon RH' (likely an HR trade fair or salon) on a Thursday morning suggests attending a trade event for work rather than a private errand.",2
+tf9cd02,true,false,0.5,"The record has no note or other sign of a work purpose, so a 05:45 drive to the airport departures terminal could be a private or a business flight, and I default to personal because business use is not shown.",2
+t997db4,true,true,0.85,"A Wednesday afternoon trip during working hours from the company's office (Kapsel Kaffe HQ) to a construction site is most likely a site visit between two work locations, and nothing in the record suggests a private purpose.",2
+td77b63,true,true,0.9,"The note says it is a lunch with Nielsen from Sorensen A/S, which looks like a client or partner, so it counts as a business meal during working hours, starting from the company HQ.",2
+t36d841,true,true,0.97,"The note says the driver is picking up a visiting client at the train station for a Q4 review, which counts as business on a weekday during working hours.",2
+te78298,true,true,0.97,A rental car trip from a hotel to a partner's contract meeting abroad on a weekday morning is a work trip with a clear business purpose.,2
+td1b2bb,true,true,0.95,A Friday-morning trip from the company HQ to a Pakkeposten business center with the note 'pakker til kunder' (packages for customers) is a post errand done for the company.,2
+t7fd6f6,true,true,0.95,"The note says the trip is a meeting with Solbakke about a renewal, the destination is Solbakke Forsikring's address, and it takes place on a Wednesday during working hours, so it is a client visit.",2
+t8b067c,true,true,0.8,"The trip goes from a Hjem & Have store to its warehouse on a Friday afternoon during working hours, which looks like moving between two work sites rather than a private errand.",2
+t4ee144,true,true,0.85,"The note 'formation sécurité, J1' indicates a work training (day 1) at Øksnehallen, a venue in Copenhagen, on a weekday morning, so the trip is to a training attended for work rather than a commute to the usual office.",2
+t273554,true,true,0.7,"An early Monday trip to the airport with the note 'Berlin' suggests a flight for a work trip, though the record doesn't state the purpose and it could be a private trip.",2
+t630e05,true,true,0.88,"A Friday 10:30 trip to a company site (Brix Foods Fabrik) with the note 'Install check' is a client or site visit for work, not a commute or private errand.",9
+t123755,true,true,0.95,"The note shows a dinner with a named client contact (Baltic Cargo) to close contract terms, which is a business meal, and the Saturday evening timing does not change that.",2
+t8aff24,true,false,0.5,"A Thursday midday trip from Ørestads Boulevard (likely the office area) to the airport arrivals terminal with no note; this could be picking up a visiting client, but nothing in the record shows a work purpose, so it defaults to personal.",2
+t7cc274,true,true,0.96,"The trip goes from a hotel to a client's office (Van der Meer Retail) for a meeting, which matches the rental-car-between-hotel-and-client-abroad case and is stated in the note.",2
+t915313,true,true,0.93,"The note says the driver went to Pakkeposten to send a parcel of contracts to client Dahl, which is a company errand (post) made on a Friday afternoon during working hours.",1
+t4678af,true,true,0.72,"A Tuesday 09:30 trip during working hours ends at a named company (Skovgaard Rådgivning), which suggests a client or partner visit rather than a private errand or a commute, though the start address is not confirmed as home or office and there is no note.",2
+t172300,true,true,0.72,"The note describes a first coffee with Sofie Winther of Tidal Health, which reads as a meeting with a client or prospect during working hours on a Tuesday, so the work purpose outweighs the café setting.",2
+t2c48e8,true,true,0.93,"The note says the driver attended sessions at a trade expo (Nordic HR Tech at Bella Center) on a weekday morning, which counts as a work-related trade fair rather than a commute.",2
+t332daa,true,true,0.8,"The note says the driver is returning from a work training in Paris at Lemaire Conseil, so this airport trip is the end of a business trip, even though the destination (Classensgade 40) is probably home.",2
+t9d917c,true,true,0.93,"The trip goes to a construction site for a walkthrough with the site manager, which is a site visit for work, and the start address looks like a home, so this is not a commute to the usual office.",1
+tf894fb,true,true,0.95,"The note says 'Client lunch' on a Wednesday during working hours, so this is a business meal with a client rather than a private restaurant visit.",2
+t39e73d,true,true,0.8,"The note 'Pick-up M. Okafor' with a destination at a hotel suggests collecting a visiting client or guest, which counts as business, though the name alone doesn't confirm the person is a client and not a private acquaintance.",2
+ta2164a,true,true,0.97,"A rental car driven from a hotel to the client Kreuzwerk GmbH in Berlin on a Thursday morning, which matches the 'rental car used between a hotel and a client abroad' criterion.",2
+t18a63d,true,true,0.75,"A short Monday-morning trip within working hours to Havnebank Erhverv (a business bank branch) fits a company banking errand, though the missing note and unknown origin (Torvegade 30 is likely the office) leave some doubt.",2
+t70cc3d,true,true,0.93,"The trip goes to Aurum Capital's office during working hours on a Wednesday, and the note 'Aurum Q4 review' points to a client or partner meeting rather than a private errand.",3
+tdba37f,true,true,0.72,"A Thursday afternoon trip during working hours to a company address (Beringer Logistik A/S) looks like a client or supplier visit, and there is no sign of a commute or a private errand, though the start address is not confirmed as the office.",2
+tb1d6b8,true,true,0.72,"A weekday morning trip to a named company warehouse (Nordic Pack Warehouse) looks like a site or supplier visit, though the start address is not confirmed as the office or home and there is no note.",2
+t0106c1,false,false,0.97,"The note says the paint and tap were for the driver's own bathroom, and the trip was a Saturday shopping run to a hardware store with no work purpose shown.",2
+t22d891,false,false,0.97,"The note describes an annual dental check-up, a private medical appointment, with no work purpose shown in the record.",11
+tac136a,false,false,0.97,"The note 'Styrketræning' (strength training) and the destination, a SATS gym, show this is a private sport trip with no work purpose.",2
+t21ade1,false,false,0.85,"A Sunday-afternoon trip to what looks like a private home (""Hos Søren og Lise"") in Charlottenlund, with no note and no sign of a client or work purpose, is most likely a private visit.",11
+t9baedf,false,false,0.97,"A Saturday family day out at a museum with the kids, with no client or work purpose in the note, is a private leisure trip.",2
+t83200c,false,false,0.97,"The note says the trip is to the airport for a holiday flight, so the purpose is private and not a work trip.",2
+tad57e1,false,false,0.9,"A Saturday-evening trip from an address in Amager to a pizzeria with no note shows no client or work purpose, so it is most likely a private restaurant visit.",2
+te212c0,false,false,0.8,A short Saturday-morning trip from a residential address on Amagerbrogade to the Field's shopping centre with no note or client or work indication is most likely private shopping.,2
+tc8d670,false,false,0.98,"The note says the driver is dropping Léa off at school, a private family errand that has no work purpose.",1
+t7a1e7c,false,false,0.97,"A short evening trip from an address to a Lidl supermarket, noted as a weekly shop, is private grocery shopping with no work purpose.",2
+t090500,false,false,0.9,"The destination is a physiotherapy clinic, a private health appointment, and the record gives no note or client link that suggests a work purpose.",2
+t19fd80,false,false,0.98,A short evening trip to a swimming pool to swim with Anna is a private sport activity with no work purpose.,2
+t610710,false,false,0.85,"A Saturday evening trip to what appears to be a private home (""Hos Mikkel og Sara"") with no note indicating a client or work purpose, so it is most likely a social visit.",2
+t3bfff6,false,false,0.9,"A Sunday-morning trip to Bakken, an amusement park, with no note or work indication is most likely a private leisure outing.",2
+tca9add,false,false,0.97,"The note 'Ferie Mallorca' shows this is a drive to the airport for a private holiday flight, not a work trip.",2
+t074553,false,false,0.96,"A Friday-evening birthday dinner for two at a restaurant is a private social outing, and the note mentions no client or work purpose.",1
+t18566c,false,false,0.97,A Saturday trip to a department store to buy a birthday gift for the driver's mother is a private shopping errand with no work purpose.,2
+t4a6855,false,false,0.97,"The note says the driver picked up Emil from school, which is a private family errand with no work purpose.",4
+td7d1e5,false,false,0.85,"'Courses' is Danish for groceries, and a short Saturday-morning trip to an Irma supermarket is a private shopping errand with no sign of a work purpose.",2
+tbff368,false,false,0.95,"The note (French: 'cardiology appointment, personal check-up') shows a private medical visit to Rigshospitalet, so it is personal even though it falls within working hours.",1
+te0bc80,false,false,0.97,"A short early-morning trip from home to a CrossFit gym is private sport, with no sign of a work purpose.",2
+t4fb973,false,false,0.98,"The note describes a private family trip: a Sunday lunch at the driver's mother's home for her 70th birthday, with no client or work purpose.",2
+t8dce1b,false,false,0.93,"A Saturday-morning drive from a Copenhagen residential address to Tisvildeleje beach, with no note or client or work context, points to a private leisure outing.",2
+tb6a592,false,false,0.6,"A Sunday-evening trip from the airport arrivals hall to a residential-looking address on Nørrebrogade with no note or client indication most likely is a private return home, since airport trips depend on the flight's purpose and nothing shows a work purpose.",2
+tff4459,false,false,0.98,"The note says this is a dinner with the driver's wife for their anniversary, so the trip is private with no work purpose.",2
+ta16104,false,false,0.8,"A Saturday-morning trip from a Nørrebro address to a furniture store (Bolia) with the note 'Sofa' looks like private shopping, with no sign of a client or company errand.",1
+td16878,false,false,0.93,"A short 0.8 km morning trip to a school (Rådmandsgades Skole) with no note is most likely a private school drop-off, not work.",2
+tcdacff,false,false,0.97,"A grocery run to Netto for dinner in the evening, with no client or work purpose in the record, is a private errand.",2
+t967e25,false,false,0.95,"A visit to an eye doctor for an eye check and new glasses is a private medical errand with no work purpose, even though it happens during working hours.",2
+tbb703e,false,false,0.97,"The note says the trip was to the driver's son's football tournament on a Sunday morning, which is a private family activity with no work purpose.",2
+te66162,false,false,0.93,"A Saturday evening drive to friends' home for a birthday dinner is a private social trip, and the note shows no client or work purpose.",2
+t3c92ac,false,false,0.8,"A Saturday-morning drive from Valby to Kronborg Castle (Hamlet's castle) with a note that only references the Hamlet setting looks like a private sightseeing outing, with no client or work purpose recorded.",2
+t96a3db,false,false,0.96,"The note shows a private weekend visit to the driver's mother in Odense, so the drive to the station is personal, not for a work trip.",1
+t9654a7,false,false,0.85,A Saturday lunchtime trip to a café with no note and no sign of a client or work purpose is most likely a private outing.,3
+t91606f,false,false,0.9,"A Saturday afternoon trip to an electronics store to buy headphones, with no client or work purpose in the record, is private shopping.",2
+td01b4f,false,false,0.93,"A short Monday-morning trip at 07:50 to a school (Kirkebjerg Skole) with no note points to a private school drop-off, not a work purpose.",1
+tf032f2,false,false,0.95,A short evening trip to a Lidl supermarket with no note or work context is a private grocery errand.,2
+td686cd,false,false,0.97,"The trip was to a personal medical follow-up appointment at a hospital after knee surgery, with no work purpose.",1
+tcab689,false,false,0.98,"The trip is to football training with a private club team and then home, which is sport and personal with no work purpose.",2
+tcbf76c,false,false,0.97,Sunday drive to grandparents' home in Roskilde for 'Bedstes fødselsdag' (grandparent's birthday) is a private family visit with no work purpose.,1
+tfd0c61,false,false,0.93,"The trip was a drop-off of Maria (a partner) at her workplace, which is private; continuing to the office afterward is a commute and does not make this leg business.",2
+t07ed13,false,false,0.93,"The note says the driver had lunch alone during work hours, which the criteria classify as personal even though the trip started at a work site.",2
+tf0764b,false,true,0.72,"The destination is a named company (Dansk Havnelogistik) rather than the usual office, and the trip is on a weekday morning with no sign of a private purpose, so it is most likely a client or partner visit, though 'from' looks like it could be home and the note is empty.",3
+t9f7e8b,false,false,0.97,"The trip goes from the workplace to a gym and the note says it is for a personal workout, so the purpose is private (sport).",2
+t1eb7fd,false,false,0.85,A Saturday morning trip from a Copenhagen address to the Louisiana Museum with no note or work purpose is most likely a private leisure outing.,2
+t9bfe96,false,false,0.95,"The trip is to the airport for a holiday flight to Lisbon, as the note says, so its purpose is private rather than work.",1
+t8f9f92,false,false,0.97,"The note says this is a birthday dinner with the driver's sister, which is a private family occasion, even though the trip starts from the workplace.",2
+taad0cb,false,false,0.8,"A short 1.4 km morning trip on a weekday from a residential-looking address to a local station with no note fits a personal commute leg, with no sign of a client, work site, or work-related travel.",2
+tc3014f,false,false,0.93,"The note says the driver is having lunch alone at a neighborhood café with no meeting, and lunch alone during work hours counts as personal.",2
+t7ebf1a,false,false,0.9,"The note says 'Home' and the trip leaves the workplace (Dansk Havnelogistik) at 17:40 on a weekday for a residential address, so it is a commute home, which is personal.",3
+t327d56,false,false,0.95,"The note says 'déj seul, pause' (lunch alone, break), and lunch alone during work hours is personal, so this short trip from the workplace to a sushi restaurant is not business.",1
+t76f0ee,false,false,0.7,"The note says 'to office', and a trip from what looks like a home address to the usual workplace on a weekday morning is a commute, which counts as personal; the destination name (Bech Elektro) is probably the employer's office rather than a client.",2
+te3708d,false,false,0.97,"The driver's note says the trip was a lunch-break swim unrelated to work, so its main purpose is private sport even though it started at a work address during working hours.",2
+tfafa4f,false,false,0.85,"A Saturday morning drive to a beach town (Hornbæk Strand) with no note or client/work indication looks like a private leisure outing, not a work trip.",2
+t7b7fc0,false,false,0.98,"The trip was a private airport pickup of the driver's sister returning from holiday, with no work purpose in the note.",1
+tce1248,false,false,0.85,"The note says 'Birthday' and the destination is a pizzeria on a Thursday evening, with no client or work purpose shown, so the trip is a private social outing even though it starts at the workplace.",2
+t45c1ad,false,false,0.9,"The note 'Dépose Camille' means dropping off a person (likely a partner or family member) at a hospital on a Monday morning, which is a private errand with no work purpose shown.",2
+tb97757,false,false,0.8,"A short 5-minute midday trip from the office to a bakery with no note or client mentioned is most likely a personal lunch or snack break, which counts as personal.",1
+t11153c,false,false,0.93,"The note 'hjem fra job' (home from work) shows this is the commute from the usual workplace (Bech Elektro) to the driver's home, which is personal under commuting rules.",2
+t34a315,false,false,0.85,"A Monday 17:30 trip from what appears to be the workplace to a SATS gym is most likely a private workout, and the record has no note or client link suggesting a work purpose.",2
+t6e4a01,false,true,0.62,"The destination is a company (Vestegn Medico) rather than a private place, and the trip is a weekday-morning drive from a Valby address, which fits a client or supplier visit; however, the start address is not confirmed as home and there is no note, so it could also be a commute.",2
+tf3a21b,false,false,0.96,"The note says 'Gym' and the destination is a SATS fitness center, so this is a private sport trip after work hours with no sign of a work purpose.",2
+t608de7,false,false,0.9,"A Saturday morning drive from a Valby address to Rågeleje beach has no note, client or work purpose, so it looks like a private leisure outing.",2
+ta6e312,false,false,0.97,"The note says the driver dropped the family off at the departure hall for a holiday to Crete, so the purpose is private and not work-related.",1
+t71fdf4,false,false,0.97,"The note 'aftensmad m/ svigermor' (dinner with mother-in-law) shows a private family dinner at a café on a weekday evening, with no client or work purpose.",1
+t50e252,false,false,0.8,"The note 'Dépose Julie' (dropping off Julie) at the central station suggests a private favor for another person, with no work purpose or client shown, so the trip is personal.",2
+ta9ce9c,false,false,0.95,"The note says the driver is having lunch alone during work hours, which the criteria classify as a personal trip with no client or work purpose.",2
+tbc1a8c,false,false,0.9,"The note says 'home from work', so this is a commute from the usual workplace (Vestegn Medico) to a residential address in Valby, which counts as personal.",1
+ted8218,false,false,0.98,"The note describes a Sunday five-a-side league match at a sports club, which is a private sporting activity with no work purpose.",2
+t3214d9,false,false,0.85,"A Sunday late-morning trip to Ordrupgaard, an art museum, with no note or client/work indication, is most likely a private leisure outing.",1
+t83d952,false,false,0.93,"The note 'muscu midi' (a midday workout) and the destination, a CrossFit gym, show a private sport purpose, even though the trip starts from the workplace during working hours.",2
+tb24d9c,false,false,0.97,"The note says this is a weekend trip to the driver's parents' summerhouse, a private family outing with no work purpose.",2
+t121a43,false,false,0.95,"The driver picked up Lise at the airport after her holiday in Rome and took her to a residential address on a Sunday night, which is a private errand with no work purpose in the note.",2
+te4b4be,false,false,0.97,"A Saturday brunch with friends at a café is a private social outing, and the record shows no client or work purpose.",1
+t484121,false,false,0.8,"The note 'Dropped Sam' points to a private drop-off at a station, with no client, work site or work purpose shown, so it is personal.",2
+tb01731,false,false,0.96,"The note says this was a solo lunch break with no meeting or work purpose, and lunch alone during work hours counts as personal.",2
+t2a85b7,false,true,0.62,"The trip goes from a residential-looking address (Amagerbrogade) to a named company (Rask Fødevarer) that is not identified as the driver's usual office, so it is most likely a direct home-to-client/supplier trip, which counts as business; there is no note to confirm this.",2
+ta08588,false,false,0.8,"A Saturday-morning trip from an Amagerbrogade address to a running club (Løbeklub Amager) is most likely a private sport activity, and the note 'Course' is ambiguous and does not indicate a work-related training.",2
+t542213,false,false,0.9,"A Sunday afternoon trip from a residential address to Bakken, an amusement park, with no note or client or work purpose, is most likely a private leisure outing.",2
+tee1141,false,false,0.85,"The destination is the Charter og Ferie (holiday charter) departures area at Terminal 3, on a Saturday at 05:25 with no note, so this is most likely a private holiday trip rather than a work flight.",2
+t157379,false,false,0.8,"A Saturday evening trip to a family's home (""Famille Dupont (domicile)"") with no note or client/work purpose is most likely a private social visit.",2
+t9cceb6,false,false,0.9,A Saturday-morning trip from an address in Copenhagen S to Louisiana Museum with the note 'Museum' and no client or work purpose is a private leisure outing.,2
+tfa9b62,false,false,0.97,"The note says this is a drive to the airport for a family holiday week in Lisbon with the kids, so the purpose is private, not work.",2
+tdae657,false,false,0.8,"A Friday evening trip from an apparent home address to a bistro with no note, client, or work purpose is most likely a private restaurant visit.",2
+t1174dd,false,false,0.93,"The note ('dépose Léa au boulot') says the driver is dropping Léa off at her workplace, which is a private errand (a partner's or family member's workplace) with no sign of a client or company purpose.",1
+tbfc821,false,false,0.7,"A short midday trip from the office to a café with no note or client mentioned looks like lunch alone during work hours, which counts as personal.",2
+td072b6,false,false,0.6,"A Saturday trip from an Amagerbrogade address to a furniture store to buy a sofa reads as a private shopping errand, though 'lounge' could mean an office lounge, and the record shows no client, work site or company purpose.",2
+tf5699d,false,true,0.7,"The destination is a named company (Lunde Consulting), not the usual office, and the note 'Arbejde' (work) on a weekday morning points to a work visit; the start address is probably home, but the trip goes straight to a client site rather than to the usual workplace.",8
+t27b8fa,false,false,0.98,"Dropping the children off at school is a private family errand, not work-related.",1
+t964723,false,false,0.96,"The trip is a grocery run to Netto on the way home after work, which is a private purpose and not work-related.",1
+t901b5f,false,false,0.9,"A Saturday-morning trip from a Frederiksberg address to the Dyrehavsbakken amusement park, with no note or client/work indication, is most likely a private leisure outing.",3
+tcaeaf5,false,false,0.96,"The note says the driver is returning from a holiday in Nice ('retour de Nice, vacances'), on a Sunday evening to a Frederiksberg address, so the trip is private.",2
+t839bce,false,false,0.98,A Saturday birthday brunch with the driver's sister is a private family outing with no client or work purpose.,2
+t393a93,false,false,0.8,"The note ('drop Paul off at the station') describes a private drop-off, likely a family member or friend, with no sign of a client, work site or work trip, so it is personal.",2
+tef4112,false,false,0.8,"The note says only 'Lunch' and the destination is a food market, with no client or work purpose recorded, so this is a solo lunch during work hours, which counts as personal.",2
+t94384f,false,false,0.85,A Saturday afternoon trip from a residential address to a department store with no note or work purpose is most likely private shopping.,2
+tae33de,false,false,0.88,"A Friday 17:25 trip from what appears to be the usual workplace (Brix Revision) to home with no note is a commute, which is personal.",1
+tf531ac,false,false,0.93,"The note 'Henter' (picking up) and the destination, a school, indicate a private child pick-up, with nothing in the record pointing to a work purpose.",1
+t5ed969,false,false,0.95,"The note says groceries, and a stop at Rema 1000 after leaving the office in the evening is a private errand, not work.",1
+te09591,false,false,0.97,"The note describes a personal physiotherapy appointment for the driver's shoulder, which is a medical visit with no work purpose.",1
+t206464,false,false,0.97,"The note says the driver is taking their brother to the airport for his flight home, which is a private family errand with no work purpose.",2
+td29a97,false,false,0.85,A short Sunday-evening trip to a bistro with only the note 'Dîner' and no client or work purpose is a private restaurant outing.,3
+t5bb90c,false,false,0.7,"A Saturday-morning trip from a residential address to Central Station has no note or client indication, so it is most likely private travel rather than a work trip.",2
+t713c5f,false,false,0.9,"The note says the driver is having lunch alone during work hours, which the criteria classify as personal rather than business.",2
+t2300e9,false,false,0.8,"A Saturday late-morning trip from a residential-looking address to a consumer electronics store in a shopping mall, with no note or client/work purpose, is most likely private shopping.",2
+t4778a5,false,false,0.8,"The note says it is the daily drive to work ('på arbejde som hver dag') on a weekday morning from what appears to be home to the usual workplace, which is a commute and therefore personal.",2
+t258bda,false,false,0.9,A short 0.9 km trip to a children's school with no note or work link is most likely a private school pickup or drop-off.,2
+t15fae1,false,false,0.97,A Saturday-morning trip to Lidl with the note 'courses + lessive' (groceries and laundry) is a private errand with no sign of a work purpose.,2
+tc424e6,false,false,0.93,"The note says 'Dentist' and the destination is a dental clinic, so the purpose is a private appointment even though it starts from a work site during working hours.",1
+t7eae08,false,false,0.97,"The note says swimming with Tobias and the destination is a public swimming pool on a weekday evening, which points to a private leisure activity with no sign of work.",1
+t77441a,false,false,0.93,"A Saturday evening dinner with Anna for an anniversary at a restaurant is a private outing, and the note shows no client or work purpose.",2
+ta29335,false,false,0.7,"A weekday 07:20 trip from a residential-looking address to a local station with no note fits a private commute or personal errand, and nothing in the record points to a work trip, client, or airport run.",2
+t64fab6,false,false,0.95,"The note says 'frokost alene' (lunch alone) during work hours, which the criteria classify as personal, with no client or work purpose shown.",2
+t992702,false,false,0.85,"A Saturday afternoon trip from a Søborg address to the Illums Bolighus store with the note 'Gift' points to private shopping for a gift, with no sign of a client or work purpose.",1
+t42ef48,false,true,0.6,"The destination is a named company (Holm & Vind ApS), not the usual office or a private place, and the trip is on a Monday morning within working hours, so it is most likely a client or partner visit; the missing note and the unknown home address leave some doubt that it could be the commute.",2
+t1b2cd6,false,false,0.96,"The note says the trip is a school pick-up of children, which is a private family errand, even though it starts from the workplace.",2
+t5bedd1,false,false,0.96,"The note says the stop is for weekend groceries, which is a private errand, even though the trip starts at the company's address.",2
+tc8ea10,false,false,0.75,"The trip goes from a Søborg address, probably home, to a hospital, and with no note or sign of a client or work purpose it looks like a private medical visit.",2
+t520284,false,false,0.97,A Sunday-morning drive to a public swimming pool with the note 'Swim' is a private sport activity with no work purpose.,1
+t2a5683,false,false,0.98,A Sunday family lunch at a private home (mum's) is a personal trip with no work purpose.,2
+tee0519,true,true,0.7,"A Monday-morning drive from home to the airport with the note 'Flight Oslo' fits a work trip during the week, though the record does not state the purpose of the flight, so a private trip is possible.",2
+tb7bdc3,true,true,0.97,A weekday-afternoon trip from the company office to a construction site for a site visit with the client (bygherre) to check an installation is a work site visit.,3
+t77d720,true,true,0.85,"A weekday mid-morning trip from the company's office (Havnetek ApS) to a business banking branch (Kanalbanken Erhverv) fits a company errand or bank meeting, with nothing in the record pointing to a private purpose.",6
+t004e7f,true,true,0.96,"A weekday afternoon trip from the company's office (Havnetek ApS) to a client (Nordlys Energi), and the note 'Kunde Nordlys' confirms a client visit.",1
+t2a7f18,true,true,0.95,"The trip goes from the company office to a café for a first meeting with a prospect (Brandt Logistics) about a possible fleet contract, which is a work purpose despite the café setting.",2
+tcb3636,true,true,0.97,"The trip goes from the company's office to the company's printer to pick up brochure proofs, which is a work errand with a supplier during working hours.",1
+t12f969,true,true,0.93,"The trip goes from the company's office to its warehouse on a Tuesday morning, which is movement between two work sites.",2
+tfe2d18,true,true,0.93,"The note says the driver is attending the Nordic Logistics trade fair (day 1) at Bella Center, and trade fair attendance counts as business even though the trip starts from what may be home.",2
+t206cfb,true,true,0.8,"The note says the driver is returning from a Paris client meeting, so this airport pickup ends a work trip, and the Friday-evening timing does not change that.",2
+tf59334,true,true,0.9,"A Wednesday-morning trip within working hours from the company's office (Havnetek ApS) to a construction site is a move between work sites, i.e. a site visit.",1
+t96879c,true,true,0.9,"The note 'Berlin client' shows the airport trip is for a client visit, which counts as a work trip, so it is business and not a private journey.",2
+teb5f69,true,true,0.97,"The trip goes from the company office to a construction site during working hours, and the note describes a site visit with a snagging list, so it is a work site visit.",2
+t3b1cb0,true,true,0.93,"The note says 'Client dinner', which is a business meal, and the criteria state that evenings and weekends do not matter, so the Saturday-evening timing does not make it personal.",1
+t9f2b88,true,true,0.96,"The driver is picking up a visiting client (Anders Holm of Brøndby Marine) at his hotel and bringing him to the office on a weekday morning, which counts as business under the picking-up-a-visiting-client criterion.",2
+tb46f0c,true,true,0.9,"A weekday morning trip from a hotel abroad to a logistics company's office in Hamburg fits the 'hotel to client abroad' pattern, so it is most likely a client or supplier visit.",2
+t31831e,true,true,0.96,"The note says the driver deposited client cheques at the bank for the company, which is a company errand (bank) made from the office on a Tuesday afternoon during working hours.",3
+td59e15,true,true,0.72,"A Wednesday 10:30 trip, within working hours, ends at a named company (Fjordvind Energi A/S) rather than a home or private address, which suggests a client or partner visit, though the record has no note to confirm it.",2
+t38e0f2,true,true,0.93,"The note says this is a first meeting with a prospect (Sofie Lund), it starts from the workplace on a Monday afternoon, and the café is only the meeting venue.",3
+t65e6a4,true,true,0.8,"A Tuesday-afternoon trip within working hours from the company's office (Havnebyg Rådgivning) to another business, Amager Trykkeri ApS, most likely a supplier or client visit, with no sign of a private purpose.",2
+t899145,true,true,0.95,"The trip moves between two company sites (office to warehouse) to deal with samples, which is work-related and not a commute.",2
+t54b6cb,false,false,0.6,"A Monday 07:15 trip from a Frederiksberg address to Copenhagen Central Station with no note could be a commute or a ride to a work trip, but nothing in the record shows a work purpose, so it defaults to personal.",2
+t97faeb,false,false,0.95,"The note says the driver had lunch alone at a café during work hours, which the criteria classify as personal rather than a business meal or client lunch.",1
+t85eec7,false,false,0.85,"A Saturday-morning trip to IKEA with no note or work indication is most likely private shopping, not a business errand.",1
+t6b25e6,false,false,0.8,"The note 'Maison-bureau' (French for 'home-office') indicates a commute from home to the usual workplace on a weekday morning, which is personal under the commuting rule.",3
+td801bc,false,false,0.97,"The note ('dépose enfants école') says this is a school drop-off for the children, which is a private family errand with no work purpose.",1
+t9051eb,false,false,0.98,A short Sunday trip to a Netto supermarket for the 'weekly shop' is private grocery shopping with no work purpose.,2
+t992834,false,false,0.97,"A dentist appointment for a check-up and cleaning is a private errand with no work purpose, even though it falls on a weekday morning.",3
+t40965f,false,false,0.98,"The trip goes to a gym for strength training (note: 'Styrketræning'), which is a private sport activity with no work purpose.",2
+t8314de,false,false,0.96,A Sunday afternoon trip to the driver's parents' home with no note or work indication is a private family visit.,2
+t9a5358,false,false,0.8,"A Saturday-morning trip to Louisiana Museum with only the venue name as a note and no client, conference or work purpose points to a private leisure outing.",4
+ta84ee6,true,true,0.9,"A Tuesday mid-morning trip within working hours from the company's office (Lysbro ApS) to a construction site of another company (Havnestad Byg) is a site or client visit, not a commute or private errand.",4
+t0d3a3c,true,true,0.95,"The note shows a dinner with Claire Moreau of Nordlys Energi to discuss the annual contract, which is a business meal with a client, and the Saturday evening timing does not matter.",1
+t0f9426,true,true,0.9,"The note says the driver is picking up a client at the airport, starting from what appears to be the company's office during working hours on a Tuesday, which is a business trip.",2
+tc8a143,true,true,0.97,A rental car trip from a hotel to a client's office in Hamburg for a meeting with Brandt Logistik during working hours is a business trip.,1
+t8a96d6,true,true,0.8,"A short Tuesday-afternoon trip within working hours from the company's address (Lysbro ApS) to a post office fits a company errand such as posting mail, and nothing in the record suggests a private purpose.",2
+t735d84,true,true,0.95,"The trip goes to a client's office (Nordlys Energi) for a quarterly review with a named contact, on a Thursday afternoon, so its main purpose is work.",2
+tecf083,true,true,0.85,"The trip goes from the company's office (Lysbro ApS) to another company (Fjordvind Rederi A/S) on a Thursday afternoon during working hours, which fits a client or partner visit, and nothing suggests a private purpose.",2
+t504244,true,true,0.93,"The trip goes from the company's office to a printer to collect flyers, which is an errand done for the company and not a commute or a private trip.",1
+t258729,true,true,0.96,A Monday midday trip between the company's office and its warehouse to pick up pallets is a move between two work sites for company purposes.,2
+t4fa80b,true,true,0.93,"The trip goes to the Odense Congress Center and the note says 'Konference', so it is a conference attended for work, and the weekday morning timing fits that.",2
+t8624f7,false,false,0.97,"The note says the trip is the start of a holiday in Lisbon (""départ vacances""), so the airport run is for a private flight, not a work trip.",1
+tf47a0b,false,false,0.93,"A Saturday brunch at a café with no client or work purpose in the note is a private outing, not a business trip.",1
+t6df4a8,false,false,0.9,"A Saturday-morning trip from what looks like a home address to Magasin du Nord, a department store, with no note or client/work indication, is most likely private shopping.",1
+tc57893,false,false,0.9,"A short 1.8 km morning trip to a school at 08:05 with no note points to a private school drop-off, not a work purpose.",2
+t16988e,false,false,0.97,"The note says the paint and screws were bought for the driver's home bathroom, so this is a private shopping trip on a Saturday morning with no work purpose.",2
+tb8d301,false,false,0.97,"The note says the trip is to a physiotherapy appointment, which is a private health errand with no sign of a work purpose.",2
+t8c01ab,false,false,0.98,A short evening trip to a gym for a workout is a private sport activity with no work purpose in the record.,2
+t294d5e,false,false,0.97,"The note says the trip was for Mum's birthday, a family occasion on a Sunday afternoon, with nothing in the record pointing to a client or work purpose.",2
+t43f305,false,false,0.97,"The note says the trip is a private weekend at a summerhouse with friends, and nothing in the record points to a client or work purpose.",2
+te263fb,false,false,0.6,"A late Sunday-evening ride from the airport to a residential address on Amagerbrogade has no note, client or work purpose, so it is most likely a private return home, although it could be the end of a business flight.",2

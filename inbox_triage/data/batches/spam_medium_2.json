@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "fr",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "fr",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "da",
+      "length": "medium",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "da",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Accounts Receivable <billing@norvik-ledger.example>",
+      "subject": "Invoice 40817 overdue - payment failed",
+      "date": "2026-09-14 08:12",
+      "body": "Hello,\n\nWe attempted to process the monthly payment for your workspace services account but the transaction was declined by the issuing bank.\n\nInvoice number: 40817\nAmount due: 2,340.00 DKK\nOriginal due date: 2026-09-10\nStatus: Payment failed (code 51)\n\nTo avoid interruption of service and a late fee of 250.00 DKK, please review the invoice and update your payment details using the secure link below within 48 hours.\n\nView invoice and update payment method:\nhttps://secure-portal.norvik-ledger.example/invoices/40817/pay\n\nIf you have already settled this invoice, please disregard this notice. A copy of the invoice is available in your account area once you sign in.\n\nPlease note that accounts with two failed attempts are passed to our collections partner.\n\nKind regards,\nAccounts Receivable\nNorvik Ledger Services\nThis mailbox is not monitored.",
+      "justification": "Phishing: a fake overdue invoice from a company the space has no account with, pushing a payment link. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Camille <camille@gains-lumen.example>",
+      "subject": "Tu as été sélectionné(e) 🎉",
+      "date": "2026-09-22 19:40",
+      "body": "Coucou ! C'est Camille 😊 Mon groupe privé a fait +38% ce mois-ci avec la crypto, et j'ai pensé à toi. Je t'ouvre une place gratuite jusqu'à vendredi, écris-moi vite sur le lien : t.gains-lumen.example/vip 🚀",
+      "justification": "Crypto investment scam from a stranger using a fake friendly tone. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Brightlane Events <hello@brightlane-events.example>",
+      "subject": "Nordic Retail Summit: early bird 1,495 DKK ends Friday",
+      "date": "2026-09-17 10:05",
+      "body": "Join 600 retail leaders in Aarhus on 12 November for the Nordic Retail Summit. Early bird tickets are 1,495 DKK (regular 2,295 DKK) until Friday.\nProgramme and speakers: brightlane-events.example/summit",
+      "justification": "Mass marketing for a conference sent to a shared inbox that never subscribed. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Marc - Talentis <marc@talentis-rh.example>",
+      "subject": "Offres CDI/CDD - profils dispo",
+      "date": "2026-10-02 07:48",
+      "body": "Bonjour,\n\nJe me permets de vous contacter car notre cabinet place des profils en admin, compta et accueil sur Copenhague et Malmö. On a actuellement une dizaine de candidat dispo de suite, bilingues français/anglais.\n\nSi vous avez des besoin en recrutement ou en interim, je peut vous envoyer des CV cette semaine sans engagement. Frais seulement en cas d'embauche.\n\nCordialement\nMarc Delorme\nTalentis RH\nEnvoyé de mon iPhone",
+      "justification": "Recruitment blast from a staffing firm offering candidates nobody asked for. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Priya Nair <priya@hollowbay-collective.example>",
+      "subject": "Re: great meeting you at the community night",
+      "date": "2026-09-30 15:22",
+      "body": "Hi again,\n\nJust following up on this, I know things get busy after events.\n\n> It was so good to connect with you last week, we should really explore something together.\n\nI wanted to say that the energy at your community night was something special, and honestly it reminded me why we started Hollowbay Collective in the first place. We work with spaces and communities across Northern Europe, and I have a feeling there is a natural fit between what you are building and what we do.\n\nI do not want to be pushy, so I will keep it simple. I think a quick call could open up some interesting possibilities for both sides, from co-branded moments to shared audiences and beyond. We are very flexible and always open to ideas.\n\nAre you free for 15 minutes sometime next week? I can work around your schedule completely.\n\nAlso, please say hi to the team from me, everyone was so lovely.\n\nWarmest wishes,\nPriya\nPartnerships Lead, Hollowbay Collective\nhollowbay-collective.example",
+      "justification": "Fake 'we met at your event' follow-up with no substance and no real earlier contact. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Jonas Eklund <jonas@pipelinepilot.example>",
+      "subject": "Fill your calendar with qualified meetings",
+      "date": "2026-09-09 11:30",
+      "body": "Hi there,\n\nI work with PipelinePilot, a lead generation service for small service businesses. We identify decision makers in your target market, write the outreach, and book meetings straight into your calendar.\n\nMost clients see 8 to 12 booked calls in the first month. Setup takes about a week and there is no long contract.\n\nWould it make sense to send over a short case study? Happy to share a few examples from companies in the Nordics.\n\nBest,\nJonas Eklund\nPipelinePilot",
+      "justification": "Cold sales outreach for lead generation to a coworking space that never contacted the sender. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Sofie Lund <sofie@rankfjord.example>",
+      "subject": "Gæsteindlæg og backlinks til jeres hjemmeside",
+      "date": "2026-09-20 23:41",
+      "body": "Hej,\n\nJeg har kigget på jeres hjemmeside og kan se, at den har potentiale til at ranke bedre på Google. Vi sælger gæsteindlæg på danske sider med høj domæneautoritet (DR 50+), og jeg kan tilbyde et dofollow-link til jeres side.\n\nPris: 900 kr. pr. indlæg, indholdet er skrevet af os. Vi kan også lave en pakke med fem links.\n\nSkriv blot tilbage, hvis I vil have en liste med sider.\n\nMvh\nSofie, Rankfjord",
+      "justification": "SEO backlink and guest-post offer sent late on a Sunday to an inbox that never asked. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Nordic Customs & Parcel Office <notice@nordic-parcel-office.example>",
+      "subject": "Notice of undelivered consignment NP-77421",
+      "date": "2026-10-06 09:03",
+      "body": "Dear Sir or Madam,\n\nA consignment addressed to your organisation (reference NP-77421) could not be delivered and is held at our regional depot. Release of the goods requires payment of a handling and storage fee of 49.00 EUR.\n\nPlease complete the release form at the address below within three working days. Consignments not claimed within this period will be returned to the sender and a storage charge will apply.\n\nhttps://release.nordic-parcel-office.example/np-77421\n\nYours faithfully,\nCustomer Compliance Department\nNordic Customs & Parcel Office",
+      "justification": "Phishing: fake parcel notice demanding a fee through a link, for a consignment nobody ordered. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Dr. Emeka Adaobi <e.adaobi@adaobi-chambers.example>",
+      "subject": "Confidential: unclaimed estate, beneficiary needed",
+      "date": "2026-10-12 06:55",
+      "body": "Dear Friend,\n\nI am a legal representative handling the estate of a late client, Mr. Harald Voss, who died without known family in 2024. The estate holds the sum of 4,800,000 EUR in a dormant account. After a long search I have been unable to locate any relative.\n\nI am writing to propose that your organisation act as beneficiary. The funds would be released to you with my assistance, and we would share the proceeds: 60 percent to you, 40 percent to me for legal costs and taxes. All documents will be prepared by my office and the process is completely legal and safe.\n\nTo proceed, I only need the following:\n- Your full legal name\n- Your address and phone number\n- A copy of an identification document\n\nPlease treat this matter as strictly confidential and do not discuss it with others until the transfer is finished. Time is limited because the bank will transfer the funds to the state treasury after the end of the year.\n\nI look forward to your quick reply.\n\nRespectfully,\nDr. Emeka Adaobi\nAdaobi Chambers",
+      "justification": "Advance-fee inheritance scam asking for identity documents from a stranger. The sender has no relationship with the space and the message was never requested."
+    },
+    {
+      "from": "Mette & Lars <hej@kodeklub-mester.example>",
+      "subject": "Gratis webinar torsdag 🚀",
+      "date": "2026-09-28 13:15",
+      "body": "Hej 👋 Vi holder gratis webinar om AI til små firmaer torsdag kl. 19! Tilmeld dig her: kodeklub-mester.example/webinar 😄 Vi ses!",
+      "justification": "Mass marketing for a webinar sent to a shared inbox with no subscription. The sender has no relationship with the space and the message was never requested."
+    }
+  ]
+}

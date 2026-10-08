@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "en",
+      "length": "long",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": "someone asks about joining, prices, a trial day, desk availability"
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "fr",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "da",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "da",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": "a member gives notice or asks how to pause their membership"
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "fr",
+      "length": "medium",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Victor Lund <victor@lund-events.example>",
+      "subject": "Product demo evening on Thursday: AV and room",
+      "date": "2026-10-14 12:10",
+      "body": "Hello,\n\nI am organising a product demo evening for our customers this Thursday 15 October, from 17:30 to 20:00, in your event room. We expect about 35 guests.\n\nWe would like to confirm the following. First, the projector and the sound system, which we understood are included in the 1,800 DKK room rate. Second, whether we can have 10 extra chairs, as the room is set for 25. Third, we would like to move the speaker's table to the left wall, away from the windows.\n\nWe would arrive at 15:30 to set up, if that works. Please confirm by tomorrow so I can send the final details to the guests.\n\nBest regards,\nVictor Lund\nLund Events",
+      "justification": "An organiser asks about AV, chairs and a layout change for an event this week, with an amount in DKK, needing an answer within a day."
+    },
+    {
+      "from": "Maja Thorsen <maja.thorsen@scandic-crafts.example>",
+      "subject": "Fwd: Re: Board room booking, Wednesday",
+      "date": "2026-09-29 10:45",
+      "body": "Can you sort this one out? I think they want to move to Friday. Thanks, Maja\n\n---------- Forwarded message ----------\nFrom: Peter Aggerholm <peter@aggerholm-law.example>\nDate: 28 Sep 2026, 16:55\nSubject: Re: Board room booking, Wednesday\n\nHello Maja,\n\nThank you for confirming the board room for Wednesday 30 September from 09:00 to 12:00 for our member meeting.\n\nUnfortunately, three of our partners have a court hearing on Wednesday morning that was scheduled after we booked. We would like to move the whole booking to Friday 2 October, same hours, if the board room is free.\n\nIf the board room is not available on Friday, the second option would be the Harbour room, although we would then need the large screen moved over. A third option is Thursday afternoon, after 13:00.\n\nPlease let me know as soon as possible which option is possible, because we must inform our members today or tomorrow.\n\nMany thanks for your help.\n\nKind regards,\nPeter Aggerholm\nAggerholm Law",
+      "justification": "A booking move for this week is forwarded for handling, so room_booking needing an answer within 24 hours."
+    },
+    {
+      "from": "Margit Olsen <margit.olsen@fonden-nord.example>",
+      "subject": "Enquiry: day rental of a conference room",
+      "date": "2026-10-19 09:20",
+      "body": "Dear Sir or Madam,\n\nOur foundation is considering renting a conference room for one day, date to be determined. Could you kindly inform us whether this is possible and at what rate?\n\nYours sincerely,\nMargit Olsen\nFonden Nord",
+      "justification": "A visitor formally asks about renting a room for a day with no date, a low urgency enquiry needing a reply."
+    },
+    {
+      "from": "Daniel Frost <daniel@frostbrew.example>",
+      "subject": "Sponsoring your Friday drinks?",
+      "date": "2026-10-10 23:50",
+      "body": "Hi, sorry for the late message. Frost Brew would like to sponsor your Friday drinks in exchange for our logo on the bar fridge. Open to a chat next week? Also, my cousin wants to join your space, what is a day pass? Daniel",
+      "justification": "An organisation proposes sponsorship, with a passing question about joining, so a partnership message to be answered within the week."
+    },
+    {
+      "from": "Chloé Vasseur <chloe.vasseur@vasseur-conseil.example>",
+      "subject": "Re: Température dans l'open space",
+      "date": "2026-09-21 14:05",
+      "body": "> Nous avons bien noté votre remarque et allons regarder cela rapidement.\n\nBonjour,\n\nJe me permets de revenir vers vous, car une semaine plus tard la situation n'a pas changé. La climatisation de l'open space du premier étage souffle toujours en direct sur les postes près de la fenêtre, et la température y est descendue sous les 18 degrés lundi et mardi.\n\nPlusieurs membres autour de moi portent un manteau pour travailler. Ce n'est pas très professionnel lorsque nous recevons des clients, et deux personnes de mon équipe ont déjà dit qu'elles préféraient rester chez elles.\n\nJe ne suis pas sûre que le problème vienne du réglage seul, il me semble que la grille d'aération est mal orientée. Pourriez-vous faire intervenir quelqu'un du service technique cette semaine, ou au moins déplacer ma place vers le fond de la salle en attendant ?\n\nJe vous remercie par avance de votre réponse et reste disponible pour vous montrer précisément l'endroit.\n\nCordialement,\nChloé Vasseur\nVasseur Conseil",
+      "justification": "A member follows up in a thread about an unresolved heating and cooling problem and asks for a fix this week, a complaint needing a reply within a day."
+    },
+    {
+      "from": "Emil Brandt <emil.brandt@brandtweb.example>",
+      "subject": "Kommer ikke ind!!",
+      "date": "2026-10-04 07:58",
+      "body": "Hej, mit adgangskort virker ikke i dag, døren bliver rød. Jeg står udenfor og har et kundemøde kl 9. Kan nogen åbne for mig? Ring på 55 04 72 09. Mvh Emil, sendt fra min telefon",
+      "justification": "A member is locked out on a Sunday morning with a meeting at nine, so a complaint needing an answer today."
+    },
+    {
+      "from": "Sara Winther <sara.winther@winther-design.example>",
+      "subject": "Kvittering + pause? 😅",
+      "date": "2026-09-15 19:42",
+      "body": "Hej!\n\nMit kort blev afvist i dag, da I trak 950 DKK. Kan I prøve igen på det nye kort, eller sende en betalingslink? Og så vil jeg gerne have en kvittering. Jeg overvejer også at holde pause med medlemskabet i vinter, men det snakker vi om bagefter 🙂\n\nMvh Sara",
+      "justification": "A member reports a failed card payment and asks for a receipt, with a passing mention of pausing the membership."
+    },
+    {
+      "from": "Nordlys Tech Weekly <hello@nordlys-weekly.example>",
+      "subject": "Nordlys Tech Weekly: edition 41",
+      "date": "2026-10-09 06:45",
+      "body": "Hi,\n\nHere is this week's Nordlys Tech Weekly, sent to you because you subscribed.\n\nTop stories\n- Three Nordic startups announce a shared data centre project powered by wind energy.\n- A new open source library for local-first apps reaches version 1.0.\n- A short guide to writing better bug reports for small teams.\n\nEvent of the week\nFounders' breakfast, Tuesday 13 October, 08:00, at a venue in the city centre. Free, registration required.\n\nTool of the week\nA lightweight time tracker for freelancers, with a free plan for up to three projects.\n\nThanks for reading. To stop receiving this newsletter, use the unsubscribe link below.",
+      "justification": "A subscribed tech newsletter with nothing to reply to."
+    },
+    {
+      "from": "Parcel Tracker <notifications@parceltrack.example>",
+      "subject": "Your parcel has been delivered to the reception",
+      "date": "2026-09-24 13:11",
+      "body": "Hello,\n\nThis is an automatic message from ParcelTrack, the delivery tracking service your organisation uses.\n\nYour parcel has been delivered.\n\nTracking number: PT-20480-7731\nSender: Hartmann Office Supplies\nDelivered: 24 September 2026 at 13:05\nDelivered to: Reception desk, front office\nSigned by: reception staff\n\nParcel details\n- Number of packages: 2\n- Weight: 7.4 kg\n- Service: standard delivery\n\nIf a package arrives damaged, please photograph it before opening and report the issue through the tracking page within 48 hours.\n\nDelivery history\n24 Sep, 07:12  Out for delivery\n23 Sep, 18:40  Arrived at local depot\n22 Sep, 09:03  Dispatched from warehouse\n\nYou are receiving this notification because you registered this address for delivery updates.\n\nPlease do not reply to this email. This mailbox is not monitored.\n\nParcelTrack",
+      "justification": "An automatic parcel delivery notification from a service in use, with nothing to reply to."
+    },
+    {
+      "from": "Thomas Girard <thomas.girard@girard-media.example>",
+      "subject": "Fwd: Merci pour votre accueil",
+      "date": "2026-10-22 16:30",
+      "body": "Pour info, un joli message de la part des participants de jeudi. Rien à faire de ton côté.\n\n---------- Message transféré ----------\nDe : Nadia Benali <nadia.benali@collectif-pousses.example>\n\nBonjour à toute l'équipe,\n\nUn grand merci pour l'accueil de notre atelier jeudi dernier. Les participants ont adoré le lieu, la lumière de la grande salle et le café. Plusieurs d'entre eux m'ont dit qu'ils reviendraient volontiers pour d'autres événements.\n\nMerci encore et à bientôt,\nNadia Benali",
+      "justification": "A forwarded thank-you note that is pure information, so no reply is needed."
+    }
+  ]
+}

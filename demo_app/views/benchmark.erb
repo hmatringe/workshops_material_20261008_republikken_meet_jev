@@ -1,0 +1,215 @@
+<% defs = {
+  "items" => { title: "Items", one: "How many records the scorer answered.", formula: nil,
+    words: "A full run covers every usable record of the dataset. A partial run is a setup check, not a result.",
+    here: "Inbox has 326 usable records, trips 324 (after the audits rejected a few)." },
+  "accuracy" => { title: "Accuracy", one: "The share of records where the decision matches the label.",
+    formula: "accuracy = <i>right decisions</i> / <i>N</i>",
+    words: "A decision is \"positive\" when the stated probability is 0.5 or more. Count the records where that decision equals the label, divide by the number of records <i>N</i>.",
+    here: "It ignores how sure the scorer was: a 0.51 and a 0.99 count the same. Two scorers can share an accuracy and differ completely on Brier and ECE." },
+  "f1" => { title: "F1 score", one: "The balance between precision and recall on the positive class.",
+    formula: "F1 = 2 × <i>precision</i> × <i>recall</i> / (<i>precision</i> + <i>recall</i>)",
+    words: "Precision: when the scorer says positive, how often it is right. Recall: of all the real positives, how many it found. F1 is their harmonic mean, 1 is perfect.",
+    here: "A scorer that answers the same thing to everything can keep a decent accuracy and fall to an F1 near 0. That is what Qwen3-0.6B does on the emails." },
+  "brier" => { title: "Brier score", one: "The average squared error of the probability, counting both wrong answers and misplaced confidence.",
+    formula: "Brier = mean of (<i>p</i> − <i>y</i>)<sup>2</sup> over all records",
+    words: "For each record, take the stated probability <i>p</i>, and <i>y</i>, which is 1 if the record really is positive and 0 if not. Square the difference. Average over all records.",
+    here: "0 is perfect. Saying 0.5 everywhere scores 0.25. Saying 0.97 for a record that is not positive costs 0.94 on that record alone. Lower is better." },
+  "ece" => { title: "Expected Calibration Error", one: "How closely the probabilities a scorer states match how often it is actually right.",
+    formula: "ECE = Σ<sub>bins</sub> (<i>n</i><sub>bin</sub> / <i>N</i>) × | mean stated <i>p</i> − observed frequency |",
+    words: "Group the records into ten bins by stated probability: 0 to 0.1, 0.1 to 0.2, and so on. In each bin, compare the average stated probability with the share of records that really are positive. Average the gaps, each bin weighted by how many records it holds.",
+    here: "0 is perfect. If the records stated around 0.70 turn out positive 0.52 of the time, that bin has a gap of 0.18. An ECE of 0.06 means the probabilities mean what they say; 0.18 means they do not, even when the decisions are right." },
+  "zone" => { title: "In the 0.40 to 0.60 zone", one: "The share of records the scorer declared uncertain.",
+    formula: "records with 0.40 ≤ <i>p</i> ≤ 0.60, divided by <i>N</i>",
+    words: "This is where a human-review band sits in a product: the app does not decide, it asks a person.",
+    here: "A scorer that puts nothing there never doubts, whatever its accuracy. A calibrated scorer sends its real coin flips there." },
+  "zone_acc" => { title: "Accuracy in the zone", one: "How often the scorer is right on the records it declared uncertain.",
+    formula: nil,
+    words: "Accuracy computed only on the records with a stated probability between 0.40 and 0.60.",
+    here: "Near 50% is what calibration predicts: those were real coin flips. Much higher means it doubted for nothing; much lower means its doubts hid errors." },
+  "difficulty" => { title: "Accuracy per difficulty", one: "Accuracy on the records of one difficulty tier.",
+    formula: nil,
+    words: "Easy: obvious in one glance. Medium: a human has to read. Hard: misleading signals of the opposite class, still decidable in one sentence. The tiers were set when the records were written, then checked by the blind auditors.",
+    here: "A scorer that drops on hard reads the way a human does. A flat line across tiers means it is not reading the difficulty at all." },
+  "median_ms" => { title: "Median latency", one: "Time per record, the middle value.",
+    formula: nil,
+    words: "Half the records took less, half took more.",
+    here: "For Jev it is the latency of one call divided by the ten records in the call: the batch is fast, not one record alone. For the local models it is one forward pass on this laptop." },
+  "p95_ms" => { title: "p95 latency", one: "Time per record, the value under which 95% of records fall.",
+    formula: nil,
+    words: "The slow tail: one record in twenty takes longer than this.",
+    here: "The number a product would wait for, not the median." },
+  "total" => { title: "Total time", one: "Wall-clock time of the whole run, from the run log.", formula: nil,
+    words: "The time between the first and the last record, as measured by benchmark.rb and written at the end of results/<run>.log. Jev answers 10 records per call, so its total is the batch pace; the others answer one record per call.",
+    here: "The number to compare with the median per record: a scorer can be slow per record and still fast overall, or the reverse." },
+  "cost" => { title: "Cost", one: "What the full run cost, in US dollars.",
+    formula: "cost = <i>input tokens</i> × price + <i>output tokens</i> × price",
+    words: "From the tokens billed by the provider, at list price. Jev bills input only.",
+    here: "Local models cost nothing per call, and a laptop to run them." },
+  "disagree" => { title: "Auditor disagreement", one: "How often the blind auditor answered differently from the label, per difficulty tier.",
+    formula: "disagreement = <i>records where auditor ≠ label</i> / <i>records in the tier</i>",
+    words: "The auditor saw the record and the definitions, never the label. Three auditors from two model families read every record.",
+    here: "A disagreement that grows with difficulty says the tiers mean something. A high disagreement on easy says the record missed its brief: those records were rejected." },
+  "confidence" => { title: "Mean confidence", one: "The average confidence the auditor attached to its own answers.",
+    formula: nil,
+    words: "Each auditor was asked how sure it was, from 0.5 to 1.",
+    here: "A value that never moves, 1.00 on every record including the wrong ones, is a reflex, not a confidence. Sonnet and Opus lower theirs on exactly the disputed records; Gemma does not." }
+} %>
+<p class="hint">Reads <code>benchmark/results/*.csv</code> on every load. Run a scorer in the terminal, refresh this page. Same prompt for every scorer, decision threshold 0.5.</p>
+
+<% %w[inbox trips].each do |ds| %>
+  <% q = @quality[ds]; rows = @summary[ds] %>
+  <section class="bench">
+    <h2><%= ds == 'inbox' ? 'Inbox triage: is this message unsolicited?' : 'Trips: is this a business trip?' %></h2>
+
+    <div class="cols">
+      <div>
+        <h3>The dataset</h3>
+        <table>
+          <tr><th></th><th>easy</th><th>medium</th><th>hard</th><th>total</th></tr>
+          <% q[:cells].each do |c| %>
+            <tr><td><%= c[:label] %></td><% c[:counts].each do |n| %><td class="p"><%= n %></td><% end %><td class="p"><%= c[:counts].sum %></td></tr>
+          <% end %>
+        </table>
+        <p class="meta"><%= q[:rows] %> generated, <%= q[:usable] %> usable (<%= q[:status].sort.map { |k, v| "#{k} #{v}" }.join(', ') %>). Languages: <%= q[:languages].sort.map { |k, v| "#{k} #{v}" }.join(', ') %>. Written label-first by Claude Sonnet 5.5, then audited blind.</p>
+      </div>
+      <div>
+        <h3>Blind auditors: disagreement with the label</h3>
+        <table>
+          <tr><th>auditor</th><th data-def="items">items</th><th data-def="disagree">easy</th><th data-def="disagree">medium</th><th data-def="disagree">hard</th><th data-def="confidence">mean confidence</th></tr>
+          <% q[:auditors].each do |a| %>
+            <tr><td><%= a[:name] %></td><td class="p"><%= a[:items] %></td>
+              <% %w[easy medium hard].each do |d| %><td class="p"><%= Metrics.pct(a[:disagree][d]) %></td><% end %>
+              <td class="p"><%= a[:mean_confidence] ? format('%.2f', a[:mean_confidence]) : 'n/a' %></td></tr>
+          <% end %>
+        </table>
+        <p class="meta">A disagreement that grows with the difficulty says the tiers mean something. A confidence that never moves says the auditor has none.</p>
+      </div>
+    </div>
+
+    <h3>Scorers</h3>
+    <% if rows.empty? %>
+      <p class="hint">No run yet. <code>ruby benchmark.rb --dataset=<%= ds %> --scorer=jev</code></p>
+    <% else %>
+      <table class="sortable">
+        <tr><th>scorer</th><th data-def="items">items</th><th data-def="accuracy">accuracy</th><th data-def="f1">F1</th><th data-def="brier">Brier</th><th data-def="ece">ECE</th><th data-def="zone">in 0.40-0.60</th><th data-def="zone_acc">acc. in zone</th><th data-def="difficulty">easy</th><th data-def="difficulty">medium</th><th data-def="difficulty">hard</th><th data-def="median_ms">median ms</th><th data-def="p95_ms">p95 ms</th><th data-def="total">total time</th><th data-def="cost">cost USD</th></tr>
+        <% rows.each_with_index do |r, idx| m = r[:metrics] %>
+          <tr class="<%= r[:partial] ? 'partial' : '' %>" data-order="<%= idx %>">
+            <td><b><%= r[:name] %></b><% if r[:partial] %> <span class="hint">partial run</span><% end %><br><span class="hint"><%= r[:file] %></span></td>
+            <td class="p"><%= m[:n] %></td>
+            <td class="p"><b><%= Metrics.pct(m[:accuracy]) %></b></td>
+            <td class="p"><%= format('%.3f', m[:f1]) %></td>
+            <td class="p"><%= format('%.3f', m[:brier]) %></td>
+            <td class="p"><b><%= format('%.3f', m[:ece]) %></b></td>
+            <td class="p"><b><%= Metrics.pct(m[:zone_share]) %></b></td>
+            <td class="p"><%= Metrics.pct(m[:zone_acc]) %></td>
+            <% %w[easy medium hard].each do |d| %><td class="p"><%= Metrics.pct(m[:per_diff][d]) %></td><% end %>
+            <td class="p"><%= m[:median_ms] %></td>
+            <td class="p"><%= m[:p95_ms] %></td>
+            <td class="p"><%= r[:elapsed] ? format('%dm%02ds', r[:elapsed] / 60, r[:elapsed] % 60) : 'n/a' %></td>
+            <td class="p"><%= format('%.4f', m[:cost]) %></td>
+          </tr>
+        <% end %>
+      </table>
+      <% rows.select { |r| r[:stability] }.each do |r| s = r[:stability] %>
+        <p class="meta">Stability, <%= r[:name] %>: <%= s[:passes] %> passes on <%= s[:items] %> items, mean SD of p <%= format('%.4f', s[:mean_sd]) %>, decision flipped on <%= s[:flips] %> items (<%= Metrics.pct(s[:flips].to_f / s[:items]) %>).</p>
+      <% end %>
+      <div class="diagrams">
+        <% rows.reject { |r| r[:partial] }.each do |r| %>
+          <div><%= Metrics.reliability_svg(r[:metrics], r[:name], positive: ds == 'inbox' ? 'spam' : 'business') %></div>
+        <% end %>
+      </div>
+    <% end %>
+  </section>
+<% end %>
+
+<p class="meta">Reading the columns: accuracy is being right at 0.5. Brier is the mean squared error of the probability. ECE is the average gap between stated probability and observed frequency over 10 bins, 0 is perfect. The 0.40 to 0.60 zone is where a human-review band would sit: a calibrated scorer is near 50% right there and sends its doubts there; an overconfident one is never there. Reliability diagrams, top panel: for the items where the scorer said 30 to 40%, the bar is how many really were; on the diagonal, the probability is honest. Bottom panel: how many items the scorer put in each bin, so you see whether it ever hesitates.</p>
+
+<div id="tip" hidden>
+  <div class="tip-head"><span id="tip-title"></span><button type="button" id="tip-close" aria-label="close">×</button></div>
+  <p id="tip-one"></p>
+  <div id="tip-formula" class="formula"></div>
+  <p id="tip-words"></p>
+  <p id="tip-here" class="tip-here"></p>
+  <a id="tip-search" target="_blank" rel="noopener">search the web</a>
+</div>
+<script>
+  const defs = <%= defs.to_json %>;
+  const tip = document.getElementById('tip');
+  function show(th) {
+    const d = defs[th.dataset.def]; if (!d) return;
+    document.getElementById('tip-title').textContent = d.title;
+    document.getElementById('tip-one').textContent = d.one;
+    const f = document.getElementById('tip-formula'); f.innerHTML = d.formula || ''; f.hidden = !d.formula;
+    document.getElementById('tip-words').innerHTML = d.words;
+    document.getElementById('tip-here').textContent = d.here;
+    document.getElementById('tip-search').href = 'https://www.google.com/search?q=' + encodeURIComponent(d.title + ' classifier');
+    const r = th.getBoundingClientRect();
+    tip.hidden = false;
+    tip.style.left = Math.max(16, Math.min(r.left + window.scrollX, window.scrollX + document.documentElement.clientWidth - tip.offsetWidth - 16)) + 'px';
+    tip.style.top = (r.bottom + window.scrollY + 8) + 'px';
+  }
+  document.querySelectorAll('th[data-def]').forEach(th => {
+    th.classList.add('has-def');
+    th.addEventListener('click', e => { e.stopPropagation(); show(th); });
+  });
+  tip.addEventListener('click', e => e.stopPropagation());
+  document.getElementById('tip-close').onclick = () => { tip.hidden = true; };
+  document.addEventListener('click', () => { tip.hidden = true; });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') tip.hidden = true; });
+
+  // Sorting: the small arrow in each header sorts that column, a second click reverses, the arrow on
+  // "scorer" restores the editorial order. The header label itself still opens the definition.
+  function cellValue(td) {
+    const s = td.textContent.trim();
+    const t = s.match(/^(\d+)m(\d+)s$/); if (t) return +t[1] * 60 + +t[2];
+    const n = parseFloat(s.replace('%', '')); return isNaN(n) ? -Infinity : n;
+  }
+  document.querySelectorAll('table.sortable').forEach(table => {
+    const headers = Array.from(table.querySelectorAll('tr:first-child th'));
+    const body = table.querySelector('tr:first-child').parentNode;
+    headers.forEach((th, col) => {
+      const arrow = document.createElement('span');
+      arrow.className = col === 0 ? 'sort reset' : 'sort'; arrow.textContent = col === 0 ? 'reset default sort order' : '⇅'; arrow.title = col === 0 ? 'back to the editorial order' : 'sort by this column';
+      arrow.addEventListener('click', e => {
+        e.stopPropagation(); tip.hidden = true;
+        const rows = Array.from(body.querySelectorAll('tr[data-order]'));
+        headers.forEach(h => { const a = h.querySelector('.sort'); if (a && h !== th && h !== headers[0]) { a.textContent = '⇅'; a.dataset.dir = ''; } });
+        if (col === 0) { rows.sort((a, b) => +a.dataset.order - +b.dataset.order); }
+        else {
+          const dir = arrow.dataset.dir === 'desc' ? 'asc' : 'desc';
+          arrow.dataset.dir = dir; arrow.textContent = dir === 'desc' ? '▼' : '▲';
+          rows.sort((a, b) => { const x = cellValue(a.children[col]), y = cellValue(b.children[col]); return dir === 'desc' ? y - x : x - y; });
+        }
+        rows.forEach(r => body.appendChild(r));
+      });
+      th.appendChild(arrow);
+    });
+  });
+</script>
+<style>
+  th.has-def { cursor: pointer; }
+  #tip { position: absolute; z-index: 10; width: 620px; max-width: calc(100vw - 32px); background: white; color: var(--ink); border: 1px solid var(--line); padding: 14px 18px 12px; border-radius: 10px; font-size: 15px; line-height: 1.5; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+  #tip p { margin: 6px 0; }
+  .tip-head { display: flex; justify-content: space-between; align-items: center; font-weight: 700; font-size: 16px; margin-bottom: 4px; }
+  #tip-close { background: none; color: var(--muted); font-size: 20px; padding: 0 4px; line-height: 1; }
+  #tip-one { font-weight: 600; }
+  .formula { font-family: "Times New Roman", Georgia, serif; font-size: 17px; background: #f3f5f8; border-radius: 6px; padding: 8px 12px; margin: 8px 0; }
+  .formula i { font-style: italic; }
+  .tip-here { color: #374151; border-left: 3px solid var(--bar); padding-left: 10px; }
+  #tip-search { font-size: 12px; color: var(--muted); }
+</style>
+
+<style>
+  .bench { margin-bottom: 36px; }
+  th .sort { display: block; cursor: pointer; color: #9aa5b1; font-size: 11px; line-height: 14px; user-select: none; font-weight: 400; }
+  th .sort:hover { color: var(--ink); }
+  th .sort.reset { text-decoration: underline; white-space: nowrap; }
+  h3 { font-size: 14px; margin: 14px 0 6px; }
+  .diagrams { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 12px; }
+  .diagrams svg { width: 100%; height: auto; display: block; }
+  @media (max-width: 1100px) { .diagrams { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 700px) { .diagrams { grid-template-columns: 1fr; } }
+  .diagrams div { background: white; border: 1px solid var(--line); border-radius: 8px; padding: 6px; }
+  tr.partial td { color: var(--muted); }
+  code { font: 12px ui-monospace, Menlo, monospace; background: #eef1f5; padding: 1px 4px; border-radius: 3px; }
+</style>

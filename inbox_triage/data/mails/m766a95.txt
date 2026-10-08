@@ -1,0 +1,19 @@
+From: Roomly Bookings <notifications@roomly-booking.example>
+Subject: Your booking confirmation and sign-in link
+Date: 2026-09-30 13:30
+
+Hello,
+
+This is an automatic message from Roomly, the booking tool used by Lykkegade Cowork.
+
+Your reservation has been confirmed:
+Room: Pelikan
+Date: 7 October 2026, 14:00 to 16:00
+Booked by: front desk (shared account)
+
+To view or edit this booking, sign in with the link below. The link is valid for 24 hours.
+https://roomly-booking.example/signin/token/8f3a21
+
+If you did not make this booking, you can ignore this message. Please do not reply, as this mailbox is not monitored.
+
+Roomly, booking made simple.

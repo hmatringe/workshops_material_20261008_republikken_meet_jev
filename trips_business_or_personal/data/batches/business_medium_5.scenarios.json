@@ -1,0 +1,72 @@
+[
+  {
+    "business": true,
+    "purpose": "conference",
+    "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city",
+    "language": "en",
+    "note_style": "sentence"
+  },
+  {
+    "business": true,
+    "purpose": "airport_work",
+    "situation": "home or office to the airport or the central station for a work trip, or the return",
+    "language": "fr",
+    "note_style": "sentence"
+  },
+  {
+    "business": true,
+    "purpose": "site_visit",
+    "situation": "a construction site, a store opening, a property, a customer installation",
+    "language": "en",
+    "note_style": "short"
+  },
+  {
+    "business": true,
+    "purpose": "business_meal",
+    "situation": "a restaurant with a client or a partner, lunch or dinner, sometimes evening or weekend",
+    "language": "en",
+    "note_style": "words"
+  },
+  {
+    "business": true,
+    "purpose": "client_pickup",
+    "situation": "picking up a visiting client or candidate at the airport, station or hotel",
+    "language": "en",
+    "note_style": "words"
+  },
+  {
+    "business": true,
+    "purpose": "rental_abroad",
+    "situation": "a rental car between a hotel and a client or a venue in another city",
+    "language": "da",
+    "note_style": "short"
+  },
+  {
+    "business": true,
+    "purpose": "company_errand",
+    "situation": "bank, post office, customs, a hardware store for the company, a delivery to a customer",
+    "language": "da",
+    "note_style": "none"
+  },
+  {
+    "business": true,
+    "purpose": "client_meeting",
+    "situation": "office or home to a client's office, weekday, working hours",
+    "language": "en",
+    "note_style": "short"
+  },
+  {
+    "business": true,
+    "purpose": "prospect_meeting",
+    "situation": "a café or the prospect's office, first meeting, note may name a person",
+    "language": "fr",
+    "note_style": "none"
+  },
+  {
+    "business": true,
+    "purpose": "supplier_visit",
+    "situation": "to a supplier, a printer, a warehouse, a workshop",
+    "language": "en",
+    "note_style": "none"
+  }
+]

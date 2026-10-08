@@ -1,0 +1,5 @@
+From: Ida Mortensen <ida@mortensen-film.example>
+Subject: Faktura og kort
+Date: 2026-10-04 22:47
+
+Hej, mit kort blev afvist ved betalingen i dag, men beløbet er trukket fra min konto. Kan I tjekke det og sende en kvittering? Og tilføj gerne mit CVR-nummer 87654321 til fakturaen. Mvh Ida

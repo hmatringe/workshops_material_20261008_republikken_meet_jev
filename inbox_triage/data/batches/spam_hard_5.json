@@ -1,0 +1,189 @@
+{
+ "spam": true,
+ "difficulty": "hard",
+ "generator_model": "claude-sonnet-5-5",
+ "scenarios": [
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+   "language": "en",
+   "length": "medium",
+   "style": "casual tone, first names, emojis allowed",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "SEO, backlink or guest-post offer",
+   "language": "da",
+   "length": "medium",
+   "style": "a reply in a thread (Re:), quoting one earlier line",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+   "language": "da",
+   "length": "short",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "scam: investment, prize, inheritance, crypto",
+   "language": "en",
+   "length": "long",
+   "style": "written from a phone, signature and a couple of typos",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+   "language": "fr",
+   "length": "medium",
+   "style": "institutional sender, formal tone",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "recruitment or staffing blast",
+   "language": "en",
+   "length": "short",
+   "style": "sent on a weekend or late at night",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "fake partnership or \"we met at your event\" with no substance",
+   "language": "en",
+   "length": "short",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+   "language": "en",
+   "length": "long",
+   "style": "with an amount in DKK or EUR",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "SEO, backlink or guest-post offer",
+   "language": "en",
+   "length": "medium",
+   "style": "casual tone, first names, emojis allowed",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+   "language": "fr",
+   "length": "long",
+   "style": "a reply in a thread (Re:), quoting one earlier line",
+   "also": null
+  }
+ ],
+ "mails": [
+  {
+   "from": "Zoe Albright <zoe@pixelpantry.example>",
+   "subject": "your members' branding, sorted 🎨",
+   "date": "2026-09-10 11:02",
+   "body": "Hi Kanalhuset folks! 👋\n\nZoe from Pixel Pantry here. I've been following some of the startups that work out of your space and honestly, a lot of them could use a fresh logo or a cleaner pitch deck 😅\n\nWe're a small design studio, flat price of 600 EUR for a brand starter kit, ready in a week. Would you be up for mentioning us to your members? We'd happily give you a cut for every referral 💸\n\nLet me know and I'll send some samples!\n\nZoe ✨",
+   "justification": "Cold outreach from a design studio the space never contacted, offering a referral cut for promoting its services."
+  },
+  {
+   "from": "Frederik Skov <frederik@linkvaerk.example>",
+   "subject": "Re: Gæsteindlæg på Kanalhuset",
+   "date": "2026-09-24 13:17",
+   "body": "Hej igen,\n\n> Vi skriver et gæsteindlæg til jeres blog, og I får gratis omtale.\n\nJeg følger op på min mail fra sidste uge, for jeg har ikke hørt fra jer. Vi har et færdigt indlæg om fleksible kontormiljøer, som vi gerne vil have på jeres side med to links til vores kunders hjemmesider. Hvis I ikke har tid til at skrive selv, kan vi lægge det ind for 1.200 kr.\n\nMvh\nFrederik Skov\nLinkværk",
+   "justification": "The 'Re:' and 'hear from you' wording suggest a thread, but the space never answered; it is a paid backlink placement offer from a stranger."
+  },
+  {
+   "from": "Kanalhuset Betaling <betaling@kanalhuset-mitkort.example>",
+   "subject": "Din faktura er forfalden",
+   "date": "2026-10-05 08:14",
+   "body": "Hej,\n\nVi kan ikke trække betalingen for dit Kanalhuset-medlemskab. Opdater dit kort inden i morgen for at undgå lukning af adgangskort: https://kanalhuset-mitkort.example/opdater\n\nMvh\nKanalhuset Betaling",
+   "justification": "A phishing message imitating the space's billing, sent to the space itself from a lookalike domain, urging a card update on an external link."
+  },
+  {
+   "from": "Victor Lindqvist <victor.lindqvist@aurum-estate.example>",
+   "subject": "Estate matter concerning Mr. Henrik Kanal, deceased",
+   "date": "2026-10-03 06:31",
+   "body": "Good day,\n\nSorry for the typos, writing this from my phone while travelling. My name is Victor Lindqvist, I am a solicitor handling the estate of the late Mr. Henrik Kanal, who passed away without any family. He ran a small company in Copenhagen and his records show a connection to a business address matching your space, Kanalhuset.\n\nThe estate holds 4.7 million EUR in a dormant account, and under local law the funds will go to the state unless a beneficiary is named by the end of this year. I have reviewed your organisation and believe your community could be named as a beneficiary, which would allow the money to be used for the benefit of your members.\n\nThis is entirely legal and confidential. I only need your help to present the claim: I would ask for a small processing fee of 1,800 EUR, which will be deducted from your share afterwards, and a copy of the director's ID and the company bank details.\n\nTime is very short, so please reply by Friday. I can arrange a video meeting if you doubt me, but I must tell you the matter is delicate and I would ask you not to discuss it with others.\n\nThank you in advance and God bless.\n\nVictor Lindqvist\nSolicitor, Aurum Estate Chambers\nSent from my iPhone",
+   "justification": "A classic inheritance scam with an advance fee and a request for bank details, using a made-up link to the space's address."
+  },
+  {
+   "from": "Secrétariat général, Forum des Entreprises du Nord <secretariat@forum-entreprises-nord.example>",
+   "subject": "Convention annuelle du Forum, inscriptions ouvertes",
+   "date": "2026-10-09 09:40",
+   "body": "Madame, Monsieur,\n\nLe Forum des Entreprises du Nord a l'honneur de vous convier à sa convention annuelle, qui se tiendra le 19 novembre à Copenhague. Le programme comprend des conférences sur l'innovation, des ateliers et un dîner de gala.\n\nLes tarifs d'inscription sont de 290 € par participant, et de 750 € pour une table de trois personnes. Les organisations de votre secteur peuvent également réserver un stand d'exposition.\n\nLe programme complet et les modalités d'inscription sont disponibles sur https://forum-entreprises-nord.example/convention.\n\nVeuillez agréer, Madame, Monsieur, l'expression de notre considération distinguée.\n\nLe Secrétariat général",
+   "justification": "A formal mass invitation to a paid conference, sent to the space without any subscription or prior contact."
+  },
+  {
+   "from": "Ida Brandt <ida@sparkhire-people.example>",
+   "subject": "Dev roles, open now",
+   "date": "2026-10-24 22:55",
+   "body": "Hi, hope you don't mind a Saturday night note. We have 12 open dev and design roles at Copenhagen start-ups. Could you pass the list to your members? https://sparkhire-people.example/roles\n\nIda, Sparkhire",
+   "justification": "A recruitment blast asking the space to circulate job ads, from an agency it has never dealt with."
+  },
+  {
+   "from": "Noah Whitfield <noah@greystone-collab.example>",
+   "subject": "Collaboration idea",
+   "date": "2026-09-30 14:12",
+   "body": "Hello,\n\nWe met briefly at your event and I wanted to follow up. Greystone Collab would like to partner with Kanalhuset. Can we schedule a call?\n\nNoah Whitfield",
+   "justification": "No event, date or topic from the supposed meeting is named, and the sender is an unknown organisation with no existing relationship."
+  },
+  {
+   "from": "Rebecca Haldane <rebecca.haldane@quantifyops.example>",
+   "subject": "Outsourced bookkeeping for Kanalhuset, 20 percent less",
+   "date": "2026-10-15 09:05",
+   "body": "Dear Kanalhuset team,\n\nMy name is Rebecca Haldane and I lead partnerships at QuantifyOps, a finance operations provider working with coworking and flexible office operators across Europe.\n\nWe understand that a space of your type typically manages dozens of monthly memberships, day passes, meeting room bookings and event rentals, each with different VAT treatment. Reconciling these by hand takes time that would be better spent on your community.\n\nOur service covers:\n\n- Automated invoicing for memberships and day passes\n- Reconciliation of card, bank transfer and booking-platform payments\n- Monthly VAT reporting and year-end preparation\n- A dedicated accountant reachable during Danish working hours\n\nPricing starts at 1,150 EUR per month for up to 100 active members, with a one-off onboarding fee of 900 EUR. Right now we are waiving the onboarding fee for operators who sign before 31 October. Our existing clients report saving an average of 14 hours a month.\n\nI would be pleased to arrange a 30-minute call with one of our senior accountants, or to share anonymised examples of reports we produce for similar spaces. We can also prepare a tailored quote after a brief look at your current setup.\n\nThank you for your time and consideration.\n\nBest regards,\nRebecca Haldane\nHead of Partnerships, QuantifyOps\nhttps://quantifyops.example",
+   "justification": "Cold sales outreach for outsourced bookkeeping, tailored to coworking operations but sent by a vendor the space never contacted."
+  },
+  {
+   "from": "Theo Marsh <theo@summitlinks.example>",
+   "subject": "loved your community page 🙌",
+   "date": "2026-10-19 12:20",
+   "body": "Hey team! 😊\n\nTheo here from Summitlinks. I read through the Kanalhuset community page and loved it, especially how you highlight member stories. We work with sites like yours to get more traffic and I'd love to swap links or pay for a mention on one of your pages (we pay 150 EUR per link, no strings).\n\nIf that's interesting just send me the page you'd like to use 🚀\n\nCheers,\nTheo",
+   "justification": "A paid link-placement offer from a stranger who flatters the space's page without any real relationship."
+  },
+  {
+   "from": "Mathilde Aubry <mathilde.aubry@kanalhuset-factures.example>",
+   "subject": "Re: Facture 2026-1137 – Kanalhuset",
+   "date": "2026-10-11 07:46",
+   "body": "Bonjour,\n\n> Veuillez trouver ci-joint la facture n° 2026-1137 pour la location de salle du mois de septembre.\n\nSuite à notre précédent message, nous n'avons toujours pas reçu votre paiement. Le montant dû est de 1 380 € et il est exigible depuis le 30 septembre. Sans règlement sous 48 heures, des pénalités de retard de 10 % seront appliquées et le dossier sera transmis à notre service de recouvrement.\n\nPour consulter la facture et régler en ligne, connectez-vous avec l'adresse e-mail de votre compte Kanalhuset sur :\nhttps://kanalhuset-factures.example/facture/2026-1137\n\nSi vous avez déjà réglé cette facture, merci de ne pas tenir compte de ce rappel. Dans le cas contraire, nous vous remercions de régler au plus vite pour éviter toute procédure.\n\nCordialement,\nMathilde Aubry\nService comptabilité clients",
+   "justification": "A fake payment reminder in an invented 'Re:' thread, from a lookalike domain, for a room rental invoice the space never received, with a login link as the trap."
+  }
+ ]
+}

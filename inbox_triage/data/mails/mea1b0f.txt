@@ -1,0 +1,8 @@
+From: Jonas Pike <j.pike@nordic-bilpay.example>
+Subject: Unpaid invoice 4471
+Date: 2026-10-05 07:52
+
+Hi, we still dont have payment for invoice 4471 (3,980 DKK) for the meeting room. Pls check and pay here asap https://secure-invoice.nordic-bilpay.example/4471 or service will be paused.
+Thx
+Jonas
+Sent from my iPhone

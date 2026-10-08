@@ -1,0 +1,189 @@
+{
+ "spam": true,
+ "difficulty": "hard",
+ "generator_model": "claude-sonnet-5-5",
+ "scenarios": [
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "recruitment or staffing blast",
+   "language": "en",
+   "length": "long",
+   "style": "sent on a weekend or late at night",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "fake partnership or \"we met at your event\" with no substance",
+   "language": "en",
+   "length": "short",
+   "style": "institutional sender, formal tone",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+   "language": "da",
+   "length": "long",
+   "style": "written from a phone, signature and a couple of typos",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "SEO, backlink or guest-post offer",
+   "language": "fr",
+   "length": "medium",
+   "style": "casual tone, first names, emojis allowed",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+   "language": "en",
+   "length": "medium",
+   "style": "a reply in a thread (Re:), quoting one earlier line",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "scam: investment, prize, inheritance, crypto",
+   "language": "da",
+   "length": "medium",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+   "language": "en",
+   "length": "short",
+   "style": "plain and neutral, no particular style",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "recruitment or staffing blast",
+   "language": "en",
+   "length": "long",
+   "style": "with an amount in DKK or EUR",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "fake partnership or \"we met at your event\" with no substance",
+   "language": "en",
+   "length": "medium",
+   "style": "sent on a weekend or late at night",
+   "also": null
+  },
+  {
+   "spam": true,
+   "category": "spam",
+   "urgency": 1,
+   "needs_human": false,
+   "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+   "language": "fr",
+   "length": "short",
+   "style": "institutional sender, formal tone",
+   "also": null
+  }
+ ],
+ "mails": [
+  {
+   "from": "Nadia Okafor <nadia.okafor@crestline-talent.example>",
+   "subject": "Hiring across Copenhagen: roles your members may fit",
+   "date": "2026-09-19 22:18",
+   "body": "Hi Kanalhuset team,\n\nI hope your weekend is going well. I am writing late because I wanted to get this to you before Monday.\n\nI am a senior recruiter at Crestline Talent, and we are currently building teams for several scale-ups in the Copenhagen area. Many of the people in coworking spaces like yours are exactly the profile our clients look for: independent, technical, used to moving fast.\n\nOpen roles this month include:\n\n- Senior backend engineer (Go), hybrid\n- Product designer, fully remote within the EU\n- Customer success lead, Danish and English\n- Finance manager, part-time\n\nWe would be very grateful if you could forward this note to your members, or share it on your community board. We also keep a confidential talent pool, and anyone interested can simply send a CV to the address below.\n\nIf it is easier, I can send a one-page PDF to print for your noticeboard.\n\nThank you for your help, and have a lovely Sunday.\n\nWarm regards,\nNadia Okafor\nSenior Recruiter, Crestline Talent\nhttps://crestline-talent.example/openroles",
+   "justification": "A recruitment blast from a staffing firm unknown to the space, asking it to forward job ads to members, with no prior relationship and nothing to answer."
+  },
+  {
+   "from": "Office of Public Affairs, Nordic Innovation Compact <affairs@nordic-innovation-compact.example>",
+   "subject": "Partnership following the Copenhagen Founders Forum",
+   "date": "2026-10-06 10:00",
+   "body": "Dear Sir or Madam,\n\nFollowing our mutual participation in the recent Copenhagen Founders Forum, the Nordic Innovation Compact wishes to propose a strategic alliance with your organisation. Accreditation as a Compact Partner is available upon payment of the annual membership contribution, details enclosed at https://nordic-innovation-compact.example/accreditation.\n\nYours faithfully,\nOffice of Public Affairs",
+   "justification": "A formal 'following our mutual participation' note with no concrete event detail, leading to a paid accreditation scheme from an unknown body."
+  },
+  {
+   "from": "Henrik Lund <henrik@salgsmotor.example>",
+   "subject": "Flere bookinger til jeres mødelokaler?",
+   "date": "2026-09-25 17:36",
+   "body": "Hej Kanalhuset,\n\nSkriver kort fra telefonen, så undskyld hvis der er en tastefejl eller to.\n\nJeg hedder Henrik og arbejder hos Salgsmotor, hvor vi hjælper coworking-miljøer med at få flere henvendelser. Jeg har kigget på jeres hjemmeside og kan se, at I har både mødelokaler og faste pladser, men at bookingformularen er ret gemt væk. Det koster typisk jer en del henvendelser hver måned.\n\nVi tilbyder en færdig pakke:\n\n- et nyt bookingmodul, der kan sættes op på en dag\n- automatiske mails til besøgende, der ikke bookede\n- en månedlig rapport over leads\n\nVi har kørt pakken for flere virksomheder i Norden, og de fleste får en stigning i henvendelser inden for de første uger. Jeg kan sende en gratis analyse af jeres side, hvis I svarer på denne mail, eller vi kan tage en kort snak om 15 minutter. Jeg har tid torsdag eller fredag eftermiddag.\n\nPrisen starter ved 1.900 kr. om måneden, og der er ingen binding de første tre måneder.\n\nDet var det hele. Tak for jeres tid!\n\nMvh\nHenrik Lund\nSalgsrådgiver, Salgsmotor\nSendt fra min iPhone",
+   "justification": "Cold outreach selling a lead-generation package to the space, referencing its website to sound relevant, from a company it never contacted."
+  },
+  {
+   "from": "Jules Tanguy <jules@pagerank-cafe.example>",
+   "subject": "Un petit lien pour Kanalhuset ? ☕",
+   "date": "2026-09-11 12:27",
+   "body": "Salut l'équipe ! 👋\n\nJe suis tombé sur votre blog Kanalhuset hier, super sympa, surtout la page sur la vie de la communauté. Je gère un site sur le télétravail et j'aimerais vous proposer un échange : j'écris un article invité pour vous, et vous placez un lien vers notre guide du travail à distance. Sinon, on peut aussi vous acheter un lien dans un de vos anciens articles (80 € la mise en place).\n\nDites-moi si ça vous tente ! ✌️\n\nJules",
+   "justification": "A link-exchange and paid backlink proposal from a stranger who flatters the blog without any real relationship."
+  },
+  {
+   "from": "Gareth Pryce <gareth.pryce@parcelhub-notice.example>",
+   "subject": "Re: Delivery attempt for Kanalhuset front desk",
+   "date": "2026-10-12 15:22",
+   "body": "Hello,\n\n> Your parcel could not be delivered to Kanalhuset reception, no one was available.\n\nAs a follow-up to the notice above, the parcel (ref KH-55291) is held at our depot for 3 days. To rebook delivery and avoid a return fee of 45 DKK, please confirm your address and pay the redelivery charge here: https://parcelhub-notice.example/redeliver/KH-55291\n\nRegards,\nGareth Pryce\nCustomer Service, ParcelHub",
+   "justification": "A fake parcel notice from a lookalike delivery service in a made-up reply thread, pushing the space to pay a redelivery fee through an external link for a parcel it never expected."
+  },
+  {
+   "from": "Mikkel Brandt <mikkel@vindforvalter.example>",
+   "subject": "Gevinst til Kanalhuset: 1,2 mio. kr. venter",
+   "date": "2026-10-20 11:08",
+   "body": "Kære Kanalhuset,\n\nJeres e-mailadresse er blevet udtrukket blandt erhvervsvirksomheder i Hovedstaden til en investeringsbonus på 1.200.000 kr. fra Vindforvalter Fonden.\n\nFor at få udbetalt bonussen skal I blot bekræfte virksomhedens CVR-nummer og betale et administrationsgebyr på 3.500 kr. Gebyret refunderes sammen med bonussen.\n\nSvar hurtigst muligt eller brug linket her: https://vindforvalter.example/udbetaling\n\nMed venlig hilsen\nMikkel Brandt\nKundeservice, Vindforvalter Fonden",
+   "justification": "A prize scam asking for an advance fee, using the space's business identity but offering something nobody entered or requested."
+  },
+  {
+   "from": "Amara Singh <amara@nimbusdesk.example>",
+   "subject": "Invitation: Nimbus Spring Product Day",
+   "date": "2026-10-14 09:03",
+   "body": "Hi, we are launching Nimbus Desk 3.0 on November 5. Join the free live event, register at https://nimbusdesk.example/launch. Teams from shared workspaces are welcome.",
+   "justification": "A mass product-launch invitation from a vendor the space has no relationship with and did not subscribe to."
+  },
+  {
+   "from": "Isabel Fontaine <isabel.fontaine@harborline-staffing.example>",
+   "subject": "Staffing partnership for Kanalhuset members",
+   "date": "2026-09-16 09:30",
+   "body": "Dear Kanalhuset team,\n\nMy name is Isabel Fontaine and I lead the partnerships desk at Harborline Staffing, a Nordic recruitment agency placing temporary and permanent staff across Greater Copenhagen.\n\nWe noticed that Kanalhuset hosts a number of growing start-ups, and these companies often struggle with hiring. We would like to offer your community a simple arrangement.\n\nFor companies in your space, we can provide:\n\n- Vetted temporary staff (reception, admin, event help) from 285 DKK per hour, billed weekly\n- Permanent placements at a fee of 12 percent of the first annual salary, which is below our standard 18 percent\n- A free first month of access to our candidate database for every company that mentions your space\n\nIn return, we simply ask that you list Harborline as a recommended supplier on your member page, and that you mention our offer in your next member newsletter. We would also be glad to cover the cost of a sandwich lunch for one of your community days, up to 2,000 DKK, so that we can present the service in person.\n\nOur current open vacancies are listed here: https://harborline-staffing.example/vacancies\n\nPlease note that our offer is valid until the end of October. I am happy to send our agency profile and references on request.\n\nBest wishes,\nIsabel Fontaine\nHead of Partnerships, Harborline Staffing\nTel +45 5550 0142",
+   "justification": "A staffing agency with no prior contact offers a 'partnership' that is just advertising its recruitment fees and job listings to members."
+  },
+  {
+   "from": "Peter Calloway <peter@oakmere-network.example>",
+   "subject": "Our chat at the Friday event",
+   "date": "2026-10-17 21:14",
+   "body": "Hi,\n\nSorry to write on a Saturday evening, but I wanted to follow up on our chat at the event last Friday. It was great to see what you are building at Kanalhuset.\n\nI represent the Oakmere Network, and I think there is real potential for cooperation. We connect founders with service providers and would like to explore a co-branded programme with you. I would suggest we speak soon.\n\nI am travelling next week, so perhaps send me a few times that suit you. If you prefer, I can send over our standard partner agreement first.\n\nBest,\nPeter Calloway\nOakmere Network",
+   "justification": "The 'chat at the event' is never specified by name, place or person, and the offer is a vague co-branding idea from an organisation the space does not know."
+  },
+  {
+   "from": "Direction commerciale, Axiome Conseil <contact@axiome-conseil.example>",
+   "subject": "Externalisation de votre gestion administrative",
+   "date": "2026-09-29 08:45",
+   "body": "Madame, Monsieur,\n\nAxiome Conseil propose aux espaces de coworking l'externalisation de leur comptabilité et de leur facturation à partir de 390 € par mois. Une brochure est disponible sur demande.\n\nVeuillez agréer nos salutations distinguées.\n\nDirection commerciale",
+   "justification": "A formal cold sales offer for outsourced accounting from a firm the space has never contacted."
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+  "business": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "business": false,
+      "purpose": "family_friends",
+      "situation": "visiting family or friends, a birthday, a dinner at someone's home",
+      "language": "en",
+      "note_style": "short"
+    },
+    {
+      "business": false,
+      "purpose": "leisure_trip",
+      "situation": "a weekend away, a summerhouse, a museum, a concert, a beach",
+      "language": "fr",
+      "note_style": "words"
+    },
+    {
+      "business": false,
+      "purpose": "airport_holiday",
+      "situation": "airport or station for a holiday or a private visit, or the return",
+      "language": "en",
+      "note_style": "short"
+    },
+    {
+      "business": false,
+      "purpose": "restaurant_private",
+      "situation": "a restaurant or café without any work purpose",
+      "language": "fr",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "shopping",
+      "situation": "furniture, clothes, electronics, a gift",
+      "language": "en",
+      "note_style": "words"
+    },
+    {
+      "business": false,
+      "purpose": "school_run",
+      "situation": "dropping or picking up children",
+      "language": "da",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "groceries",
+      "situation": "supermarket, mall, hardware store for home",
+      "language": "en",
+      "note_style": "none"
+    },
+    {
+      "business": false,
+      "purpose": "doctor",
+      "situation": "doctor, dentist, physiotherapist, hospital visit",
+      "language": "en",
+      "note_style": "sentence"
+    },
+    {
+      "business": false,
+      "purpose": "sport",
+      "situation": "gym, swimming, football, running club",
+      "language": "en",
+      "note_style": "sentence"
+    },
+    {
+      "business": false,
+      "purpose": "family_friends",
+      "situation": "visiting family or friends, a birthday, a dinner at someone's home",
+      "language": "da",
+      "note_style": "short"
+    }
+  ],
+  "trips": [
+    {
+      "date": "2026-09-12",
+      "start_time": "18:30",
+      "duration_min": 20,
+      "distance_km": 7.6,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Hos Jonas og Mia, Kay Fiskers Plads 9, 2300 København S",
+      "note": "Jonas bday dinner",
+      "justification": "The note says a birthday dinner at a friend's home on a Saturday evening."
+    },
+    {
+      "date": "2026-09-26",
+      "start_time": "10:30",
+      "duration_min": 45,
+      "distance_km": 46.0,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Kronborg Slot, Kronborg 2C, 3000 Helsingør",
+      "note": "Château Hamlet",
+      "justification": "A Saturday trip to a castle with a sightseeing note is a leisure outing."
+    },
+    {
+      "date": "2026-10-09",
+      "start_time": "16:50",
+      "duration_min": 20,
+      "distance_km": 6.2,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Københavns Hovedbanegård, Bernstorffsgade 16, 1577 København V",
+      "note": "train to Mum's in Odense, back Sun",
+      "justification": "The note says the train is to visit the driver's mother over the weekend, a private visit."
+    },
+    {
+      "date": "2026-10-17",
+      "start_time": "12:45",
+      "duration_min": 17,
+      "distance_km": 5.1,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Café Bang & Jensen, Istedgade 130, 1650 København V",
+      "note": "",
+      "justification": "A Saturday-lunchtime trip from home to a café with no work indication is a private outing."
+    },
+    {
+      "date": "2026-09-19",
+      "start_time": "14:00",
+      "duration_min": 15,
+      "distance_km": 4.7,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Elgiganten Fisketorvet, Kalvebod Brygge 59, 1560 København V",
+      "note": "headphones",
+      "justification": "The destination is an electronics store and the note says headphones, private shopping on a Saturday."
+    },
+    {
+      "date": "2026-09-21",
+      "start_time": "07:50",
+      "duration_min": 6,
+      "distance_km": 1.4,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Kirkebjerg Skole, Vigerslev Allé 130, 2500 Valby",
+      "note": "",
+      "justification": "A short trip from home to a school at 07:50 on a school day is dropping off a child."
+    },
+    {
+      "date": "2026-10-06",
+      "start_time": "17:15",
+      "duration_min": 5,
+      "distance_km": 1.1,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Lidl Valby, Valby Langgade 60, 2500 Valby",
+      "note": "",
+      "justification": "A short weekday-evening trip from home to a supermarket is a grocery errand."
+    },
+    {
+      "date": "2026-09-30",
+      "start_time": "08:10",
+      "duration_min": 22,
+      "distance_km": 8.5,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Bispebjerg Hospital, Bispebjerg Bakke 23, 2400 København NV",
+      "note": "Went for my follow-up appointment at the orthopaedic outpatient clinic after my knee surgery.",
+      "justification": "The note describes a personal follow-up appointment after knee surgery at a hospital."
+    },
+    {
+      "date": "2026-10-15",
+      "start_time": "19:00",
+      "duration_min": 8,
+      "distance_km": 2.2,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Valby Idrætspark, Julius Andersens Vej 3, 2450 København SV",
+      "note": "Football training with my Thursday club team, then straight home.",
+      "justification": "The note says evening football training with a club team, a private sport activity."
+    },
+    {
+      "date": "2026-10-11",
+      "start_time": "14:00",
+      "duration_min": 33,
+      "distance_km": 38.0,
+      "start_address": "Toftegårds Allé 25, 2500 Valby",
+      "end_address": "Mormor og Morfar, Hovedgaden 20, 4000 Roskilde",
+      "note": "Bedstes fødselsdag",
+      "justification": "The note says it is the grandparents' birthday and the destination is their home on a Sunday, a family visit."
+    }
+  ]
+}

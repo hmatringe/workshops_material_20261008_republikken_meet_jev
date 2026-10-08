@@ -1,0 +1,5 @@
+From: Mille Dahl <mille@launchlane-events.example>
+Subject: Your seat for the Flowstack launch webinar
+Date: 2026-09-14 08:41
+
+Hi Nordhavn Commons team, as a community space you will love Flowstack 3.0, our new invoicing assistant for small teams. Join our live launch webinar on 23 September, 11:00 CET, and see it in action. Early bird seat: 149 EUR instead of 249 EUR, register here: https://launchlane-events.example/flowstack-webinar

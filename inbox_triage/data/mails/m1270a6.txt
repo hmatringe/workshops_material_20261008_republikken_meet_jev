@@ -1,0 +1,18 @@
+From: Kolliboks Service <service@kolliboks.example>
+Subject: Notice of scheduled maintenance of the parcel locker, 14 October
+Date: 2026-10-08 09:00
+
+Dear customer,
+
+We would like to inform you that the parcel locker installed at your address (Locker ID 4471) will be taken out of service for scheduled maintenance on Wednesday 14 October 2026, between 08:00 and 12:00.
+
+During this period, parcels addressed to the locker will be redirected to the nearest alternative pickup point, located at the kiosk on Havnegade 12. Recipients will receive a separate notification with the new pickup point and a new access code.
+
+Parcels already stored in the locker before the maintenance window remain available until 07:30 on the same day. We recommend that you collect any parcel before this time.
+
+The maintenance is expected to improve the reliability of the door mechanism and to update the software of the touch screen. No action is required from your side.
+
+This message is sent automatically to all registered customers of the Kolliboks service. Please do not reply to this address.
+
+Yours faithfully,
+Kolliboks Customer Operations

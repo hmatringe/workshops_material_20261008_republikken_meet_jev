@@ -1,0 +1,20 @@
+From: Nordlys Tech Weekly <hello@nordlys-weekly.example>
+Subject: Nordlys Tech Weekly: edition 41
+Date: 2026-10-09 06:45
+
+Hi,
+
+Here is this week's Nordlys Tech Weekly, sent to you because you subscribed.
+
+Top stories
+- Three Nordic startups announce a shared data centre project powered by wind energy.
+- A new open source library for local-first apps reaches version 1.0.
+- A short guide to writing better bug reports for small teams.
+
+Event of the week
+Founders' breakfast, Tuesday 13 October, 08:00, at a venue in the city centre. Free, registration required.
+
+Tool of the week
+A lightweight time tracker for freelancers, with a free plan for up to three projects.
+
+Thanks for reading. To stop receiving this newsletter, use the unsubscribe link below.

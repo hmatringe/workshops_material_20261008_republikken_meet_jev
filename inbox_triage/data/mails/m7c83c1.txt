@@ -1,0 +1,8 @@
+From: Alex Reed <alex.reed@docshare-secure.example>
+Subject: Re: Shared document
+Date: 2026-09-05 10:47
+
+> Please review the attached document.
+
+You need to sign in again to view it: http://docshare-secure.example/login/view
+Alex

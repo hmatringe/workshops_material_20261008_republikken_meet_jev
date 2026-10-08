@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "en",
+      "length": "medium",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "fr",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "fr",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "da",
+      "length": "short",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "en",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": "a thank-you note or a pure FYI, nothing to answer"
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "en",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a thank-you note or a pure FYI, nothing to answer",
+      "language": "en",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "other",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "lost and found, a question that fits no category",
+      "language": "da",
+      "length": "long",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)"
+    }
+  ],
+  "mails": [
+    {
+      "from": "Gustav Rask <gustav.rask@raskrobotics.example>",
+      "subject": "Re: Booking confirmation, Studio B on Friday",
+      "date": "2026-10-20 11:08",
+      "body": "> Your booking of Studio B for Friday 23 October, 13:00 to 15:00, is confirmed.\n\nThanks. One change: our team has grown by two people, so we need a larger room. Could you move us to the Atrium room instead, same Friday slot, if it is free?\n\nIf the Atrium is taken, we could also start at 15:00 instead. Please let me know by tomorrow, as the guests are travelling in and need to be told where to go.\n\nGustav",
+      "justification": "A member asks to change a room booking for this week, a booking change needing a reply within 24 hours."
+    },
+    {
+      "from": "Amélie Fontaine <amelie.fontaine67@webmail.example>",
+      "subject": "Location d'une salle pour une journée",
+      "date": "2026-09-12 20:34",
+      "body": "Bonjour,\n\nDésolée pour mon message envoyé depuis le téléphone, il y aura sûrement des fautes.\n\nJe suis photographe et je prépare un shooting avec 3 modèles et mon assistante, sans date précise, sûrement fin octobre ou début novembre. Je cherche une grande salle lumineuse à louer pour une journée complète. Est-ce que vous louez à des personnes qui ne sont pas membres ? Quelle est la surface de la plus grande salle ? Et est-ce qu'on peut avoir un accés à une prise 380 volts ou au moins plusieurs rallonges ?\n\nMerci d'avance pour votre répones,\nAmélie Fontaine\n06 55 12 40 88\nEnvoyé de mon iPhone",
+      "justification": "A visitor asks whether a room can be rented for a day with no date yet, a low urgency room enquiry needing a reply."
+    },
+    {
+      "from": "Lars & Josefine <lars@tinyhands-market.example>",
+      "subject": "Co-branded Christmas market? 🎄",
+      "date": "2026-10-15 09:35",
+      "body": "Hey team! 👋\n\nWe're Tinyhands, we run a small handmade-goods market on Sundays across Copenhagen. We love your space and have a fun idea: a joint Christmas pop-up market in your main hall on the first weekend of December 🎅\n\nWe'd handle the stalls and marketing, you'd get your name on all posters and a share of the stall fees (we were thinking 20 percent). We could also do a short press piece about the space with the local paper we work with.\n\nWant to hop on a call next week or just grab a coffee at your place? No rush, we're planning for December anyway 😊\n\nWarm hugs,\nLars and Josefine",
+      "justification": "An organisation proposes a co-branded event and a press piece, a partnership proposal with no immediate deadline."
+    },
+    {
+      "from": "Direction des opérations <operations@halle-nord-services.example>",
+      "subject": "Nuisances sonores, étage 2",
+      "date": "2026-09-30 14:00",
+      "body": "Madame, Monsieur,\n\nEn tant que société membre de votre espace, nous vous signalons des nuisances sonores répétées à l'étage 2 depuis lundi, liées à des travaux de perçage. Nous vous demandons d'intervenir cette semaine afin de rétablir des conditions de travail normales.\n\nVeuillez agréer nos salutations distinguées.\n\nDirection des opérations",
+      "justification": "A member company formally reports repeated noise and asks for intervention this week, a complaint needing a reply within a day."
+    },
+    {
+      "from": "Oliver Wright <oliver.wright@wrightcloud.example>",
+      "subject": "Locked out, and charged twice for the room?",
+      "date": "2026-10-26 08:47",
+      "body": "Hi,\n\nMy access card stopped working this morning. The door light is red and I cannot get in. I have a client demo at 10:00 and my laptop and monitor setup are inside.\n\nI also see two charges of 450 DKK on my card for the Harbour room yesterday. I only booked it once. Could you check that too, but the door comes first, please.\n\nYou can call me on 55 09 31 77, I am standing outside.\n\nOliver Wright\nWright Cloud",
+      "justification": "A member is locked out with a demo that morning, so a complaint needing action today, with a double charge mentioned."
+    },
+    {
+      "from": "Kirsten Mølgaard <kirsten.molgaard@molgaard-bogholderi.example>",
+      "subject": "Faktura mangler moms-nr",
+      "date": "2026-10-24 22:15",
+      "body": "Hej, jeg har brug for, at jeres faktura 5107 bliver udstedt igen med vores CVR-nummer 30 41 55 82. Det mangler i dag. Tak, Kirsten",
+      "justification": "A member asks for an invoice to be reissued with a VAT number, a billing request."
+    },
+    {
+      "from": "Harbor Notes <letters@harbornotes.example>",
+      "subject": "Harbor Notes: a short thank you",
+      "date": "2026-10-30 07:10",
+      "body": "Hello,\n\nThis month's Harbor Notes is a short one. Thank you to everyone who came to our autumn readers' evening last week, we are glad you subscribed and stayed with us. The next full issue arrives on 6 November.\n\nThe Harbor Notes team",
+      "justification": "A subscribed newsletter containing only a thank-you and a schedule note, with nothing to answer."
+    },
+    {
+      "from": "Doorlock Cloud <system@doorlockcloud.example>",
+      "subject": "Weekly access report: 14 to 20 September",
+      "date": "2026-09-21 06:00",
+      "body": "Hello,\n\nThis is your automatic weekly report from Doorlock Cloud, the access control service used by your space. Please do not reply to this message.\n\nSummary for 14 to 20 September 2026\n\nTotal door openings: 1,204\nUnique cards used: 87\nBusiest day: Tuesday (241 openings)\nQuietest day: Sunday (19 openings)\nAfter-hours entries (after 20:00): 23\nFailed attempts: 11\n\nDoor status\nMain entrance: online\nSecond floor door: online\nBack entrance: online, battery at 62 percent\nRoof terrace door: online\n\nCards\nActive cards: 91\nCards not used in the last 60 days: 6\nCards expiring in the next 30 days: 2\n\nFirmware\nAll readers are running version 4.2.1. A new version, 4.3.0, will be applied automatically on the night of 27 September between 02:00 and 03:00. During the update, doors remain closed from the outside for about 10 minutes.\n\nBilling\nYour plan: Standard, 99 EUR per month. The next invoice will be issued on 1 October. You can download previous invoices in your account.\n\nThis message was generated automatically. For questions about your account, use the support portal.\n\nDoorlock Cloud",
+      "justification": "An automatic weekly report from a service in use, so a notification with nothing to reply to."
+    },
+    {
+      "from": "Rikke Sandberg <rikke.sandberg@sandberg-events.example>",
+      "subject": "Re: Thank you for the event on 3 October",
+      "date": "2026-10-06 17:20",
+      "body": "Hi both,\n\n> It was a pleasure to have you. We hope to see you again.\n\nJust a quick note to say thank you again. The launch went really well, about 70 guests came, and many of them said how much they liked the space, the coffee and the staff on the evening. Several guests have already asked for our next date, so you may hear from us in the new year.\n\nWe have no questions and nothing is outstanding on our side, the invoice was paid on Monday as agreed, so please do not spend time answering this.\n\nA couple of photos from the evening are in the shared folder we mentioned, in case you want to use them on your site. Feel free to, we are happy with it, just for your information.\n\nThe sound technician especially deserves a mention. He stayed an extra hour to fix a problem with a microphone and did not even ask for anything in return. Please pass on our thanks.\n\nWarm regards,\nRikke Sandberg\nSandberg Events",
+      "justification": "A thank-you reply in a thread containing no request, so category other with nothing to answer."
+    },
+    {
+      "from": "Bent Skov <bent.skov@skovkonsulent.example>",
+      "subject": "Glemt jakke + hvad med nyhedsbrevet?",
+      "date": "2026-10-18 10:02",
+      "body": "Hej,\n\nJeg har været i jeres fællesskab i fredags og tror, jeg har glemt min grå jakke på knagen ved køkkenet. Der er en blå nøglering i lommen med et lille sort kamera på. Har I fundet den? Jeg kan hente den en dag i næste uge, bare sig hvornår der er nogen.\n\nOg så en lille ting: jeg tilmeldte mig jeres nyhedsbrev i sommer, men har ikke fået noget siden august. Måske er min mail gået i spam? Min adresse er bent.skov@skovkonsulent.example, men det er ikke vigtigt, bare hvis I lige kan tjekke.\n\nHilsen\nBent Skov\nSendt fra min iPhone",
+      "justification": "A person asks about a lost jacket and expects a reply, a question that fits no other category, with a passing mention of a newsletter."
+    }
+  ]
+}

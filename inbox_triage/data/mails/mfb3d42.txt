@@ -1,0 +1,7 @@
+From: Nordvale Payment Services <no-reply@nordvale-secure.example>
+Subject: Payment failure: action required on your account
+Date: 2026-09-29 07:30
+
+Dear customer, your latest payment could not be processed and your account has been placed on hold.
+To avoid permanent suspension, please verify your details within 24 hours: https://nordvale-secure.example/verify
+Nordvale Payment Services, Customer Compliance Department

@@ -1,0 +1,17 @@
+From: Réservations Plateforme Salle <no-reply@salle-booking.example>
+Subject: Confirmation de réservation n° 88421
+Date: 2026-10-06 06:00
+
+Bonjour,
+
+Ceci est un message automatique. Votre réservation a bien été enregistrée.
+
+Réservation : n° 88421
+Salle : Atelier Nord
+Date : jeudi 8 octobre 2026
+Horaire : 14 h 00 à 16 h 00
+Montant : 300 DKK, payé par carte
+
+Un rappel vous sera envoyé la veille. Pour modifier ou annuler votre réservation, rendez-vous sur votre espace personnel.
+
+Merci de ne pas répondre à ce message.

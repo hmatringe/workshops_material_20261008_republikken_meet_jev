@@ -1,0 +1,29 @@
+{
+  "business": true,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": true, "purpose": "conference", "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city", "language": "en", "note_style": "sentence"},
+    {"business": true, "purpose": "airport_work", "situation": "home or office to the airport or the central station for a work trip, or the return", "language": "fr", "note_style": "sentence"},
+    {"business": true, "purpose": "site_visit", "situation": "a construction site, a store opening, a property, a customer installation", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "business_meal", "situation": "a restaurant with a client or a partner, lunch or dinner, sometimes evening or weekend", "language": "en", "note_style": "words"},
+    {"business": true, "purpose": "client_pickup", "situation": "picking up a visiting client or candidate at the airport, station or hotel", "language": "en", "note_style": "words"},
+    {"business": true, "purpose": "rental_abroad", "situation": "a rental car between a hotel and a client or a venue in another city", "language": "da", "note_style": "short"},
+    {"business": true, "purpose": "company_errand", "situation": "bank, post office, customs, a hardware store for the company, a delivery to a customer", "language": "da", "note_style": "none"},
+    {"business": true, "purpose": "client_meeting", "situation": "office or home to a client's office, weekday, working hours", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "prospect_meeting", "situation": "a café or the prospect's office, first meeting, note may name a person", "language": "fr", "note_style": "none"},
+    {"business": true, "purpose": "supplier_visit", "situation": "to a supplier, a printer, a warehouse, a workshop", "language": "en", "note_style": "none"}
+  ],
+  "trips": [
+    {"date": "2026-09-10", "start_time": "08:10", "duration_min": 22, "distance_km": 8.7, "start_address": "Classensgade 40, 2100 København Ø", "end_address": "Bella Center, Center Boulevard 5, 2300 København S", "note": "Attending the day-two sessions at the Nordic HR Tech expo.", "justification": "The note says the driver is attending sessions at a trade expo, held at an exhibition centre."},
+    {"date": "2026-10-20", "start_time": "16:40", "duration_min": 19, "distance_km": 10.9, "start_address": "Københavns Lufthavn Terminal 3 Ankomst, Lufthavnsboulevarden 6, 2770 Kastrup", "end_address": "Classensgade 40, 2100 København Ø", "note": "Retour de Paris après la formation chez Lemaire Conseil.", "justification": "The note says the driver is returning from the airport after a work training in Paris, so the return leg of a work trip."},
+    {"date": "2026-09-21", "start_time": "07:30", "duration_min": 19, "distance_km": 8.2, "start_address": "Classensgade 40, 2100 København Ø", "end_address": "Byggeplads Ørestad Syd, Ørestads Boulevard 108, 2300 København S", "note": "walkthru w/ site mgr Pedersen", "justification": "The note says a walkthrough with a site manager at a named construction site, a site visit for work."},
+    {"date": "2026-09-16", "start_time": "12:15", "duration_min": 9, "distance_km": 2.3, "start_address": "Torvegade 30, 1400 København K", "end_address": "Restaurant Gråbrødre, Gråbrødre Torv 16, 1154 København K", "note": "Client lunch", "justification": "The note explicitly says client lunch on a weekday at midday, a business meal."},
+    {"date": "2026-10-08", "start_time": "06:50", "duration_min": 14, "distance_km": 4.1, "start_address": "Classensgade 40, 2100 København Ø", "end_address": "Hotel d'Angleterre, Kongens Nytorv 34, 1050 København K", "note": "Pick-up M. Okafor", "justification": "The note names a person to be picked up at a hotel early in the morning, which is a client pickup."},
+    {"date": "2026-09-24", "start_time": "08:20", "duration_min": 21, "distance_km": 5.7, "start_address": "Motel One Berlin-Alexanderplatz, Dircksenstraße 36, 10179 Berlin", "end_address": "Kreuzwerk GmbH, Köpenicker Straße 154, 10997 Berlin", "note": "lejebil hotel -> kunde Kreuzwerk", "justification": "The note says a rental car from the hotel to a customer in Berlin, a business trip abroad."},
+    {"date": "2026-09-28", "start_time": "10:20", "duration_min": 6, "distance_km": 1.2, "start_address": "Torvegade 30, 1400 København K", "end_address": "Havnebank Erhverv, Strandgade 3, 1401 København K", "note": "", "justification": "A weekday morning trip from the office to a bank's business branch is a company errand."},
+    {"date": "2026-10-14", "start_time": "10:00", "duration_min": 11, "distance_km": 2.5, "start_address": "Torvegade 30, 1400 København K", "end_address": "Aurum Capital, Amaliegade 20, 1256 København K", "note": "Aurum Q4 review", "justification": "A weekday working-hours trip from the office to a named company with a note about a quarterly review is a client meeting."},
+    {"date": "2026-10-22", "start_time": "14:30", "duration_min": 19, "distance_km": 7.6, "start_address": "Classensgade 40, 2100 København Ø", "end_address": "Beringer Logistik A/S, Arne Jacobsens Allé 15, 2300 København S", "note": "", "justification": "A weekday afternoon trip from home directly to a company's offices is a business meeting, not a commute to the usual workplace."},
+    {"date": "2026-09-30", "start_time": "08:00", "duration_min": 26, "distance_km": 15.4, "start_address": "Torvegade 30, 1400 København K", "end_address": "Nordic Pack Warehouse, Avedøre Holme 60, 2650 Hvidovre", "note": "", "justification": "A weekday morning trip from the office to a named packaging warehouse in an industrial area is a supplier visit."}
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "spam": false,
+  "difficulty": "medium",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a person or company proposes to host a meetup or workshop next month",
+      "language": "da",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "event",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an organiser asks for AV, chairs or a room change for an event this week",
+      "language": "da",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": "a visitor asks whether a room can be rented for a day, no date yet"
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "a member books, moves or cancels a meeting room for this week",
+      "language": "en",
+      "length": "medium",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "room_booking",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "a visitor asks whether a room can be rented for a day, no date yet",
+      "language": "en",
+      "length": "medium",
+      "style": "forwarded by a colleague with a one-line comment",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "partnership",
+      "urgency": 2,
+      "needs_human": true,
+      "situation": "an organisation proposes sponsoring, co-branding or a press piece",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "wifi, heating, noise, cleaning, a bad experience, a request to fix it",
+      "language": "en",
+      "length": "medium",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "complaint",
+      "urgency": 4,
+      "needs_human": true,
+      "situation": "access card not working, a person locked out, a security issue right now",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": "a member books, moves or cancels a meeting room for this week"
+    },
+    {
+      "spam": false,
+      "category": "billing",
+      "urgency": 3,
+      "needs_human": true,
+      "situation": "an invoice question, a receipt request, a VAT number to add, a failed card",
+      "language": "en",
+      "length": "short",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "a newsletter the recipient subscribed to (coworking, tech, city, a tool)",
+      "language": "fr",
+      "length": "long",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": false,
+      "category": "newsletter",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "an automatic notification from a service in use (event platform, bank, parcel, booking tool)",
+      "language": "fr",
+      "length": "short",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Mette Kragh <mette@nordlysdesign.example>",
+      "subject": "Re: Mulighed for at holde meetup hos jer",
+      "date": "2026-09-14 10:22",
+      "body": "Hej Anders,\n\nTak for hurtigt svar og for rundvisningen i sidste uge.\n\n> Vi har plads til op til 35 personer i fællesrummet efter kl. 17.\n\nDet passer rigtig godt. Vi tænker på et meetup for freelance-designere og små bureauer i Nordlys Design-netværket, cirka 25 deltagere. Titlen bliver sandsynligvis \"Fra moodboard til faktura\", med to korte oplæg og en times networking bagefter.\n\nVi har kigget på tirsdag den 20. oktober eller torsdag den 22. oktober, begge dage fra 17.00 til 20.00. Er en af dem ledig?\n\nVi tager selv sandwiches og drikkevarer med, men det ville være en stor hjælp, hvis vi kunne låne projektor og to mikrofoner. Hvis I har en fast pris for leje af fællesrummet til arrangementer, må I meget gerne sende den, så kan vi regne den ind i vores budget.\n\nVi vil gerne være i gang med invitationerne i begyndelsen af næste uge, så et svar inden for en uge ville være perfekt. Der er ingen hast ud over det.\n\nMange hilsner\nMette Kragh\nNordlys Design",
+      "justification": "Existing contact replying in a thread to propose hosting a design meetup next month, with a question to answer within the week (event, urgency 2, needs a human)."
+    },
+    {
+      "from": "Jonas Vestergaard <jonas@kodeklubben-kbh.example>",
+      "subject": "Torsdagens workshop: projektor, stole og rumskifte",
+      "date": "2026-09-20 22:48",
+      "body": "Hej,\n\nBeklager, at jeg skriver så sent på en søndag, men jeg er først nu kommet til at samle trådene til torsdagens workshop.\n\nVi er Kodeklubben København, og vi har booket Det Store Rum torsdag den 24. september fra 18.00 til 21.00. Vi bliver omkring 28 deltagere, og det er flere, end vi først regnede med.\n\nDer er tre ting, jeg gerne vil have afklaret inden onsdag:\n1. Kan I stille en projektor eller skærm klar med HDMI og USB-C? Vi har selv bærbare, men ingen skærm.\n2. Kan der sættes 30 stole op i rækker i stedet for caféborde? Vi skal ikke bruge borde til selve oplægget.\n3. Hvis Det Store Rum er for småt til 28 personer, kan vi så flytte til det rum, der ligger ud mod gården?\n\nJeg kommer forbi onsdag eftermiddag og kan hjælpe med at stille op, hvis det gør det lettere for jer.\n\nOg så en lille ting, som ikke har noget med vores event at gøre: en bekendt af mig, Sofie, spurgte, om man kan leje et lokale en hel dag hos jer. Hun har ikke en dato endnu, men jeg har sagt, at hun gerne må skrive til jer.\n\nPå forhånd tak.\n\nVenlig hilsen\nJonas Vestergaard\nKodeklubben København",
+      "justification": "An organiser asks for projector, chairs and a possible room change for an event on Thursday this week, so a reply is needed within 24 hours; the visitor day-rental question is only a passing mention."
+    },
+    {
+      "from": "Priya Nair <priya.nair@brightloop.example>",
+      "subject": "Move room Thursday",
+      "date": "2026-09-22 08:31",
+      "body": "Hi, \n\nCould we move my Thursday booking of the Birch room from 14:00 to 16:00? A client just chaged their call time and I cant do the earlier slot anymore. Same length, 1 hour, 4 people.\n\nIf 16:00 is taken, Friday morning around 10 would also work for us. Let me know whats free please, I will be on the train most of the morning.\n\nThanks!\nPriya\nSent from my iPhone",
+      "justification": "A member asks to move a meeting room booking this week and expects a reply, which makes it room_booking with urgency 3 and a human reply, with phone-style typos."
+    },
+    {
+      "from": "Lena Sørensen <lena@thefrontdesk.example>",
+      "subject": "Fwd: Renting a room for a day",
+      "date": "2026-09-10 13:05",
+      "body": "Can you take this one? Looks like a day rental, not a membership.\n\n---------- Forwarded message ----------\nFrom: Tomas Eriksen <tomas.eriksen@halvorsenconsulting.example>\nDate: 2026-09-10 11:47\nSubject: Renting a room for a day\n\nHello,\n\nI run a small consulting firm and we are planning a strategy day with about eight people, probably sometime this autumn. I do not have a date yet.\n\nDo you rent out a room for a full day to non-members? If so, could you tell me roughly what it costs, whether coffee and lunch can be arranged, and if there is a projector in the room?\n\nBest regards,\nTomas Eriksen\nHalvorsen Consulting",
+      "justification": "A visitor asks whether a room can be rented for a day with no date, forwarded with a one-line comment, so a human answer is needed within the week."
+    },
+    {
+      "from": "Clara Whitfield <clara.whitfield@greenharbour.example>",
+      "subject": "Sponsorship idea for your autumn community events",
+      "date": "2026-09-17 15:40",
+      "body": "Hello,\n\nI work in partnerships at Green Harbour, a Copenhagen company that makes software for small energy cooperatives. We have followed your community events for a while and would like to propose sponsoring one or two of them this autumn.\n\nIn practice we could cover catering for an evening event and in return have our logo on the invitation and a short five-minute introduction at the start. We would not need a stand or any sales presence.\n\nWe could also write a short piece about the space for our customer newsletter, if you would be interested in that.\n\nIf this sounds interesting, could we find thirty minutes in the next couple of weeks to talk through what would suit you? \n\nKind regards,\nClara Whitfield\nPartnerships, Green Harbour",
+      "justification": "An organisation with whom the space has a loose existing relationship proposes sponsoring events and a press piece, which needs a reply within the week, so partnership, urgency 2, human reply."
+    },
+    {
+      "from": "Mikkel Brandt <mikkel@pixelforge.example>",
+      "subject": "Wifi is driving us nuts 😅",
+      "date": "2026-09-25 09:12",
+      "body": "Hey team,\n\nQuick one from the 2nd floor. The wifi has been dropping every 10 to 15 minutes since Monday, and it's really bad around lunch time. Three of us on the Pixel Forge desk have had calls cut off this week, one with a client 🙈\n\nWe've tried rebooting, switching between the two networks, and moving closer to the router, nothing helps. It was totally fine until last week, so maybe something changed?\n\nCould someone take a look before the weekend? We have a big demo on Monday morning and I'd love not to do it from my phone hotspot 😂\n\nThanks a lot, you're the best!\nMikkel",
+      "justification": "A member reports a recurring wifi problem and asks for a fix before the weekend, so complaint, urgency 3, human reply."
+    },
+    {
+      "from": "Sara Lindqvist <sara.lindqvist@studio-ro.example>",
+      "subject": "Access card not working, locked out",
+      "date": "2026-10-06 07:58",
+      "body": "Hi, my access card has stopped working and I am standing outside the front door with a client meeting at 9. Can someone let me in please? Also I paid 450 DKK for the Fjord room tomorrow 10:00, is it still booked?\nSara Lindqvist",
+      "justification": "A member is locked out right now because the access card fails, so complaint with urgency 4 and a human reply, with a passing mention of tomorrow's room booking and an amount in DKK."
+    },
+    {
+      "from": "Accounts Payable, Rosendal Foundation <ap@rosendal-foundation.example>",
+      "subject": "Invoice 2026-0412: VAT number missing",
+      "date": "2026-10-02 14:20",
+      "body": "Dear Sir or Madam,\n\nWe have received invoice 2026-0412 for EUR 380.00 dated 28 September 2026. The invoice does not show our VAT number, DK 98765432. Please issue a corrected invoice including it, so that we can process payment within our standard terms.\n\nYours faithfully,\nAccounts Payable\nRosendal Foundation",
+      "justification": "An institutional sender formally requests a corrected invoice with a VAT number, which is billing, needs a reply within 24 hours and a human to act."
+    },
+    {
+      "from": "La Lettre du Cowork <lettre@coworkingnews.example>",
+      "subject": "La Lettre du Cowork n°47 : rentrée, outils et idées d'espaces",
+      "date": "2026-09-29 07:00",
+      "body": "Bonjour,\n\nVoici le numéro 47 de La Lettre du Cowork, votre rendez-vous mensuel sur la vie des espaces de travail partagés.\n\nÀ LA UNE\nRentrée 2026 : les espaces de coworking en Europe du Nord constatent un retour des abonnements à temps partiel. Notre enquête auprès de 60 gestionnaires montre que les formules à trois jours par semaine progressent de 18 pour cent.\n\nOUTILS\nTrois outils pour simplifier la réservation de salles : un calendrier partagé, un module de badges et une application de gestion des visiteurs. Nous les avons testés dans deux espaces pilotes.\n\nIDÉES D'ESPACES\nComment un espace de Lyon a transformé son coin cuisine en lieu de rencontre hebdomadaire, avec un déjeuner partagé le jeudi.\n\nAGENDA\n- 6 octobre : webinaire sur la tarification des postes flexibles\n- 15 octobre : visite virtuelle d'un espace en Suède\n- 28 octobre : atelier sur l'animation d'une communauté\n\nBonne lecture et à bientôt.\nL'équipe de La Lettre du Cowork\n\nVous recevez cet e-mail car vous êtes abonné à La Lettre du Cowork. Pour vous désabonner, utilisez le lien en bas de page.",
+      "justification": "A subscribed monthly coworking newsletter with no request to answer, so newsletter, urgency 1, no human reply needed."
+    },
+    {
+      "from": "Plateforme Billetterie Nord <notifications@billetterie-nord.example>",
+      "subject": "Nouvelle inscription pour votre événement",
+      "date": "2026-10-03 11:15",
+      "body": "Bonjour,\n\nUne nouvelle personne s'est inscrite à votre événement \"Soirée portes ouvertes du 15 octobre\". Vous avez désormais 24 inscrits sur 40 places.\n\nConsultez la liste complète dans votre espace organisateur.\n\nCeci est un message automatique, merci de ne pas y répondre.",
+      "justification": "An automatic notification from the event platform the space uses, with nothing to reply to, so newsletter, urgency 1, no human reply needed."
+    }
+  ]
+}

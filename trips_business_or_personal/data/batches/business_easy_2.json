@@ -1,0 +1,29 @@
+{
+  "business": true,
+  "difficulty": "easy",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": true, "purpose": "prospect_meeting", "situation": "a café or the prospect's office, first meeting, note may name a person", "language": "da", "note_style": "none"},
+    {"business": true, "purpose": "supplier_visit", "situation": "to a supplier, a printer, a warehouse, a workshop", "language": "en", "note_style": "sentence"},
+    {"business": true, "purpose": "between_sites", "situation": "between two sites of the same company (office, shop, storage, second office)", "language": "da", "note_style": "words"},
+    {"business": true, "purpose": "conference", "situation": "to a conference venue, a trade fair attended for work, or a training, sometimes in another city", "language": "en", "note_style": "none"},
+    {"business": true, "purpose": "airport_work", "situation": "home or office to the airport or the central station for a work trip, or the return", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "site_visit", "situation": "a construction site, a store opening, a property, a customer installation", "language": "fr", "note_style": "none"},
+    {"business": true, "purpose": "company_errand", "situation": "bank, post office, customs, a hardware store for the company, a delivery to a customer", "language": "en", "note_style": "words"},
+    {"business": true, "purpose": "client_meeting", "situation": "office or home to a client's office, weekday, working hours", "language": "en", "note_style": "sentence"},
+    {"business": true, "purpose": "prospect_meeting", "situation": "a café or the prospect's office, first meeting, note may name a person", "language": "en", "note_style": "short"},
+    {"business": true, "purpose": "supplier_visit", "situation": "to a supplier, a printer, a warehouse, a workshop", "language": "fr", "note_style": "short"}
+  ],
+  "trips": [
+    {"date": "2026-09-16", "start_time": "13:15", "duration_min": 22, "distance_km": 6.5, "start_address": "Gammel Kongevej 60, 1850 Frederiksberg C", "end_address": "Havnestad Ejendomme, Sundkrogsgade 21, 2100 København Ø", "note": "", "justification": "A weekday afternoon drive from the office to a named company's office, with the destination name indicating a business meeting."},
+    {"date": "2026-09-22", "start_time": "08:40", "duration_min": 30, "distance_km": 17.2, "start_address": "Gammel Kongevej 60, 1850 Frederiksberg C", "end_address": "Grafisk Center Trykkeri, Naverland 8, 2600 Glostrup", "note": "Picking up the 500 printed brochures from Grafisk Center for the Thursday trade event.", "justification": "The note states the trip is to collect printed brochures from a printer for a work event."},
+    {"date": "2026-09-25", "start_time": "14:05", "duration_min": 22, "distance_km": 11.4, "start_address": "Nordhavn Interiør, Gammel Kongevej 60, 1850 Frederiksberg C", "end_address": "Nordhavn Interiør Lager, Avedøre Tværvej 12, 2650 Hvidovre", "note": "Lager", "justification": "The trip runs between the company's office and its own storage site, which is movement between two work sites."},
+    {"date": "2026-10-06", "start_time": "07:50", "duration_min": 12, "distance_km": 4.6, "start_address": "Amagerbrogade 120, 2300 København S", "end_address": "Bella Center Copenhagen, Center Boulevard 5, 2300 København S", "note": "", "justification": "The destination is a major conference and trade fair venue on a weekday morning, indicating attendance at a work event."},
+    {"date": "2026-09-27", "start_time": "17:30", "duration_min": 15, "distance_km": 7.8, "start_address": "Amagerbrogade 120, 2300 København S", "end_address": "Københavns Lufthavn Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "note": "flight to Oslo, client wkshp mon", "justification": "The note ties the airport drive to a flight for a client workshop, so the trip is for work despite the Sunday evening."},
+    {"date": "2026-10-01", "start_time": "10:20", "duration_min": 25, "distance_km": 9.1, "start_address": "Gammel Kongevej 60, 1850 Frederiksberg C", "end_address": "Byggeplads Ørestad Bolig, Ørestads Boulevard 55, 2300 København S", "note": "", "justification": "A weekday morning drive from the office to a named construction site, which is a site visit."},
+    {"date": "2026-09-21", "start_time": "09:10", "duration_min": 15, "distance_km": 3.6, "start_address": "Gammel Kongevej 60, 1850 Frederiksberg C", "end_address": "Sjællands Erhvervsbank, Holmens Kanal 12, 1060 København K", "note": "Bank", "justification": "A weekday morning drive from the office to a business bank branch, noted as a bank errand for the company."},
+    {"date": "2026-10-08", "start_time": "09:30", "duration_min": 16, "distance_km": 5.2, "start_address": "Amagerbrogade 120, 2300 København S", "end_address": "Fjordvind A/S, Kalvebod Brygge 39, 1560 København V", "note": "Quarterly review with Louise Brandt at Fjordvind about the new service contract.", "justification": "The note names a client contact, the company and a contract review on a weekday morning."},
+    {"date": "2026-09-18", "start_time": "15:00", "duration_min": 9, "distance_km": 2.3, "start_address": "Gammel Kongevej 60, 1850 Frederiksberg C", "end_address": "Café Dahlia, Istedgade 44, 1650 København V", "note": "coffee w/ Jonas Krogh (Vintra), 1st intro", "justification": "The note describes a first introductory meeting with a named person from another company."},
+    {"date": "2026-10-14", "start_time": "11:00", "duration_min": 25, "distance_km": 14.3, "start_address": "Gammel Kongevej 60, 1850 Frederiksberg C", "end_address": "Atelier Menuiserie Holm, Literbuen 9, 2740 Skovlunde", "note": "chercher échantillons chez Holm", "justification": "The note says the driver is collecting samples at a named workshop, a supplier visit during working hours."}
+  ]
+}

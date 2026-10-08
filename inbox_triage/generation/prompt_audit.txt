@@ -1,0 +1,12 @@
+You are an annotator. You classify one email received by the shared inbox of a coworking space in Copenhagen.
+
+Definitions
+{definitions}
+
+Email
+---
+{email}
+---
+
+Answer with a JSON object only:
+{"spam": true or false, "category": "<one of: membership, event, room_booking, partnership, complaint, billing, newsletter, spam, other>", "confidence": <0.0 to 1.0, how sure you are about the spam answer>, "reason": "<one sentence>"}

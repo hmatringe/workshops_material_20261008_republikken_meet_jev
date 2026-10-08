@@ -1,0 +1,9 @@
+From: Tickety Events <no-reply@tickety-platform.example>
+Subject: Your event page was approved - sign in to review
+Date: 2026-09-18 11:02
+
+Your event "Open Desk Friday" has been approved and is now live.
+
+Sign in to review ticket sales: https://tickety-platform.example/login/events/88213
+
+This is an automatic message from Tickety. Please do not reply.

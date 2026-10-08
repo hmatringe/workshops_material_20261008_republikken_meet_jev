@@ -1,0 +1,16 @@
+From: Daniel Osei <d.osei@kanalhuset-eventhub.example>
+Subject: Event Hub: your account will be closed
+Date: 2026-10-10 18:50
+
+hi,
+
+Sent from my phone sorry for typos. Your Kanalhuset Event Hub listing has been flagged because the payment for the last 3 events listings did not go thru. Your account will be deactivated in 24 hrs and all upcoming bookings will be cancelled.
+
+Please login and update billing here: https://kanalhuset-eventhub.example/login
+
+Outstanding amount 189 EUR.
+
+Thanks
+Daniel Osei
+Event Hub Support
+Sent from my iPhone

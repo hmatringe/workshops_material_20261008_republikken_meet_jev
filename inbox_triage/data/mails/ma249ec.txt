@@ -1,0 +1,13 @@
+From: Henrik Bauer <accounts@bauer-logistik.example>
+Subject: Invoice 2026-0317 and VAT number
+Date: 2026-10-05 14:10
+
+Hello,
+
+We are a member company with two desks. The invoice 2026-0317 for October was issued without our VAT number.
+Our accountant needs it on the invoice for the quarterly return. The VAT number is DK 00 00 00 00.
+Could you issue a corrected invoice for the amount of 4,800 DKK and send it to this address?
+We also had one card payment fail on 1 October, so please tell us if it was retried.
+Thank you.
+
+Henrik Bauer

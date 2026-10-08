@@ -1,0 +1,189 @@
+{
+  "spam": true,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "fr",
+      "length": "long",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "en",
+      "length": "short",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "da",
+      "length": "short",
+      "style": "casual tone, first names, emojis allowed",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "fake partnership or \"we met at your event\" with no substance",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "cold sales outreach (software, lead generation, outsourcing, design agency)",
+      "language": "fr",
+      "length": "long",
+      "style": "a reply in a thread (Re:), quoting one earlier line",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "SEO, backlink or guest-post offer",
+      "language": "en",
+      "length": "long",
+      "style": "sent on a weekend or late at night",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "phishing: fake invoice, fake login, fake parcel, fake payment failure",
+      "language": "en",
+      "length": "short",
+      "style": "written from a phone, signature and a couple of typos",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "scam: investment, prize, inheritance, crypto",
+      "language": "en",
+      "length": "medium",
+      "style": "plain and neutral, no particular style",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "mass marketing with no subscription (a webinar, a conference, a product launch)",
+      "language": "da",
+      "length": "medium",
+      "style": "institutional sender, formal tone",
+      "also": null
+    },
+    {
+      "spam": true,
+      "category": "spam",
+      "urgency": 1,
+      "needs_human": false,
+      "situation": "recruitment or staffing blast",
+      "language": "en",
+      "length": "medium",
+      "style": "with an amount in DKK or EUR",
+      "also": null
+    }
+  ],
+  "mails": [
+    {
+      "from": "Maître Odile Verbrugge <succession@verbrugge-notaires.example>",
+      "subject": "Dossier de succession n° 2026-0417 : désignation de votre structure comme légataire",
+      "date": "2026-09-08 10:12",
+      "body": "Madame, Monsieur,\n\nNous nous permettons de vous écrire au nom de l'Étude Verbrugge & Associés, spécialisée dans le règlement des successions internationales.\n\nDans le cadre du dossier référencé ci-dessus, feu M. Anders Kjeldsen, ancien utilisateur d'espaces de travail partagés à Copenhague, a désigné par testament olographe la structure « Havnehuset Cowork », que vous gérez, comme légataire d'une somme de 2 400 000 EUR, destinée au soutien des espaces communautaires indépendants.\n\nAfin de finaliser le transfert des fonds, nous devons recueillir les éléments suivants dans un délai de dix jours ouvrés :\n- une copie de la pièce d'identité du représentant légal de l'espace ;\n- les coordonnées bancaires de la structure (IBAN et BIC) ;\n- le règlement des frais d'enregistrement et de certification du legs, d'un montant de 1 850 EUR.\n\nCes frais sont exigibles avant tout déblocage, conformément à la procédure en vigueur. Vous pouvez les régler et déposer vos documents de manière sécurisée sur notre portail : https://portail.verbrugge-notaires.example/legs/2026-0417\n\nNous vous rappelons que ce dossier est strictement confidentiel et vous prions de ne pas en discuter avec des tiers avant la clôture de la procédure.\n\nDans l'attente de votre retour, nous vous prions d'agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nMaître Odile Verbrugge\nÉtude Verbrugge & Associés, Département des successions internationales\nsuccession@verbrugge-notaires.example",
+      "justification": "Unsolicited advance-fee inheritance scam: a stranger's law firm claims a legacy for the space and demands a 1,850 EUR fee and bank details, despite the formal tone and the mention of the space's name."
+    },
+    {
+      "from": "Mille Dahl <mille@launchlane-events.example>",
+      "subject": "Your seat for the Flowstack launch webinar",
+      "date": "2026-09-14 08:41",
+      "body": "Hi Nordhavn Commons team, as a community space you will love Flowstack 3.0, our new invoicing assistant for small teams. Join our live launch webinar on 23 September, 11:00 CET, and see it in action. Early bird seat: 149 EUR instead of 249 EUR, register here: https://launchlane-events.example/flowstack-webinar",
+      "justification": "Mass marketing for a product launch webinar the space never subscribed to, with a personalised greeting and a price but no existing relationship with the sender."
+    },
+    {
+      "from": "Sofie fra TalentTræet <sofie@talenttraeet.example>",
+      "subject": "Er jeres næste kollega allerede fundet? 😊",
+      "date": "2026-09-22 13:05",
+      "body": "Hej Lars 👋 Vi har lige nu 40+ dygtige freelancere og konsulenter klar til start i København, både udvikling, design og marketing. Svar bare på denne mail, så sender jeg tre profiler i dag 🚀 God dag til jer derude i fællesskabet! 🌟\n/Sofie",
+      "justification": "Unsolicited staffing blast sent to a name the space does not know, with a friendly first-name tone but no prior relationship or request from the space."
+    },
+    {
+      "from": "Daniel Reyes <daniel.reyes@brightkiln.example>",
+      "subject": "Good to connect after the event",
+      "date": "2026-10-02 15:30",
+      "body": "Hi,\n\nIt was great to connect with some of your team at the community event last month. I really enjoyed the energy of the space and the people there.\n\nAt Brightkiln we help communities and organisations like yours grow their reach and unlock new opportunities through strategic collaboration. I believe there is a lot of potential synergy between us.\n\nI would love to explore how we could partner on joint initiatives. Do you have 20 minutes next week for a quick intro call? I can send over a short deck beforehand.\n\nLooking forward to staying in touch,\nDaniel Reyes\nPartnerships, Brightkiln",
+      "justification": "The claim of having met at an event has no concrete detail (no event name, no person, no topic) and the proposal is a vague generic partnership pitch from a sender with no real relationship to the space."
+    },
+    {
+      "from": "Camille Laurent <camille.laurent@prospectio.example>",
+      "subject": "Re: Votre espace de coworking et la prospection",
+      "date": "2026-09-16 09:48",
+      "body": "> Merci de votre message, nous reviendrons vers vous.\n\nBonjour,\n\nJe me permets de relancer notre échange précédent, au cas où il vous aurait échappé. Je sais que la gestion d'un espace de coworking à Copenhague demande beaucoup de temps, et je ne voudrais pas vous déranger inutilement.\n\nChez Prospectio, nous aidons les espaces de travail partagés à remplir leurs postes libres grâce à de la génération de leads automatisée. Notre outil identifie chaque semaine des freelances et des petites équipes qui cherchent un lieu, et leur envoie un premier message personnalisé en votre nom.\n\nQuelques résultats sur des structures comparables :\n- 35 demandes de visite qualifiées par mois en moyenne ;\n- un coût par contact inférieur à 12 EUR ;\n- une mise en place en moins de 48 heures, sans engagement la première année.\n\nNous proposons en ce moment une période pilote à 290 EUR par mois, avec un onboarding offert si vous nous répondez avant la fin du mois.\n\nPourriez-vous me dire quel créneau vous conviendrait pour une démonstration de 15 minutes ? Je suis disponible jeudi ou vendredi.\n\nJe vous remercie par avance pour votre retour.\n\nBien cordialement,\nCamille Laurent\nResponsable partenariats, Prospectio\nhttps://prospectio.example/demo",
+      "justification": "The 'Re:' and the quoted line fake a conversation, but the space never wrote to this sender; it is a cold lead-generation sales pitch."
+    },
+    {
+      "from": "Oliver Grant <oliver@rankharbor.example>",
+      "subject": "Guest post for your community blog",
+      "date": "2026-09-19 23:48",
+      "body": "Hello,\n\nI hope you are well. I read your recent post about the coworking community in Copenhagen and enjoyed it, especially the part about how members support each other.\n\nI write for RankHarbor, a content studio, and I would like to contribute a guest article to your blog. Our writers have produced pieces on remote work, productivity and small business growth, and I think your readers would find them valuable.\n\nHere is what I can offer:\n- a 1,200 word original article, written for your audience;\n- full editing and images supplied by us;\n- one or two contextual links back to our client sites, placed naturally in the text.\n\nThere is a small sponsorship fee of 120 EUR per placement to cover editorial costs, which many of our partner sites find reasonable. If you prefer, we can also arrange a link swap with one of our high authority domains, such as https://pressmentor.example or https://growthledger.example.\n\nWe can usually publish within a week of approval. I can send you three topic ideas tomorrow if you are interested.\n\nThanks for your time and have a lovely weekend.\n\nBest regards,\nOliver Grant\nOutreach Manager, RankHarbor\nhttps://rankharbor.example",
+      "justification": "A generic guest-post offer that praises the blog without any real detail and sells paid backlinks to client sites, from a sender the space never contacted."
+    },
+    {
+      "from": "Jonas Pike <j.pike@nordic-bilpay.example>",
+      "subject": "Unpaid invoice 4471",
+      "date": "2026-10-05 07:52",
+      "body": "Hi, we still dont have payment for invoice 4471 (3,980 DKK) for the meeting room. Pls check and pay here asap https://secure-invoice.nordic-bilpay.example/4471 or service will be paused.\nThx\nJonas\nSent from my iPhone",
+      "justification": "A fake overdue invoice for a service the space never ordered, with a payment link on an unrelated domain, written casually from a phone to look like a real supplier."
+    },
+    {
+      "from": "Elena Whitcombe <elena.whitcombe@meridian-assets.example>",
+      "subject": "Your community space has been selected",
+      "date": "2026-10-12 11:20",
+      "body": "Hello,\n\nI am writing from Meridian Assets Group. We are running a community support programme for independent workspaces in Northern Europe, and your space has been selected to receive a grant of 18,000 EUR.\n\nTo release the grant we first need to verify your organisation. This only takes a few minutes. We ask for a refundable verification deposit of 400 EUR, paid in cryptocurrency (USDT) to the wallet shown on the application page. The deposit is returned together with the grant.\n\nApplication page: https://meridian-assets.example/grant-apply\n\nSelected spaces must complete the verification within five days, otherwise the grant goes to the next organisation on our list.\n\nKind regards,\nElena Whitcombe\nGrants Desk, Meridian Assets Group",
+      "justification": "A prize or grant scam that asks for a crypto deposit up front from an organisation the space has never dealt with, despite the polite tone and the reference to community spaces."
+    },
+    {
+      "from": "Foreningen Nordisk Erhvervsdialog <info@nordisk-erhvervsdialog.example>",
+      "subject": "Invitation til Nordisk Erhvervsdialog 2026, Aarhus",
+      "date": "2026-09-29 09:00",
+      "body": "Kære leder af fælles- og kontorfællesskaber,\n\nForeningen Nordisk Erhvervsdialog har fornøjelsen af at invitere jer til årets konference, som afholdes den 21. november 2026 i Aarhus under temaet \"Fremtidens arbejdsfællesskaber\".\n\nProgrammet omfatter oplæg om iværksætteri, fleksible kontorformer og regionale udviklingsmuligheder, efterfulgt af netværksmiddag.\n\nDeltagelse koster 2.495 DKK pr. person ekskl. moms. Tilmelding sker via https://nordisk-erhvervsdialog.example/tilmelding senest den 30. oktober.\n\nVi håber at kunne byde jer velkommen.\n\nMed venlig hilsen\nSekretariatet, Foreningen Nordisk Erhvervsdialog",
+      "justification": "Mass marketing for a paid conference sent to a generic addressee (a manager of shared offices) who never subscribed or registered, in an institutional tone that mimics a professional association."
+    },
+    {
+      "from": "Katrine Moll <katrine.moll@staffwell-nordic.example>",
+      "subject": "Staffing support for your members' companies",
+      "date": "2026-10-20 14:15",
+      "body": "Dear community manager,\n\nWe work with startups and small companies in Greater Copenhagen that need qualified people quickly. Many of them are based in coworking spaces like yours.\n\nStaffwell Nordic currently has candidates available in sales, customer support and bookkeeping, with start dates within two weeks. Our fee is 8,500 DKK per placement, with no charge if the candidate leaves within 90 days.\n\nWe would be glad if you could share our offer with your members or add our link to your community board: https://staffwell-nordic.example/members\n\nPlease feel free to forward this email to anyone who might be hiring.\n\nBest regards,\nKatrine Moll\nBusiness Development, Staffwell Nordic",
+      "justification": "A recruitment blast sent to the space as a distribution channel for its members, with no prior relationship and no question or request that needs a reply from the space."
+    }
+  ]
+}

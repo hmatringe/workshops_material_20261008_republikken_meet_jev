@@ -1,0 +1,13 @@
+You are an annotator. You classify one trip record from a mileage-tracking app used by someone who works
+in Copenhagen for a small company.
+
+Definitions
+{definitions}
+
+Trip
+---
+{trip}
+---
+
+Answer with a JSON object only:
+{"business": true or false, "confidence": <0.0 to 1.0, how sure you are>, "reason": "<one sentence>"}

@@ -1,0 +1,29 @@
+{
+  "business": false,
+  "difficulty": "hard",
+  "generator_model": "claude-sonnet-5-5",
+  "scenarios": [
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "fr", "note_style": "short"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "en", "note_style": "short"},
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "leisure_trip", "situation": "a weekend away, a summerhouse, a museum, a concert, a beach", "language": "da", "note_style": "none"},
+    {"business": false, "purpose": "airport_holiday", "situation": "airport or station for a holiday or a private visit, or the return", "language": "en", "note_style": "sentence"},
+    {"business": false, "purpose": "restaurant_private", "situation": "a restaurant or café without any work purpose", "language": "en", "note_style": "words"},
+    {"business": false, "purpose": "partner_dropoff", "situation": "dropping a partner or a friend at their workplace or station", "language": "fr", "note_style": "words"},
+    {"business": false, "purpose": "lunch_alone", "situation": "lunch alone during work hours", "language": "en", "note_style": "none"},
+    {"business": false, "purpose": "commute", "situation": "home to the usual workplace or back, weekday, rush hour", "language": "da", "note_style": "short"},
+    {"business": false, "purpose": "sport", "situation": "gym, swimming, football, running club", "language": "en", "note_style": "none"}
+  ],
+  "trips": [
+    {"date": "2026-10-01", "start_time": "12:30", "duration_min": 4, "distance_km": 1.0, "start_address": "Bech Elektro, Ørestads Boulevard 73, 2300 København S", "end_address": "Sushi Ørestad, Arne Jacobsens Allé 12, 2300 København S", "note": "déj seul, pause", "justification": "The note says the driver lunched alone on a break, so the short midday trip from the office to a sushi restaurant is private."},
+    {"date": "2026-09-15", "start_time": "08:15", "duration_min": 24, "distance_km": 7.0, "start_address": "Falkoner Allé 58, 2000 Frederiksberg", "end_address": "Bech Elektro, Ørestads Boulevard 73, 2300 København S", "note": "to office", "justification": "The trip is the weekday morning drive from home to the usual office, a commute, even though it ends at a company address in working hours."},
+    {"date": "2026-10-14", "start_time": "12:10", "duration_min": 22, "distance_km": 6.5, "start_address": "Bech Elektro, Ørestads Boulevard 73, 2300 København S", "end_address": "Frederiksberg Svømmehal, Helgolandsgade 7, 1653 København V", "note": "Swam laps during my lunch break, nothing to do with work.", "justification": "Although it starts at the office at midday, the note and the swimming-pool destination show the driver went swimming on his lunch break."},
+    {"date": "2026-09-19", "start_time": "08:30", "duration_min": 55, "distance_km": 52.0, "start_address": "Falkoner Allé 58, 2000 Frederiksberg", "end_address": "Hornbæk Strand, Strandvejen 65, 3100 Hornbæk", "note": "", "justification": "A Saturday-morning drive from home to a beach town on the north coast has no work site in the record and is a leisure outing."},
+    {"date": "2026-10-11", "start_time": "19:20", "duration_min": 20, "distance_km": 8.9, "start_address": "Københavns Lufthavn, Terminal 3, Lufthavnsboulevarden 6, 2770 Kastrup", "end_address": "Falkoner Allé 58, 2000 Frederiksberg", "note": "Picked up my sister Anna returning from her holiday in Crete; she is staying with us for a few days.", "justification": "Although it is an airport pick-up of a visitor, the visitor is the driver's sister coming back from a holiday and staying at his home, so it is not a client pick-up."},
+    {"date": "2026-09-17", "start_time": "18:50", "duration_min": 25, "distance_km": 7.5, "start_address": "Bech Elektro, Ørestads Boulevard 73, 2300 København S", "end_address": "Pizzeria Mamma Rosa, Værnedamsvej 14, 1819 Frederiksberg C", "note": "Birthday", "justification": "The trip starts at the office but ends at a pizzeria with the note 'Birthday', a private celebration with no client or work reference."},
+    {"date": "2026-10-05", "start_time": "07:45", "duration_min": 17, "distance_km": 4.8, "start_address": "Falkoner Allé 58, 2000 Frederiksberg", "end_address": "Bispebjerg Hospital, Bispebjerg Bakke 23, 2400 København NV", "note": "Dépose Camille", "justification": "The note says the driver dropped Camille, a private companion, at the hospital in the morning, which is a personal drop-off and not a visit for work."},
+    {"date": "2026-09-22", "start_time": "12:20", "duration_min": 5, "distance_km": 1.3, "start_address": "Bech Elektro, Ørestads Boulevard 73, 2300 København S", "end_address": "Bageren i Ørestad, Richard Mortensens Vej 81, 2300 København S", "note": "", "justification": "A five-minute trip at 12:20 from the office to a neighbourhood bakery is a lunch break, with no client or company purpose visible."},
+    {"date": "2026-10-15", "start_time": "16:55", "duration_min": 35, "distance_km": 7.2, "start_address": "Bech Elektro, Ørestads Boulevard 73, 2300 København S", "end_address": "Falkoner Allé 58, 2000 Frederiksberg", "note": "hjem fra job", "justification": "The note says the driver is going home from work in the afternoon rush hour, which is the commute from the usual office."},
+    {"date": "2026-10-19", "start_time": "17:30", "duration_min": 25, "distance_km": 7.4, "start_address": "Bech Elektro, Ørestads Boulevard 73, 2300 København S", "end_address": "SATS Frederiksberg, Falkoner Allé 20, 2000 Frederiksberg", "note": "", "justification": "Leaving the office after working hours for a SATS fitness centre is a workout trip, and nothing in the record points to a work purpose."}
+  ]
+}
